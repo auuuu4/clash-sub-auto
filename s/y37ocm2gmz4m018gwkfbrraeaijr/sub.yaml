@@ -1000,5 +1000,4 @@ rules:
 - RULE-SET,direct,DIRECT
 - RULE-SET,cncidr,DIRECT
 - RULE-SET,tld-not-cn,PROXY
-- GEOIP,CN,DIRECT
 - MATCH,PROXY
