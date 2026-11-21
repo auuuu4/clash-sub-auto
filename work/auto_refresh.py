@@ -360,7 +360,7 @@ def probe_port(port, timeout=12):
     return r
 
 
-def evaluate(candidates: list[dict], base_port=43000, workers=12, batch=200) -> list[dict]:
+def evaluate(candidates: list[dict], base_port=51000, workers=12, batch=150) -> list[dict]:
     """分批测活：mihomo 单实例挂太多 listeners 会不稳，且端口段有限。"""
     if not candidates:
         return []
@@ -399,6 +399,17 @@ def evaluate(candidates: list[dict], base_port=43000, workers=12, batch=200) -> 
                 log(f"! batch {start//batch+1}: mihomo failed to bind {base_port}")
                 txt = open(log_path, encoding="utf-8", errors="replace").read()
                 log(txt[-800:])
+                continue
+            # 校验 mihomo 真的加载了配置（防止端口被别的进程占用造成假阳性）
+            time.sleep(1.5)
+            mlog = ""
+            try:
+                mlog = open(log_path, encoding="utf-8", errors="replace").read()
+            except Exception:
+                pass
+            if "Initial configuration complete" not in mlog and "configuration file" not in mlog:
+                log(f"! batch {start//batch+1}: mihomo log does not show successful init; skip batch")
+                log(mlog[-600:])
                 continue
 
             def job(pair):
