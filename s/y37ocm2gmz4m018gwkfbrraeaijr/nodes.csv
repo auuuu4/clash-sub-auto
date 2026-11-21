@@ -1,35 +1,55 @@
 ﻿name,source,type,server,port,country,country_code,isp,exit_ip,latency_ms,https_ms,speed_kbps,validity_type,issued_at,expires_at,validity_label,tested_at
-[US] CAP-32 static,CapVPN,hysteria2,74.208.55.79,8444,United States,US,IONOS SE,74.208.55.79,145,234,1278.8,static,2026-11-21T17:24:51.209241+00:00,,static,2026-11-22 01:25:35
-[US] ZP-01 static,ZeroPing,vless,66.94.113.190,443,United States,US,Contabo Inc.,66.94.113.190,183,231,1070.0,static,2026-11-21T17:24:51.212535+00:00,,static,2026-11-22 01:25:35
-[US] TD-07 static,TunnelDOOM,vless,radiopop.oxigeno.site,8880,United States,US,UpCloud USA Inc,85.9.193.176,180,261,866.6,cfg,2026-11-21T17:24:51.156801+00:00,,static,2026-11-22 01:25:35
-[US] TD-10 static,TunnelDOOM,vless,tvdos.oxigeno.site,8880,United States,US,UpCloud USA Inc,152.44.41.66,196,295,827.0,cfg,2026-11-21T17:24:51.156811+00:00,,static,2026-11-22 01:25:35
-[US] TD-06 static,TunnelDOOM,vless,radiopap.oxigeno.site,8880,United States,US,UpCloud USA Inc,209.151.149.62,178,288,788.4,cfg,2026-11-21T17:24:51.156798+00:00,,static,2026-11-22 01:25:35
-[CA] CAP-07 static,CapVPN,hysteria2,66.70.179.198,8446,Canada,CA,OVH SAS,66.70.179.198,284,240,758.7,static,2026-11-21T17:24:51.209184+00:00,,static,2026-11-22 01:25:35
-[US] TD-08 static,TunnelDOOM,vless,tvuno.oxigeno.site,8880,United States,US,UpCloud USA Inc,194.113.75.1,182,263,684.4,cfg,2026-11-21T17:24:51.156803+00:00,,static,2026-11-22 01:25:35
-[FI] CAP-05 static,CapVPN,hysteria2,95.216.27.15,8446,Finland,FI,Hetzner Online GmbH,95.216.27.15,532,362,514.0,static,2026-11-21T17:24:51.209179+00:00,,static,2026-11-22 01:25:35
-[DE] CAP-31 static,CapVPN,hysteria2,89.163.239.238,8444,Germany,DE,WIIT AG,89.163.239.238,1491,387,524.3,static,2026-11-21T17:24:51.209239+00:00,,static,2026-11-22 01:25:35
-[GB] CAP-18 static,CapVPN,hysteria2,46.250.240.80,8446,United Kingdom,GB,Contabo Asia Private Limited,46.250.240.80,608,592,467.7,static,2026-11-21T17:24:51.209210+00:00,,static,2026-11-22 01:25:35
-[GB] CAP-39 static,CapVPN,hysteria2,51.89.194.151,8444,United Kingdom,GB,OVH SAS,51.89.194.151,657,392,461.1,static,2026-11-21T17:24:51.209256+00:00,,static,2026-11-22 01:25:35
-[FR] CAP-35 static,CapVPN,hysteria2,51.77.217.70,8444,France,FR,OVH SAS,51.77.217.70,571,470,459.1,static,2026-11-21T17:24:51.209247+00:00,,static,2026-11-22 01:25:35
-[KR] CAP-27 static,CapVPN,hysteria2,151.245.106.49,8444,South Korea,KR,HostHatch,151.245.106.49,804,462,455.9,static,2026-11-21T17:24:51.209231+00:00,,static,2026-11-22 01:25:35
-[ES] CAP-16 static,CapVPN,hysteria2,212.227.235.66,8446,Spain,ES,IONOS SE,212.227.235.66,654,468,442.4,static,2026-11-21T17:24:51.209206+00:00,,static,2026-11-22 01:25:35
-[IT] SV-01 exp 11-22 02:44,SuperVPN-Pro,hysteria2,151.115.164.160,443,Italy,IT,Scaleway,151.115.164.160,1070,434,420.4,12h-token,2026-11-21T06:44:23+00:00,2026-11-21T18:44:23+00:00,exp 11-22 02:44,2026-11-22 01:25:35
-[CH] CAP-44 static,CapVPN,hysteria2,208.69.78.217,8444,Switzerland,CH,GTHost,208.69.78.217,658,376,405.5,static,2026-11-21T17:24:51.209266+00:00,,static,2026-11-22 01:25:35
-[GB] CAP-38 static,CapVPN,vless,46.250.250.149,2053,United Kingdom,GB,Contabo Asia Private Limited,46.250.250.149,601,592,403.3,static,2026-11-21T17:24:51.209254+00:00,,static,2026-11-22 01:25:35
-[IT] CAP-29 static,CapVPN,hysteria2,57.131.38.163,8444,Italy,IT,OVH SAS,57.131.38.163,615,528,395.4,static,2026-11-21T17:24:51.209235+00:00,,static,2026-11-22 01:25:35
-[NL] ZP-02 static,ZeroPing,vless,51.194.118.32,443,The Netherlands,NL,Vuedge Tech LLC,51.194.118.32,534,678,362.6,static,2026-11-21T17:24:51.212543+00:00,,static,2026-11-22 01:25:35
-[PL] CAP-25 static,CapVPN,hysteria2,54.37.136.194,8444,Poland,PL,OVH SAS,54.37.136.194,860,634,368.7,static,2026-11-21T17:24:51.209226+00:00,,static,2026-11-22 01:25:35
-[NL] FV-01 static,FastVPN-Astro,ss,108.181.122.170,443,The Netherlands,NL,Psychz Networks,108.181.58.239,308,430,320.7,static,2026-11-21T17:24:51.142521+00:00,,static,2026-11-22 01:25:35
-[BE] FV-02 static,FastVPN-Astro,ss,belgium.astroapps.io,443,Belgium,BE,M247 Europe SRL,38.244.131.89,903,935,313.8,static,2026-11-21T17:24:51.142549+00:00,,static,2026-11-22 01:25:35
-[NL] CAP-41 static,CapVPN,hysteria2,51.15.16.68,8444,The Netherlands,NL,SCALEWAY,51.15.16.68,433,1456,271.5,static,2026-11-21T17:24:51.209260+00:00,,static,2026-11-22 01:25:35
-[IT] FV-09 static,FastVPN-Astro,ss,italy.astroapps.io,443,Italy,IT,M247 Europe SRL,38.180.224.7,878,988,276.8,static,2026-11-21T17:24:51.142590+00:00,,static,2026-11-22 01:25:35
-[HK] FV-06 static,FastVPN-Astro,ss,hongkong.astroapps.io,443,Hong Kong,HK,M247 Europe SRL,38.180.189.219,915,1007,264.0,static,2026-11-21T17:24:51.142582+00:00,,static,2026-11-22 01:25:35
-[IN] CAP-48 static,CapVPN,hysteria2,194.61.31.126,8444,India,IN,Contabo Asia Private Limited,194.61.31.126,972,784,240.4,static,2026-11-21T17:24:51.209275+00:00,,static,2026-11-22 01:25:35
-[BG] FV-12 static,FastVPN-Astro,ss,bulgaria.astroapps.io,443,Bulgaria,BG,M247 Europe SRL,38.180.2.24,1415,1139,251.3,static,2026-11-21T17:24:51.142601+00:00,,static,2026-11-22 01:25:35
-[FI] FV-05 static,FastVPN-Astro,ss,finland.astroapps.io,443,Finland,FI,Scalaxy B.V.,148.222.186.134,952,992,229.3,static,2026-11-21T17:24:51.142580+00:00,,static,2026-11-22 01:25:35
-[IN] FV-10 static,FastVPN-Astro,ss,india.astroapps.io,443,India,IN,HOSTINGER IN,82.25.109.43,1184,1302,210.9,static,2026-11-21T17:24:51.142597+00:00,,static,2026-11-22 01:25:35
-[EE] FV-14 static,FastVPN-Astro,ss,estonia.astroapps.io,443,Estonia,EE,Aktsiaselts WaveCom,38.180.216.30,1016,1028,88.8,static,2026-11-21T17:24:51.142606+00:00,,static,2026-11-22 01:25:35
-[DK] FV-04 static,FastVPN-Astro,ss,denmark.astroapps.io,443,Denmark,DK,M247 Europe SRL,38.180.214.188,938,1012,79.9,static,2026-11-21T17:24:51.142576+00:00,,static,2026-11-22 01:25:35
-[ES] FV-07 static,FastVPN-Astro,ss,spain.surgevpn.app,443,Spain,ES,Psychz Networks,108.181.70.23,826,955,37.2,static,2026-11-21T17:24:51.142585+00:00,,static,2026-11-22 01:25:35
-[GB] FV-08 static,FastVPN-Astro,ss,uk.hwssolutions.com,443,United Kingdom,GB,GTHost,186.190.211.2,664,1336,34.6,static,2026-11-21T17:24:51.142587+00:00,,static,2026-11-22 01:25:35
-[AU] FV-13 static,FastVPN-Astro,ss,australia.astroapps.io,443,Australia,AU,CLOUD-NETWORK,176.97.69.174,996,2194,36.2,static,2026-11-21T17:24:51.142604+00:00,,static,2026-11-22 01:25:35
+[US] CAP-12 static,CapVPN,hysteria2,74.208.55.79,8447,United States,US,IONOS SE,74.208.55.79,139,217,1061.3,static,2026-11-21T18:57:13.607285+00:00,,static,2026-11-22 02:58:04
+[US] FV-03 static,FastVPN-Astro,ss,108.181.88.2,443,United States,US,Psychz Networks,199.71.214.201,150,234,1006.3,static,2026-11-21T18:57:13.541365+00:00,,static,2026-11-22 02:58:04
+[US] TD-10 static,TunnelDOOM,vless,tvdos.oxigeno.site,8880,United States,US,UpCloud USA Inc,152.44.41.66,179,324,897.8,cfg,2026-11-21T18:57:13.553708+00:00,,static,2026-11-22 02:58:04
+[US] TD-06 static,TunnelDOOM,vless,radiopap.oxigeno.site,8880,United States,US,UpCloud USA Inc,209.151.149.62,171,258,863.7,cfg,2026-11-21T18:57:13.553696+00:00,,static,2026-11-22 02:58:04
+[US] TD-07 static,TunnelDOOM,vless,radiopop.oxigeno.site,8880,United States,US,UpCloud USA Inc,85.9.193.176,223,286,853.9,cfg,2026-11-21T18:57:13.553698+00:00,,static,2026-11-22 02:58:04
+[CA] CAP-06 static,CapVPN,hysteria2,66.70.179.198,8447,Canada,CA,OVH SAS,66.70.179.198,297,246,750.1,static,2026-11-21T18:57:13.607271+00:00,,static,2026-11-22 02:58:04
+[US] ZP-17 static,ZeroPing,vless,104.18.54.132,8443,United States,US,OVH SAS,15.204.123.143,245,420,645.7,static,2026-11-21T18:57:13.630170+00:00,,static,2026-11-22 02:58:04
+[US] ZP-18 static,ZeroPing,vless,104.18.12.27,8443,United States,US,OVH SAS,40.160.143.124,123,415,637.0,static,2026-11-21T18:57:13.630172+00:00,,static,2026-11-22 02:58:04
+[US] ZP-12 static,ZeroPing,vless,104.18.40.25,8443,United States,US,OVH SAS,40.160.86.44,210,253,636.3,static,2026-11-21T18:57:13.630159+00:00,,static,2026-11-22 02:58:04
+[US] ZP-15 static,ZeroPing,vless,104.18.125.108,8443,United States,US,GTT Americas,64.81.171.22,315,430,610.3,static,2026-11-21T18:57:13.630166+00:00,,static,2026-11-22 02:58:04
+[US] ZP-11 static,ZeroPing,vless,104.18.54.132,8443,United States,US,OVH SAS,40.160.86.46,247,304,569.9,static,2026-11-21T18:57:13.630157+00:00,,static,2026-11-22 02:58:04
+[GB] CAP-38 static,CapVPN,hysteria2,46.250.250.149,8444,United Kingdom,GB,Contabo Asia Private Limited,46.250.250.149,535,461,557.2,static,2026-11-21T18:57:13.607345+00:00,,static,2026-11-22 02:58:04
+[DE] CAP-13 static,CapVPN,hysteria2,89.163.239.238,8447,Germany,DE,WIIT AG,89.163.239.238,461,358,527.5,static,2026-11-21T18:57:13.607287+00:00,,static,2026-11-22 02:58:04
+[FI] CAP-51 static,CapVPN,hysteria2,95.216.27.15,8444,Finland,FI,Hetzner Online GmbH,95.216.27.15,525,367,500.8,static,2026-11-21T18:57:13.607377+00:00,,static,2026-11-22 02:58:04
+[GB] CAP-47 static,CapVPN,hysteria2,46.250.240.80,8444,United Kingdom,GB,Contabo Asia Private Limited,46.250.240.80,475,476,480.1,static,2026-11-21T18:57:13.607367+00:00,,static,2026-11-22 02:58:04
+[KR] CAP-28 static,CapVPN,hysteria2,151.245.106.49,8444,South Korea,KR,HostHatch,151.245.106.49,776,450,451.6,static,2026-11-21T18:57:13.607321+00:00,,static,2026-11-22 02:58:04
+[GB] CAP-10 static,CapVPN,hysteria2,51.89.194.151,8446,United Kingdom,GB,OVH SAS,51.89.194.151,506,483,461.9,static,2026-11-21T18:57:13.607280+00:00,,static,2026-11-22 02:58:04
+[FR] CAP-36 static,CapVPN,hysteria2,51.77.217.70,8444,France,FR,OVH SAS,51.77.217.70,523,451,460.3,static,2026-11-21T18:57:13.607341+00:00,,static,2026-11-22 02:58:04
+[FR] ZP-08 static,ZeroPing,vless,104.19.204.242,8443,France,FR,OVH SAS,178.33.95.22,666,436,436.5,static,2026-11-21T18:57:13.630150+00:00,,static,2026-11-22 02:58:04
+[US] ZP-10 static,ZeroPing,vless,104.25.30.55,8443,United States,US,OVH SAS,40.160.96.144,243,332,417.4,static,2026-11-21T18:57:13.630154+00:00,,static,2026-11-22 02:58:04
+[FR] ZP-05 static,ZeroPing,vless,104.18.12.225,8443,France,FR,OVH SAS,178.33.95.18,260,463,419.1,static,2026-11-21T18:57:13.630144+00:00,,static,2026-11-22 02:58:04
+[NL] CAP-05 static,CapVPN,vless,51.15.16.68,2053,The Netherlands,NL,SCALEWAY,51.15.16.68,606,594,415.1,static,2026-11-21T18:57:13.607269+00:00,,static,2026-11-22 02:58:04
+[CH] CAP-45 static,CapVPN,hysteria2,208.69.78.217,8444,Switzerland,CH,GTHost,208.69.78.217,662,458,414.1,static,2026-11-21T18:57:13.607363+00:00,,static,2026-11-22 02:58:04
+[US] TD-08 static,TunnelDOOM,vless,tvuno.oxigeno.site,8880,United States,US,UpCloud USA Inc,194.113.75.1,178,255,395.4,cfg,2026-11-21T18:57:13.553702+00:00,,static,2026-11-22 02:58:04
+[US] ZP-09 static,ZeroPing,vless,104.19.200.15,8443,United States,US,OVH SAS,40.160.87.12,269,280,388.9,static,2026-11-21T18:57:13.630152+00:00,,static,2026-11-22 02:58:04
+[ES] CAP-17 static,CapVPN,vless,212.227.235.66,2053,Spain,ES,IONOS SE,212.227.235.66,519,651,391.3,static,2026-11-21T18:57:13.607298+00:00,,static,2026-11-22 02:58:04
+[FR] ZP-16 static,ZeroPing,vless,104.18.15.62,8443,France,FR,OVH SAS,91.134.137.4,385,618,382.7,static,2026-11-21T18:57:13.630168+00:00,,static,2026-11-22 02:58:04
+[CY] ZP-01 static,ZeroPing,vless,104.18.20.94,8443,Cyprus,CY,Hostman LTD,195.133.93.6,594,679,388.1,static,2026-11-21T18:57:13.630122+00:00,,static,2026-11-22 02:58:04
+[IT] CAP-30 static,CapVPN,hysteria2,57.131.38.163,8444,Italy,IT,OVH SAS,57.131.38.163,614,612,384.9,static,2026-11-21T18:57:13.607325+00:00,,static,2026-11-22 02:58:04
+[ES] FV-02 static,FastVPN-Astro,ss,108.181.121.178,443,Spain,ES,Psychz Networks,108.181.70.65,411,551,361.8,static,2026-11-21T18:57:13.541362+00:00,,static,2026-11-22 02:58:04
+[PL] CAP-26 static,CapVPN,hysteria2,54.37.136.194,8444,Poland,PL,OVH SAS,54.37.136.194,835,486,365.4,static,2026-11-21T18:57:13.607317+00:00,,static,2026-11-22 02:58:04
+[NL] ZP-20 static,ZeroPing,vless,51.194.118.32,443,The Netherlands,NL,Vuedge Tech LLC,51.194.118.32,598,705,359.1,static,2026-11-21T18:57:13.630176+00:00,,static,2026-11-22 02:58:04
+[FR] ZP-03 static,ZeroPing,vless,104.18.12.27,8443,France,FR,Contabo GmbH,185.202.239.46,615,577,354.0,static,2026-11-21T18:57:13.630139+00:00,,static,2026-11-22 02:58:04
+[IN] CAP-20 static,CapVPN,hysteria2,194.61.31.126,8445,India,IN,Contabo Asia Private Limited,194.61.31.126,864,562,314.7,static,2026-11-21T18:57:13.607304+00:00,,static,2026-11-22 02:58:04
+[NL] ZP-14 static,ZeroPing,vless,104.18.40.25,8443,The Netherlands,NL,Hostman LTD,212.192.3.135,308,525,326.7,static,2026-11-21T18:57:13.630164+00:00,,static,2026-11-22 02:58:04
+[US] ZP-19 static,ZeroPing,vless,66.94.113.190,443,United States,US,Contabo Inc.,66.94.113.190,229,316,303.6,static,2026-11-21T18:57:13.630174+00:00,,static,2026-11-22 02:58:04
+[FR] ZP-07 static,ZeroPing,vless,104.19.194.94,8443,France,FR,OVH SAS,178.33.95.21,522,507,306.8,static,2026-11-21T18:57:13.630148+00:00,,static,2026-11-22 02:58:04
+[BE] FV-04 static,FastVPN-Astro,ss,belgium.astroapps.io,443,Belgium,BE,M247 Europe SRL,38.244.131.89,885,874,314.3,static,2026-11-21T18:57:13.541367+00:00,,static,2026-11-22 02:58:04
+[FR] ZP-06 static,ZeroPing,vless,104.18.20.94,8443,France,FR,OVH SAS,178.33.95.20,676,456,299.9,static,2026-11-21T18:57:13.630146+00:00,,static,2026-11-22 02:58:04
+[HK] FV-08 static,FastVPN-Astro,ss,hongkong.astroapps.io,443,Hong Kong,HK,M247 Europe SRL,38.180.189.219,909,1028,271.8,static,2026-11-21T18:57:13.541375+00:00,,static,2026-11-22 02:58:04
+[FR] ZP-04 static,ZeroPing,vless,104.18.7.148,8443,France,FR,Contabo GmbH,185.196.20.216,603,434,263.7,static,2026-11-21T18:57:13.630142+00:00,,static,2026-11-22 02:58:04
+[ES] FV-09 static,FastVPN-Astro,ss,spain.surgevpn.app,443,Spain,ES,Psychz Networks,108.181.70.23,790,1985,276.7,static,2026-11-21T18:57:13.541380+00:00,,static,2026-11-22 02:58:04
+[FI] FV-07 static,FastVPN-Astro,ss,finland.astroapps.io,443,Finland,FI,Scalaxy B.V.,148.222.186.134,1096,943,270.5,static,2026-11-21T18:57:13.541373+00:00,,static,2026-11-22 02:58:04
+[IT] FV-11 static,FastVPN-Astro,ss,italy.astroapps.io,443,Italy,IT,M247 Europe SRL,38.180.224.7,790,1012,254.8,static,2026-11-21T18:57:13.541384+00:00,,static,2026-11-22 02:58:04
+[BG] FV-14 static,FastVPN-Astro,ss,bulgaria.astroapps.io,443,Bulgaria,BG,M247 Europe SRL,38.180.2.24,1169,1093,261.4,static,2026-11-21T18:57:13.541390+00:00,,static,2026-11-22 02:58:04
+[IN] FV-12 static,FastVPN-Astro,ss,india.astroapps.io,443,India,IN,HOSTINGER IN,82.25.109.43,1172,1270,214.7,static,2026-11-21T18:57:13.541386+00:00,,static,2026-11-22 02:58:04
+[EE] FV-16 static,FastVPN-Astro,ss,estonia.astroapps.io,443,Estonia,EE,Aktsiaselts WaveCom,38.180.216.30,931,906,225.8,static,2026-11-21T18:57:13.541396+00:00,,static,2026-11-22 02:58:04
+[NL] FV-01 static,FastVPN-Astro,ss,108.181.122.170,443,The Netherlands,NL,Psychz Networks,108.181.58.239,393,452,160.8,static,2026-11-21T18:57:13.541347+00:00,,static,2026-11-22 02:58:04
+[US] ZP-02 static,ZeroPing,vless,104.25.30.55,443,United States,US,Contabo Inc.,89.117.76.39,310,240,149.4,static,2026-11-21T18:57:13.630137+00:00,,static,2026-11-22 02:58:04
+[AU] FV-15 static,FastVPN-Astro,ss,australia.astroapps.io,443,Australia,AU,CLOUD-NETWORK,176.97.69.174,779,1032,161.6,static,2026-11-21T18:57:13.541394+00:00,,static,2026-11-22 02:58:04
+[DK] FV-06 static,FastVPN-Astro,ss,denmark.astroapps.io,443,Denmark,DK,M247 Europe SRL,38.180.214.188,993,1093,115.1,static,2026-11-21T18:57:13.541371+00:00,,static,2026-11-22 02:58:04
+[AR] FV-05 static,FastVPN-Astro,ss,argentina.astroapps.io,443,Argentina,AR,Scalaxy B.V.,38.180.185.234,1262,1224,67.1,static,2026-11-21T18:57:13.541369+00:00,,static,2026-11-22 02:58:04
+[GB] FV-10 static,FastVPN-Astro,ss,uk.hwssolutions.com,443,United Kingdom,GB,GTHost,186.190.211.2,686,812,39.0,static,2026-11-21T18:57:13.541382+00:00,,static,2026-11-22 02:58:04
+[JP] FV-17 static,FastVPN-Astro,ss,japan.astroapps.io,443,Japan,JP,CLOUD-NETWORK,176.97.71.116,1868,1882,30.5,static,2026-11-21T18:57:13.541398+00:00,,static,2026-11-22 02:58:04
