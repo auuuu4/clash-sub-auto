@@ -5,71 +5,32 @@ proxies:
 - name: '[US] CAP-12 static'
   type: hysteria2
   server: 74.208.55.79
-  port: 8447
+  port: 8445
   password: capadm3ef1363f:bR6c1ouATNxwJW5ZxGr8JF72
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 7ompH2WXvS9tuT4L
-- name: '[US] FV-03 static'
-  type: ss
-  server: 108.181.88.2
+- name: '[US] AGG-03 static'
+  server: 167.88.61.52
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 6yzcGxLalx0T
-  udp: true
-- name: '[US] TD-10 static'
-  type: vless
-  server: tvdos.oxigeno.site
-  port: 8880
-  uuid: 50a8101e-3a24-47c7-8a3b-ed547d87f9cc
-  udp: true
-  network: xhttp
-  xhttp-opts:
-    path: /hiraya0
-    host: www.clarovideo.com
-- name: '[US] TD-06 static'
-  type: vless
-  server: radiopap.oxigeno.site
-  port: 8880
-  uuid: 3c753881-f2a6-4411-a9e8-220c4f8f40ff
-  udp: true
-  network: xhttp
-  xhttp-opts:
-    path: /danzoooo
-    host: asset.media
-- name: '[US] TD-07 static'
-  type: vless
-  server: radiopop.oxigeno.site
-  port: 8880
-  uuid: 78354ee5-57ba-45c0-9b92-51610d6a64b5
-  udp: true
-  network: xhttp
-  xhttp-opts:
-    path: /damnzo
-    host: asset.media
-- name: '[CA] CAP-06 static'
-  type: hysteria2
-  server: 66.70.179.198
-  port: 8447
-  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: B50trH7TnbvvBsqf
-- name: '[US] ZP-17 static'
-  type: vless
-  server: 104.18.54.132
-  port: 8443
-  uuid: bdc3ef97-eec1-4a54-8c4a-b7ee0c4a7417
-  udp: true
-  tls: true
-  servername: a1074.zeropingaa.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 2e8785ec58992df9b31ab6d012901cf0
-- name: '[US] ZP-18 static'
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
+  skip-cert-verify: false
+- name: '[US] AGG-12 static'
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[US] AGG-78 static'
+  server: 172.111.38.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] ZP-14 static'
   type: vless
   server: 104.18.12.27
   port: 8443
@@ -81,19 +42,35 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 76b4f807ac647f03846294e62beb5c98
-- name: '[US] ZP-12 static'
+- name: '[US] AGG-122 static'
+  server: 137.184.89.151
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[CA] AGG-104 static'
+  server: 149.22.95.183
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[US] AGG-07 static'
+  server: 185.230.230.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] TD-06 static'
   type: vless
-  server: 104.18.40.25
-  port: 8443
-  uuid: f0c1568c-978e-44d7-9de1-64e69467bf67
+  server: radiopap.oxigeno.site
+  port: 8880
+  uuid: 3c753881-f2a6-4411-a9e8-220c4f8f40ff
   udp: true
-  tls: true
-  servername: a1048.game8765.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: fb927be7db7a2fa944e873beac684521
-- name: '[US] ZP-15 static'
+  network: xhttp
+  xhttp-opts:
+    path: /danzoooo
+    host: asset.media
+- name: '[US] ZP-11 static'
   type: vless
   server: 104.18.125.108
   port: 8443
@@ -105,94 +82,19 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 95f464d9e9142b10dea2aa621c2e5e2c
-- name: '[US] ZP-11 static'
-  type: vless
-  server: 104.18.54.132
-  port: 8443
-  uuid: f9b70ab3-cb9e-4a1b-91cb-629eecc0233e
-  udp: true
-  tls: true
-  servername: a1046.game8765.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 7f41f53bdf1ae83c86a35ffb77e675f2
-- name: '[GB] CAP-38 static'
-  type: hysteria2
-  server: 46.250.250.149
-  port: 8444
-  password: capadm846529de:fDltA44fHPR5OcTUeCTeZT0p
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: JnYmDvvdgxbxVLo7
-- name: '[DE] CAP-13 static'
-  type: hysteria2
-  server: 89.163.239.238
-  port: 8447
-  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: lBMApke34h6s7Lsb
-- name: '[FI] CAP-51 static'
-  type: hysteria2
-  server: 95.216.27.15
-  port: 8444
-  password: capadm258b1ab7:C4wYg47vEaPHbS7sk8CVhbXO
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: RdUhzis2KPCYxV3y
-- name: '[GB] CAP-47 static'
-  type: hysteria2
-  server: 46.250.240.80
-  port: 8444
-  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: dAvsa04Tjjfej8zK
-- name: '[KR] CAP-28 static'
-  type: hysteria2
-  server: 151.245.106.49
-  port: 8444
-  password: capadm82c81367:gmjO3BFlQnteYcBo0zyvX4Vv
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: fk3DSQNLbIL0LtFl
-- name: '[GB] CAP-10 static'
-  type: hysteria2
-  server: 51.89.194.151
-  port: 8446
-  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rmPifBmgj3g17UcS
-- name: '[FR] CAP-36 static'
-  type: hysteria2
-  server: 51.77.217.70
-  port: 8444
-  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 4ZK10qYjPHLxpNwQ
-- name: '[FR] ZP-08 static'
-  type: vless
-  server: 104.19.204.242
-  port: 8443
-  uuid: f1c1713f-0755-47c9-ac2e-28c0876f1c8f
-  udp: true
-  tls: true
-  servername: a1043.zeropingy-it.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 261c490492f8e3325dfa94f7e2ff272f
-- name: '[US] ZP-10 static'
+- name: '[US] AGG-06 static'
+  server: 167.88.62.203
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-60 static'
+  server: 216.106.178.169
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] ZP-08 static'
   type: vless
   server: 104.25.30.55
   port: 8443
@@ -204,172 +106,13 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 7bce1e52ccd77dd805cdc6e065f5e23a
-- name: '[FR] ZP-05 static'
-  type: vless
-  server: 104.18.12.225
-  port: 8443
-  uuid: 64a9d281-f54b-486f-ae81-0f8a842e512d
-  udp: true
-  tls: true
-  servername: a1039.zeropingy-it.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: df121bfa452dec4181252855136f3571
-- name: '[NL] CAP-05 static'
-  type: vless
-  server: 51.15.16.68
-  port: 2053
-  uuid: 2e7c6265-6933-4a91-bd43-b4fd2e9566c8
-  network: tcp
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: nyBUWOwOLHOrVSomGfHaPjt-lgbSGk-XSv89voR6T3o
-    short-id: e9272cf492b43a48
-  skip-cert-verify: false
-- name: '[CH] CAP-45 static'
-  type: hysteria2
-  server: 208.69.78.217
-  port: 8444
-  password: capadm39eba6a5:pmH1DlAu0XmFmJ4Dmfj192af
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 3KKW5w04iMrRqFeN
-- name: '[US] TD-08 static'
-  type: vless
-  server: tvuno.oxigeno.site
-  port: 8880
-  uuid: 73b30767-bf59-4af3-9eac-dc1418418b07
-  udp: true
-  network: xhttp
-  xhttp-opts:
-    path: /naruto0
-    host: asset.media
-- name: '[US] ZP-09 static'
-  type: vless
-  server: 104.19.200.15
-  port: 8443
-  uuid: d23f8647-f3cc-4b5e-95fd-d67862336aa1
-  udp: true
-  tls: true
-  servername: a1044.zeropingy-it.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: b9e2e8f991cc2cde223a2c509b738f4b
-- name: '[ES] CAP-17 static'
-  type: vless
-  server: 212.227.235.66
-  port: 2053
-  uuid: 06b21aa9-65fe-4896-b0b6-a72182e1ed8a
-  network: tcp
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: vXr6yPHRK6IKYGTf5sKTBAbdQg3OJWeDFemYUFYXlTU
-    short-id: 385366c80310403d
-  skip-cert-verify: false
-- name: '[FR] ZP-16 static'
-  type: vless
-  server: 104.18.15.62
-  port: 8443
-  uuid: b8f94ad0-7d30-47b7-9bb0-f93eb3bf8187
-  udp: true
-  tls: true
-  servername: a1067.zeropingaa.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 61a783ef65c3795af30e62ecbcaf038e
-- name: '[CY] ZP-01 static'
-  type: vless
-  server: 104.18.20.94
-  port: 8443
-  uuid: d340ed67-d0bc-4543-b9b3-a1b4570e3b8a
-  udp: true
-  tls: true
-  servername: a1001.big-shine.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: zp1001grpcd7381e1d69dc7b85
-- name: '[IT] CAP-30 static'
-  type: hysteria2
-  server: 57.131.38.163
-  port: 8444
-  password: capadm7792ee98:bcyrI3aUI0DywVcBD169DxfA
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: gRYeRyVrYOvGGOxi
-- name: '[ES] FV-02 static'
+- name: '[US] AGG-145 static'
+  server: 149.40.57.133
+  port: 19999
   type: ss
-  server: 108.181.121.178
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-  udp: true
-- name: '[PL] CAP-26 static'
-  type: hysteria2
-  server: 54.37.136.194
-  port: 8444
-  password: capadm9020594b:KO8VzRUMXtScdlkOszSE57Dj
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: XXUIoiNwCXXaiJE8
-- name: '[NL] ZP-20 static'
-  type: vless
-  server: 51.194.118.32
-  port: 443
-  uuid: c35660e7-607d-4c37-8afa-57a878308006
-  udp: true
-  tls: true
-  servername: www.kinopoisk.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 9CbVjGrZfTuopAK9Y_iwLvVcUBJeO2JcumV5Fp2M4jE
-    short-id: 8af72890d39c0fd5
-  network: tcp
-- name: '[FR] ZP-03 static'
-  type: vless
-  server: 104.18.12.27
-  port: 8443
-  uuid: 7f10ca73-a7eb-4143-abb1-b30fd4c07d2c
-  udp: true
-  tls: true
-  servername: a1023.zeropingy-it.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: dd76204f73f38783332a986df4e83fae
-- name: '[IN] CAP-20 static'
-  type: hysteria2
-  server: 194.61.31.126
-  port: 8445
-  password: capadmf1d2526a:IsKN4g2zs8HJo5yTpNcg3YZ1
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NJGeudnh1XyVY5AB
-- name: '[NL] ZP-14 static'
-  type: vless
-  server: 104.18.40.25
-  port: 8443
-  uuid: 4d57f590-aac5-45fc-8cd9-0ab7152b327e
-  udp: true
-  tls: true
-  servername: a1056.wzero666.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: fa1e08ecd04bdab870d359718223eb29
-- name: '[US] ZP-19 static'
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] ZP-15 static'
   type: vless
   server: 66.94.113.190
   port: 443
@@ -383,153 +126,79 @@ proxies:
     public-key: 02Yg4to3gnD2VkzaE9qBZlhsMqzE_oL5tZETE-8yx1Q
     short-id: 53050dd29221b30f
   network: tcp
-- name: '[FR] ZP-07 static'
+- name: '[US] AGG-40 static'
+  server: 149.40.57.134
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-33 static'
+  server: 38.22.17.219
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-49 static'
+  server: 38.91.107.188
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-31 static'
+  server: 84.20.27.183
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] TD-10 static'
   type: vless
-  server: 104.19.194.94
+  server: tvdos.oxigeno.site
+  port: 8880
+  uuid: 50a8101e-3a24-47c7-8a3b-ed547d87f9cc
+  udp: true
+  network: xhttp
+  xhttp-opts:
+    path: /hiraya0
+    host: www.clarovideo.com
+- name: '[CA] CAP-02 static'
+  type: hysteria2
+  server: 66.70.179.198
+  port: 8445
+  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: B50trH7TnbvvBsqf
+- name: '[US] ZP-13 static'
+  type: vless
+  server: 104.18.54.132
   port: 8443
-  uuid: 118d3fd4-e225-4e54-b849-973b4e82450c
+  uuid: bdc3ef97-eec1-4a54-8c4a-b7ee0c4a7417
   udp: true
   tls: true
-  servername: a1042.zeropingy-it.com
+  servername: a1074.zeropingaa.com
   client-fingerprint: chrome
   network: grpc
   grpc-opts:
-    grpc-service-name: 15368e1e8aee83cc4e9790ab0b3002ab
-- name: '[BE] FV-04 static'
+    grpc-service-name: 2e8785ec58992df9b31ab6d012901cf0
+- name: '[US] AGG-37 static'
+  server: 38.128.66.32
+  port: 19999
   type: ss
-  server: belgium.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: belgium.astroapps.io
-    path: /7a0f74508333399db96164d7
-  udp: true
-- name: '[FR] ZP-06 static'
-  type: vless
-  server: 104.18.20.94
-  port: 8443
-  uuid: eea324b2-ee6b-4323-9bcd-c826cbdcfaed
-  udp: true
-  tls: true
-  servername: a1041.game8765.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cff65ffc8a21a22e8fe181f517b36770
-- name: '[HK] FV-08 static'
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-16 static'
+  server: 169.197.142.68
+  port: 19999
   type: ss
-  server: hongkong.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: f8256fdf607a8015a02b46df1563c2f35ebaff0d56f2923a
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: hongkong.astroapps.io
-    path: /ba91191d41f96668df6fe14b
-  udp: true
-- name: '[FR] ZP-04 static'
-  type: vless
-  server: 104.18.7.148
-  port: 8443
-  uuid: 4956ecdd-fc6a-476f-8d26-0c8a487e181e
-  udp: true
-  tls: true
-  servername: a1035.game8765.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 1827992360c47bfbf09f5b4acdf7016d
-- name: '[ES] FV-09 static'
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-05 static'
+  server: 193.151.160.18
+  port: 19999
   type: ss
-  server: spain.surgevpn.app
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 53879d9f6e24590a5a01ab7d628010071ad765cfaadf6346
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: spain.surgevpn.app
-    path: /cc5cbb935a2d3bc3676dbdcb
-  udp: true
-- name: '[FI] FV-07 static'
-  type: ss
-  server: finland.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 1c57654308df6d9b93b2bf749dd9f21ed7355aab8fd7ffbb
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: finland.astroapps.io
-    path: /ccad980a661bd347eaebae0f
-  udp: true
-- name: '[IT] FV-11 static'
-  type: ss
-  server: italy.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 034b5d9404b79a2df62fcb77a49cf748306765448d8b5e93
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: italy.astroapps.io
-    path: /b5cba947dfef6a5494b25d76
-  udp: true
-- name: '[BG] FV-14 static'
-  type: ss
-  server: bulgaria.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 5acf789dd7c2bf40a670a342800eff57003c2b164c3c8f53
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: bulgaria.astroapps.io
-    path: /6318c86175d20088b16c98a7
-  udp: true
-- name: '[IN] FV-12 static'
-  type: ss
-  server: india.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 806a291d6fa98489025802ae1285df63811ed499011dcf35
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: india.astroapps.io
-    path: /d282ea66de9394f68a3e792e
-  udp: true
-- name: '[EE] FV-16 static'
-  type: ss
-  server: estonia.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 104243d8a410f4e54013b7fdb57c4b688d929c7b5b89e86b
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: estonia.astroapps.io
-    path: /fd3f56f3dc9f5ceca7e57ecd
-  udp: true
-- name: '[NL] FV-01 static'
-  type: ss
-  server: 108.181.122.170
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
-  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: '[US] ZP-02 static'
   type: vless
   server: 104.25.30.55
@@ -542,70 +211,870 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 3466ee6e2832020f793df2b0a5391a41
-- name: '[AU] FV-15 static'
-  type: ss
-  server: australia.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: a937938b4fbffbdc3257d83e9d68cb2baf3cb65400d9ca3f
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: australia.astroapps.io
-    path: /4db434cefc7adfa3239f0fff
+- name: '[US] TD-08 static'
+  type: vless
+  server: tvuno.oxigeno.site
+  port: 8880
+  uuid: 73b30767-bf59-4af3-9eac-dc1418418b07
   udp: true
-- name: '[DK] FV-06 static'
+  network: xhttp
+  xhttp-opts:
+    path: /naruto0
+    host: asset.media
+- name: '[US] AGG-55 static'
+  server: 95.215.201.18
+  port: 19999
   type: ss
-  server: denmark.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: c917b96e084ea67a0f21031f1284f9ee9e1d837321ce6362
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: denmark.astroapps.io
-    path: /ad37249091fe1c6ac69e8c23
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-01 static'
+  server: 193.151.163.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] ZP-07 static'
+  type: vless
+  server: 104.19.200.15
+  port: 8443
+  uuid: d23f8647-f3cc-4b5e-95fd-d67862336aa1
   udp: true
-- name: '[AR] FV-05 static'
+  tls: true
+  servername: a1044.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: b9e2e8f991cc2cde223a2c509b738f4b
+- name: '[CA] AGG-115 static'
+  server: 51.222.12.127
+  port: 445
   type: ss
-  server: argentina.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 6ad36b1c2e1f0fefe2ef52da7000e880bfd7b574f43003ad
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: argentina.astroapps.io
-    path: /215a02e20face680507150b9
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: '[US] TD-07 static'
+  type: vless
+  server: radiopop.oxigeno.site
+  port: 8880
+  uuid: 78354ee5-57ba-45c0-9b92-51610d6a64b5
   udp: true
-- name: '[GB] FV-10 static'
-  type: ss
-  server: uk.hwssolutions.com
+  network: xhttp
+  xhttp-opts:
+    path: /damnzo
+    host: asset.media
+- name: '[US] AGG-68 static'
+  server: 173.244.56.9
   port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[US] AGG-04 static'
+  server: 193.151.160.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-11 static'
+  server: 38.121.43.231
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-02 static'
+  server: 45.86.51.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-63 static'
+  server: 38.91.100.39
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[JP] AGG-85 static'
+  server: 149.22.87.241
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[CA] AGG-120 static'
+  server: 51.222.136.236
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: '[US] AGG-72 static'
+  server: 149.40.57.138
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[JP] AGG-92 static'
+  server: 149.22.87.240
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[US] AGG-44 static'
+  server: 23.150.152.38
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-70 static'
+  server: 37.19.198.160
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[JP] AGG-152 static'
+  server: 168.138.205.100
+  port: 53758
+  type: ss
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
+- name: '[GB] CAP-38 static'
+  type: hysteria2
+  server: 46.250.250.149
+  port: 8444
+  password: capadm846529de:fDltA44fHPR5OcTUeCTeZT0p
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: JnYmDvvdgxbxVLo7
+- name: '[US] AGG-67 static'
+  server: 37.19.198.244
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[US] AGG-45 static'
+  server: 162.251.62.31
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[CA] AGG-136 static'
+  server: 51.79.85.185
+  port: 8118
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: '[US] AGG-83 static'
+  server: 156.146.38.168
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[US] AGG-84 static'
+  server: 37.19.198.236
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[US] AGG-09 static'
+  server: 172.111.36.123
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-19 static'
+  server: 167.88.63.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[ES] CAP-22 static'
+  type: hysteria2
+  server: 212.227.235.66
+  port: 8444
+  password: capadm912be8e6:IltQihbQs5HQrO3J4vklsQs9
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: BRSoROSPGCIHlaUB
+- name: '[US] AGG-109 static'
+  server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: '[DE] CAP-01 static'
+  type: hysteria2
+  server: 89.163.239.238
+  port: 8445
+  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: lBMApke34h6s7Lsb
+- name: '[US] AGG-24 static'
+  server: 38.121.43.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[GB] AGG-15 static'
+  server: 185.176.206.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-10 static'
+  server: 38.121.43.225
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[NL] CAP-06 static'
+  type: hysteria2
+  server: 51.15.16.68
+  port: 8446
+  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
+- name: '[CA] AGG-69 static'
+  server: 137.184.174.93
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: '[GB] CAP-18 static'
+  type: hysteria2
+  server: 46.250.240.80
+  port: 8446
+  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: dAvsa04Tjjfej8zK
+- name: '[NL] AGG-185 static'
+  server: 82.38.31.207
+  port: 8080
+  type: ss
   cipher: chacha20-ietf-poly1305
-  password: a9adf5e90130629011a12b56f84a9fea8fdd3b2d3d958c5a
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: uk.hwssolutions.com
-    path: /cf83942288133f6640deff3d
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[FI] CAP-10 static'
+  type: hysteria2
+  server: 95.216.27.15
+  port: 8445
+  password: capadm258b1ab7:C4wYg47vEaPHbS7sk8CVhbXO
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: RdUhzis2KPCYxV3y
+- name: '[GB] CAP-14 static'
+  type: hysteria2
+  server: 51.89.194.151
+  port: 8447
+  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: rmPifBmgj3g17UcS
+- name: '[NL] AGG-32 static'
+  server: 82.38.31.184
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[GB] AGG-129 static'
+  server: 38.114.120.221
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[FR] AGG-71 static'
+  server: 167.17.64.22
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-43 static'
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[FR] AGG-76 static'
+  server: 38.109.228.110
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[NL] AGG-114 static'
+  server: 82.38.31.62
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: '[NL] AGG-102 static'
+  server: 82.38.31.49
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: '[FR] AGG-106 static'
+  server: 167.17.64.175
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[NL] AGG-48 static'
+  server: 82.38.31.212
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[KR] AGG-118 static'
+  server: p141.panda001.net
+  port: 4652
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: '[NL] AGG-134 static'
+  server: 82.38.31.218
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[KR] CAP-28 static'
+  type: hysteria2
+  server: 151.245.106.49
+  port: 8444
+  password: capadm82c81367:gmjO3BFlQnteYcBo0zyvX4Vv
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: fk3DSQNLbIL0LtFl
+- name: '[NL] AGG-149 static'
+  server: 82.38.31.199
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[NL] AGG-47 static'
+  server: 109.201.152.181
+  port: 443
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
+- name: '[NL] AGG-103 static'
+  server: 82.38.31.61
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: '[FR] CAP-36 static'
+  type: hysteria2
+  server: 51.77.217.70
+  port: 8444
+  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 4ZK10qYjPHLxpNwQ
+- name: '[KR] AGG-130 static'
+  server: 211.178.105.134
+  port: 6123
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: '[NL] AGG-111 static'
+  server: 82.38.31.162
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: '[KR] AGG-75 static'
+  server: 158.247.253.243
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: connectgraduateswithjobopeningsandgrowprofessionally.com
+  skip-cert-verify: false
+- name: '[JP] AGG-82 static'
+  server: 149.22.87.204
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[NL] AGG-191 static'
+  server: 82.38.31.210
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[NL] AGG-52 static'
+  server: 82.38.31.181
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[FR] ZP-06 static'
+  type: vless
+  server: 104.19.204.242
+  port: 8443
+  uuid: f1c1713f-0755-47c9-ac2e-28c0876f1c8f
   udp: true
-- name: '[JP] FV-17 static'
+  tls: true
+  servername: a1043.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 261c490492f8e3325dfa94f7e2ff272f
+- name: '[NL] AGG-113 static'
+  server: 82.38.31.66
+  port: 8080
   type: ss
-  server: japan.astroapps.io
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: '[CH] AGG-73 static'
+  server: 23.166.88.127
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[FR] ZP-05 static'
+  type: vless
+  server: 104.19.194.94
+  port: 8443
+  uuid: 118d3fd4-e225-4e54-b849-973b4e82450c
+  udp: true
+  tls: true
+  servername: a1042.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 15368e1e8aee83cc4e9790ab0b3002ab
+- name: '[NL] AGG-89 static'
+  server: 158.173.20.171
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[CH] CAP-45 static'
+  type: hysteria2
+  server: 208.69.78.217
+  port: 8444
+  password: capadm39eba6a5:pmH1DlAu0XmFmJ4Dmfj192af
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 3KKW5w04iMrRqFeN
+- name: '[NL] AGG-112 static'
+  server: 178.83.185.156
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: '[FR] ZP-04 static'
+  type: vless
+  server: 104.18.12.225
+  port: 8443
+  uuid: 64a9d281-f54b-486f-ae81-0f8a842e512d
+  udp: true
+  tls: true
+  servername: a1039.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: df121bfa452dec4181252855136f3571
+- name: '[IT] AGG-143 static'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[NL] AGG-29 static'
+  server: 82.38.31.187
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[NL] AGG-190 static'
+  server: 82.38.31.176
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[FR] AGG-77 static'
+  server: 23.162.152.22
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[SE] AGG-66 static'
+  server: 138.199.55.243
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[NL] AGG-107 static'
+  server: 82.38.31.35
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: '[FR] AGG-99 static'
+  server: 167.17.64.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[NL] AGG-23 static'
+  server: 151.241.19.29
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[DE] AGG-26 static'
+  server: 193.108.119.3
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[DE] AGG-35 static'
+  server: 23.157.88.43
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[NL] ZP-10 static'
+  type: vless
+  server: 104.18.40.25
+  port: 8443
+  uuid: 4d57f590-aac5-45fc-8cd9-0ab7152b327e
+  udp: true
+  tls: true
+  servername: a1056.wzero666.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fa1e08ecd04bdab870d359718223eb29
+- name: '[US] AGG-08 static'
+  server: 38.22.17.129
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[ES] AGG-174 static'
+  server: 5.188.181.201
+  port: 9041
+  type: ss
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+- name: '[GB] AGG-88 static'
+  server: 198.244.202.215
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-42 static'
+  server: 156.146.38.169
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[NL] AGG-54 static'
+  server: 82.38.31.193
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[NL] AGG-108 static'
+  server: 82.38.31.46
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: '[GB] AGG-94 static'
+  server: 158.173.24.73
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[NL] AGG-187 static'
+  server: 82.38.31.194
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[GB] AGG-81 static'
+  server: 142.202.51.22
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[NL] AGG-53 static'
+  server: 82.38.31.217
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[FR] ZP-12 static'
+  type: vless
+  server: 104.18.15.62
+  port: 8443
+  uuid: b8f94ad0-7d30-47b7-9bb0-f93eb3bf8187
+  udp: true
+  tls: true
+  servername: a1067.zeropingaa.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 61a783ef65c3795af30e62ecbcaf038e
+- name: '[IT] CAP-30 static'
+  type: hysteria2
+  server: 57.131.38.163
+  port: 8444
+  password: capadm7792ee98:bcyrI3aUI0DywVcBD169DxfA
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: gRYeRyVrYOvGGOxi
+- name: '[NL] AGG-27 static'
+  server: 82.38.31.190
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[NL] AGG-20 static'
+  server: 151.241.19.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[ES] FV-02 static'
+  type: ss
+  server: 108.181.121.178
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: 6e728d826ccf032fce7ce722b8fed2cda309fde5624bf09c
+  password: WSyL4XTwNsdv
+  udp: true
+- name: '[SG] AGG-96 static'
+  server: 15.235.164.133
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[DE] AGG-22 static'
+  server: 57.129.83.85
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[ES] AGG-90 static'
+  server: 167.17.71.167
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[IT] AGG-98 static'
+  server: 185.164.175.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[NL] AGG-38 static'
+  server: 82.38.31.202
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '[IN] CAP-49 static'
+  type: hysteria2
+  server: 194.61.31.126
+  port: 8444
+  password: capadmf1d2526a:IsKN4g2zs8HJo5yTpNcg3YZ1
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NJGeudnh1XyVY5AB
+- name: '[SG] AGG-95 static'
+  server: 51.79.228.131
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[SG] AGG-46 static'
+  server: 15.235.182.183
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[CL] AGG-100 static'
+  server: 64.176.7.205
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
+  skip-cert-verify: false
+- name: '[DE] AGG-21 static'
+  server: 193.108.119.2
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[US] AGG-62 static'
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '[GB] AGG-39 static'
+  server: 146.70.61.37
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: '[FR] AGG-79 static'
+  server: 172.99.189.142
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[CY] ZP-01 static'
+  type: vless
+  server: 104.18.20.94
+  port: 8443
+  uuid: d340ed67-d0bc-4543-b9b3-a1b4570e3b8a
+  udp: true
+  tls: true
+  servername: a1001.big-shine.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: zp1001grpcd7381e1d69dc7b85
+- name: '[AT] AGG-17 static'
+  server: 82.110.60.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[CH] AGG-93 static'
+  server: 186.190.215.251
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[IT] AGG-97 static'
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[NL] ZP-16 static'
+  type: vless
+  server: 51.194.118.32
+  port: 443
+  uuid: c35660e7-607d-4c37-8afa-57a878308006
+  udp: true
+  tls: true
+  servername: www.kinopoisk.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 9CbVjGrZfTuopAK9Y_iwLvVcUBJeO2JcumV5Fp2M4jE
+    short-id: 8af72890d39c0fd5
+  network: tcp
+- name: '[GB] AGG-80 static'
+  server: 198.244.201.129
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[IT] AGG-86 static'
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[AL] AGG-144 static'
+  server: 130.49.189.158
+  port: 43558
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+- name: '[BE] FV-03 static'
+  type: ss
+  server: belgium.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
-    host: japan.astroapps.io
-    path: /149e1010e6d6d24dbc09d4f3
+    host: belgium.astroapps.io
+    path: /7a0f74508333399db96164d7
+  udp: true
+- name: '[SG] AGG-65 static'
+  server: 149.88.106.73
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[SG] AGG-74 static'
+  server: 149.88.106.74
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[PL] CAP-26 static'
+  type: hysteria2
+  server: 54.37.136.194
+  port: 8444
+  password: capadm9020594b:KO8VzRUMXtScdlkOszSE57Dj
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: XXUIoiNwCXXaiJE8
+- name: '[ES] AGG-34 static'
+  server: 66.163.118.103
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[HK] FV-07 static'
+  type: ss
+  server: hongkong.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: f8256fdf607a8015a02b46df1563c2f35ebaff0d56f2923a
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: hongkong.astroapps.io
+    path: /ba91191d41f96668df6fe14b
+  udp: true
+- name: '[SG] AGG-59 static'
+  server: 68.183.227.4
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: '[SG] AGG-57 static'
+  server: 149.88.107.74
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[IT] FV-10 static'
+  type: ss
+  server: italy.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 034b5d9404b79a2df62fcb77a49cf748306765448d8b5e93
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: italy.astroapps.io
+    path: /b5cba947dfef6a5494b25d76
   udp: true
 proxy-groups:
 - name: AUTO
@@ -616,59 +1085,155 @@ proxy-groups:
   lazy: false
   proxies:
   - '[US] CAP-12 static'
-  - '[US] FV-03 static'
-  - '[US] TD-10 static'
+  - '[US] AGG-03 static'
+  - '[US] AGG-12 static'
+  - '[US] AGG-78 static'
+  - '[US] ZP-14 static'
+  - '[US] AGG-122 static'
+  - '[CA] AGG-104 static'
+  - '[US] AGG-07 static'
   - '[US] TD-06 static'
-  - '[US] TD-07 static'
-  - '[CA] CAP-06 static'
-  - '[US] ZP-17 static'
-  - '[US] ZP-18 static'
-  - '[US] ZP-12 static'
-  - '[US] ZP-15 static'
   - '[US] ZP-11 static'
-  - '[GB] CAP-38 static'
-  - '[DE] CAP-13 static'
-  - '[FI] CAP-51 static'
-  - '[GB] CAP-47 static'
-  - '[KR] CAP-28 static'
-  - '[GB] CAP-10 static'
-  - '[FR] CAP-36 static'
-  - '[FR] ZP-08 static'
-  - '[US] ZP-10 static'
-  - '[FR] ZP-05 static'
-  - '[NL] CAP-05 static'
-  - '[CH] CAP-45 static'
-  - '[US] TD-08 static'
-  - '[US] ZP-09 static'
-  - '[ES] CAP-17 static'
-  - '[FR] ZP-16 static'
-  - '[CY] ZP-01 static'
-  - '[IT] CAP-30 static'
-  - '[ES] FV-02 static'
-  - '[PL] CAP-26 static'
-  - '[NL] ZP-20 static'
-  - '[FR] ZP-03 static'
-  - '[IN] CAP-20 static'
-  - '[NL] ZP-14 static'
-  - '[US] ZP-19 static'
-  - '[FR] ZP-07 static'
-  - '[BE] FV-04 static'
-  - '[FR] ZP-06 static'
-  - '[HK] FV-08 static'
-  - '[FR] ZP-04 static'
-  - '[ES] FV-09 static'
-  - '[FI] FV-07 static'
-  - '[IT] FV-11 static'
-  - '[BG] FV-14 static'
-  - '[IN] FV-12 static'
-  - '[EE] FV-16 static'
-  - '[NL] FV-01 static'
+  - '[US] AGG-06 static'
+  - '[US] AGG-60 static'
+  - '[US] ZP-08 static'
+  - '[US] AGG-145 static'
+  - '[US] ZP-15 static'
+  - '[US] AGG-40 static'
+  - '[US] AGG-33 static'
+  - '[US] AGG-49 static'
+  - '[US] AGG-31 static'
+  - '[US] TD-10 static'
+  - '[CA] CAP-02 static'
+  - '[US] ZP-13 static'
+  - '[US] AGG-37 static'
+  - '[US] AGG-16 static'
+  - '[US] AGG-05 static'
   - '[US] ZP-02 static'
-  - '[AU] FV-15 static'
-  - '[DK] FV-06 static'
-  - '[AR] FV-05 static'
-  - '[GB] FV-10 static'
-  - '[JP] FV-17 static'
+  - '[US] TD-08 static'
+  - '[US] AGG-55 static'
+  - '[US] AGG-01 static'
+  - '[US] ZP-07 static'
+  - '[CA] AGG-115 static'
+  - '[US] TD-07 static'
+  - '[US] AGG-68 static'
+  - '[US] AGG-04 static'
+  - '[US] AGG-11 static'
+  - '[US] AGG-02 static'
+  - '[US] AGG-63 static'
+  - '[JP] AGG-85 static'
+  - '[CA] AGG-120 static'
+  - '[US] AGG-72 static'
+  - '[JP] AGG-92 static'
+  - '[US] AGG-44 static'
+  - '[US] AGG-70 static'
+  - '[JP] AGG-152 static'
+  - '[GB] CAP-38 static'
+  - '[US] AGG-67 static'
+  - '[US] AGG-45 static'
+  - '[CA] AGG-136 static'
+  - '[US] AGG-83 static'
+  - '[US] AGG-84 static'
+  - '[US] AGG-09 static'
+  - '[US] AGG-19 static'
+  - '[ES] CAP-22 static'
+  - '[US] AGG-109 static'
+  - '[DE] CAP-01 static'
+  - '[US] AGG-24 static'
+  - '[GB] AGG-15 static'
+  - '[US] AGG-10 static'
+  - '[NL] CAP-06 static'
+  - '[CA] AGG-69 static'
+  - '[GB] CAP-18 static'
+  - '[NL] AGG-185 static'
+  - '[FI] CAP-10 static'
+  - '[GB] CAP-14 static'
+  - '[NL] AGG-32 static'
+  - '[GB] AGG-129 static'
+  - '[FR] AGG-71 static'
+  - '[US] AGG-43 static'
+  - '[FR] AGG-76 static'
+  - '[NL] AGG-114 static'
+  - '[NL] AGG-102 static'
+  - '[FR] AGG-106 static'
+  - '[NL] AGG-48 static'
+  - '[KR] AGG-118 static'
+  - '[NL] AGG-134 static'
+  - '[KR] CAP-28 static'
+  - '[NL] AGG-149 static'
+  - '[NL] AGG-47 static'
+  - '[NL] AGG-103 static'
+  - '[FR] CAP-36 static'
+  - '[KR] AGG-130 static'
+  - '[NL] AGG-111 static'
+  - '[KR] AGG-75 static'
+  - '[JP] AGG-82 static'
+  - '[NL] AGG-191 static'
+  - '[NL] AGG-52 static'
+  - '[FR] ZP-06 static'
+  - '[NL] AGG-113 static'
+  - '[CH] AGG-73 static'
+  - '[FR] ZP-05 static'
+  - '[NL] AGG-89 static'
+  - '[CH] CAP-45 static'
+  - '[NL] AGG-112 static'
+  - '[FR] ZP-04 static'
+  - '[IT] AGG-143 static'
+  - '[NL] AGG-29 static'
+  - '[NL] AGG-190 static'
+  - '[FR] AGG-77 static'
+  - '[SE] AGG-66 static'
+  - '[NL] AGG-107 static'
+  - '[FR] AGG-99 static'
+  - '[NL] AGG-23 static'
+  - '[DE] AGG-26 static'
+  - '[DE] AGG-35 static'
+  - '[NL] ZP-10 static'
+  - '[US] AGG-08 static'
+  - '[ES] AGG-174 static'
+  - '[GB] AGG-88 static'
+  - '[US] AGG-42 static'
+  - '[NL] AGG-54 static'
+  - '[NL] AGG-108 static'
+  - '[GB] AGG-94 static'
+  - '[NL] AGG-187 static'
+  - '[GB] AGG-81 static'
+  - '[NL] AGG-53 static'
+  - '[FR] ZP-12 static'
+  - '[IT] CAP-30 static'
+  - '[NL] AGG-27 static'
+  - '[NL] AGG-20 static'
+  - '[ES] FV-02 static'
+  - '[SG] AGG-96 static'
+  - '[DE] AGG-22 static'
+  - '[ES] AGG-90 static'
+  - '[IT] AGG-98 static'
+  - '[NL] AGG-38 static'
+  - '[IN] CAP-49 static'
+  - '[SG] AGG-95 static'
+  - '[SG] AGG-46 static'
+  - '[CL] AGG-100 static'
+  - '[DE] AGG-21 static'
+  - '[US] AGG-62 static'
+  - '[GB] AGG-39 static'
+  - '[FR] AGG-79 static'
+  - '[CY] ZP-01 static'
+  - '[AT] AGG-17 static'
+  - '[CH] AGG-93 static'
+  - '[IT] AGG-97 static'
+  - '[NL] ZP-16 static'
+  - '[GB] AGG-80 static'
+  - '[IT] AGG-86 static'
+  - '[AL] AGG-144 static'
+  - '[BE] FV-03 static'
+  - '[SG] AGG-65 static'
+  - '[SG] AGG-74 static'
+  - '[PL] CAP-26 static'
+  - '[ES] AGG-34 static'
+  - '[HK] FV-07 static'
+  - '[SG] AGG-59 static'
+  - '[SG] AGG-57 static'
+  - '[IT] FV-10 static'
 - name: AUTO-STATIC
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -677,59 +1242,155 @@ proxy-groups:
   lazy: false
   proxies:
   - '[US] CAP-12 static'
-  - '[US] FV-03 static'
-  - '[US] TD-10 static'
+  - '[US] AGG-03 static'
+  - '[US] AGG-12 static'
+  - '[US] AGG-78 static'
+  - '[US] ZP-14 static'
+  - '[US] AGG-122 static'
+  - '[CA] AGG-104 static'
+  - '[US] AGG-07 static'
   - '[US] TD-06 static'
-  - '[US] TD-07 static'
-  - '[CA] CAP-06 static'
-  - '[US] ZP-17 static'
-  - '[US] ZP-18 static'
-  - '[US] ZP-12 static'
-  - '[US] ZP-15 static'
   - '[US] ZP-11 static'
-  - '[GB] CAP-38 static'
-  - '[DE] CAP-13 static'
-  - '[FI] CAP-51 static'
-  - '[GB] CAP-47 static'
-  - '[KR] CAP-28 static'
-  - '[GB] CAP-10 static'
-  - '[FR] CAP-36 static'
-  - '[FR] ZP-08 static'
-  - '[US] ZP-10 static'
-  - '[FR] ZP-05 static'
-  - '[NL] CAP-05 static'
-  - '[CH] CAP-45 static'
-  - '[US] TD-08 static'
-  - '[US] ZP-09 static'
-  - '[ES] CAP-17 static'
-  - '[FR] ZP-16 static'
-  - '[CY] ZP-01 static'
-  - '[IT] CAP-30 static'
-  - '[ES] FV-02 static'
-  - '[PL] CAP-26 static'
-  - '[NL] ZP-20 static'
-  - '[FR] ZP-03 static'
-  - '[IN] CAP-20 static'
-  - '[NL] ZP-14 static'
-  - '[US] ZP-19 static'
-  - '[FR] ZP-07 static'
-  - '[BE] FV-04 static'
-  - '[FR] ZP-06 static'
-  - '[HK] FV-08 static'
-  - '[FR] ZP-04 static'
-  - '[ES] FV-09 static'
-  - '[FI] FV-07 static'
-  - '[IT] FV-11 static'
-  - '[BG] FV-14 static'
-  - '[IN] FV-12 static'
-  - '[EE] FV-16 static'
-  - '[NL] FV-01 static'
+  - '[US] AGG-06 static'
+  - '[US] AGG-60 static'
+  - '[US] ZP-08 static'
+  - '[US] AGG-145 static'
+  - '[US] ZP-15 static'
+  - '[US] AGG-40 static'
+  - '[US] AGG-33 static'
+  - '[US] AGG-49 static'
+  - '[US] AGG-31 static'
+  - '[US] TD-10 static'
+  - '[CA] CAP-02 static'
+  - '[US] ZP-13 static'
+  - '[US] AGG-37 static'
+  - '[US] AGG-16 static'
+  - '[US] AGG-05 static'
   - '[US] ZP-02 static'
-  - '[AU] FV-15 static'
-  - '[DK] FV-06 static'
-  - '[AR] FV-05 static'
-  - '[GB] FV-10 static'
-  - '[JP] FV-17 static'
+  - '[US] TD-08 static'
+  - '[US] AGG-55 static'
+  - '[US] AGG-01 static'
+  - '[US] ZP-07 static'
+  - '[CA] AGG-115 static'
+  - '[US] TD-07 static'
+  - '[US] AGG-68 static'
+  - '[US] AGG-04 static'
+  - '[US] AGG-11 static'
+  - '[US] AGG-02 static'
+  - '[US] AGG-63 static'
+  - '[JP] AGG-85 static'
+  - '[CA] AGG-120 static'
+  - '[US] AGG-72 static'
+  - '[JP] AGG-92 static'
+  - '[US] AGG-44 static'
+  - '[US] AGG-70 static'
+  - '[JP] AGG-152 static'
+  - '[GB] CAP-38 static'
+  - '[US] AGG-67 static'
+  - '[US] AGG-45 static'
+  - '[CA] AGG-136 static'
+  - '[US] AGG-83 static'
+  - '[US] AGG-84 static'
+  - '[US] AGG-09 static'
+  - '[US] AGG-19 static'
+  - '[ES] CAP-22 static'
+  - '[US] AGG-109 static'
+  - '[DE] CAP-01 static'
+  - '[US] AGG-24 static'
+  - '[GB] AGG-15 static'
+  - '[US] AGG-10 static'
+  - '[NL] CAP-06 static'
+  - '[CA] AGG-69 static'
+  - '[GB] CAP-18 static'
+  - '[NL] AGG-185 static'
+  - '[FI] CAP-10 static'
+  - '[GB] CAP-14 static'
+  - '[NL] AGG-32 static'
+  - '[GB] AGG-129 static'
+  - '[FR] AGG-71 static'
+  - '[US] AGG-43 static'
+  - '[FR] AGG-76 static'
+  - '[NL] AGG-114 static'
+  - '[NL] AGG-102 static'
+  - '[FR] AGG-106 static'
+  - '[NL] AGG-48 static'
+  - '[KR] AGG-118 static'
+  - '[NL] AGG-134 static'
+  - '[KR] CAP-28 static'
+  - '[NL] AGG-149 static'
+  - '[NL] AGG-47 static'
+  - '[NL] AGG-103 static'
+  - '[FR] CAP-36 static'
+  - '[KR] AGG-130 static'
+  - '[NL] AGG-111 static'
+  - '[KR] AGG-75 static'
+  - '[JP] AGG-82 static'
+  - '[NL] AGG-191 static'
+  - '[NL] AGG-52 static'
+  - '[FR] ZP-06 static'
+  - '[NL] AGG-113 static'
+  - '[CH] AGG-73 static'
+  - '[FR] ZP-05 static'
+  - '[NL] AGG-89 static'
+  - '[CH] CAP-45 static'
+  - '[NL] AGG-112 static'
+  - '[FR] ZP-04 static'
+  - '[IT] AGG-143 static'
+  - '[NL] AGG-29 static'
+  - '[NL] AGG-190 static'
+  - '[FR] AGG-77 static'
+  - '[SE] AGG-66 static'
+  - '[NL] AGG-107 static'
+  - '[FR] AGG-99 static'
+  - '[NL] AGG-23 static'
+  - '[DE] AGG-26 static'
+  - '[DE] AGG-35 static'
+  - '[NL] ZP-10 static'
+  - '[US] AGG-08 static'
+  - '[ES] AGG-174 static'
+  - '[GB] AGG-88 static'
+  - '[US] AGG-42 static'
+  - '[NL] AGG-54 static'
+  - '[NL] AGG-108 static'
+  - '[GB] AGG-94 static'
+  - '[NL] AGG-187 static'
+  - '[GB] AGG-81 static'
+  - '[NL] AGG-53 static'
+  - '[FR] ZP-12 static'
+  - '[IT] CAP-30 static'
+  - '[NL] AGG-27 static'
+  - '[NL] AGG-20 static'
+  - '[ES] FV-02 static'
+  - '[SG] AGG-96 static'
+  - '[DE] AGG-22 static'
+  - '[ES] AGG-90 static'
+  - '[IT] AGG-98 static'
+  - '[NL] AGG-38 static'
+  - '[IN] CAP-49 static'
+  - '[SG] AGG-95 static'
+  - '[SG] AGG-46 static'
+  - '[CL] AGG-100 static'
+  - '[DE] AGG-21 static'
+  - '[US] AGG-62 static'
+  - '[GB] AGG-39 static'
+  - '[FR] AGG-79 static'
+  - '[CY] ZP-01 static'
+  - '[AT] AGG-17 static'
+  - '[CH] AGG-93 static'
+  - '[IT] AGG-97 static'
+  - '[NL] ZP-16 static'
+  - '[GB] AGG-80 static'
+  - '[IT] AGG-86 static'
+  - '[AL] AGG-144 static'
+  - '[BE] FV-03 static'
+  - '[SG] AGG-65 static'
+  - '[SG] AGG-74 static'
+  - '[PL] CAP-26 static'
+  - '[ES] AGG-34 static'
+  - '[HK] FV-07 static'
+  - '[SG] AGG-59 static'
+  - '[SG] AGG-57 static'
+  - '[IT] FV-10 static'
 - name: AUTO-US
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -738,20 +1399,55 @@ proxy-groups:
   lazy: false
   proxies:
   - '[US] CAP-12 static'
-  - '[US] FV-03 static'
-  - '[US] TD-10 static'
+  - '[US] AGG-03 static'
+  - '[US] AGG-12 static'
+  - '[US] AGG-78 static'
+  - '[US] ZP-14 static'
+  - '[US] AGG-122 static'
+  - '[US] AGG-07 static'
   - '[US] TD-06 static'
-  - '[US] TD-07 static'
-  - '[US] ZP-17 static'
-  - '[US] ZP-18 static'
-  - '[US] ZP-12 static'
-  - '[US] ZP-15 static'
   - '[US] ZP-11 static'
-  - '[US] ZP-10 static'
-  - '[US] TD-08 static'
-  - '[US] ZP-09 static'
-  - '[US] ZP-19 static'
+  - '[US] AGG-06 static'
+  - '[US] AGG-60 static'
+  - '[US] ZP-08 static'
+  - '[US] AGG-145 static'
+  - '[US] ZP-15 static'
+  - '[US] AGG-40 static'
+  - '[US] AGG-33 static'
+  - '[US] AGG-49 static'
+  - '[US] AGG-31 static'
+  - '[US] TD-10 static'
+  - '[US] ZP-13 static'
+  - '[US] AGG-37 static'
+  - '[US] AGG-16 static'
+  - '[US] AGG-05 static'
   - '[US] ZP-02 static'
+  - '[US] TD-08 static'
+  - '[US] AGG-55 static'
+  - '[US] AGG-01 static'
+  - '[US] ZP-07 static'
+  - '[US] TD-07 static'
+  - '[US] AGG-68 static'
+  - '[US] AGG-04 static'
+  - '[US] AGG-11 static'
+  - '[US] AGG-02 static'
+  - '[US] AGG-63 static'
+  - '[US] AGG-72 static'
+  - '[US] AGG-44 static'
+  - '[US] AGG-70 static'
+  - '[US] AGG-67 static'
+  - '[US] AGG-45 static'
+  - '[US] AGG-83 static'
+  - '[US] AGG-84 static'
+  - '[US] AGG-09 static'
+  - '[US] AGG-19 static'
+  - '[US] AGG-109 static'
+  - '[US] AGG-24 static'
+  - '[US] AGG-10 static'
+  - '[US] AGG-43 static'
+  - '[US] AGG-08 static'
+  - '[US] AGG-42 static'
+  - '[US] AGG-62 static'
 - name: AUTO-CA
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -759,7 +1455,23 @@ proxy-groups:
   tolerance: 50
   lazy: false
   proxies:
-  - '[CA] CAP-06 static'
+  - '[CA] AGG-104 static'
+  - '[CA] CAP-02 static'
+  - '[CA] AGG-115 static'
+  - '[CA] AGG-120 static'
+  - '[CA] AGG-136 static'
+  - '[CA] AGG-69 static'
+- name: AUTO-JP
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[JP] AGG-85 static'
+  - '[JP] AGG-92 static'
+  - '[JP] AGG-152 static'
+  - '[JP] AGG-82 static'
 - name: AUTO-GB
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -768,68 +1480,15 @@ proxy-groups:
   lazy: false
   proxies:
   - '[GB] CAP-38 static'
-  - '[GB] CAP-47 static'
-  - '[GB] CAP-10 static'
-  - '[GB] FV-10 static'
-- name: AUTO-DE
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[DE] CAP-13 static'
-- name: AUTO-FI
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[FI] CAP-51 static'
-  - '[FI] FV-07 static'
-- name: AUTO-KR
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[KR] CAP-28 static'
-- name: AUTO-FR
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[FR] CAP-36 static'
-  - '[FR] ZP-08 static'
-  - '[FR] ZP-05 static'
-  - '[FR] ZP-16 static'
-  - '[FR] ZP-03 static'
-  - '[FR] ZP-07 static'
-  - '[FR] ZP-06 static'
-  - '[FR] ZP-04 static'
-- name: AUTO-NL
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[NL] CAP-05 static'
-  - '[NL] ZP-20 static'
-  - '[NL] ZP-14 static'
-  - '[NL] FV-01 static'
-- name: AUTO-CH
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[CH] CAP-45 static'
+  - '[GB] AGG-15 static'
+  - '[GB] CAP-18 static'
+  - '[GB] CAP-14 static'
+  - '[GB] AGG-129 static'
+  - '[GB] AGG-88 static'
+  - '[GB] AGG-94 static'
+  - '[GB] AGG-81 static'
+  - '[GB] AGG-39 static'
+  - '[GB] AGG-80 static'
 - name: AUTO-ES
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -837,9 +1496,157 @@ proxy-groups:
   tolerance: 50
   lazy: false
   proxies:
-  - '[ES] CAP-17 static'
+  - '[ES] CAP-22 static'
+  - '[ES] AGG-174 static'
   - '[ES] FV-02 static'
-  - '[ES] FV-09 static'
+  - '[ES] AGG-90 static'
+  - '[ES] AGG-34 static'
+- name: AUTO-DE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[DE] CAP-01 static'
+  - '[DE] AGG-26 static'
+  - '[DE] AGG-35 static'
+  - '[DE] AGG-22 static'
+  - '[DE] AGG-21 static'
+- name: AUTO-NL
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[NL] CAP-06 static'
+  - '[NL] AGG-185 static'
+  - '[NL] AGG-32 static'
+  - '[NL] AGG-114 static'
+  - '[NL] AGG-102 static'
+  - '[NL] AGG-48 static'
+  - '[NL] AGG-134 static'
+  - '[NL] AGG-149 static'
+  - '[NL] AGG-47 static'
+  - '[NL] AGG-103 static'
+  - '[NL] AGG-111 static'
+  - '[NL] AGG-191 static'
+  - '[NL] AGG-52 static'
+  - '[NL] AGG-113 static'
+  - '[NL] AGG-89 static'
+  - '[NL] AGG-112 static'
+  - '[NL] AGG-29 static'
+  - '[NL] AGG-190 static'
+  - '[NL] AGG-107 static'
+  - '[NL] AGG-23 static'
+  - '[NL] ZP-10 static'
+  - '[NL] AGG-54 static'
+  - '[NL] AGG-108 static'
+  - '[NL] AGG-187 static'
+  - '[NL] AGG-53 static'
+  - '[NL] AGG-27 static'
+  - '[NL] AGG-20 static'
+  - '[NL] AGG-38 static'
+  - '[NL] ZP-16 static'
+- name: AUTO-FI
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[FI] CAP-10 static'
+- name: AUTO-FR
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[FR] AGG-71 static'
+  - '[FR] AGG-76 static'
+  - '[FR] AGG-106 static'
+  - '[FR] CAP-36 static'
+  - '[FR] ZP-06 static'
+  - '[FR] ZP-05 static'
+  - '[FR] ZP-04 static'
+  - '[FR] AGG-77 static'
+  - '[FR] AGG-99 static'
+  - '[FR] ZP-12 static'
+  - '[FR] AGG-79 static'
+- name: AUTO-KR
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[KR] AGG-118 static'
+  - '[KR] CAP-28 static'
+  - '[KR] AGG-130 static'
+  - '[KR] AGG-75 static'
+- name: AUTO-CH
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[CH] AGG-73 static'
+  - '[CH] CAP-45 static'
+  - '[CH] AGG-93 static'
+- name: AUTO-IT
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[IT] AGG-143 static'
+  - '[IT] CAP-30 static'
+  - '[IT] AGG-98 static'
+  - '[IT] AGG-97 static'
+  - '[IT] AGG-86 static'
+  - '[IT] FV-10 static'
+- name: AUTO-SE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[SE] AGG-66 static'
+- name: AUTO-SG
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[SG] AGG-96 static'
+  - '[SG] AGG-95 static'
+  - '[SG] AGG-46 static'
+  - '[SG] AGG-65 static'
+  - '[SG] AGG-74 static'
+  - '[SG] AGG-59 static'
+  - '[SG] AGG-57 static'
+- name: AUTO-IN
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[IN] CAP-49 static'
+- name: AUTO-CL
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[CL] AGG-100 static'
 - name: AUTO-CY
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -848,15 +1655,30 @@ proxy-groups:
   lazy: false
   proxies:
   - '[CY] ZP-01 static'
-- name: AUTO-IT
+- name: AUTO-AT
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   lazy: false
   proxies:
-  - '[IT] CAP-30 static'
-  - '[IT] FV-11 static'
+  - '[AT] AGG-17 static'
+- name: AUTO-AL
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[AL] AGG-144 static'
+- name: AUTO-BE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[BE] FV-03 static'
 - name: AUTO-PL
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -865,23 +1687,6 @@ proxy-groups:
   lazy: false
   proxies:
   - '[PL] CAP-26 static'
-- name: AUTO-IN
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[IN] CAP-20 static'
-  - '[IN] FV-12 static'
-- name: AUTO-BE
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[BE] FV-04 static'
 - name: AUTO-HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -889,55 +1694,7 @@ proxy-groups:
   tolerance: 50
   lazy: false
   proxies:
-  - '[HK] FV-08 static'
-- name: AUTO-BG
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[BG] FV-14 static'
-- name: AUTO-EE
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[EE] FV-16 static'
-- name: AUTO-AU
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[AU] FV-15 static'
-- name: AUTO-DK
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[DK] FV-06 static'
-- name: AUTO-AR
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[AR] FV-05 static'
-- name: AUTO-JP
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[JP] FV-17 static'
+  - '[HK] FV-07 static'
 - name: AUTO-REV
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -946,293 +1703,893 @@ proxy-groups:
   lazy: false
   proxies:
   - '[US] CAP-12 static'
-  - '[US] FV-03 static'
-  - '[US] TD-10 static'
+  - '[US] AGG-03 static'
+  - '[US] AGG-12 static'
+  - '[US] AGG-78 static'
+  - '[US] ZP-14 static'
+  - '[US] AGG-122 static'
+  - '[CA] AGG-104 static'
+  - '[US] AGG-07 static'
   - '[US] TD-06 static'
-  - '[US] TD-07 static'
-  - '[CA] CAP-06 static'
-  - '[US] ZP-17 static'
-  - '[US] ZP-18 static'
-  - '[US] ZP-12 static'
-  - '[US] ZP-15 static'
   - '[US] ZP-11 static'
-  - '[GB] CAP-38 static'
-  - '[DE] CAP-13 static'
-  - '[FI] CAP-51 static'
-  - '[GB] CAP-47 static'
-  - '[KR] CAP-28 static'
-  - '[GB] CAP-10 static'
-  - '[FR] CAP-36 static'
-  - '[FR] ZP-08 static'
-  - '[US] ZP-10 static'
-  - '[FR] ZP-05 static'
-  - '[NL] CAP-05 static'
-  - '[CH] CAP-45 static'
-  - '[US] TD-08 static'
-  - '[US] ZP-09 static'
-  - '[ES] CAP-17 static'
-  - '[FR] ZP-16 static'
-  - '[CY] ZP-01 static'
-  - '[IT] CAP-30 static'
-  - '[ES] FV-02 static'
-  - '[PL] CAP-26 static'
-  - '[NL] ZP-20 static'
-  - '[FR] ZP-03 static'
-  - '[IN] CAP-20 static'
-  - '[NL] ZP-14 static'
-  - '[US] ZP-19 static'
-  - '[FR] ZP-07 static'
-  - '[BE] FV-04 static'
-  - '[FR] ZP-06 static'
-  - '[HK] FV-08 static'
-  - '[FR] ZP-04 static'
-  - '[ES] FV-09 static'
-  - '[FI] FV-07 static'
-  - '[IT] FV-11 static'
-  - '[BG] FV-14 static'
-  - '[IN] FV-12 static'
-  - '[EE] FV-16 static'
-  - '[NL] FV-01 static'
+  - '[US] AGG-06 static'
+  - '[US] AGG-60 static'
+  - '[US] ZP-08 static'
+  - '[US] AGG-145 static'
+  - '[US] ZP-15 static'
+  - '[US] AGG-40 static'
+  - '[US] AGG-33 static'
+  - '[US] AGG-49 static'
+  - '[US] AGG-31 static'
+  - '[US] TD-10 static'
+  - '[CA] CAP-02 static'
+  - '[US] ZP-13 static'
+  - '[US] AGG-37 static'
+  - '[US] AGG-16 static'
+  - '[US] AGG-05 static'
   - '[US] ZP-02 static'
-  - '[AU] FV-15 static'
-  - '[DK] FV-06 static'
-  - '[AR] FV-05 static'
-  - '[GB] FV-10 static'
-  - '[JP] FV-17 static'
+  - '[US] TD-08 static'
+  - '[US] AGG-55 static'
+  - '[US] AGG-01 static'
+  - '[US] ZP-07 static'
+  - '[CA] AGG-115 static'
+  - '[US] TD-07 static'
+  - '[US] AGG-68 static'
+  - '[US] AGG-04 static'
+  - '[US] AGG-11 static'
+  - '[US] AGG-02 static'
+  - '[US] AGG-63 static'
+  - '[JP] AGG-85 static'
+  - '[CA] AGG-120 static'
+  - '[US] AGG-72 static'
+  - '[JP] AGG-92 static'
+  - '[US] AGG-44 static'
+  - '[US] AGG-70 static'
+  - '[JP] AGG-152 static'
+  - '[GB] CAP-38 static'
+  - '[US] AGG-67 static'
+  - '[US] AGG-45 static'
+  - '[CA] AGG-136 static'
+  - '[US] AGG-83 static'
+  - '[US] AGG-84 static'
+  - '[US] AGG-09 static'
+  - '[US] AGG-19 static'
+  - '[ES] CAP-22 static'
+  - '[US] AGG-109 static'
+  - '[DE] CAP-01 static'
+  - '[US] AGG-24 static'
+  - '[GB] AGG-15 static'
+  - '[US] AGG-10 static'
+  - '[NL] CAP-06 static'
+  - '[CA] AGG-69 static'
+  - '[GB] CAP-18 static'
+  - '[NL] AGG-185 static'
+  - '[FI] CAP-10 static'
+  - '[GB] CAP-14 static'
+  - '[NL] AGG-32 static'
+  - '[GB] AGG-129 static'
+  - '[FR] AGG-71 static'
+  - '[US] AGG-43 static'
+  - '[FR] AGG-76 static'
+  - '[NL] AGG-114 static'
+  - '[NL] AGG-102 static'
+  - '[FR] AGG-106 static'
+  - '[NL] AGG-48 static'
+  - '[KR] AGG-118 static'
+  - '[NL] AGG-134 static'
+  - '[KR] CAP-28 static'
+  - '[NL] AGG-149 static'
+  - '[NL] AGG-47 static'
+  - '[NL] AGG-103 static'
+  - '[FR] CAP-36 static'
+  - '[KR] AGG-130 static'
+  - '[NL] AGG-111 static'
+  - '[KR] AGG-75 static'
+  - '[JP] AGG-82 static'
+  - '[NL] AGG-191 static'
+  - '[NL] AGG-52 static'
+  - '[FR] ZP-06 static'
+  - '[NL] AGG-113 static'
+  - '[CH] AGG-73 static'
+  - '[FR] ZP-05 static'
+  - '[NL] AGG-89 static'
+  - '[CH] CAP-45 static'
+  - '[NL] AGG-112 static'
+  - '[FR] ZP-04 static'
+  - '[IT] AGG-143 static'
+  - '[NL] AGG-29 static'
+  - '[NL] AGG-190 static'
+  - '[FR] AGG-77 static'
+  - '[SE] AGG-66 static'
+  - '[NL] AGG-107 static'
+  - '[FR] AGG-99 static'
+  - '[NL] AGG-23 static'
+  - '[DE] AGG-26 static'
+  - '[DE] AGG-35 static'
+  - '[NL] ZP-10 static'
+  - '[US] AGG-08 static'
+  - '[ES] AGG-174 static'
+  - '[GB] AGG-88 static'
+  - '[US] AGG-42 static'
+  - '[NL] AGG-54 static'
+  - '[NL] AGG-108 static'
+  - '[GB] AGG-94 static'
+  - '[NL] AGG-187 static'
+  - '[GB] AGG-81 static'
+  - '[NL] AGG-53 static'
+  - '[FR] ZP-12 static'
+  - '[IT] CAP-30 static'
+  - '[NL] AGG-27 static'
+  - '[NL] AGG-20 static'
+  - '[ES] FV-02 static'
+  - '[SG] AGG-96 static'
+  - '[DE] AGG-22 static'
+  - '[ES] AGG-90 static'
+  - '[IT] AGG-98 static'
+  - '[NL] AGG-38 static'
+  - '[IN] CAP-49 static'
+  - '[SG] AGG-95 static'
+  - '[SG] AGG-46 static'
+  - '[CL] AGG-100 static'
+  - '[DE] AGG-21 static'
+  - '[US] AGG-62 static'
+  - '[GB] AGG-39 static'
+  - '[FR] AGG-79 static'
+  - '[CY] ZP-01 static'
+  - '[AT] AGG-17 static'
+  - '[CH] AGG-93 static'
+  - '[IT] AGG-97 static'
+  - '[NL] ZP-16 static'
+  - '[GB] AGG-80 static'
+  - '[IT] AGG-86 static'
+  - '[AL] AGG-144 static'
+  - '[BE] FV-03 static'
+  - '[SG] AGG-65 static'
+  - '[SG] AGG-74 static'
+  - '[PL] CAP-26 static'
+  - '[ES] AGG-34 static'
+  - '[HK] FV-07 static'
+  - '[SG] AGG-59 static'
+  - '[SG] AGG-57 static'
+  - '[IT] FV-10 static'
+- name: AUTO-AGG
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[US] AGG-03 static'
+  - '[US] AGG-12 static'
+  - '[US] AGG-78 static'
+  - '[US] AGG-122 static'
+  - '[CA] AGG-104 static'
+  - '[US] AGG-07 static'
+  - '[US] AGG-06 static'
+  - '[US] AGG-60 static'
+  - '[US] AGG-145 static'
+  - '[US] AGG-40 static'
+  - '[US] AGG-33 static'
+  - '[US] AGG-49 static'
+  - '[US] AGG-31 static'
+  - '[US] AGG-37 static'
+  - '[US] AGG-16 static'
+  - '[US] AGG-05 static'
+  - '[US] AGG-55 static'
+  - '[US] AGG-01 static'
+  - '[CA] AGG-115 static'
+  - '[US] AGG-68 static'
+  - '[US] AGG-04 static'
+  - '[US] AGG-11 static'
+  - '[US] AGG-02 static'
+  - '[US] AGG-63 static'
+  - '[JP] AGG-85 static'
+  - '[CA] AGG-120 static'
+  - '[US] AGG-72 static'
+  - '[JP] AGG-92 static'
+  - '[US] AGG-44 static'
+  - '[US] AGG-70 static'
+  - '[JP] AGG-152 static'
+  - '[US] AGG-67 static'
+  - '[US] AGG-45 static'
+  - '[CA] AGG-136 static'
+  - '[US] AGG-83 static'
+  - '[US] AGG-84 static'
+  - '[US] AGG-09 static'
+  - '[US] AGG-19 static'
+  - '[US] AGG-109 static'
+  - '[US] AGG-24 static'
+  - '[GB] AGG-15 static'
+  - '[US] AGG-10 static'
+  - '[CA] AGG-69 static'
+  - '[NL] AGG-185 static'
+  - '[NL] AGG-32 static'
+  - '[GB] AGG-129 static'
+  - '[FR] AGG-71 static'
+  - '[US] AGG-43 static'
+  - '[FR] AGG-76 static'
+  - '[NL] AGG-114 static'
+  - '[NL] AGG-102 static'
+  - '[FR] AGG-106 static'
+  - '[NL] AGG-48 static'
+  - '[KR] AGG-118 static'
+  - '[NL] AGG-134 static'
+  - '[NL] AGG-149 static'
+  - '[NL] AGG-47 static'
+  - '[NL] AGG-103 static'
+  - '[KR] AGG-130 static'
+  - '[NL] AGG-111 static'
+  - '[KR] AGG-75 static'
+  - '[JP] AGG-82 static'
+  - '[NL] AGG-191 static'
+  - '[NL] AGG-52 static'
+  - '[NL] AGG-113 static'
+  - '[CH] AGG-73 static'
+  - '[NL] AGG-89 static'
+  - '[NL] AGG-112 static'
+  - '[IT] AGG-143 static'
+  - '[NL] AGG-29 static'
+  - '[NL] AGG-190 static'
+  - '[FR] AGG-77 static'
+  - '[SE] AGG-66 static'
+  - '[NL] AGG-107 static'
+  - '[FR] AGG-99 static'
+  - '[NL] AGG-23 static'
+  - '[DE] AGG-26 static'
+  - '[DE] AGG-35 static'
+  - '[US] AGG-08 static'
+  - '[ES] AGG-174 static'
+  - '[GB] AGG-88 static'
+  - '[US] AGG-42 static'
+  - '[NL] AGG-54 static'
+  - '[NL] AGG-108 static'
+  - '[GB] AGG-94 static'
+  - '[NL] AGG-187 static'
+  - '[GB] AGG-81 static'
+  - '[NL] AGG-53 static'
+  - '[NL] AGG-27 static'
+  - '[NL] AGG-20 static'
+  - '[SG] AGG-96 static'
+  - '[DE] AGG-22 static'
+  - '[ES] AGG-90 static'
+  - '[IT] AGG-98 static'
+  - '[NL] AGG-38 static'
+  - '[SG] AGG-95 static'
+  - '[SG] AGG-46 static'
+  - '[CL] AGG-100 static'
+  - '[DE] AGG-21 static'
+  - '[US] AGG-62 static'
+  - '[GB] AGG-39 static'
+  - '[FR] AGG-79 static'
+  - '[AT] AGG-17 static'
+  - '[CH] AGG-93 static'
+  - '[IT] AGG-97 static'
+  - '[GB] AGG-80 static'
+  - '[IT] AGG-86 static'
+  - '[AL] AGG-144 static'
+  - '[SG] AGG-65 static'
+  - '[SG] AGG-74 static'
+  - '[ES] AGG-34 static'
+  - '[SG] AGG-59 static'
+  - '[SG] AGG-57 static'
 - name: PROXY
   type: select
   proxies:
   - AUTO
   - '[US] CAP-12 static'
-  - '[US] FV-03 static'
-  - '[US] TD-10 static'
+  - '[US] AGG-03 static'
+  - '[US] AGG-12 static'
+  - '[US] AGG-78 static'
+  - '[US] ZP-14 static'
+  - '[US] AGG-122 static'
+  - '[CA] AGG-104 static'
+  - '[US] AGG-07 static'
   - '[US] TD-06 static'
-  - '[US] TD-07 static'
-  - '[CA] CAP-06 static'
-  - '[US] ZP-17 static'
-  - '[US] ZP-18 static'
-  - '[US] ZP-12 static'
-  - '[US] ZP-15 static'
   - '[US] ZP-11 static'
-  - '[GB] CAP-38 static'
-  - '[DE] CAP-13 static'
-  - '[FI] CAP-51 static'
-  - '[GB] CAP-47 static'
-  - '[KR] CAP-28 static'
-  - '[GB] CAP-10 static'
-  - '[FR] CAP-36 static'
-  - '[FR] ZP-08 static'
-  - '[US] ZP-10 static'
-  - '[FR] ZP-05 static'
-  - '[NL] CAP-05 static'
-  - '[CH] CAP-45 static'
-  - '[US] TD-08 static'
-  - '[US] ZP-09 static'
-  - '[ES] CAP-17 static'
-  - '[FR] ZP-16 static'
-  - '[CY] ZP-01 static'
-  - '[IT] CAP-30 static'
-  - '[ES] FV-02 static'
-  - '[PL] CAP-26 static'
-  - '[NL] ZP-20 static'
-  - '[FR] ZP-03 static'
-  - '[IN] CAP-20 static'
-  - '[NL] ZP-14 static'
-  - '[US] ZP-19 static'
-  - '[FR] ZP-07 static'
-  - '[BE] FV-04 static'
-  - '[FR] ZP-06 static'
-  - '[HK] FV-08 static'
-  - '[FR] ZP-04 static'
-  - '[ES] FV-09 static'
-  - '[FI] FV-07 static'
-  - '[IT] FV-11 static'
-  - '[BG] FV-14 static'
-  - '[IN] FV-12 static'
-  - '[EE] FV-16 static'
-  - '[NL] FV-01 static'
+  - '[US] AGG-06 static'
+  - '[US] AGG-60 static'
+  - '[US] ZP-08 static'
+  - '[US] AGG-145 static'
+  - '[US] ZP-15 static'
+  - '[US] AGG-40 static'
+  - '[US] AGG-33 static'
+  - '[US] AGG-49 static'
+  - '[US] AGG-31 static'
+  - '[US] TD-10 static'
+  - '[CA] CAP-02 static'
+  - '[US] ZP-13 static'
+  - '[US] AGG-37 static'
+  - '[US] AGG-16 static'
+  - '[US] AGG-05 static'
   - '[US] ZP-02 static'
-  - '[AU] FV-15 static'
-  - '[DK] FV-06 static'
-  - '[AR] FV-05 static'
-  - '[GB] FV-10 static'
-  - '[JP] FV-17 static'
+  - '[US] TD-08 static'
+  - '[US] AGG-55 static'
+  - '[US] AGG-01 static'
+  - '[US] ZP-07 static'
+  - '[CA] AGG-115 static'
+  - '[US] TD-07 static'
+  - '[US] AGG-68 static'
+  - '[US] AGG-04 static'
+  - '[US] AGG-11 static'
+  - '[US] AGG-02 static'
+  - '[US] AGG-63 static'
+  - '[JP] AGG-85 static'
+  - '[CA] AGG-120 static'
+  - '[US] AGG-72 static'
+  - '[JP] AGG-92 static'
+  - '[US] AGG-44 static'
+  - '[US] AGG-70 static'
+  - '[JP] AGG-152 static'
+  - '[GB] CAP-38 static'
+  - '[US] AGG-67 static'
+  - '[US] AGG-45 static'
+  - '[CA] AGG-136 static'
+  - '[US] AGG-83 static'
+  - '[US] AGG-84 static'
+  - '[US] AGG-09 static'
+  - '[US] AGG-19 static'
+  - '[ES] CAP-22 static'
+  - '[US] AGG-109 static'
+  - '[DE] CAP-01 static'
+  - '[US] AGG-24 static'
+  - '[GB] AGG-15 static'
+  - '[US] AGG-10 static'
+  - '[NL] CAP-06 static'
+  - '[CA] AGG-69 static'
+  - '[GB] CAP-18 static'
+  - '[NL] AGG-185 static'
+  - '[FI] CAP-10 static'
+  - '[GB] CAP-14 static'
+  - '[NL] AGG-32 static'
+  - '[GB] AGG-129 static'
+  - '[FR] AGG-71 static'
+  - '[US] AGG-43 static'
+  - '[FR] AGG-76 static'
+  - '[NL] AGG-114 static'
+  - '[NL] AGG-102 static'
+  - '[FR] AGG-106 static'
+  - '[NL] AGG-48 static'
+  - '[KR] AGG-118 static'
+  - '[NL] AGG-134 static'
+  - '[KR] CAP-28 static'
+  - '[NL] AGG-149 static'
+  - '[NL] AGG-47 static'
+  - '[NL] AGG-103 static'
+  - '[FR] CAP-36 static'
+  - '[KR] AGG-130 static'
+  - '[NL] AGG-111 static'
+  - '[KR] AGG-75 static'
+  - '[JP] AGG-82 static'
+  - '[NL] AGG-191 static'
+  - '[NL] AGG-52 static'
+  - '[FR] ZP-06 static'
+  - '[NL] AGG-113 static'
+  - '[CH] AGG-73 static'
+  - '[FR] ZP-05 static'
+  - '[NL] AGG-89 static'
+  - '[CH] CAP-45 static'
+  - '[NL] AGG-112 static'
+  - '[FR] ZP-04 static'
+  - '[IT] AGG-143 static'
+  - '[NL] AGG-29 static'
+  - '[NL] AGG-190 static'
+  - '[FR] AGG-77 static'
+  - '[SE] AGG-66 static'
+  - '[NL] AGG-107 static'
+  - '[FR] AGG-99 static'
+  - '[NL] AGG-23 static'
+  - '[DE] AGG-26 static'
+  - '[DE] AGG-35 static'
+  - '[NL] ZP-10 static'
+  - '[US] AGG-08 static'
+  - '[ES] AGG-174 static'
+  - '[GB] AGG-88 static'
+  - '[US] AGG-42 static'
+  - '[NL] AGG-54 static'
+  - '[NL] AGG-108 static'
+  - '[GB] AGG-94 static'
+  - '[NL] AGG-187 static'
+  - '[GB] AGG-81 static'
+  - '[NL] AGG-53 static'
+  - '[FR] ZP-12 static'
+  - '[IT] CAP-30 static'
+  - '[NL] AGG-27 static'
+  - '[NL] AGG-20 static'
+  - '[ES] FV-02 static'
+  - '[SG] AGG-96 static'
+  - '[DE] AGG-22 static'
+  - '[ES] AGG-90 static'
+  - '[IT] AGG-98 static'
+  - '[NL] AGG-38 static'
+  - '[IN] CAP-49 static'
+  - '[SG] AGG-95 static'
+  - '[SG] AGG-46 static'
+  - '[CL] AGG-100 static'
+  - '[DE] AGG-21 static'
+  - '[US] AGG-62 static'
+  - '[GB] AGG-39 static'
+  - '[FR] AGG-79 static'
+  - '[CY] ZP-01 static'
+  - '[AT] AGG-17 static'
+  - '[CH] AGG-93 static'
+  - '[IT] AGG-97 static'
+  - '[NL] ZP-16 static'
+  - '[GB] AGG-80 static'
+  - '[IT] AGG-86 static'
+  - '[AL] AGG-144 static'
+  - '[BE] FV-03 static'
+  - '[SG] AGG-65 static'
+  - '[SG] AGG-74 static'
+  - '[PL] CAP-26 static'
+  - '[ES] AGG-34 static'
+  - '[HK] FV-07 static'
+  - '[SG] AGG-59 static'
+  - '[SG] AGG-57 static'
+  - '[IT] FV-10 static'
 - name: AI
   type: select
   proxies:
   - PROXY
   - '[US] CAP-12 static'
-  - '[US] FV-03 static'
-  - '[US] TD-10 static'
+  - '[US] AGG-03 static'
+  - '[US] AGG-12 static'
+  - '[US] AGG-78 static'
+  - '[US] ZP-14 static'
+  - '[US] AGG-122 static'
+  - '[CA] AGG-104 static'
+  - '[US] AGG-07 static'
   - '[US] TD-06 static'
-  - '[US] TD-07 static'
-  - '[CA] CAP-06 static'
-  - '[US] ZP-17 static'
-  - '[US] ZP-18 static'
-  - '[US] ZP-12 static'
-  - '[US] ZP-15 static'
   - '[US] ZP-11 static'
-  - '[GB] CAP-38 static'
-  - '[DE] CAP-13 static'
-  - '[FI] CAP-51 static'
-  - '[GB] CAP-47 static'
-  - '[KR] CAP-28 static'
-  - '[GB] CAP-10 static'
-  - '[FR] CAP-36 static'
-  - '[FR] ZP-08 static'
-  - '[US] ZP-10 static'
-  - '[FR] ZP-05 static'
-  - '[NL] CAP-05 static'
-  - '[CH] CAP-45 static'
-  - '[US] TD-08 static'
-  - '[US] ZP-09 static'
-  - '[ES] CAP-17 static'
-  - '[FR] ZP-16 static'
-  - '[CY] ZP-01 static'
-  - '[IT] CAP-30 static'
-  - '[ES] FV-02 static'
-  - '[PL] CAP-26 static'
-  - '[NL] ZP-20 static'
-  - '[FR] ZP-03 static'
-  - '[IN] CAP-20 static'
-  - '[NL] ZP-14 static'
-  - '[US] ZP-19 static'
-  - '[FR] ZP-07 static'
-  - '[BE] FV-04 static'
-  - '[FR] ZP-06 static'
-  - '[HK] FV-08 static'
-  - '[FR] ZP-04 static'
-  - '[ES] FV-09 static'
-  - '[FI] FV-07 static'
-  - '[IT] FV-11 static'
-  - '[BG] FV-14 static'
-  - '[IN] FV-12 static'
-  - '[EE] FV-16 static'
-  - '[NL] FV-01 static'
+  - '[US] AGG-06 static'
+  - '[US] AGG-60 static'
+  - '[US] ZP-08 static'
+  - '[US] AGG-145 static'
+  - '[US] ZP-15 static'
+  - '[US] AGG-40 static'
+  - '[US] AGG-33 static'
+  - '[US] AGG-49 static'
+  - '[US] AGG-31 static'
+  - '[US] TD-10 static'
+  - '[CA] CAP-02 static'
+  - '[US] ZP-13 static'
+  - '[US] AGG-37 static'
+  - '[US] AGG-16 static'
+  - '[US] AGG-05 static'
   - '[US] ZP-02 static'
-  - '[AU] FV-15 static'
-  - '[DK] FV-06 static'
-  - '[AR] FV-05 static'
-  - '[GB] FV-10 static'
-  - '[JP] FV-17 static'
+  - '[US] TD-08 static'
+  - '[US] AGG-55 static'
+  - '[US] AGG-01 static'
+  - '[US] ZP-07 static'
+  - '[CA] AGG-115 static'
+  - '[US] TD-07 static'
+  - '[US] AGG-68 static'
+  - '[US] AGG-04 static'
+  - '[US] AGG-11 static'
+  - '[US] AGG-02 static'
+  - '[US] AGG-63 static'
+  - '[JP] AGG-85 static'
+  - '[CA] AGG-120 static'
+  - '[US] AGG-72 static'
+  - '[JP] AGG-92 static'
+  - '[US] AGG-44 static'
+  - '[US] AGG-70 static'
+  - '[JP] AGG-152 static'
+  - '[GB] CAP-38 static'
+  - '[US] AGG-67 static'
+  - '[US] AGG-45 static'
+  - '[CA] AGG-136 static'
+  - '[US] AGG-83 static'
+  - '[US] AGG-84 static'
+  - '[US] AGG-09 static'
+  - '[US] AGG-19 static'
+  - '[ES] CAP-22 static'
+  - '[US] AGG-109 static'
+  - '[DE] CAP-01 static'
+  - '[US] AGG-24 static'
+  - '[GB] AGG-15 static'
+  - '[US] AGG-10 static'
+  - '[NL] CAP-06 static'
+  - '[CA] AGG-69 static'
+  - '[GB] CAP-18 static'
+  - '[NL] AGG-185 static'
+  - '[FI] CAP-10 static'
+  - '[GB] CAP-14 static'
+  - '[NL] AGG-32 static'
+  - '[GB] AGG-129 static'
+  - '[FR] AGG-71 static'
+  - '[US] AGG-43 static'
+  - '[FR] AGG-76 static'
+  - '[NL] AGG-114 static'
+  - '[NL] AGG-102 static'
+  - '[FR] AGG-106 static'
+  - '[NL] AGG-48 static'
+  - '[KR] AGG-118 static'
+  - '[NL] AGG-134 static'
+  - '[KR] CAP-28 static'
+  - '[NL] AGG-149 static'
+  - '[NL] AGG-47 static'
+  - '[NL] AGG-103 static'
+  - '[FR] CAP-36 static'
+  - '[KR] AGG-130 static'
+  - '[NL] AGG-111 static'
+  - '[KR] AGG-75 static'
+  - '[JP] AGG-82 static'
+  - '[NL] AGG-191 static'
+  - '[NL] AGG-52 static'
+  - '[FR] ZP-06 static'
+  - '[NL] AGG-113 static'
+  - '[CH] AGG-73 static'
+  - '[FR] ZP-05 static'
+  - '[NL] AGG-89 static'
+  - '[CH] CAP-45 static'
+  - '[NL] AGG-112 static'
+  - '[FR] ZP-04 static'
+  - '[IT] AGG-143 static'
+  - '[NL] AGG-29 static'
+  - '[NL] AGG-190 static'
+  - '[FR] AGG-77 static'
+  - '[SE] AGG-66 static'
+  - '[NL] AGG-107 static'
+  - '[FR] AGG-99 static'
+  - '[NL] AGG-23 static'
+  - '[DE] AGG-26 static'
+  - '[DE] AGG-35 static'
+  - '[NL] ZP-10 static'
+  - '[US] AGG-08 static'
+  - '[ES] AGG-174 static'
+  - '[GB] AGG-88 static'
+  - '[US] AGG-42 static'
+  - '[NL] AGG-54 static'
+  - '[NL] AGG-108 static'
+  - '[GB] AGG-94 static'
+  - '[NL] AGG-187 static'
+  - '[GB] AGG-81 static'
+  - '[NL] AGG-53 static'
+  - '[FR] ZP-12 static'
+  - '[IT] CAP-30 static'
+  - '[NL] AGG-27 static'
+  - '[NL] AGG-20 static'
+  - '[ES] FV-02 static'
+  - '[SG] AGG-96 static'
+  - '[DE] AGG-22 static'
+  - '[ES] AGG-90 static'
+  - '[IT] AGG-98 static'
+  - '[NL] AGG-38 static'
+  - '[IN] CAP-49 static'
+  - '[SG] AGG-95 static'
+  - '[SG] AGG-46 static'
+  - '[CL] AGG-100 static'
+  - '[DE] AGG-21 static'
+  - '[US] AGG-62 static'
+  - '[GB] AGG-39 static'
+  - '[FR] AGG-79 static'
+  - '[CY] ZP-01 static'
+  - '[AT] AGG-17 static'
+  - '[CH] AGG-93 static'
+  - '[IT] AGG-97 static'
+  - '[NL] ZP-16 static'
+  - '[GB] AGG-80 static'
+  - '[IT] AGG-86 static'
+  - '[AL] AGG-144 static'
+  - '[BE] FV-03 static'
+  - '[SG] AGG-65 static'
+  - '[SG] AGG-74 static'
+  - '[PL] CAP-26 static'
+  - '[ES] AGG-34 static'
+  - '[HK] FV-07 static'
+  - '[SG] AGG-59 static'
+  - '[SG] AGG-57 static'
+  - '[IT] FV-10 static'
 - name: Streaming
   type: select
   proxies:
   - PROXY
   - DIRECT
   - '[US] CAP-12 static'
-  - '[US] FV-03 static'
-  - '[US] TD-10 static'
+  - '[US] AGG-03 static'
+  - '[US] AGG-12 static'
+  - '[US] AGG-78 static'
+  - '[US] ZP-14 static'
+  - '[US] AGG-122 static'
+  - '[CA] AGG-104 static'
+  - '[US] AGG-07 static'
   - '[US] TD-06 static'
-  - '[US] TD-07 static'
-  - '[CA] CAP-06 static'
-  - '[US] ZP-17 static'
-  - '[US] ZP-18 static'
-  - '[US] ZP-12 static'
-  - '[US] ZP-15 static'
   - '[US] ZP-11 static'
-  - '[GB] CAP-38 static'
-  - '[DE] CAP-13 static'
-  - '[FI] CAP-51 static'
-  - '[GB] CAP-47 static'
-  - '[KR] CAP-28 static'
-  - '[GB] CAP-10 static'
-  - '[FR] CAP-36 static'
-  - '[FR] ZP-08 static'
-  - '[US] ZP-10 static'
-  - '[FR] ZP-05 static'
-  - '[NL] CAP-05 static'
-  - '[CH] CAP-45 static'
-  - '[US] TD-08 static'
-  - '[US] ZP-09 static'
-  - '[ES] CAP-17 static'
-  - '[FR] ZP-16 static'
-  - '[CY] ZP-01 static'
-  - '[IT] CAP-30 static'
-  - '[ES] FV-02 static'
-  - '[PL] CAP-26 static'
-  - '[NL] ZP-20 static'
-  - '[FR] ZP-03 static'
-  - '[IN] CAP-20 static'
-  - '[NL] ZP-14 static'
-  - '[US] ZP-19 static'
-  - '[FR] ZP-07 static'
-  - '[BE] FV-04 static'
-  - '[FR] ZP-06 static'
-  - '[HK] FV-08 static'
-  - '[FR] ZP-04 static'
-  - '[ES] FV-09 static'
-  - '[FI] FV-07 static'
-  - '[IT] FV-11 static'
-  - '[BG] FV-14 static'
-  - '[IN] FV-12 static'
-  - '[EE] FV-16 static'
-  - '[NL] FV-01 static'
+  - '[US] AGG-06 static'
+  - '[US] AGG-60 static'
+  - '[US] ZP-08 static'
+  - '[US] AGG-145 static'
+  - '[US] ZP-15 static'
+  - '[US] AGG-40 static'
+  - '[US] AGG-33 static'
+  - '[US] AGG-49 static'
+  - '[US] AGG-31 static'
+  - '[US] TD-10 static'
+  - '[CA] CAP-02 static'
+  - '[US] ZP-13 static'
+  - '[US] AGG-37 static'
+  - '[US] AGG-16 static'
+  - '[US] AGG-05 static'
   - '[US] ZP-02 static'
-  - '[AU] FV-15 static'
-  - '[DK] FV-06 static'
-  - '[AR] FV-05 static'
-  - '[GB] FV-10 static'
-  - '[JP] FV-17 static'
+  - '[US] TD-08 static'
+  - '[US] AGG-55 static'
+  - '[US] AGG-01 static'
+  - '[US] ZP-07 static'
+  - '[CA] AGG-115 static'
+  - '[US] TD-07 static'
+  - '[US] AGG-68 static'
+  - '[US] AGG-04 static'
+  - '[US] AGG-11 static'
+  - '[US] AGG-02 static'
+  - '[US] AGG-63 static'
+  - '[JP] AGG-85 static'
+  - '[CA] AGG-120 static'
+  - '[US] AGG-72 static'
+  - '[JP] AGG-92 static'
+  - '[US] AGG-44 static'
+  - '[US] AGG-70 static'
+  - '[JP] AGG-152 static'
+  - '[GB] CAP-38 static'
+  - '[US] AGG-67 static'
+  - '[US] AGG-45 static'
+  - '[CA] AGG-136 static'
+  - '[US] AGG-83 static'
+  - '[US] AGG-84 static'
+  - '[US] AGG-09 static'
+  - '[US] AGG-19 static'
+  - '[ES] CAP-22 static'
+  - '[US] AGG-109 static'
+  - '[DE] CAP-01 static'
+  - '[US] AGG-24 static'
+  - '[GB] AGG-15 static'
+  - '[US] AGG-10 static'
+  - '[NL] CAP-06 static'
+  - '[CA] AGG-69 static'
+  - '[GB] CAP-18 static'
+  - '[NL] AGG-185 static'
+  - '[FI] CAP-10 static'
+  - '[GB] CAP-14 static'
+  - '[NL] AGG-32 static'
+  - '[GB] AGG-129 static'
+  - '[FR] AGG-71 static'
+  - '[US] AGG-43 static'
+  - '[FR] AGG-76 static'
+  - '[NL] AGG-114 static'
+  - '[NL] AGG-102 static'
+  - '[FR] AGG-106 static'
+  - '[NL] AGG-48 static'
+  - '[KR] AGG-118 static'
+  - '[NL] AGG-134 static'
+  - '[KR] CAP-28 static'
+  - '[NL] AGG-149 static'
+  - '[NL] AGG-47 static'
+  - '[NL] AGG-103 static'
+  - '[FR] CAP-36 static'
+  - '[KR] AGG-130 static'
+  - '[NL] AGG-111 static'
+  - '[KR] AGG-75 static'
+  - '[JP] AGG-82 static'
+  - '[NL] AGG-191 static'
+  - '[NL] AGG-52 static'
+  - '[FR] ZP-06 static'
+  - '[NL] AGG-113 static'
+  - '[CH] AGG-73 static'
+  - '[FR] ZP-05 static'
+  - '[NL] AGG-89 static'
+  - '[CH] CAP-45 static'
+  - '[NL] AGG-112 static'
+  - '[FR] ZP-04 static'
+  - '[IT] AGG-143 static'
+  - '[NL] AGG-29 static'
+  - '[NL] AGG-190 static'
+  - '[FR] AGG-77 static'
+  - '[SE] AGG-66 static'
+  - '[NL] AGG-107 static'
+  - '[FR] AGG-99 static'
+  - '[NL] AGG-23 static'
+  - '[DE] AGG-26 static'
+  - '[DE] AGG-35 static'
+  - '[NL] ZP-10 static'
+  - '[US] AGG-08 static'
+  - '[ES] AGG-174 static'
+  - '[GB] AGG-88 static'
+  - '[US] AGG-42 static'
+  - '[NL] AGG-54 static'
+  - '[NL] AGG-108 static'
+  - '[GB] AGG-94 static'
+  - '[NL] AGG-187 static'
+  - '[GB] AGG-81 static'
+  - '[NL] AGG-53 static'
+  - '[FR] ZP-12 static'
+  - '[IT] CAP-30 static'
+  - '[NL] AGG-27 static'
+  - '[NL] AGG-20 static'
+  - '[ES] FV-02 static'
+  - '[SG] AGG-96 static'
+  - '[DE] AGG-22 static'
+  - '[ES] AGG-90 static'
+  - '[IT] AGG-98 static'
+  - '[NL] AGG-38 static'
+  - '[IN] CAP-49 static'
+  - '[SG] AGG-95 static'
+  - '[SG] AGG-46 static'
+  - '[CL] AGG-100 static'
+  - '[DE] AGG-21 static'
+  - '[US] AGG-62 static'
+  - '[GB] AGG-39 static'
+  - '[FR] AGG-79 static'
+  - '[CY] ZP-01 static'
+  - '[AT] AGG-17 static'
+  - '[CH] AGG-93 static'
+  - '[IT] AGG-97 static'
+  - '[NL] ZP-16 static'
+  - '[GB] AGG-80 static'
+  - '[IT] AGG-86 static'
+  - '[AL] AGG-144 static'
+  - '[BE] FV-03 static'
+  - '[SG] AGG-65 static'
+  - '[SG] AGG-74 static'
+  - '[PL] CAP-26 static'
+  - '[ES] AGG-34 static'
+  - '[HK] FV-07 static'
+  - '[SG] AGG-59 static'
+  - '[SG] AGG-57 static'
+  - '[IT] FV-10 static'
 - name: Telegram
   type: select
   proxies:
   - PROXY
   - DIRECT
   - '[US] CAP-12 static'
-  - '[US] FV-03 static'
-  - '[US] TD-10 static'
+  - '[US] AGG-03 static'
+  - '[US] AGG-12 static'
+  - '[US] AGG-78 static'
+  - '[US] ZP-14 static'
+  - '[US] AGG-122 static'
+  - '[CA] AGG-104 static'
+  - '[US] AGG-07 static'
   - '[US] TD-06 static'
-  - '[US] TD-07 static'
-  - '[CA] CAP-06 static'
-  - '[US] ZP-17 static'
-  - '[US] ZP-18 static'
-  - '[US] ZP-12 static'
-  - '[US] ZP-15 static'
   - '[US] ZP-11 static'
-  - '[GB] CAP-38 static'
-  - '[DE] CAP-13 static'
-  - '[FI] CAP-51 static'
-  - '[GB] CAP-47 static'
-  - '[KR] CAP-28 static'
-  - '[GB] CAP-10 static'
-  - '[FR] CAP-36 static'
-  - '[FR] ZP-08 static'
-  - '[US] ZP-10 static'
-  - '[FR] ZP-05 static'
-  - '[NL] CAP-05 static'
-  - '[CH] CAP-45 static'
-  - '[US] TD-08 static'
-  - '[US] ZP-09 static'
-  - '[ES] CAP-17 static'
-  - '[FR] ZP-16 static'
-  - '[CY] ZP-01 static'
-  - '[IT] CAP-30 static'
-  - '[ES] FV-02 static'
-  - '[PL] CAP-26 static'
-  - '[NL] ZP-20 static'
-  - '[FR] ZP-03 static'
-  - '[IN] CAP-20 static'
-  - '[NL] ZP-14 static'
-  - '[US] ZP-19 static'
-  - '[FR] ZP-07 static'
-  - '[BE] FV-04 static'
-  - '[FR] ZP-06 static'
-  - '[HK] FV-08 static'
-  - '[FR] ZP-04 static'
-  - '[ES] FV-09 static'
-  - '[FI] FV-07 static'
-  - '[IT] FV-11 static'
-  - '[BG] FV-14 static'
-  - '[IN] FV-12 static'
-  - '[EE] FV-16 static'
-  - '[NL] FV-01 static'
+  - '[US] AGG-06 static'
+  - '[US] AGG-60 static'
+  - '[US] ZP-08 static'
+  - '[US] AGG-145 static'
+  - '[US] ZP-15 static'
+  - '[US] AGG-40 static'
+  - '[US] AGG-33 static'
+  - '[US] AGG-49 static'
+  - '[US] AGG-31 static'
+  - '[US] TD-10 static'
+  - '[CA] CAP-02 static'
+  - '[US] ZP-13 static'
+  - '[US] AGG-37 static'
+  - '[US] AGG-16 static'
+  - '[US] AGG-05 static'
   - '[US] ZP-02 static'
-  - '[AU] FV-15 static'
-  - '[DK] FV-06 static'
-  - '[AR] FV-05 static'
-  - '[GB] FV-10 static'
-  - '[JP] FV-17 static'
+  - '[US] TD-08 static'
+  - '[US] AGG-55 static'
+  - '[US] AGG-01 static'
+  - '[US] ZP-07 static'
+  - '[CA] AGG-115 static'
+  - '[US] TD-07 static'
+  - '[US] AGG-68 static'
+  - '[US] AGG-04 static'
+  - '[US] AGG-11 static'
+  - '[US] AGG-02 static'
+  - '[US] AGG-63 static'
+  - '[JP] AGG-85 static'
+  - '[CA] AGG-120 static'
+  - '[US] AGG-72 static'
+  - '[JP] AGG-92 static'
+  - '[US] AGG-44 static'
+  - '[US] AGG-70 static'
+  - '[JP] AGG-152 static'
+  - '[GB] CAP-38 static'
+  - '[US] AGG-67 static'
+  - '[US] AGG-45 static'
+  - '[CA] AGG-136 static'
+  - '[US] AGG-83 static'
+  - '[US] AGG-84 static'
+  - '[US] AGG-09 static'
+  - '[US] AGG-19 static'
+  - '[ES] CAP-22 static'
+  - '[US] AGG-109 static'
+  - '[DE] CAP-01 static'
+  - '[US] AGG-24 static'
+  - '[GB] AGG-15 static'
+  - '[US] AGG-10 static'
+  - '[NL] CAP-06 static'
+  - '[CA] AGG-69 static'
+  - '[GB] CAP-18 static'
+  - '[NL] AGG-185 static'
+  - '[FI] CAP-10 static'
+  - '[GB] CAP-14 static'
+  - '[NL] AGG-32 static'
+  - '[GB] AGG-129 static'
+  - '[FR] AGG-71 static'
+  - '[US] AGG-43 static'
+  - '[FR] AGG-76 static'
+  - '[NL] AGG-114 static'
+  - '[NL] AGG-102 static'
+  - '[FR] AGG-106 static'
+  - '[NL] AGG-48 static'
+  - '[KR] AGG-118 static'
+  - '[NL] AGG-134 static'
+  - '[KR] CAP-28 static'
+  - '[NL] AGG-149 static'
+  - '[NL] AGG-47 static'
+  - '[NL] AGG-103 static'
+  - '[FR] CAP-36 static'
+  - '[KR] AGG-130 static'
+  - '[NL] AGG-111 static'
+  - '[KR] AGG-75 static'
+  - '[JP] AGG-82 static'
+  - '[NL] AGG-191 static'
+  - '[NL] AGG-52 static'
+  - '[FR] ZP-06 static'
+  - '[NL] AGG-113 static'
+  - '[CH] AGG-73 static'
+  - '[FR] ZP-05 static'
+  - '[NL] AGG-89 static'
+  - '[CH] CAP-45 static'
+  - '[NL] AGG-112 static'
+  - '[FR] ZP-04 static'
+  - '[IT] AGG-143 static'
+  - '[NL] AGG-29 static'
+  - '[NL] AGG-190 static'
+  - '[FR] AGG-77 static'
+  - '[SE] AGG-66 static'
+  - '[NL] AGG-107 static'
+  - '[FR] AGG-99 static'
+  - '[NL] AGG-23 static'
+  - '[DE] AGG-26 static'
+  - '[DE] AGG-35 static'
+  - '[NL] ZP-10 static'
+  - '[US] AGG-08 static'
+  - '[ES] AGG-174 static'
+  - '[GB] AGG-88 static'
+  - '[US] AGG-42 static'
+  - '[NL] AGG-54 static'
+  - '[NL] AGG-108 static'
+  - '[GB] AGG-94 static'
+  - '[NL] AGG-187 static'
+  - '[GB] AGG-81 static'
+  - '[NL] AGG-53 static'
+  - '[FR] ZP-12 static'
+  - '[IT] CAP-30 static'
+  - '[NL] AGG-27 static'
+  - '[NL] AGG-20 static'
+  - '[ES] FV-02 static'
+  - '[SG] AGG-96 static'
+  - '[DE] AGG-22 static'
+  - '[ES] AGG-90 static'
+  - '[IT] AGG-98 static'
+  - '[NL] AGG-38 static'
+  - '[IN] CAP-49 static'
+  - '[SG] AGG-95 static'
+  - '[SG] AGG-46 static'
+  - '[CL] AGG-100 static'
+  - '[DE] AGG-21 static'
+  - '[US] AGG-62 static'
+  - '[GB] AGG-39 static'
+  - '[FR] AGG-79 static'
+  - '[CY] ZP-01 static'
+  - '[AT] AGG-17 static'
+  - '[CH] AGG-93 static'
+  - '[IT] AGG-97 static'
+  - '[NL] ZP-16 static'
+  - '[GB] AGG-80 static'
+  - '[IT] AGG-86 static'
+  - '[AL] AGG-144 static'
+  - '[BE] FV-03 static'
+  - '[SG] AGG-65 static'
+  - '[SG] AGG-74 static'
+  - '[PL] CAP-26 static'
+  - '[ES] AGG-34 static'
+  - '[HK] FV-07 static'
+  - '[SG] AGG-59 static'
+  - '[SG] AGG-57 static'
+  - '[IT] FV-10 static'
 - name: Apple
   type: select
   proxies:
