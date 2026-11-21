@@ -1,0 +1,105 @@
+name: refresh-subscription
+
+on:
+  schedule:
+    # 每天 20:17 UTC = 次日 04:17 Asia/Shanghai
+    - cron: '17 20 * * *'
+    # 每 6 小时补一次（可选，防止源临时抽风）
+    - cron: '17 2,8,14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-subscription
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --quiet --upgrade pip
+          python -m pip install --quiet requests PyYAML
+
+      - name: Install mihomo
+        run: |
+          set -euo pipefail
+          VER=1.19.34
+          URL="https://github.com/MetaCubeX/mihomo/releases/download/v${VER}/mihomo-linux-amd64-v${VER}.gz"
+          for i in 1 2 3; do
+            echo "attempt $i"
+            if curl -fSL --retry 2 --connect-timeout 20 --max-time 240 "$URL" -o /tmp/mihomo.gz; then
+              SZ=$(stat -c %s /tmp/mihomo.gz || echo 0)
+              if [ "$SZ" -gt 5000000 ] && gunzip -f /tmp/mihomo.gz && sudo mv /tmp/mihomo /usr/local/bin/mihomo; then
+                sudo chmod +x /usr/local/bin/mihomo
+                mihomo -v && break
+              fi
+            fi
+            sleep 5
+          done
+          test -x /usr/local/bin/mihomo
+
+      - name: Generate subscription
+        env:
+          PYTHONIOENCODING: utf-8
+          MIHOMO_BIN: /usr/local/bin/mihomo
+          TZ: Asia/Shanghai
+        run: |
+          mkdir -p out
+          python work/auto_refresh.py \
+            --mode fast \
+            --public-only \
+            --out-dir out \
+            --no-gist \
+            --max-nodes 200 \
+            --max-rtt 3000 \
+            --min-speed 20
+
+      - name: Show summary
+        if: always()
+        run: |
+          echo "=== summary ==="
+          cat out/latest_summary.json 2>/dev/null || echo "(no summary)"
+          echo "=== file ==="
+          ls -la out/ 2>/dev/null || true
+
+      - name: Commit subscription
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A out/ || true
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            N=$(python -c "import json;print(json.load(open('out/latest_summary.json'))['final'])" 2>/dev/null || echo '?')
+            git commit -m "chore: refresh subscription (${N} nodes) $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Update Gist (optional)
+        if: env.GIST_ID != ''
+        env:
+          GIST_ID: ${{ vars.GIST_ID }}
+          GH_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: |
+          if [ -z "${GIST_ID:-}" ] || [ -z "${GH_TOKEN:-}" ]; then
+            echo "GIST_ID / GIST_TOKEN not configured, skip"
+            exit 0
+          fi
+          gh gist edit "$GIST_ID" --filename valid_nodes_clash.yaml out/valid_nodes_clash.yaml \
+            --desc "Clash subscription: $(date -u +%Y-%m-%dT%H:%MZ) auto-refresh" || echo "gist update failed (non-fatal)"
