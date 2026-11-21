@@ -1,0 +1,854 @@
+log-level: warning
+mode: rule
+proxies:
+- name: '[US] TD-08 static'
+  type: vless
+  server: tvuno.oxigeno.site
+  port: 8880
+  uuid: 73b30767-bf59-4af3-9eac-dc1418418b07
+  udp: true
+  network: xhttp
+  xhttp-opts:
+    path: /naruto0
+    host: asset.media
+- name: '[US] CAP-12 static'
+  type: hysteria2
+  server: 74.208.55.79
+  port: 8445
+  password: capadm3ef1363f:bR6c1ouATNxwJW5ZxGr8JF72
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 7ompH2WXvS9tuT4L
+- name: '[US] TD-07 static'
+  type: vless
+  server: radiopop.oxigeno.site
+  port: 8880
+  uuid: 78354ee5-57ba-45c0-9b92-51610d6a64b5
+  udp: true
+  network: xhttp
+  xhttp-opts:
+    path: /damnzo
+    host: asset.media
+- name: '[US] TD-06 static'
+  type: vless
+  server: radiopap.oxigeno.site
+  port: 8880
+  uuid: 3c753881-f2a6-4411-a9e8-220c4f8f40ff
+  udp: true
+  network: xhttp
+  xhttp-opts:
+    path: /danzoooo
+    host: asset.media
+- name: '[CA] CAP-34 static'
+  type: hysteria2
+  server: 66.70.179.198
+  port: 8444
+  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: B50trH7TnbvvBsqf
+- name: '[US] ZP-08 static'
+  type: vless
+  server: 104.25.30.55
+  port: 8443
+  uuid: 472e5e43-6426-45c5-a5ae-b03fb780a70f
+  udp: true
+  tls: true
+  servername: a1045.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 7bce1e52ccd77dd805cdc6e065f5e23a
+- name: '[US] ZP-02 static'
+  type: vless
+  server: 104.25.30.55
+  port: 443
+  uuid: 6b508179-3eaf-459e-8db0-e78812ed6793
+  udp: true
+  tls: true
+  servername: a1021.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 3466ee6e2832020f793df2b0a5391a41
+- name: '[US] ZP-10 static'
+  type: vless
+  server: 104.18.125.108
+  port: 8443
+  uuid: d2dce217-f069-4cf0-b698-436ea24c6b4c
+  udp: true
+  tls: true
+  servername: a1059.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 95f464d9e9142b10dea2aa621c2e5e2c
+- name: '[DE] CAP-13 static'
+  type: hysteria2
+  server: 89.163.239.238
+  port: 8446
+  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: lBMApke34h6s7Lsb
+- name: '[US] ZP-07 static'
+  type: vless
+  server: 104.19.200.15
+  port: 8443
+  uuid: d23f8647-f3cc-4b5e-95fd-d67862336aa1
+  udp: true
+  tls: true
+  servername: a1044.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: b9e2e8f991cc2cde223a2c509b738f4b
+- name: '[ES] CAP-24 static'
+  type: hysteria2
+  server: 212.227.235.66
+  port: 8444
+  password: capadm912be8e6:IltQihbQs5HQrO3J4vklsQs9
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: BRSoROSPGCIHlaUB
+- name: '[GB] CAP-39 static'
+  type: vless
+  server: 46.250.250.149
+  port: 2053
+  uuid: e7109e79-7211-445a-a8e5-8a2c914bee9c
+  network: tcp
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zitRNbwTR9MOToLwIhWjBsSfPD1h4ZJqOXLaLq_anGE
+    short-id: 1ae3e2a180b2e0f8
+  skip-cert-verify: false
+- name: '[FI] CAP-01 static'
+  type: hysteria2
+  server: 95.216.27.15
+  port: 8446
+  password: capadm258b1ab7:C4wYg47vEaPHbS7sk8CVhbXO
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: RdUhzis2KPCYxV3y
+- name: '[FR] CAP-36 static'
+  type: hysteria2
+  server: 51.77.217.70
+  port: 8444
+  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 4ZK10qYjPHLxpNwQ
+- name: '[GB] CAP-18 static'
+  type: hysteria2
+  server: 46.250.240.80
+  port: 8445
+  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: dAvsa04Tjjfej8zK
+- name: '[GB] CAP-14 static'
+  type: hysteria2
+  server: 51.89.194.151
+  port: 8446
+  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: rmPifBmgj3g17UcS
+- name: '[CH] CAP-45 static'
+  type: hysteria2
+  server: 208.69.78.217
+  port: 8444
+  password: capadm39eba6a5:pmH1DlAu0XmFmJ4Dmfj192af
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 3KKW5w04iMrRqFeN
+- name: '[IT] SV-01 exp 11-22 02:44'
+  type: hysteria2
+  server: 151.115.164.160
+  port: 443
+  password: supro_934c13bdb2aade1f11f147801cf899d8:33278933@1795243463@ac49baa0d8fb71be19ddbac2e96303ca
+  sni: centos.org
+  skip-cert-verify: true
+  udp: true
+- name: '[FR] ZP-03 static'
+  type: vless
+  server: 104.18.12.27
+  port: 8443
+  uuid: 7f10ca73-a7eb-4143-abb1-b30fd4c07d2c
+  udp: true
+  tls: true
+  servername: a1023.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: dd76204f73f38783332a986df4e83fae
+- name: '[PL] CAP-26 static'
+  type: hysteria2
+  server: 54.37.136.194
+  port: 8444
+  password: capadm9020594b:KO8VzRUMXtScdlkOszSE57Dj
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: XXUIoiNwCXXaiJE8
+- name: '[NL] ZP-12 static'
+  type: vless
+  server: 51.194.118.32
+  port: 443
+  uuid: c35660e7-607d-4c37-8afa-57a878308006
+  udp: true
+  tls: true
+  servername: www.kinopoisk.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 9CbVjGrZfTuopAK9Y_iwLvVcUBJeO2JcumV5Fp2M4jE
+    short-id: 8af72890d39c0fd5
+  network: tcp
+- name: '[CY] ZP-01 static'
+  type: vless
+  server: 104.18.20.94
+  port: 8443
+  uuid: d340ed67-d0bc-4543-b9b3-a1b4570e3b8a
+  udp: true
+  tls: true
+  servername: a1001.big-shine.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: zp1001grpcd7381e1d69dc7b85
+- name: '[IT] CAP-30 static'
+  type: hysteria2
+  server: 57.131.38.163
+  port: 8444
+  password: capadm7792ee98:bcyrI3aUI0DywVcBD169DxfA
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: gRYeRyVrYOvGGOxi
+- name: '[FR] ZP-06 static'
+  type: vless
+  server: 104.19.204.242
+  port: 8443
+  uuid: f1c1713f-0755-47c9-ac2e-28c0876f1c8f
+  udp: true
+  tls: true
+  servername: a1043.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 261c490492f8e3325dfa94f7e2ff272f
+- name: '[FR] ZP-05 static'
+  type: vless
+  server: 104.19.194.94
+  port: 8443
+  uuid: 118d3fd4-e225-4e54-b849-973b4e82450c
+  udp: true
+  tls: true
+  servername: a1042.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 15368e1e8aee83cc4e9790ab0b3002ab
+- name: '[FR] ZP-04 static'
+  type: vless
+  server: 104.18.12.225
+  port: 8443
+  uuid: 64a9d281-f54b-486f-ae81-0f8a842e512d
+  udp: true
+  tls: true
+  servername: a1039.zeropingy-it.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: df121bfa452dec4181252855136f3571
+- name: '[NL] CAP-42 static'
+  type: hysteria2
+  server: 51.15.16.68
+  port: 8444
+  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
+- name: '[IN] CAP-49 static'
+  type: hysteria2
+  server: 194.61.31.126
+  port: 8444
+  password: capadmf1d2526a:IsKN4g2zs8HJo5yTpNcg3YZ1
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NJGeudnh1XyVY5AB
+- name: '[BE] FV-02 static'
+  type: ss
+  server: belgium.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: belgium.astroapps.io
+    path: /7a0f74508333399db96164d7
+  udp: true
+- name: '[FI] FV-05 static'
+  type: ss
+  server: finland.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 1c57654308df6d9b93b2bf749dd9f21ed7355aab8fd7ffbb
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: finland.astroapps.io
+    path: /ccad980a661bd347eaebae0f
+  udp: true
+- name: '[KR] CAP-28 static'
+  type: hysteria2
+  server: 151.245.106.49
+  port: 8444
+  password: capadm82c81367:gmjO3BFlQnteYcBo0zyvX4Vv
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: fk3DSQNLbIL0LtFl
+- name: '[BG] FV-08 static'
+  type: ss
+  server: bulgaria.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 5acf789dd7c2bf40a670a342800eff57003c2b164c3c8f53
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: bulgaria.astroapps.io
+    path: /6318c86175d20088b16c98a7
+  udp: true
+- name: '[US] ZP-11 static'
+  type: vless
+  server: 66.94.113.190
+  port: 443
+  uuid: 31ce0fbd-130b-4188-82ac-5db19bc9debd
+  udp: true
+  tls: true
+  servername: www.tesla.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 02Yg4to3gnD2VkzaE9qBZlhsMqzE_oL5tZETE-8yx1Q
+    short-id: 53050dd29221b30f
+  network: tcp
+- name: '[DK] FV-04 static'
+  type: ss
+  server: denmark.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: c917b96e084ea67a0f21031f1284f9ee9e1d837321ce6362
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: denmark.astroapps.io
+    path: /ad37249091fe1c6ac69e8c23
+  udp: true
+- name: '[IN] FV-07 static'
+  type: ss
+  server: india.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 806a291d6fa98489025802ae1285df63811ed499011dcf35
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: india.astroapps.io
+    path: /d282ea66de9394f68a3e792e
+  udp: true
+- name: '[NL] FV-01 static'
+  type: ss
+  server: 108.181.122.170
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
+  udp: true
+- name: '[EE] FV-10 static'
+  type: ss
+  server: estonia.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 104243d8a410f4e54013b7fdb57c4b688d929c7b5b89e86b
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: estonia.astroapps.io
+    path: /fd3f56f3dc9f5ceca7e57ecd
+  udp: true
+- name: '[AU] FV-09 static'
+  type: ss
+  server: australia.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: a937938b4fbffbdc3257d83e9d68cb2baf3cb65400d9ca3f
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: australia.astroapps.io
+    path: /4db434cefc7adfa3239f0fff
+  udp: true
+- name: '[AR] FV-03 static'
+  type: ss
+  server: argentina.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6ad36b1c2e1f0fefe2ef52da7000e880bfd7b574f43003ad
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: argentina.astroapps.io
+    path: /215a02e20face680507150b9
+  udp: true
+- name: '[JP] FV-11 static'
+  type: ss
+  server: japan.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6e728d826ccf032fce7ce722b8fed2cda309fde5624bf09c
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: japan.astroapps.io
+    path: /149e1010e6d6d24dbc09d4f3
+  udp: true
+proxy-groups:
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[US] TD-08 static'
+  - '[US] CAP-12 static'
+  - '[US] TD-07 static'
+  - '[US] TD-06 static'
+  - '[CA] CAP-34 static'
+  - '[US] ZP-08 static'
+  - '[US] ZP-02 static'
+  - '[US] ZP-10 static'
+  - '[DE] CAP-13 static'
+  - '[US] ZP-07 static'
+  - '[ES] CAP-24 static'
+  - '[GB] CAP-39 static'
+  - '[FI] CAP-01 static'
+  - '[FR] CAP-36 static'
+  - '[GB] CAP-18 static'
+  - '[GB] CAP-14 static'
+  - '[CH] CAP-45 static'
+  - '[IT] SV-01 exp 11-22 02:44'
+  - '[FR] ZP-03 static'
+  - '[PL] CAP-26 static'
+  - '[NL] ZP-12 static'
+  - '[CY] ZP-01 static'
+  - '[IT] CAP-30 static'
+  - '[FR] ZP-06 static'
+  - '[FR] ZP-05 static'
+  - '[FR] ZP-04 static'
+  - '[NL] CAP-42 static'
+  - '[IN] CAP-49 static'
+  - '[BE] FV-02 static'
+  - '[FI] FV-05 static'
+  - '[KR] CAP-28 static'
+  - '[BG] FV-08 static'
+  - '[US] ZP-11 static'
+  - '[DK] FV-04 static'
+  - '[IN] FV-07 static'
+  - '[NL] FV-01 static'
+  - '[EE] FV-10 static'
+  - '[AU] FV-09 static'
+  - '[AR] FV-03 static'
+  - '[JP] FV-11 static'
+- name: AUTO-EXP
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies: &id001
+  - '[IT] SV-01 exp 11-22 02:44'
+- name: AUTO-STATIC
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies: &id002
+  - '[US] TD-08 static'
+  - '[US] CAP-12 static'
+  - '[US] TD-07 static'
+  - '[US] TD-06 static'
+  - '[CA] CAP-34 static'
+  - '[US] ZP-08 static'
+  - '[US] ZP-02 static'
+  - '[US] ZP-10 static'
+  - '[DE] CAP-13 static'
+  - '[US] ZP-07 static'
+  - '[ES] CAP-24 static'
+  - '[GB] CAP-39 static'
+  - '[FI] CAP-01 static'
+  - '[FR] CAP-36 static'
+  - '[GB] CAP-18 static'
+  - '[GB] CAP-14 static'
+  - '[CH] CAP-45 static'
+  - '[FR] ZP-03 static'
+  - '[PL] CAP-26 static'
+  - '[NL] ZP-12 static'
+  - '[CY] ZP-01 static'
+  - '[IT] CAP-30 static'
+  - '[FR] ZP-06 static'
+  - '[FR] ZP-05 static'
+  - '[FR] ZP-04 static'
+  - '[NL] CAP-42 static'
+  - '[IN] CAP-49 static'
+  - '[BE] FV-02 static'
+  - '[FI] FV-05 static'
+  - '[KR] CAP-28 static'
+  - '[BG] FV-08 static'
+  - '[US] ZP-11 static'
+  - '[DK] FV-04 static'
+  - '[IN] FV-07 static'
+  - '[NL] FV-01 static'
+  - '[EE] FV-10 static'
+  - '[AU] FV-09 static'
+  - '[AR] FV-03 static'
+  - '[JP] FV-11 static'
+- name: AUTO-US
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[US] TD-08 static'
+  - '[US] CAP-12 static'
+  - '[US] TD-07 static'
+  - '[US] TD-06 static'
+  - '[US] ZP-08 static'
+  - '[US] ZP-02 static'
+  - '[US] ZP-10 static'
+  - '[US] ZP-07 static'
+  - '[US] ZP-11 static'
+- name: AUTO-CA
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[CA] CAP-34 static'
+- name: AUTO-DE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[DE] CAP-13 static'
+- name: AUTO-ES
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[ES] CAP-24 static'
+- name: AUTO-GB
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[GB] CAP-39 static'
+  - '[GB] CAP-18 static'
+  - '[GB] CAP-14 static'
+- name: AUTO-FI
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[FI] CAP-01 static'
+  - '[FI] FV-05 static'
+- name: AUTO-FR
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[FR] CAP-36 static'
+  - '[FR] ZP-03 static'
+  - '[FR] ZP-06 static'
+  - '[FR] ZP-05 static'
+  - '[FR] ZP-04 static'
+- name: AUTO-CH
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[CH] CAP-45 static'
+- name: AUTO-IT
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[IT] SV-01 exp 11-22 02:44'
+  - '[IT] CAP-30 static'
+- name: AUTO-PL
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[PL] CAP-26 static'
+- name: AUTO-NL
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[NL] ZP-12 static'
+  - '[NL] CAP-42 static'
+  - '[NL] FV-01 static'
+- name: AUTO-CY
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[CY] ZP-01 static'
+- name: AUTO-IN
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[IN] CAP-49 static'
+  - '[IN] FV-07 static'
+- name: AUTO-BE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[BE] FV-02 static'
+- name: AUTO-KR
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[KR] CAP-28 static'
+- name: AUTO-BG
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[BG] FV-08 static'
+- name: AUTO-DK
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[DK] FV-04 static'
+- name: AUTO-EE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[EE] FV-10 static'
+- name: AUTO-AU
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[AU] FV-09 static'
+- name: AUTO-AR
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[AR] FV-03 static'
+- name: AUTO-JP
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[JP] FV-11 static'
+- name: AUTO-REV
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[US] TD-08 static'
+  - '[US] CAP-12 static'
+  - '[US] TD-07 static'
+  - '[US] TD-06 static'
+  - '[CA] CAP-34 static'
+  - '[US] ZP-08 static'
+  - '[US] ZP-02 static'
+  - '[US] ZP-10 static'
+  - '[DE] CAP-13 static'
+  - '[US] ZP-07 static'
+  - '[ES] CAP-24 static'
+  - '[GB] CAP-39 static'
+  - '[FI] CAP-01 static'
+  - '[FR] CAP-36 static'
+  - '[GB] CAP-18 static'
+  - '[GB] CAP-14 static'
+  - '[CH] CAP-45 static'
+  - '[IT] SV-01 exp 11-22 02:44'
+  - '[FR] ZP-03 static'
+  - '[PL] CAP-26 static'
+  - '[NL] ZP-12 static'
+  - '[CY] ZP-01 static'
+  - '[IT] CAP-30 static'
+  - '[FR] ZP-06 static'
+  - '[FR] ZP-05 static'
+  - '[FR] ZP-04 static'
+  - '[NL] CAP-42 static'
+  - '[IN] CAP-49 static'
+  - '[BE] FV-02 static'
+  - '[FI] FV-05 static'
+  - '[KR] CAP-28 static'
+  - '[BG] FV-08 static'
+  - '[US] ZP-11 static'
+  - '[DK] FV-04 static'
+  - '[IN] FV-07 static'
+  - '[NL] FV-01 static'
+  - '[EE] FV-10 static'
+  - '[AU] FV-09 static'
+  - '[AR] FV-03 static'
+  - '[JP] FV-11 static'
+- name: EXPIRING
+  type: select
+  proxies: *id001
+- name: STATIC
+  type: select
+  proxies: *id002
+- name: PROXY
+  type: select
+  proxies:
+  - AUTO
+  - AUTO-REV
+  - AUTO-EXP
+  - AUTO-STATIC
+  - AUTO-US
+  - AUTO-CA
+  - AUTO-DE
+  - AUTO-ES
+  - AUTO-GB
+  - AUTO-FI
+  - AUTO-FR
+  - AUTO-CH
+  - AUTO-IT
+  - AUTO-PL
+  - AUTO-NL
+  - AUTO-CY
+  - AUTO-IN
+  - AUTO-BE
+  - AUTO-KR
+  - AUTO-BG
+  - AUTO-DK
+  - AUTO-EE
+  - AUTO-AU
+  - AUTO-AR
+  - AUTO-JP
+  - EXPIRING
+  - STATIC
+  - '[US] TD-08 static'
+  - '[US] CAP-12 static'
+  - '[US] TD-07 static'
+  - '[US] TD-06 static'
+  - '[CA] CAP-34 static'
+  - '[US] ZP-08 static'
+  - '[US] ZP-02 static'
+  - '[US] ZP-10 static'
+  - '[DE] CAP-13 static'
+  - '[US] ZP-07 static'
+  - '[ES] CAP-24 static'
+  - '[GB] CAP-39 static'
+  - '[FI] CAP-01 static'
+  - '[FR] CAP-36 static'
+  - '[GB] CAP-18 static'
+  - '[GB] CAP-14 static'
+  - '[CH] CAP-45 static'
+  - '[IT] SV-01 exp 11-22 02:44'
+  - '[FR] ZP-03 static'
+  - '[PL] CAP-26 static'
+  - '[NL] ZP-12 static'
+  - '[CY] ZP-01 static'
+  - '[IT] CAP-30 static'
+  - '[FR] ZP-06 static'
+  - '[FR] ZP-05 static'
+  - '[FR] ZP-04 static'
+  - '[NL] CAP-42 static'
+  - '[IN] CAP-49 static'
+  - '[BE] FV-02 static'
+  - '[FI] FV-05 static'
+  - '[KR] CAP-28 static'
+  - '[BG] FV-08 static'
+  - '[US] ZP-11 static'
+  - '[DK] FV-04 static'
+  - '[IN] FV-07 static'
+  - '[NL] FV-01 static'
+  - '[EE] FV-10 static'
+  - '[AU] FV-09 static'
+  - '[AR] FV-03 static'
+  - '[JP] FV-11 static'
+rules:
+- MATCH,PROXY
