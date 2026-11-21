@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-22 01:19:28 CST",
+  "generated_at": "2026-11-22 01:25:35 CST",
   "candidates": 80,
-  "final": 35,
+  "final": 34,
   "filtered": {
-    "latency": 2,
+    "latency": 4,
     "speed": 1,
-    "dead_or_https": 9,
+    "dead_or_https": 8,
     "dup_exit_ip": 33
   },
   "by_source": {
@@ -13,24 +13,24 @@
     "ZeroPing": 2,
     "TunnelDOOM": 4,
     "SuperVPN-Pro": 1,
-    "FastVPN-Astro": 13
+    "FastVPN-Astro": 12
   },
   "by_country": {
     "US": 6,
     "CA": 1,
     "FI": 2,
-    "GB": 4,
-    "ES": 2,
     "DE": 1,
+    "GB": 4,
     "FR": 1,
-    "IT": 3,
     "KR": 1,
+    "ES": 2,
+    "IT": 3,
     "CH": 1,
+    "NL": 3,
     "PL": 1,
-    "NL": 4,
-    "IN": 2,
     "BE": 1,
     "HK": 1,
+    "IN": 2,
     "BG": 1,
     "EE": 1,
     "DK": 1,
@@ -39,12 +39,12 @@
   "by_type": {
     "hysteria2": 15,
     "vless": 7,
-    "ss": 13
+    "ss": 12
   },
   "expiring": 1,
-  "static": 34,
+  "static": 33,
   "public": 0,
-  "reverse": 35,
+  "reverse": 34,
   "groups": [
     "AUTO",
     "AUTO-EXP",
@@ -52,18 +52,18 @@
     "AUTO-US",
     "AUTO-CA",
     "AUTO-FI",
-    "AUTO-GB",
-    "AUTO-ES",
     "AUTO-DE",
+    "AUTO-GB",
     "AUTO-FR",
-    "AUTO-IT",
     "AUTO-KR",
+    "AUTO-ES",
+    "AUTO-IT",
     "AUTO-CH",
-    "AUTO-PL",
     "AUTO-NL",
-    "AUTO-IN",
+    "AUTO-PL",
     "AUTO-BE",
     "AUTO-HK",
+    "AUTO-IN",
     "AUTO-BG",
     "AUTO-EE",
     "AUTO-DK",
@@ -76,11 +76,9 @@
     "Apple",
     "Microsoft",
     "GitHub",
-    "Game",
-    "DIRECT",
-    "REJECT"
+    "Game"
   ],
   "token_expiry_min": "2026-11-21T18:44:23+00:00",
   "token_expiry_max": "2026-11-21T18:44:23+00:00",
-  "next_refresh_due": "2026-11-22 04:19 CST"
+  "next_refresh_due": "2026-11-22 04:25 CST"
 }
