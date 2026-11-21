@@ -1,151 +1,143 @@
 ﻿name,source,type,server,port,country,country_code,isp,exit_ip,latency_ms,https_ms,speed_kbps,validity_type,issued_at,expires_at,validity_label,tested_at
-[US] AGG-122 static,Aggregator,ss,137.184.89.151,19999,United States,US,"DigitalOcean, LLC",137.184.89.151,78,121,1436.4,static,2026-11-21T19:26:05.962189+00:00,,static,2026-11-22 03:29:35
-[US] CAP-12 static,CapVPN,hysteria2,74.208.55.79,8447,United States,US,IONOS SE,74.208.55.79,142,237,1365.3,static,2026-11-21T19:26:05.809904+00:00,,static,2026-11-22 03:29:35
-[US] AGG-55 static,Aggregator,ss,95.215.201.18,19999,United States,US,GTHost,95.215.201.143,79,89,1248.3,static,2026-11-21T19:26:05.961974+00:00,,static,2026-11-22 03:29:35
-[CA] AGG-104 static,Aggregator,ss,149.22.95.183,443,Canada,CA,Datacamp Limited,149.22.95.183,139,138,1036.1,static,2026-11-21T19:26:05.962152+00:00,,static,2026-11-22 03:29:35
-[US] TD-10 static,TunnelDOOM,vless,tvdos.oxigeno.site,8880,United States,US,UpCloud USA Inc,152.44.41.66,179,271,1016.1,cfg,2026-11-21T19:26:05.756373+00:00,,static,2026-11-22 03:29:35
-[US] AGG-83 static,Aggregator,ss,156.146.38.168,443,United States,US,Datacamp Limited,156.146.38.168,127,239,896.2,static,2026-11-21T19:26:05.962031+00:00,,static,2026-11-22 03:29:35
-[US] AGG-19 static,Aggregator,ss,167.88.63.99,19999,United States,US,GTHost,167.88.63.99,240,356,873.8,static,2026-11-21T19:26:05.961897+00:00,,static,2026-11-22 03:29:35
-[US] AGG-49 static,Aggregator,ss,38.91.107.188,19999,United States,US,GTHost,38.91.107.188,271,394,863.7,static,2026-11-21T19:26:05.961962+00:00,,static,2026-11-22 03:29:35
-[US] AGG-06 static,Aggregator,ss,167.88.62.203,19999,United States,US,GTHost,167.88.62.203,80,203,836.2,static,2026-11-21T19:26:05.961865+00:00,,static,2026-11-22 03:29:35
-[US] AGG-60 static,Aggregator,ss,216.106.178.169,19999,United States,US,GTHost,216.106.178.169,169,311,838.9,static,2026-11-21T19:26:05.961984+00:00,,static,2026-11-22 03:29:35
-[US] AGG-37 static,Aggregator,ss,38.128.66.32,19999,United States,US,GTHost,38.128.66.32,194,265,823.1,static,2026-11-21T19:26:05.961937+00:00,,static,2026-11-22 03:29:35
-[US] AGG-31 static,Aggregator,ss,84.20.27.183,19999,United States,US,Datacamp Limited,84.20.27.183,183,263,820.5,static,2026-11-21T19:26:05.961925+00:00,,static,2026-11-22 03:29:35
-[US] AGG-24 static,Aggregator,ss,38.121.43.18,19999,United States,US,GTHost,38.121.43.18,199,382,820.5,static,2026-11-21T19:26:05.961908+00:00,,static,2026-11-22 03:29:35
-[US] AGG-44 static,Aggregator,ss,23.150.152.38,19999,United States,US,GTHost,23.150.152.38,77,194,806.6,static,2026-11-21T19:26:05.961952+00:00,,static,2026-11-22 03:29:35
-[US] AGG-68 static,Aggregator,ss,173.244.56.9,443,United States,US,GSL Networks Pty LTD,173.244.56.9,65,75,799.2,static,2026-11-21T19:26:05.962000+00:00,,static,2026-11-22 03:29:35
-[US] AGG-40 static,Aggregator,ss,149.40.57.134,19999,United States,US,Datacamp Limited,149.40.57.134,179,240,800.4,static,2026-11-21T19:26:05.961943+00:00,,static,2026-11-22 03:29:35
-[US] AGG-42 static,Aggregator,ss,156.146.38.169,443,United States,US,Datacamp Limited,156.146.38.169,115,180,779.0,static,2026-11-21T19:26:05.961947+00:00,,static,2026-11-22 03:29:35
-[US] TD-06 static,TunnelDOOM,vless,radiopap.oxigeno.site,8880,United States,US,UpCloud USA Inc,209.151.149.62,173,278,781.4,cfg,2026-11-21T19:26:05.756362+00:00,,static,2026-11-22 03:29:35
-[US] AGG-63 static,Aggregator,ss,38.91.100.39,19999,United States,US,GTHost,38.91.100.39,167,197,752.2,static,2026-11-21T19:26:05.961990+00:00,,static,2026-11-22 03:29:35
-[US] AGG-62 static,Aggregator,ss,37.19.198.243,443,United States,US,Datacamp Limited,37.19.198.243,171,297,753.3,static,2026-11-21T19:26:05.961988+00:00,,static,2026-11-22 03:29:35
-[US] TD-08 static,TunnelDOOM,vless,tvuno.oxigeno.site,8880,United States,US,UpCloud USA Inc,194.113.75.1,176,256,751.1,cfg,2026-11-21T19:26:05.756367+00:00,,static,2026-11-22 03:29:35
-[US] AGG-33 static,Aggregator,ss,38.22.17.219,19999,United States,US,Cogent Communications,38.22.17.219,192,312,744.7,static,2026-11-21T19:26:05.961929+00:00,,static,2026-11-22 03:29:35
-[US] AGG-07 static,Aggregator,ss,185.230.230.18,19999,United States,US,Washington DC,185.230.230.142,172,287,717.2,static,2026-11-21T19:26:05.961868+00:00,,static,2026-11-22 03:29:35
-[CA] CAP-03 static,CapVPN,hysteria2,66.70.179.198,8447,Canada,CA,OVH SAS,66.70.179.198,284,244,719.2,static,2026-11-21T19:26:05.809877+00:00,,static,2026-11-22 03:29:35
-[US] AGG-45 static,Aggregator,ss,162.251.62.31,19999,United States,US,GTHost,162.251.62.31,290,447,705.6,static,2026-11-21T19:26:05.961954+00:00,,static,2026-11-22 03:29:35
-[US] TD-07 static,TunnelDOOM,vless,radiopop.oxigeno.site,8880,United States,US,UpCloud USA Inc,85.9.193.176,210,274,688.0,cfg,2026-11-21T19:26:05.756365+00:00,,static,2026-11-22 03:29:35
-[US] AGG-12 static,Aggregator,ss,173.244.56.6,443,United States,US,GSL Networks Pty LTD,173.244.56.6,101,243,657.0,static,2026-11-21T19:26:05.961880+00:00,,static,2026-11-22 03:29:35
-[US] AGG-43 static,Aggregator,ss,156.146.38.170,443,United States,US,Datacamp Limited,156.146.38.170,117,263,653.7,static,2026-11-21T19:26:05.961949+00:00,,static,2026-11-22 03:29:35
-[US] AGG-05 static,Aggregator,ss,193.151.160.18,19999,United States,US,GTHost,193.151.160.141,212,347,652.9,static,2026-11-21T19:26:05.961863+00:00,,static,2026-11-22 03:29:35
-[US] AGG-70 static,Aggregator,ss,37.19.198.160,443,United States,US,Datacamp Limited,37.19.198.160,165,387,651.3,static,2026-11-21T19:26:05.962004+00:00,,static,2026-11-22 03:29:35
-[US] ZP-06 static,ZeroPing,vless,66.94.113.190,443,United States,US,Contabo Inc.,66.94.113.190,185,269,649.7,static,2026-11-21T19:26:05.818532+00:00,,static,2026-11-22 03:29:35
-[JP] AGG-82 static,Aggregator,ss,149.22.87.204,443,Japan,JP,Datacamp Limited,149.22.87.204,355,330,612.5,static,2026-11-21T19:26:05.962029+00:00,,static,2026-11-22 03:29:35
-[JP] AGG-92 static,Aggregator,ss,149.22.87.240,443,Japan,JP,Datacamp Limited,149.22.87.240,343,312,605.4,static,2026-11-21T19:26:05.962127+00:00,,static,2026-11-22 03:29:35
-[JP] AGG-142 static,Aggregator,ss,jpa.123069.xyz,53758,Japan,JP,Oracle Corporation,168.138.205.100,363,388,605.4,static,2026-11-21T19:26:05.962231+00:00,,static,2026-11-22 03:29:35
-[US] ZP-04 static,ZeroPing,vless,104.18.54.132,8443,United States,US,OVH SAS,15.204.123.143,124,240,619.0,static,2026-11-21T19:26:05.818527+00:00,,static,2026-11-22 03:29:35
-[US] AGG-04 static,Aggregator,ss,193.151.160.9,19999,United States,US,GTHost,193.151.160.131,201,438,621.9,static,2026-11-21T19:26:05.961861+00:00,,static,2026-11-22 03:29:35
-[US] AGG-16 static,Aggregator,ss,169.197.142.68,19999,United States,US,GTHost,169.197.142.68,107,242,611.8,static,2026-11-21T19:26:05.961889+00:00,,static,2026-11-22 03:29:35
-[US] AGG-67 static,Aggregator,ss,37.19.198.244,443,United States,US,Datacamp Limited,37.19.198.244,170,440,613.9,static,2026-11-21T19:26:05.961998+00:00,,static,2026-11-22 03:29:35
-[CA] AGG-120 static,Aggregator,ss,51.222.136.236,8882,Canada,CA,OVH SAS,51.222.136.236,993,509,625.6,static,2026-11-21T19:26:05.962185+00:00,,static,2026-11-22 03:29:35
-[JP] AGG-85 static,Aggregator,ss,149.22.87.241,443,Japan,JP,Datacamp Limited,149.22.87.241,356,372,577.4,static,2026-11-21T19:26:05.962035+00:00,,static,2026-11-22 03:29:35
-[CA] AGG-69 static,Aggregator,ss,137.184.174.93,8080,Canada,CA,"DigitalOcean, LLC",137.184.174.93,205,485,556.0,static,2026-11-21T19:26:05.962002+00:00,,static,2026-11-22 03:29:35
-[US] AGG-145 static,Aggregator,ss,149.40.57.133,19999,United States,US,Datacamp Limited,149.40.57.133,186,229,549.6,static,2026-11-21T19:26:05.962237+00:00,,static,2026-11-22 03:29:35
-[GB] CAP-37 static,CapVPN,hysteria2,46.250.250.149,8444,United Kingdom,GB,Contabo Asia Private Limited,46.250.250.149,566,286,555.4,static,2026-11-21T19:26:05.809988+00:00,,static,2026-11-22 03:29:35
-[CA] AGG-115 static,Aggregator,ss,51.222.12.127,445,Canada,CA,OVH SAS,51.222.12.127,217,275,533.4,static,2026-11-21T19:26:05.962174+00:00,,static,2026-11-22 03:29:35
-[DE] CAP-05 static,CapVPN,hysteria2,89.163.239.238,8445,Germany,DE,WIIT AG,89.163.239.238,464,370,531.2,static,2026-11-21T19:26:05.809882+00:00,,static,2026-11-22 03:29:35
-[US] AGG-10 static,Aggregator,ss,38.121.43.225,19999,United States,US,GTHost,38.121.43.225,228,332,524.8,static,2026-11-21T19:26:05.961876+00:00,,static,2026-11-22 03:29:35
-[US] AGG-03 static,Aggregator,trojan,167.88.61.52,443,United States,US,GlobalTeleHost Corp.,167.88.61.52,99,169,509.5,static,2026-11-21T19:26:05.961859+00:00,,static,2026-11-22 03:29:35
-[CA] AGG-136 static,Aggregator,ss,51.79.85.185,8118,Canada,CA,OVH SAS,51.79.85.185,241,461,511.5,static,2026-11-21T19:26:05.962219+00:00,,static,2026-11-22 03:29:35
-[US] ZP-05 static,ZeroPing,vless,104.18.12.27,8443,United States,US,OVH SAS,40.160.143.124,125,430,504.6,static,2026-11-21T19:26:05.818529+00:00,,static,2026-11-22 03:29:35
-[US] AGG-11 static,Aggregator,ss,38.121.43.231,19999,United States,US,GTHost,38.121.43.231,225,404,502.7,static,2026-11-21T19:26:05.961878+00:00,,static,2026-11-22 03:29:35
-[US] AGG-02 static,Aggregator,ss,45.86.51.18,19999,United States,US,GTHost,45.86.51.144,118,285,484.1,static,2026-11-21T19:26:05.961856+00:00,,static,2026-11-22 03:29:35
-[KR] CAP-27 static,CapVPN,hysteria2,151.245.106.49,8444,South Korea,KR,HostHatch,151.245.106.49,791,441,471.1,static,2026-11-21T19:26:05.809952+00:00,,static,2026-11-22 03:29:35
-[GB] AGG-129 static,Aggregator,ss,38.114.120.221,19999,United Kingdom,GB,GTHost,38.114.120.221,277,422,485.9,static,2026-11-21T19:26:05.962203+00:00,,static,2026-11-22 03:29:35
-[FI] CAP-01 static,CapVPN,hysteria2,95.216.27.15,8447,Finland,FI,Hetzner Online GmbH,95.216.27.15,518,374,489.5,static,2026-11-21T19:26:05.809850+00:00,,static,2026-11-22 03:29:35
-[NL] CAP-10 static,CapVPN,hysteria2,51.15.16.68,8447,The Netherlands,NL,SCALEWAY,51.15.16.68,1243,420,507.5,static,2026-11-21T19:26:05.809899+00:00,,static,2026-11-22 03:29:35
-[US] AGG-01 static,Aggregator,ss,193.151.163.18,19999,United States,US,New Jersey,193.151.163.139,147,256,477.9,static,2026-11-21T19:26:05.961837+00:00,,static,2026-11-22 03:29:35
-[GB] AGG-15 static,Aggregator,ss,185.176.206.9,19999,United Kingdom,GB,GTHost,185.176.206.133,293,573,481.4,static,2026-11-21T19:26:05.961887+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-149 static,Aggregator,ss,82.38.31.199,8080,The Netherlands,NL,Greenhost BV,193.29.139.184,350,417,475.3,static,2026-11-21T19:26:05.962245+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-113 static,Aggregator,ss,82.38.31.66,8080,The Netherlands,NL,Greenhost BV,193.29.139.164,462,760,474.5,static,2026-11-21T19:26:05.962170+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-13 static,Aggregator,ss,193.29.139.168,8080,The Netherlands,NL,Greenhost BV,193.29.139.168,301,751,470.2,static,2026-11-21T19:26:05.961883+00:00,,static,2026-11-22 03:29:35
-[FR] AGG-79 static,Aggregator,ss,172.99.189.142,19999,France,FR,GTHost,172.99.189.142,446,442,470.6,static,2026-11-21T19:26:05.962023+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-47 static,Aggregator,ss,109.201.152.181,443,The Netherlands,NL,NForce Entertainment B.V.,109.201.152.181,527,436,467.3,static,2026-11-21T19:26:05.961958+00:00,,static,2026-11-22 03:29:35
-[FR] AGG-106 static,Aggregator,ss,167.17.64.175,19999,France,FR,GTHost,167.17.64.175,447,456,464.4,static,2026-11-21T19:26:05.962156+00:00,,static,2026-11-22 03:29:35
-[US] AGG-78 static,Aggregator,ss,172.111.38.72,19999,United States,US,GTHost,172.111.38.72,125,239,448.9,static,2026-11-21T19:26:05.962021+00:00,,static,2026-11-22 03:29:35
-[GB] CAP-06 static,CapVPN,hysteria2,51.89.194.151,8447,United Kingdom,GB,OVH SAS,51.89.194.151,499,390,459.5,static,2026-11-21T19:26:05.809885+00:00,,static,2026-11-22 03:29:35
-[KR] AGG-130 static,Aggregator,ss,211.178.105.134,6123,South Korea,KR,SK Broadband Co Ltd,211.178.105.134,488,674,430.1,static,2026-11-21T19:26:05.962205+00:00,,static,2026-11-22 03:29:35
-[KR] AGG-118 static,Aggregator,ss,p141.panda001.net,4652,South Korea,KR,SK Broadband Co Ltd,218.237.185.234,487,590,428.7,static,2026-11-21T19:26:05.962180+00:00,,static,2026-11-22 03:29:35
-[US] AGG-08 static,Aggregator,ss,38.22.17.129,19999,United States,US,Cogent Communications,38.22.17.129,209,356,448.9,static,2026-11-21T19:26:05.961871+00:00,,static,2026-11-22 03:29:35
-[FR] AGG-132 static,Aggregator,ss,107.161.160.28,8388,France,FR,YottaSrc,107.161.160.28,317,455,451.2,static,2026-11-21T19:26:05.962210+00:00,,static,2026-11-22 03:29:35
-[FR] CAP-08 static,CapVPN,hysteria2,51.77.217.70,8447,France,FR,OVH SAS,51.77.217.70,513,403,455.1,static,2026-11-21T19:26:05.809890+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-102 static,Aggregator,ss,82.38.31.49,8080,The Netherlands,NL,Greenhost BV,193.29.139.219,295,610,448.9,static,2026-11-21T19:26:05.962148+00:00,,static,2026-11-22 03:29:35
-[US] AGG-09 static,Aggregator,ss,172.111.36.123,19999,United States,US,GTHost,172.111.36.123,202,364,442.8,static,2026-11-21T19:26:05.961873+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-61 static,Aggregator,ss,82.38.31.216,8080,The Netherlands,NL,Greenhost BV,193.29.139.139,541,827,453.5,static,2026-11-21T19:26:05.961986+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-111 static,Aggregator,ss,82.38.31.162,443,The Netherlands,NL,Greenhost BV,193.29.139.221,281,427,439.8,static,2026-11-21T19:26:05.962166+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-112 static,Aggregator,ss,178.83.185.156,8080,The Netherlands,NL,Greenhost BV,193.29.139.236,283,416,439.5,static,2026-11-21T19:26:05.962168+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-89 static,Aggregator,ss,158.173.20.171,443,The Netherlands,NL,Datacamp Limited,158.173.20.171,318,504,440.9,static,2026-11-21T19:26:05.962119+00:00,,static,2026-11-22 03:29:35
-[CH] CAP-44 static,CapVPN,hysteria2,208.69.78.217,8444,Switzerland,CH,GTHost,208.69.78.217,649,431,445.8,static,2026-11-21T19:26:05.810006+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-133 static,Aggregator,ss,82.38.31.219,8080,The Netherlands,NL,Greenhost BV,193.29.139.132,511,1444,452.4,static,2026-11-21T19:26:05.962212+00:00,,static,2026-11-22 03:29:35
-[GB] AGG-94 static,Aggregator,ss,158.173.24.73,443,United Kingdom,GB,Datacamp Limited,158.173.24.73,295,443,436.5,static,2026-11-21T19:26:05.962131+00:00,,static,2026-11-22 03:29:35
-[FR] AGG-71 static,Aggregator,ss,167.17.64.22,19999,France,FR,GTHost,167.17.64.22,430,645,435.8,static,2026-11-21T19:26:05.962006+00:00,,static,2026-11-22 03:29:35
-[ES] CAP-23 static,CapVPN,hysteria2,212.227.235.66,8444,Spain,ES,IONOS SE,212.227.235.66,657,424,428.7,static,2026-11-21T19:26:05.809942+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-29 static,Aggregator,ss,82.38.31.187,8080,The Netherlands,NL,Greenhost BV,193.29.139.152,277,428,414.5,static,2026-11-21T19:26:05.961920+00:00,,static,2026-11-22 03:29:35
-[DE] AGG-26 static,Aggregator,ss,193.108.119.3,19999,Germany,DE,GTHost,193.108.119.3,301,428,414.5,static,2026-11-21T19:26:05.961913+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-51 static,Aggregator,ss,82.38.31.208,8080,The Netherlands,NL,Greenhost BV,193.29.139.161,492,728,419.4,static,2026-11-21T19:26:05.961966+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-23 static,Aggregator,ss,151.241.19.29,19999,The Netherlands,NL,"DigitalOcean, LLC",151.241.19.29,301,441,409.6,static,2026-11-21T19:26:05.961906+00:00,,static,2026-11-22 03:29:35
-[CH] AGG-93 static,Aggregator,ss,186.190.215.251,19999,Switzerland,CH,GTHost,186.190.215.251,497,455,413.8,static,2026-11-21T19:26:05.962129+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-52 static,Aggregator,ss,82.38.31.181,8080,The Netherlands,NL,Greenhost BV,193.29.139.147,1619,414,440.2,static,2026-11-21T19:26:05.961968+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-54 static,Aggregator,ss,82.38.31.193,8080,The Netherlands,NL,Greenhost BV,193.29.139.198,349,428,408.0,static,2026-11-21T19:26:05.961972+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-20 static,Aggregator,ss,151.241.19.36,19999,The Netherlands,NL,"DigitalOcean, LLC",151.241.19.36,300,445,406.1,static,2026-11-21T19:26:05.961899+00:00,,static,2026-11-22 03:29:35
-[ES] AGG-90 static,Aggregator,ss,167.17.71.167,19999,Spain,ES,GTHost,167.17.71.167,346,524,408.0,static,2026-11-21T19:26:05.962122+00:00,,static,2026-11-22 03:29:35
-[US] AGG-109 static,Aggregator,ss,15.204.247.206,4444,United States,US,OVH SAS,15.204.247.206,233,527,405.2,static,2026-11-21T19:26:05.962162+00:00,,static,2026-11-22 03:29:35
-[SG] AGG-64 static,Aggregator,ss,149.88.107.47,19999,Singapore,SG,Datacamp Limited,149.88.107.47,357,524,376.4,static,2026-11-21T19:26:05.961992+00:00,,static,2026-11-22 03:29:35
-[SG] AGG-57 static,Aggregator,ss,149.88.107.74,19999,Singapore,SG,Datacamp Limited,149.88.107.74,418,711,377.2,static,2026-11-21T19:26:05.961978+00:00,,static,2026-11-22 03:29:35
-[ES] AGG-34 static,Aggregator,ss,66.163.118.103,19999,Spain,ES,GTHost,66.163.118.103,345,529,396.3,static,2026-11-21T19:26:05.961931+00:00,,static,2026-11-22 03:29:35
-[FR] AGG-77 static,Aggregator,ss,23.162.152.22,19999,France,FR,GTHost,23.162.152.22,488,508,396.3,static,2026-11-21T19:26:05.962019+00:00,,static,2026-11-22 03:29:35
-[DE] AGG-35 static,Aggregator,ss,23.157.88.43,19999,Germany,DE,GTHost,23.157.88.43,332,466,390.7,static,2026-11-21T19:26:05.961933+00:00,,static,2026-11-22 03:29:35
-[US] AGG-84 static,Aggregator,ss,37.19.198.236,443,United States,US,Datacamp Limited,37.19.198.236,172,268,378.0,static,2026-11-21T19:26:05.962033+00:00,,static,2026-11-22 03:29:35
-[IT] AGG-137 static,Aggregator,ss,202.50.253.81,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.78,1552,707,410.2,static,2026-11-21T19:26:05.962221+00:00,,static,2026-11-22 03:29:35
-[GB] AGG-88 static,Aggregator,ss,198.244.202.215,19999,United Kingdom,GB,OVH SAS,198.244.202.215,338,555,375.8,static,2026-11-21T19:26:05.962041+00:00,,static,2026-11-22 03:29:35
-[PL] CAP-25 static,CapVPN,hysteria2,54.37.136.194,8444,Poland,PL,OVH SAS,54.37.136.194,666,580,381.0,static,2026-11-21T19:26:05.809947+00:00,,static,2026-11-22 03:29:35
-[GB] AGG-80 static,Aggregator,ss,198.244.201.129,19999,United Kingdom,GB,OVH SAS,198.244.201.129,335,503,368.7,static,2026-11-21T19:26:05.962025+00:00,,static,2026-11-22 03:29:35
-[FR] AGG-99 static,Aggregator,ss,167.17.64.27,19999,France,FR,GTHost,167.17.64.27,440,446,364.1,static,2026-11-21T19:26:05.962141+00:00,,static,2026-11-22 03:29:35
-[IT] CAP-29 static,CapVPN,hysteria2,57.131.38.163,8444,Italy,IT,OVH SAS,57.131.38.163,625,575,367.9,static,2026-11-21T19:26:05.809957+00:00,,static,2026-11-22 03:29:35
-[AU] AGG-30 static,Aggregator,trojan,45.63.30.142,443,Australia,AU,Choopa,45.63.30.142,417,655,361.3,static,2026-11-21T19:26:05.961922+00:00,,static,2026-11-22 03:29:35
-[AT] AGG-17 static,Aggregator,ss,82.110.60.9,19999,Austria,AT,Datacamp Limited,51.241.209.4,441,626,358.1,static,2026-11-21T19:26:05.961892+00:00,,static,2026-11-22 03:29:35
-[GB] CAP-18 static,CapVPN,hysteria2,46.250.240.80,8446,United Kingdom,GB,Contabo Asia Private Limited,46.250.240.80,952,588,359.8,static,2026-11-21T19:26:05.809930+00:00,,static,2026-11-22 03:29:35
-[IT] AGG-98 static,Aggregator,ss,185.164.175.81,19999,Italy,IT,Datacamp Limited,185.162.118.8,331,10337,439.1,static,2026-11-21T19:26:05.962139+00:00,,static,2026-11-22 03:29:35
-[KR] AGG-75 static,Aggregator,trojan,158.247.253.243,443,South Korea,KR,"The Constant Company, LLC",158.247.253.243,721,775,322.2,static,2026-11-21T19:26:05.962014+00:00,,static,2026-11-22 03:29:35
-[CL] AGG-100 static,Aggregator,trojan,64.176.7.205,443,Chile,CL,The Constant Company,64.176.7.205,803,707,353.5,static,2026-11-21T19:26:05.962143+00:00,,static,2026-11-22 03:29:35
-[SG] AGG-96 static,Aggregator,ss,15.235.164.133,19999,Singapore,SG,OVH SAS,15.235.164.133,407,630,312.3,static,2026-11-21T19:26:05.962135+00:00,,static,2026-11-22 03:29:35
-[FR] ZP-03 static,ZeroPing,vless,104.18.15.62,8443,France,FR,OVH SAS,91.134.137.4,390,491,338.3,static,2026-11-21T19:26:05.818524+00:00,,static,2026-11-22 03:29:35
-[SG] AGG-59 static,Aggregator,ss,68.183.227.4,8080,Singapore,SG,"DigitalOcean, LLC",68.183.227.4,359,697,309.1,static,2026-11-21T19:26:05.961982+00:00,,static,2026-11-22 03:29:35
-[SG] AGG-46 static,Aggregator,ss,15.235.182.183,19999,Singapore,SG,OVH SAS,15.235.182.183,464,633,307.7,static,2026-11-21T19:26:05.961956+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-190 static,Aggregator,ss,82.38.31.176,8080,The Netherlands,NL,Greenhost BV,193.29.139.212,361,1289,340.0,static,2026-11-21T19:26:05.962331+00:00,,static,2026-11-22 03:29:35
-[GB] AGG-39 static,Aggregator,ss,146.70.61.37,8080,United Kingdom,GB,M247 Europe SRL,146.70.61.37,791,638,341.6,static,2026-11-21T19:26:05.961941+00:00,,static,2026-11-22 03:29:35
-[IT] AGG-86 static,Aggregator,ss,202.50.253.27,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.151,669,890,339.6,static,2026-11-21T19:26:05.962037+00:00,,static,2026-11-22 03:29:35
-[ES] AGG-179 static,Aggregator,ss,5.188.181.201,9005,Spain,ES,Melbikomas UAB,5.188.181.201,334,424,325.4,static,2026-11-21T19:26:05.962308+00:00,,static,2026-11-22 03:29:35
-[TW] AGG-119 static,Aggregator,vmess,dp8yk.xiaoyan.io,16616,Taiwan,TW,WAP.AC LLC,85.237.206.10,764,781,305.4,static,2026-11-21T19:26:05.962183+00:00,,static,2026-11-22 03:29:35
-[DE] AGG-22 static,Aggregator,ss,57.129.83.85,19999,Germany,DE,OVH SAS,57.129.83.85,547,563,327.5,static,2026-11-21T19:26:05.961904+00:00,,static,2026-11-22 03:29:35
-[SG] AGG-74 static,Aggregator,ss,149.88.106.74,19999,Singapore,SG,Datacamp Limited,149.88.106.74,341,597,292.2,static,2026-11-21T19:26:05.962012+00:00,,static,2026-11-22 03:29:35
-[ES] FV-02 static,FastVPN-Astro,ss,108.181.121.178,443,Spain,ES,Psychz Networks,108.181.70.65,409,598,319.7,static,2026-11-21T19:26:05.741838+00:00,,static,2026-11-22 03:29:35
-[IT] AGG-91 static,Aggregator,ss,202.50.253.18,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.148,822,989,329.7,static,2026-11-21T19:26:05.962125+00:00,,static,2026-11-22 03:29:35
-[NL] ZP-07 static,ZeroPing,vless,51.194.118.32,443,The Netherlands,NL,Vuedge Tech LLC,51.194.118.32,555,662,316.0,static,2026-11-21T19:26:05.818535+00:00,,static,2026-11-22 03:29:35
-[CY] ZP-01 static,ZeroPing,vless,104.18.20.94,8443,Cyprus,CY,Hostman LTD,195.133.93.6,257,450,304.8,static,2026-11-21T19:26:05.818511+00:00,,static,2026-11-22 03:29:35
-[GB] FV-09 static,FastVPN-Astro,ss,uk.hwssolutions.com,443,United Kingdom,GB,GTHost,186.190.211.2,683,847,318.1,static,2026-11-21T19:26:05.741863+00:00,,static,2026-11-22 03:29:35
-[IT] AGG-143 static,Aggregator,ss,202.50.253.63,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.58,608,1815,325.4,static,2026-11-21T19:26:05.962233+00:00,,static,2026-11-22 03:29:35
-[GB] AGG-147 static,Aggregator,ss,141.98.101.181,443,United Kingdom,GB,M247 Europe SRL,141.98.101.181,449,437,301.0,static,2026-11-21T19:26:05.962241+00:00,,static,2026-11-22 03:29:35
-[SE] AGG-66 static,Aggregator,ss,138.199.55.243,19999,Sweden,SE,Datacamp Limited,138.199.55.243,527,814,303.6,static,2026-11-21T19:26:05.961996+00:00,,static,2026-11-22 03:29:35
-[NL] ZP-02 static,ZeroPing,vless,104.18.40.25,8443,The Netherlands,NL,Hostman LTD,212.192.3.135,603,550,302.0,static,2026-11-21T19:26:05.818522+00:00,,static,2026-11-22 03:29:35
-[FR] AGG-76 static,Aggregator,ss,38.109.228.110,19999,France,FR,GTHost,38.109.228.110,624,760,297.9,static,2026-11-21T19:26:05.962016+00:00,,static,2026-11-22 03:29:35
-[ES] AGG-36 static,Aggregator,ss,79.127.139.242,19999,Spain,ES,Datacamp Limited,79.127.139.242,491,490,291.4,static,2026-11-21T19:26:05.961935+00:00,,static,2026-11-22 03:29:35
-[IN] CAP-48 static,CapVPN,hysteria2,194.61.31.126,8444,India,IN,Contabo Asia Private Limited,194.61.31.126,838,599,267.2,static,2026-11-21T19:26:05.810014+00:00,,static,2026-11-22 03:29:35
-[BE] FV-03 static,FastVPN-Astro,ss,belgium.astroapps.io,443,Belgium,BE,M247 Europe SRL,38.244.131.89,879,925,301.3,static,2026-11-21T19:26:05.741840+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-14 static,Aggregator,ss,193.29.139.223,8080,The Netherlands,NL,Greenhost BV,193.29.139.223,509,563,286.0,static,2026-11-21T19:26:05.961885+00:00,,static,2026-11-22 03:29:35
-[HK] FV-07 static,FastVPN-Astro,ss,hongkong.astroapps.io,443,Hong Kong,HK,M247 Europe SRL,38.180.189.219,915,1056,270.5,static,2026-11-21T19:26:05.741852+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-114 static,Aggregator,ss,82.38.31.62,8080,The Netherlands,NL,Greenhost BV,193.29.139.202,282,418,269.8,static,2026-11-21T19:26:05.962172+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-108 static,Aggregator,ss,82.38.31.46,8080,The Netherlands,NL,Greenhost BV,193.29.139.239,282,608,270.4,static,2026-11-21T19:26:05.962160+00:00,,static,2026-11-22 03:29:35
-[CH] AGG-73 static,Aggregator,ss,23.166.88.127,19999,Switzerland,CH,GTHost,23.166.88.127,493,736,266.4,static,2026-11-21T19:26:05.962010+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-107 static,Aggregator,ss,82.38.31.35,8080,The Netherlands,NL,Greenhost BV,193.29.139.137,268,811,260.3,static,2026-11-21T19:26:05.962158+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-48 static,Aggregator,ss,82.38.31.212,8080,The Netherlands,NL,Greenhost BV,193.29.139.203,302,627,256.6,static,2026-11-21T19:26:05.961960+00:00,,static,2026-11-22 03:29:35
-[IT] FV-10 static,FastVPN-Astro,ss,italy.astroapps.io,443,Italy,IT,M247 Europe SRL,38.180.224.7,823,1096,273.8,static,2026-11-21T19:26:05.741866+00:00,,static,2026-11-22 03:29:35
-[IT] AGG-128 static,Aggregator,ss,202.50.253.45,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.38,607,2502,276.7,static,2026-11-21T19:26:05.962201+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-103 static,Aggregator,ss,82.38.31.61,8080,The Netherlands,NL,Greenhost BV,193.29.139.196,273,825,239.4,static,2026-11-21T19:26:05.962150+00:00,,static,2026-11-22 03:29:35
-[NL] AGG-32 static,Aggregator,ss,82.38.31.184,8080,The Netherlands,NL,Greenhost BV,193.29.139.251,272,751,236.9,static,2026-11-21T19:26:05.961927+00:00,,static,2026-11-22 03:29:35
-[IT] AGG-117 static,Aggregator,ss,202.50.253.36,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.153,500,1357,245.1,static,2026-11-21T19:26:05.962178+00:00,,static,2026-11-22 03:29:35
-[IT] AGG-138 static,Aggregator,ss,202.50.253.90,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.88,1307,531,254.5,static,2026-11-21T19:26:05.962223+00:00,,static,2026-11-22 03:29:35
-[IT] AGG-139 static,Aggregator,ss,202.50.253.54,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.48,890,1301,244.4,static,2026-11-21T19:26:05.962225+00:00,,static,2026-11-22 03:29:35
-[BR] AGG-87 static,Aggregator,trojan,216.238.104.154,443,Brazil,BR,The Constant Company,216.238.104.154,848,908,238.9,static,2026-11-21T19:26:05.962039+00:00,,static,2026-11-22 03:29:35
-[SG] AGG-95 static,Aggregator,ss,51.79.228.131,19999,Singapore,SG,OVH SAS,51.79.228.131,429,627,194.9,static,2026-11-21T19:26:05.962133+00:00,,static,2026-11-22 03:29:35
-[BG] FV-13 static,FastVPN-Astro,ss,bulgaria.astroapps.io,443,Bulgaria,BG,M247 Europe SRL,38.180.2.24,1092,1168,242.3,static,2026-11-21T19:26:05.741878+00:00,,static,2026-11-22 03:29:35
+[US] AGG-01 static,Aggregator,ss,169.197.142.68,19999,United States,US,GTHost,169.197.142.68,85,284,1061.3,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #2,Aggregator,trojan,167.88.61.52,443,United States,US,GlobalTeleHost Corp.,167.88.61.20,75,278,1046.5,static,,,static,2026-11-22 04:04:07
+[US] ZP-01 static,ZeroPing,vless,104.18.12.27,8443,United States,US,OVH SAS,40.160.143.124,237,200,1002.5,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #3,Aggregator,ss,172.111.38.72,19999,United States,US,GTHost,172.111.38.72,148,287,908.6,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #4,Aggregator,ss,95.215.201.18,19999,United States,US,GTHost,95.215.201.143,49,91,873.8,static,,,static,2026-11-22 04:04:07
+[US] ZP-01 static #2,ZeroPing,vless,104.18.54.132,8443,United States,US,OVH SAS,15.204.123.143,349,507,875.3,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #5,Aggregator,ss,137.184.89.151,19999,United States,US,"DigitalOcean, LLC",137.184.89.151,135,544,825.7,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #6,Aggregator,ss,37.19.198.236,443,United States,US,Datacamp Limited,37.19.198.236,193,236,806.6,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #7,Aggregator,ss,156.146.38.169,443,United States,US,Datacamp Limited,156.146.38.169,120,276,781.4,static,,,static,2026-11-22 04:04:07
+[US] ZP-01 static #3,ZeroPing,vless,66.94.113.190,443,United States,US,Contabo Inc.,66.94.113.190,206,181,758.7,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #8,Aggregator,ss,38.121.43.225,19999,United States,US,GTHost,38.121.43.225,204,417,717.2,static,,,static,2026-11-22 04:04:07
+[CA] AGG-01 static,Aggregator,ss,149.22.95.183,443,Canada,CA,Datacamp Limited,149.22.95.183,134,601,679.1,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #9,Aggregator,ss,45.86.51.18,19999,United States,US,GTHost,45.86.51.144,148,369,673.9,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #10,Aggregator,ss,149.40.57.133,19999,United States,US,Datacamp Limited,149.40.57.133,193,357,658.7,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #11,Aggregator,ss,149.40.57.134,19999,United States,US,Datacamp Limited,149.40.57.134,196,321,647.3,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #12,Aggregator,ss,38.121.43.231,19999,United States,US,GTHost,38.121.43.231,205,383,630.9,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #13,Aggregator,ss,167.88.62.203,19999,United States,US,GTHost,167.88.62.203,215,582,607.5,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #14,Aggregator,ss,37.19.198.244,443,United States,US,Datacamp Limited,37.19.198.244,176,575,578.0,static,,,static,2026-11-22 04:04:07
+[JP] AGG-01 static,Aggregator,ss,149.22.87.241,443,Japan,JP,Datacamp Limited,149.22.87.241,361,424,549.6,static,,,static,2026-11-22 04:04:07
+[CA] AGG-01 static #2,Aggregator,ss,137.184.174.93,8080,Canada,CA,"DigitalOcean, LLC",137.184.174.93,233,433,566.8,static,,,static,2026-11-22 04:04:07
+[CA] AGG-01 static #3,Aggregator,ss,51.222.12.127,445,Canada,CA,OVH SAS,51.222.12.127,225,328,554.8,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #15,Aggregator,ss,193.151.160.9,19999,United States,US,GTHost,193.151.160.131,202,659,556.0,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #16,Aggregator,ss,172.111.36.123,19999,United States,US,GTHost,172.111.36.123,210,367,550.1,static,,,static,2026-11-22 04:04:07
+[US] CAP-01 static,CapVPN,hysteria2,74.208.55.79,8447,United States,US,IONOS SE,74.208.55.79,142,651,545.6,static,,,static,2026-11-22 04:04:07
+[JP] AGG-01 static #2,Aggregator,ss,149.22.87.240,443,Japan,JP,Datacamp Limited,149.22.87.240,372,627,503.2,static,,,static,2026-11-22 04:04:07
+[JP] AGG-01 static #3,Aggregator,ss,149.22.87.204,443,Japan,JP,Datacamp Limited,149.22.87.204,394,391,473.6,static,,,static,2026-11-22 04:04:07
+[ES] CAP-01 static,CapVPN,hysteria2,212.227.235.66,8444,Spain,ES,IONOS SE,212.227.235.66,501,401,498.4,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #17,Aggregator,ss,38.121.43.18,19999,United States,US,GTHost,38.121.43.18,228,581,482.3,static,,,static,2026-11-22 04:04:07
+[GB] AGG-01 static,Aggregator,ss,185.176.206.9,19999,United Kingdom,GB,GTHost,185.176.206.133,277,492,482.3,static,,,static,2026-11-22 04:04:07
+[NL] CAP-01 static,CapVPN,hysteria2,51.15.16.68,8447,The Netherlands,NL,SCALEWAY,51.15.16.68,631,464,490.0,static,,,static,2026-11-22 04:04:07
+[GB] CAP-01 static,CapVPN,hysteria2,46.250.240.80,8446,United Kingdom,GB,Contabo Asia Private Limited,46.250.240.80,775,495,492.8,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #18,Aggregator,ss,193.151.160.18,19999,United States,US,GTHost,193.151.160.141,191,323,476.2,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #19,Aggregator,ss,173.244.56.9,443,United States,US,GSL Networks Pty LTD,173.244.56.9,115,208,471.9,static,,,static,2026-11-22 04:04:07
+[GB] AGG-01 static #2,Aggregator,ss,38.114.120.221,19999,United Kingdom,GB,GTHost,38.114.120.221,305,424,470.2,static,,,static,2026-11-22 04:04:07
+[FR] AGG-01 static,Aggregator,ss,167.17.64.27,19999,France,FR,GTHost,167.17.64.27,431,440,467.3,static,,,static,2026-11-22 04:04:07
+[DE] CAP-01 static,CapVPN,hysteria2,89.163.239.238,8445,Germany,DE,WIIT AG,89.163.239.238,520,393,464.4,static,,,static,2026-11-22 04:04:07
+[FR] AGG-01 static #2,Aggregator,ss,23.162.152.22,19999,France,FR,GTHost,23.162.152.22,440,438,460.7,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #20,Aggregator,ss,23.150.152.38,19999,United States,US,GTHost,23.150.152.38,44,228,446.6,static,,,static,2026-11-22 04:04:07
+[DE] AGG-01 static,Aggregator,ss,23.157.88.43,19999,Germany,DE,GTHost,23.157.88.43,299,431,454.3,static,,,static,2026-11-22 04:04:07
+[KR] AGG-01 static,Aggregator,ss,211.178.105.134,6123,South Korea,KR,SK Broadband Co Ltd,211.178.105.134,543,584,430.4,static,,,static,2026-11-22 04:04:07
+[FR] AGG-01 static #3,Aggregator,ss,167.17.64.175,19999,France,FR,GTHost,167.17.64.175,437,480,455.1,static,,,static,2026-11-22 04:04:07
+[JP] AGG-01 static #4,Aggregator,ss,jpa.123069.xyz,53758,Japan,JP,Oracle Corporation,168.138.205.100,377,614,424.5,static,,,static,2026-11-22 04:04:07
+[CH] CAP-01 static,CapVPN,hysteria2,208.69.78.217,8444,Switzerland,CH,GTHost,208.69.78.217,682,414,459.5,static,,,static,2026-11-22 04:04:07
+[KR] AGG-01 static #2,Aggregator,trojan,158.247.253.243,443,South Korea,KR,"The Constant Company, LLC",158.247.253.243,733,643,432.9,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static,Aggregator,ss,193.29.139.168,8080,The Netherlands,NL,Greenhost BV,193.29.139.168,295,539,448.1,static,,,static,2026-11-22 04:04:07
+[FR] CAP-01 static,CapVPN,hysteria2,51.77.217.70,8447,France,FR,OVH SAS,51.77.217.70,525,446,452.0,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #2,Aggregator,ss,151.241.19.29,19999,The Netherlands,NL,"DigitalOcean, LLC",151.241.19.29,301,457,445.1,static,,,static,2026-11-22 04:04:07
+[ES] AGG-01 static,Aggregator,ss,66.163.118.103,19999,Spain,ES,GTHost,66.163.118.103,376,537,447.7,static,,,static,2026-11-22 04:04:07
+[ES] AGG-01 static #2,Aggregator,ss,79.127.139.242,19999,Spain,ES,Datacamp Limited,79.127.139.242,486,458,444.3,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #3,Aggregator,ss,151.241.19.36,19999,The Netherlands,NL,"DigitalOcean, LLC",151.241.19.36,303,436,439.5,static,,,static,2026-11-22 04:04:07
+[CH] AGG-01 static,Aggregator,ss,186.190.215.251,19999,Switzerland,CH,GTHost,186.190.215.251,490,452,444.3,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #21,Aggregator,ss,38.22.17.129,19999,United States,US,Cogent Communications,38.22.17.129,217,374,436.2,static,,,static,2026-11-22 04:04:07
+[KR] CAP-01 static,CapVPN,hysteria2,151.245.106.49,8444,South Korea,KR,HostHatch,151.245.106.49,779,507,419.1,static,,,static,2026-11-22 04:04:07
+[GB] AGG-01 static #3,Aggregator,ss,158.173.24.73,443,United Kingdom,GB,Datacamp Limited,158.173.24.73,285,428,432.9,static,,,static,2026-11-22 04:04:07
+[US] TD-01 static,TunnelDOOM,vless,radiopop.oxigeno.site,8880,United States,US,UpCloud USA Inc,85.9.193.176,218,694,432.6,static,,,static,2026-11-22 04:04:07
+[CH] AGG-01 static #2,Aggregator,ss,23.166.88.127,19999,Switzerland,CH,GTHost,23.166.88.127,500,448,435.8,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #22,Aggregator,ss,193.151.163.18,19999,United States,US,New Jersey,193.151.163.139,148,230,419.1,static,,,static,2026-11-22 04:04:07
+[IT] AGG-01 static,Aggregator,ss,185.164.175.81,19999,Italy,IT,Datacamp Limited,185.162.118.8,345,1486,435.8,static,,,static,2026-11-22 04:04:07
+[DE] AGG-01 static #2,Aggregator,ss,193.108.119.3,19999,Germany,DE,GTHost,193.108.119.3,304,429,423.8,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #4,Aggregator,ss,82.38.31.66,8080,The Netherlands,NL,Greenhost BV,193.29.139.164,282,534,419.8,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #23,Aggregator,ss,37.19.198.160,443,United States,US,Datacamp Limited,37.19.198.160,167,289,414.1,static,,,static,2026-11-22 04:04:07
+[IT] AGG-01 static #2,Aggregator,ss,202.50.253.90,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.88,626,485,423.2,static,,,static,2026-11-22 04:04:07
+[FI] CAP-01 static,CapVPN,hysteria2,95.216.27.15,8447,Finland,FI,Hetzner Online GmbH,95.216.27.15,540,421,420.4,static,,,static,2026-11-22 04:04:07
+[FR] AGG-01 static #4,Aggregator,ss,172.99.189.142,19999,France,FR,GTHost,172.99.189.142,445,471,418.1,static,,,static,2026-11-22 04:04:07
+[FR] AGG-01 static #5,Aggregator,ss,38.109.228.110,19999,France,FR,GTHost,38.109.228.110,439,437,409.3,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #24,Aggregator,ss,156.146.38.170,443,United States,US,Datacamp Limited,156.146.38.170,128,517,401.4,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #25,Aggregator,ss,162.251.62.31,19999,United States,US,GTHost,162.251.62.31,297,711,405.5,static,,,static,2026-11-22 04:04:07
+[SG] AGG-01 static,Aggregator,ss,149.88.107.47,19999,Singapore,SG,Datacamp Limited,149.88.107.47,383,704,377.5,static,,,static,2026-11-22 04:04:07
+[GB] CAP-01 static #2,CapVPN,hysteria2,51.89.194.151,8447,United Kingdom,GB,OVH SAS,51.89.194.151,664,437,410.9,static,,,static,2026-11-22 04:04:07
+[FR] ZP-01 static,ZeroPing,vless,104.18.15.62,8443,France,FR,OVH SAS,91.134.137.4,684,480,408.0,static,,,static,2026-11-22 04:04:07
+[AU] AGG-01 static,Aggregator,trojan,45.63.30.142,443,Australia,AU,Choopa,45.63.30.142,414,647,398.7,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #5,Aggregator,ss,109.201.152.181,443,The Netherlands,NL,NForce Entertainment B.V.,109.201.152.181,470,439,395.7,static,,,static,2026-11-22 04:04:07
+[CA] AGG-01 static #4,Aggregator,ss,51.222.136.236,8882,Canada,CA,OVH SAS,51.222.136.236,286,407,388.1,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #26,Aggregator,ss,185.230.230.18,19999,United States,US,Washington DC,185.230.230.142,119,435,381.6,static,,,static,2026-11-22 04:04:07
+[CY] ZP-01 static,ZeroPing,vless,104.18.20.94,8443,Cyprus,CY,Hostman LTD,195.133.93.6,610,437,389.8,static,,,static,2026-11-22 04:04:07
+[GB] AGG-01 static #4,Aggregator,ss,198.244.201.129,19999,United Kingdom,GB,OVH SAS,198.244.201.129,476,500,382.1,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #27,Aggregator,ss,173.244.56.6,443,United States,US,GSL Networks Pty LTD,173.244.56.6,66,329,370.0,static,,,static,2026-11-22 04:04:07
+[SG] AGG-01 static #2,Aggregator,ss,149.88.106.74,19999,Singapore,SG,Datacamp Limited,149.88.106.74,356,627,348.4,static,,,static,2026-11-22 04:04:07
+[IT] CAP-01 static,CapVPN,hysteria2,57.131.38.163,8444,Italy,IT,OVH SAS,57.131.38.163,646,499,384.1,static,,,static,2026-11-22 04:04:07
+[GB] AGG-01 static #5,Aggregator,ss,198.244.202.215,19999,United Kingdom,GB,OVH SAS,198.244.202.215,486,489,376.6,static,,,static,2026-11-22 04:04:07
+[PL] CAP-01 static,CapVPN,hysteria2,54.37.136.194,8444,Poland,PL,OVH SAS,54.37.136.194,715,595,378.3,static,,,static,2026-11-22 04:04:07
+[CA] CAP-01 static,CapVPN,hysteria2,66.70.179.198,8447,Canada,CA,OVH SAS,66.70.179.198,339,648,364.1,static,,,static,2026-11-22 04:04:07
+[NL] ZP-01 static,ZeroPing,vless,104.18.40.25,8443,The Netherlands,NL,Hostman LTD,212.192.3.135,567,435,366.1,static,,,static,2026-11-22 04:04:07
+[FR] AGG-01 static #6,Aggregator,ss,107.161.160.28,8388,France,FR,YottaSrc,107.161.160.28,426,464,362.1,static,,,static,2026-11-22 04:04:07
+[SE] AGG-01 static,Aggregator,ss,138.199.55.243,19999,Sweden,SE,Datacamp Limited,138.199.55.243,535,523,362.3,static,,,static,2026-11-22 04:04:07
+[ES] FV-01 static,FastVPN-Astro,ss,108.181.121.178,443,Spain,ES,Psychz Networks,108.181.70.65,411,557,359.3,static,,,static,2026-11-22 04:04:07
+[GB] AGG-01 static #6,Aggregator,ss,141.98.101.181,443,United Kingdom,GB,M247 Europe SRL,141.98.101.181,432,434,358.4,static,,,static,2026-11-22 04:04:07
+[IT] AGG-01 static #3,Aggregator,ss,202.50.253.27,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.151,703,529,363.1,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #28,Aggregator,ss,37.19.198.243,443,United States,US,Datacamp Limited,37.19.198.243,164,404,344.2,static,,,static,2026-11-22 04:04:07
+[AT] AGG-01 static,Aggregator,ss,82.110.60.9,19999,Austria,AT,Datacamp Limited,51.241.209.4,414,571,352.1,static,,,static,2026-11-22 04:04:07
+[GB] AGG-01 static #7,Aggregator,ss,146.70.61.37,8080,United Kingdom,GB,M247 Europe SRL,146.70.61.37,755,567,360.1,static,,,static,2026-11-22 04:04:07
+[KR] AGG-01 static #3,Aggregator,ss,p141.panda001.net,4652,South Korea,KR,SK Broadband Co Ltd,218.237.185.234,727,550,328.7,static,,,static,2026-11-22 04:04:07
+[NL] ZP-01 static #2,ZeroPing,vless,51.194.118.32,443,The Netherlands,NL,Vuedge Tech LLC,51.194.118.32,523,680,354.2,static,,,static,2026-11-22 04:04:07
+[SG] AGG-01 static #3,Aggregator,ss,51.79.228.131,19999,Singapore,SG,OVH SAS,51.79.228.131,415,611,320.1,static,,,static,2026-11-22 04:04:07
+[IT] AGG-01 static #4,Aggregator,ss,202.50.253.81,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.78,518,511,351.6,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #29,Aggregator,ss,15.204.247.206,4444,United States,US,OVH SAS,15.204.247.206,209,506,343.6,static,,,static,2026-11-22 04:04:07
+[SG] AGG-01 static #4,Aggregator,ss,15.235.182.183,19999,Singapore,SG,OVH SAS,15.235.182.183,414,600,312.3,static,,,static,2026-11-22 04:04:07
+[IT] AGG-01 static #5,Aggregator,ss,202.50.253.54,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.48,600,3045,369.2,static,,,static,2026-11-22 04:04:07
+[DE] AGG-01 static #3,Aggregator,ss,57.129.83.85,19999,Germany,DE,OVH SAS,57.129.83.85,393,553,337.6,static,,,static,2026-11-22 04:04:07
+[IN] CAP-01 static,CapVPN,hysteria2,194.61.31.126,8444,India,IN,Contabo Asia Private Limited,194.61.31.126,857,555,318.7,static,,,static,2026-11-22 04:04:07
+[SG] AGG-01 static #5,Aggregator,ss,15.235.164.133,19999,Singapore,SG,OVH SAS,15.235.164.133,497,604,306.4,static,,,static,2026-11-22 04:04:07
+[US] TD-01 static #2,TunnelDOOM,vless,tvuno.oxigeno.site,8880,United States,US,UpCloud USA Inc,194.113.75.1,219,515,328.5,static,,,static,2026-11-22 04:04:07
+[IT] AGG-01 static #6,Aggregator,ss,202.50.253.18,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.148,616,535,337.8,static,,,static,2026-11-22 04:04:07
+[US] TD-01 static #3,TunnelDOOM,vless,tvdos.oxigeno.site,8880,United States,US,UpCloud USA Inc,152.44.41.66,191,755,328.5,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #30,Aggregator,ss,167.88.63.99,19999,United States,US,GTHost,167.88.63.99,218,741,328.5,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #31,Aggregator,ss,84.20.27.183,19999,United States,US,Datacamp Limited,84.20.27.183,210,685,326.9,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #32,Aggregator,ss,38.91.107.188,19999,United States,US,GTHost,38.91.107.188,234,741,325.6,static,,,static,2026-11-22 04:04:07
+[CL] AGG-01 static,Aggregator,trojan,64.176.7.205,443,Chile,CL,The Constant Company,64.176.7.205,769,849,336.3,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #33,Aggregator,ss,38.22.17.219,19999,United States,US,Cogent Communications,38.22.17.219,198,467,317.6,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #34,Aggregator,ss,216.106.178.169,19999,United States,US,GTHost,216.106.178.169,178,638,318.7,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #35,Aggregator,ss,38.128.66.32,19999,United States,US,GTHost,38.128.66.32,168,715,318.9,static,,,static,2026-11-22 04:04:07
+[US] TD-01 static #4,TunnelDOOM,vless,radiopap.oxigeno.site,8880,United States,US,UpCloud USA Inc,209.151.149.62,212,499,313.6,static,,,static,2026-11-22 04:04:07
+[US] AGG-01 static #36,Aggregator,ss,38.91.100.39,19999,United States,US,GTHost,38.91.100.39,156,264,302.9,static,,,static,2026-11-22 04:04:07
+[IT] AGG-01 static #7,Aggregator,ss,202.50.253.36,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.153,1787,4052,377.2,static,,,static,2026-11-22 04:04:07
+[SG] AGG-01 static #6,Aggregator,ss,149.88.107.74,19999,Singapore,SG,Datacamp Limited,149.88.107.74,348,698,268.9,static,,,static,2026-11-22 04:04:07
+[IT] AGG-01 static #8,Aggregator,ss,202.50.253.63,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.58,710,843,301.5,static,,,static,2026-11-22 04:04:07
+[BE] FV-01 static,FastVPN-Astro,ss,belgium.astroapps.io,443,Belgium,BE,M247 Europe SRL,38.244.131.89,970,928,303.8,static,,,static,2026-11-22 04:04:07
+[GB] FV-01 static,FastVPN-Astro,ss,uk.hwssolutions.com,443,United Kingdom,GB,GTHost,186.190.211.2,695,831,277.0,static,,,static,2026-11-22 04:04:07
+[SG] AGG-01 static #7,Aggregator,ss,68.183.227.4,8080,Singapore,SG,"DigitalOcean, LLC",68.183.227.4,474,940,237.4,static,,,static,2026-11-22 04:04:07
+[GB] CAP-01 static #3,CapVPN,hysteria2,46.250.250.149,8444,United Kingdom,GB,Contabo Asia Private Limited,46.250.250.149,805,728,271.2,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #6,Aggregator,ss,82.38.31.199,8080,The Netherlands,NL,Greenhost BV,193.29.139.184,281,524,252.5,static,,,static,2026-11-22 04:04:07
+[IT] AGG-01 static #9,Aggregator,ss,202.50.253.45,19999,Italy,IT,EUROPEAN-LEASE1,80.174.118.38,989,683,267.5,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #7,Aggregator,ss,158.173.20.171,443,The Netherlands,NL,Datacamp Limited,158.173.20.171,295,433,243.1,static,,,static,2026-11-22 04:04:07
+[HK] FV-01 static,FastVPN-Astro,ss,hongkong.astroapps.io,443,Hong Kong,HK,M247 Europe SRL,38.180.189.219,874,1008,221.7,static,,,static,2026-11-22 04:04:07
+[IT] FV-01 static,FastVPN-Astro,ss,italy.astroapps.io,443,Italy,IT,M247 Europe SRL,38.180.224.7,818,1035,250.0,static,,,static,2026-11-22 04:04:07
+[BG] FV-01 static,FastVPN-Astro,ss,bulgaria.astroapps.io,443,Bulgaria,BG,M247 Europe SRL,38.180.2.24,1038,1094,255.5,static,,,static,2026-11-22 04:04:07
+[CA] AGG-01 static #5,Aggregator,ss,51.79.85.185,8118,Canada,CA,OVH SAS,51.79.85.185,1364,2349,263.7,static,,,static,2026-11-22 04:04:07
+[BR] AGG-01 static,Aggregator,trojan,216.238.104.154,443,Brazil,BR,The Constant Company,216.238.104.154,1179,2423,236.5,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #8,Aggregator,ss,82.38.31.208,8080,The Netherlands,NL,Greenhost BV,193.29.139.161,5291,886,235.8,static,,,static,2026-11-22 04:04:07
+[ES] AGG-01 static #3,Aggregator,ss,167.17.71.167,19999,Spain,ES,GTHost,167.17.71.167,344,516,81.2,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #9,Aggregator,ss,82.38.31.49,8080,The Netherlands,NL,Greenhost BV,193.29.139.219,5284,5407,203.9,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #10,Aggregator,ss,82.38.31.46,8080,The Netherlands,NL,Greenhost BV,193.29.139.239,3113,1102,84.3,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #11,Aggregator,ss,82.38.31.193,8080,The Netherlands,NL,Greenhost BV,193.29.139.198,2872,2120,84.0,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #12,Aggregator,ss,82.38.31.162,443,The Netherlands,NL,Greenhost BV,193.29.139.221,5287,951,85.4,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #13,Aggregator,ss,82.38.31.61,8080,The Netherlands,NL,Greenhost BV,193.29.139.196,5370,1004,85.2,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #14,Aggregator,ss,82.38.31.184,8080,The Netherlands,NL,Greenhost BV,193.29.139.251,4222,3223,76.9,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #15,Aggregator,ss,82.38.31.176,8080,The Netherlands,NL,Greenhost BV,193.29.139.212,2999,4286,56.8,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #16,Aggregator,ss,82.38.31.212,8080,The Netherlands,NL,Greenhost BV,193.29.139.203,5277,3256,103.3,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #17,Aggregator,ss,82.38.31.62,8080,The Netherlands,NL,Greenhost BV,193.29.139.202,5270,2848,85.7,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #18,Aggregator,ss,82.38.31.216,8080,The Netherlands,NL,Greenhost BV,193.29.139.139,4265,5316,84.5,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #19,Aggregator,ss,178.83.185.156,8080,The Netherlands,NL,Greenhost BV,193.29.139.236,5285,4227,84.0,static,,,static,2026-11-22 04:04:07
+[NL] AGG-01 static #20,Aggregator,ss,82.38.31.35,8080,The Netherlands,NL,Greenhost BV,193.29.139.137,5285,4866,86.0,static,,,static,2026-11-22 04:04:07
