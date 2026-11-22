@@ -43,6 +43,15 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: B50trH7TnbvvBsqf
+- name: '[US] CAP-01 static #3'
+  type: hysteria2
+  server: 74.208.55.79
+  port: 8444
+  password: capadm3ef1363f:bR6c1ouATNxwJW5ZxGr8JF72
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 7ompH2WXvS9tuT4L
 - name: '[US] FV-01 static'
   type: ss
   server: 108.181.88.2
@@ -50,6 +59,15 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 6yzcGxLalx0T
   udp: true
+- name: '[CA] CAP-01 static #2'
+  type: hysteria2
+  server: 66.70.179.198
+  port: 8446
+  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: B50trH7TnbvvBsqf
 - name: '[US] TD-01 static'
   type: vless
   server: tvdos.oxigeno.site
@@ -60,96 +78,6 @@ proxies:
   xhttp-opts:
     path: /hiraya0
     host: www.clarovideo.com
-- name: '[CA] CAP-01 static #2'
-  type: hysteria2
-  server: 66.70.179.198
-  port: 8446
-  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: B50trH7TnbvvBsqf
-- name: '[CA] CAP-01 static #3'
-  type: hysteria2
-  server: 66.70.179.198
-  port: 8447
-  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: B50trH7TnbvvBsqf
-- name: '[DE] CAP-01 static'
-  type: hysteria2
-  server: 89.163.239.238
-  port: 8444
-  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: lBMApke34h6s7Lsb
-- name: '[DE] CAP-01 static #2'
-  type: hysteria2
-  server: 89.163.239.238
-  port: 8445
-  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: lBMApke34h6s7Lsb
-- name: '[GB] CAP-01 static'
-  type: hysteria2
-  server: 51.89.194.151
-  port: 8444
-  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rmPifBmgj3g17UcS
-- name: '[FR] CAP-01 static'
-  type: hysteria2
-  server: 51.77.217.70
-  port: 8444
-  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 4ZK10qYjPHLxpNwQ
-- name: '[GB] CAP-01 static #2'
-  type: hysteria2
-  server: 46.250.240.80
-  port: 8444
-  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: dAvsa04Tjjfej8zK
-- name: '[FR] CAP-01 static #2'
-  type: hysteria2
-  server: 51.77.217.70
-  port: 8447
-  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 4ZK10qYjPHLxpNwQ
-- name: '[GB] CAP-01 static #3'
-  type: hysteria2
-  server: 51.89.194.151
-  port: 8446
-  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rmPifBmgj3g17UcS
-- name: '[GB] CAP-01 static #4'
-  type: hysteria2
-  server: 51.89.194.151
-  port: 8447
-  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rmPifBmgj3g17UcS
 - name: '[ES] CAP-01 static'
   type: hysteria2
   server: 212.227.235.66
@@ -159,15 +87,78 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: BRSoROSPGCIHlaUB
+- name: '[DE] CAP-01 static'
+  type: hysteria2
+  server: 89.163.239.238
+  port: 8446
+  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: lBMApke34h6s7Lsb
+- name: '[GB] CAP-01 static'
+  type: hysteria2
+  server: 51.89.194.151
+  port: 8446
+  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: rmPifBmgj3g17UcS
 - name: '[FI] CAP-01 static'
   type: hysteria2
   server: 95.216.27.15
-  port: 8447
+  port: 8445
   password: capadm258b1ab7:C4wYg47vEaPHbS7sk8CVhbXO
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
   obfs-password: RdUhzis2KPCYxV3y
+- name: '[DE] CAP-01 static #2'
+  type: hysteria2
+  server: 89.163.239.238
+  port: 8444
+  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: lBMApke34h6s7Lsb
+- name: '[GB] CAP-01 static #2'
+  type: hysteria2
+  server: 46.250.240.80
+  port: 8444
+  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: dAvsa04Tjjfej8zK
+- name: '[NL] CAP-01 static'
+  type: hysteria2
+  server: 51.15.16.68
+  port: 8446
+  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
+- name: '[FR] CAP-01 static'
+  type: hysteria2
+  server: 51.77.217.70
+  port: 8447
+  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 4ZK10qYjPHLxpNwQ
+- name: '[FR] CAP-01 static #2'
+  type: hysteria2
+  server: 51.77.217.70
+  port: 8444
+  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 4ZK10qYjPHLxpNwQ
 - name: '[FI] CAP-01 static #2'
   type: hysteria2
   server: 95.216.27.15
@@ -177,16 +168,16 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: RdUhzis2KPCYxV3y
-- name: '[DE] CAP-01 static #3'
+- name: '[ES] CAP-01 static #2'
   type: hysteria2
-  server: 89.163.239.238
-  port: 8446
-  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
+  server: 212.227.235.66
+  port: 8444
+  password: capadm912be8e6:IltQihbQs5HQrO3J4vklsQs9
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: lBMApke34h6s7Lsb
-- name: '[NL] CAP-01 static'
+  obfs-password: BRSoROSPGCIHlaUB
+- name: '[NL] CAP-01 static #2'
   type: hysteria2
   server: 51.15.16.68
   port: 8445
@@ -195,24 +186,41 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: HVD1C0uyo38mMz8B
-- name: '[FI] CAP-01 static #3'
+- name: '[GB] FV-01 static'
+  type: ss
+  server: uk.hwssolutions.com
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: a9adf5e90130629011a12b56f84a9fea8fdd3b2d3d958c5a
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: uk.hwssolutions.com
+    path: /cf83942288133f6640deff3d
+  udp: true
+- name: '[KR] CAP-01 static'
   type: hysteria2
-  server: 95.216.27.15
-  port: 8445
-  password: capadm258b1ab7:C4wYg47vEaPHbS7sk8CVhbXO
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: RdUhzis2KPCYxV3y
-- name: '[US] CAP-01 static #3'
-  type: hysteria2
-  server: 74.208.55.79
+  server: 151.245.106.49
   port: 8444
-  password: capadm3ef1363f:bR6c1ouATNxwJW5ZxGr8JF72
+  password: capadm82c81367:gmjO3BFlQnteYcBo0zyvX4Vv
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: 7ompH2WXvS9tuT4L
+  obfs-password: fk3DSQNLbIL0LtFl
+- name: '[KR] CAP-01 static #2'
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: 97b915bb-f536-4565-8044-8c11b6cf8fd7
+  network: tcp
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: x5_irOppHeO29eglqk9Nia4vHuYNEtzl6hSaSJlG_nY
+    short-id: c78cf8492031bfb0
+  skip-cert-verify: false
 - name: '[IT] CAP-01 static'
   type: hysteria2
   server: 57.131.38.163
@@ -222,15 +230,15 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: gRYeRyVrYOvGGOxi
-- name: '[PL] CAP-01 static'
+- name: '[GB] CAP-01 static #3'
   type: hysteria2
-  server: 54.37.136.194
+  server: 51.89.194.151
   port: 8444
-  password: capadm9020594b:KO8VzRUMXtScdlkOszSE57Dj
+  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: XXUIoiNwCXXaiJE8
+  obfs-password: rmPifBmgj3g17UcS
 - name: '[CH] CAP-01 static'
   type: hysteria2
   server: 208.69.78.217
@@ -247,54 +255,19 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: WSyL4XTwNsdv
   udp: true
-- name: '[FR] CAP-01 static #3'
+- name: '[GB] CAP-01 static #4'
   type: vless
-  server: 51.77.217.70
+  server: 46.250.250.149
   port: 2053
-  uuid: d4ff3428-d624-4ce6-837a-713b14d3841d
+  uuid: e7109e79-7211-445a-a8e5-8a2c914bee9c
   network: tcp
   tls: true
   servername: www.cloudflare.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: ekzDelSQeyL_mkDLybS2AbFV4Iw5zA632HfEmAUnSHA
-    short-id: a20cbc598110b179
+    public-key: zitRNbwTR9MOToLwIhWjBsSfPD1h4ZJqOXLaLq_anGE
+    short-id: 1ae3e2a180b2e0f8
   skip-cert-verify: false
-- name: '[GB] FV-01 static'
-  type: ss
-  server: uk.hwssolutions.com
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: a9adf5e90130629011a12b56f84a9fea8fdd3b2d3d958c5a
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: uk.hwssolutions.com
-    path: /cf83942288133f6640deff3d
-  udp: true
-- name: '[ES] CAP-01 static #2'
-  type: vless
-  server: 212.227.235.66
-  port: 2053
-  uuid: 06b21aa9-65fe-4896-b0b6-a72182e1ed8a
-  network: tcp
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: vXr6yPHRK6IKYGTf5sKTBAbdQg3OJWeDFemYUFYXlTU
-    short-id: 385366c80310403d
-  skip-cert-verify: false
-- name: '[IN] CAP-01 static'
-  type: hysteria2
-  server: 194.61.31.126
-  port: 8444
-  password: capadmf1d2526a:IsKN4g2zs8HJo5yTpNcg3YZ1
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NJGeudnh1XyVY5AB
 - name: '[NL] ZP-01 static'
   type: vless
   server: 51.194.118.32
@@ -309,6 +282,81 @@ proxies:
     public-key: 9CbVjGrZfTuopAK9Y_iwLvVcUBJeO2JcumV5Fp2M4jE
     short-id: 8af72890d39c0fd5
   network: tcp
+- name: '[ES] CAP-01 static #3'
+  type: vless
+  server: 212.227.235.66
+  port: 2053
+  uuid: 06b21aa9-65fe-4896-b0b6-a72182e1ed8a
+  network: tcp
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: vXr6yPHRK6IKYGTf5sKTBAbdQg3OJWeDFemYUFYXlTU
+    short-id: 385366c80310403d
+  skip-cert-verify: false
+- name: '[GB] CAP-01 static #5'
+  type: hysteria2
+  server: 51.89.194.151
+  port: 8447
+  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: rmPifBmgj3g17UcS
+- name: '[GB] CAP-01 static #6'
+  type: hysteria2
+  server: 46.250.240.80
+  port: 8446
+  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: dAvsa04Tjjfej8zK
+- name: '[NL] FV-01 static'
+  type: ss
+  server: new.hwssolutions.com
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 52f46c198583258073a7a84355cb12715ec04752ebfe1b7b
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: new.hwssolutions.com
+    path: /15a99fbad356667791a9d563
+  udp: true
+- name: '[PL] CAP-01 static'
+  type: hysteria2
+  server: 54.37.136.194
+  port: 8444
+  password: capadm9020594b:KO8VzRUMXtScdlkOszSE57Dj
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: XXUIoiNwCXXaiJE8
+- name: '[FR] CAP-01 static #3'
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: d4ff3428-d624-4ce6-837a-713b14d3841d
+  network: tcp
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ekzDelSQeyL_mkDLybS2AbFV4Iw5zA632HfEmAUnSHA
+    short-id: a20cbc598110b179
+  skip-cert-verify: false
+- name: '[IN] CAP-01 static'
+  type: hysteria2
+  server: 194.61.31.126
+  port: 8447
+  password: capadmf1d2526a:IsKN4g2zs8HJo5yTpNcg3YZ1
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NJGeudnh1XyVY5AB
 - name: '[IN] CAP-01 static #2'
   type: hysteria2
   server: 194.61.31.126
@@ -318,24 +366,34 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NJGeudnh1XyVY5AB
+- name: '[FI] CAP-01 static #3'
+  type: hysteria2
+  server: 95.216.27.15
+  port: 8447
+  password: capadm258b1ab7:C4wYg47vEaPHbS7sk8CVhbXO
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: RdUhzis2KPCYxV3y
+- name: '[US] TD-01 static #2'
+  type: vless
+  server: radiopap.oxigeno.site
+  port: 8880
+  uuid: 3c753881-f2a6-4411-a9e8-220c4f8f40ff
+  udp: true
+  network: xhttp
+  xhttp-opts:
+    path: /danzoooo
+    host: asset.media
 - name: '[IN] CAP-01 static #3'
   type: hysteria2
   server: 194.61.31.126
-  port: 8447
+  port: 8444
   password: capadmf1d2526a:IsKN4g2zs8HJo5yTpNcg3YZ1
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NJGeudnh1XyVY5AB
-- name: '[NL] CAP-01 static #2'
-  type: hysteria2
-  server: 51.15.16.68
-  port: 8446
-  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: HVD1C0uyo38mMz8B
 - name: '[IT] CAP-01 static #2'
   type: vless
   server: 57.131.38.163
@@ -349,6 +407,24 @@ proxies:
     public-key: r0dikfj3S7_pyyxCvciNVDIlCHhM3JUgWbqCOOeAIVI
     short-id: 26add55edd7d1e11
   skip-cert-verify: false
+- name: '[CA] CAP-01 static #3'
+  type: hysteria2
+  server: 66.70.179.198
+  port: 8447
+  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: B50trH7TnbvvBsqf
+- name: '[GB] CAP-01 static #7'
+  type: hysteria2
+  server: 46.250.250.149
+  port: 8444
+  password: capadm846529de:fDltA44fHPR5OcTUeCTeZT0p
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: JnYmDvvdgxbxVLo7
 - name: '[CH] CAP-01 static #2'
   type: vless
   server: 208.69.78.217
@@ -362,15 +438,24 @@ proxies:
     public-key: Axg7f-wXfe0YQq6KnaJtVEdDzuJo5IMbFA_vIPi-XTU
     short-id: e5bf7369f94cab43
   skip-cert-verify: false
-- name: '[ES] CAP-01 static #3'
+- name: '[DE] CAP-01 static #3'
   type: hysteria2
-  server: 212.227.235.66
-  port: 8444
-  password: capadm912be8e6:IltQihbQs5HQrO3J4vklsQs9
+  server: 89.163.239.238
+  port: 8445
+  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: BRSoROSPGCIHlaUB
+  obfs-password: lBMApke34h6s7Lsb
+- name: '[GB] CAP-01 static #8'
+  type: hysteria2
+  server: 46.250.240.80
+  port: 8447
+  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: dAvsa04Tjjfej8zK
 - name: '[PL] CAP-01 static #2'
   type: vless
   server: 54.37.136.194
@@ -384,6 +469,19 @@ proxies:
     public-key: pm3ipyg_kGjvoIz3_y1nm4BnrknM6JevsjKPv9kgWw8
     short-id: cc7bef2d25bcaed0
   skip-cert-verify: false
+- name: '[DK] FV-01 static'
+  type: ss
+  server: denmark.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: c917b96e084ea67a0f21031f1284f9ee9e1d837321ce6362
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: denmark.astroapps.io
+    path: /ad37249091fe1c6ac69e8c23
+  udp: true
 - name: '[HK] FV-01 static'
   type: ss
   server: hongkong.astroapps.io
@@ -396,6 +494,74 @@ proxies:
     tls: true
     host: hongkong.astroapps.io
     path: /ba91191d41f96668df6fe14b
+  udp: true
+- name: '[EE] FV-01 static'
+  type: ss
+  server: estonia.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 104243d8a410f4e54013b7fdb57c4b688d929c7b5b89e86b
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: estonia.astroapps.io
+    path: /fd3f56f3dc9f5ceca7e57ecd
+  udp: true
+- name: '[NL] CAP-01 static #3'
+  type: hysteria2
+  server: 51.15.16.68
+  port: 8447
+  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
+- name: '[US] TD-01 static #3'
+  type: vless
+  server: radiopop.oxigeno.site
+  port: 8880
+  uuid: 78354ee5-57ba-45c0-9b92-51610d6a64b5
+  udp: true
+  network: xhttp
+  xhttp-opts:
+    path: /damnzo
+    host: asset.media
+- name: '[BE] FV-01 static'
+  type: ss
+  server: belgium.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: belgium.astroapps.io
+    path: /7a0f74508333399db96164d7
+  udp: true
+- name: '[US] TD-01 static #4'
+  type: vless
+  server: tvuno.oxigeno.site
+  port: 8880
+  uuid: 73b30767-bf59-4af3-9eac-dc1418418b07
+  udp: true
+  network: xhttp
+  xhttp-opts:
+    path: /naruto0
+    host: asset.media
+- name: '[FI] FV-01 static'
+  type: ss
+  server: finland.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 1c57654308df6d9b93b2bf749dd9f21ed7355aab8fd7ffbb
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: finland.astroapps.io
+    path: /ccad980a661bd347eaebae0f
   udp: true
 - name: '[ES] FV-01 static #2'
   type: ss
@@ -410,100 +576,51 @@ proxies:
     host: spain.surgevpn.app
     path: /cc5cbb935a2d3bc3676dbdcb
   udp: true
-- name: '[BE] FV-01 static'
+- name: '[IT] FV-01 static'
   type: ss
-  server: belgium.astroapps.io
+  server: italy.astroapps.io
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
+  password: 034b5d9404b79a2df62fcb77a49cf748306765448d8b5e93
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
-    host: belgium.astroapps.io
-    path: /7a0f74508333399db96164d7
+    host: italy.astroapps.io
+    path: /b5cba947dfef6a5494b25d76
   udp: true
-- name: '[FI] FV-01 static'
+- name: '[BG] FV-01 static'
   type: ss
-  server: finland.astroapps.io
+  server: bulgaria.astroapps.io
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: 1c57654308df6d9b93b2bf749dd9f21ed7355aab8fd7ffbb
+  password: 5acf789dd7c2bf40a670a342800eff57003c2b164c3c8f53
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
-    host: finland.astroapps.io
-    path: /ccad980a661bd347eaebae0f
+    host: bulgaria.astroapps.io
+    path: /6318c86175d20088b16c98a7
   udp: true
-- name: '[KR] CAP-01 static'
-  type: hysteria2
-  server: 151.245.106.49
-  port: 8444
-  password: capadm82c81367:gmjO3BFlQnteYcBo0zyvX4Vv
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: fk3DSQNLbIL0LtFl
-- name: '[NL] FV-01 static'
+- name: '[NL] FV-01 static #2'
   type: ss
   server: 108.181.122.170
   port: 443
   cipher: chacha20-ietf-poly1305
   password: CJmTCCx7Ltud
   udp: true
-- name: '[NL] CAP-01 static #3'
-  type: hysteria2
-  server: 51.15.16.68
-  port: 8447
-  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: HVD1C0uyo38mMz8B
-- name: '[EE] FV-01 static'
+- name: '[IN] FV-01 static'
   type: ss
-  server: estonia.astroapps.io
+  server: india.astroapps.io
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: 104243d8a410f4e54013b7fdb57c4b688d929c7b5b89e86b
+  password: 806a291d6fa98489025802ae1285df63811ed499011dcf35
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
-    host: estonia.astroapps.io
-    path: /fd3f56f3dc9f5ceca7e57ecd
-  udp: true
-- name: '[GB] CAP-01 static #5'
-  type: hysteria2
-  server: 46.250.250.149
-  port: 8444
-  password: capadm846529de:fDltA44fHPR5OcTUeCTeZT0p
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: JnYmDvvdgxbxVLo7
-- name: '[GB] CAP-01 static #6'
-  type: hysteria2
-  server: 46.250.240.80
-  port: 8447
-  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: dAvsa04Tjjfej8zK
-- name: '[AU] FV-01 static'
-  type: ss
-  server: australia.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: a937938b4fbffbdc3257d83e9d68cb2baf3cb65400d9ca3f
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: australia.astroapps.io
-    path: /4db434cefc7adfa3239f0fff
+    host: india.astroapps.io
+    path: /d282ea66de9394f68a3e792e
   udp: true
 - name: '[AR] FV-01 static'
   type: ss
@@ -518,19 +635,32 @@ proxies:
     host: argentina.astroapps.io
     path: /215a02e20face680507150b9
   udp: true
-- name: '[GB] CAP-01 static #7'
-  type: vless
-  server: 46.250.250.149
-  port: 2053
-  uuid: e7109e79-7211-445a-a8e5-8a2c914bee9c
-  network: tcp
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: zitRNbwTR9MOToLwIhWjBsSfPD1h4ZJqOXLaLq_anGE
-    short-id: 1ae3e2a180b2e0f8
-  skip-cert-verify: false
+- name: '[AU] FV-01 static'
+  type: ss
+  server: australia.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: a937938b4fbffbdc3257d83e9d68cb2baf3cb65400d9ca3f
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: australia.astroapps.io
+    path: /4db434cefc7adfa3239f0fff
+  udp: true
+- name: '[JP] FV-01 static'
+  type: ss
+  server: japan.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6e728d826ccf032fce7ce722b8fed2cda309fde5624bf09c
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: japan.astroapps.io
+    path: /149e1010e6d6d24dbc09d4f3
+  udp: true
 - name: '[XX] ZP-01 static'
   type: vless
   server: 104.18.41.183
@@ -1355,19 +1485,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: svc_a44cd460c6c16ac8133f3fdf
-- name: '[KR] CAP-01 static #2'
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: 97b915bb-f536-4565-8044-8c11b6cf8fd7
-  network: tcp
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: x5_irOppHeO29eglqk9Nia4vHuYNEtzl6hSaSJlG_nY
-    short-id: c78cf8492031bfb0
-  skip-cert-verify: false
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -1380,54 +1497,65 @@ proxy-groups:
   - '[US] ZP-01 static'
   - '[US] CAP-01 static #2'
   - '[CA] CAP-01 static'
-  - '[US] FV-01 static'
-  - '[US] TD-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[CA] CAP-01 static #3'
-  - '[DE] CAP-01 static'
-  - '[DE] CAP-01 static #2'
-  - '[GB] CAP-01 static'
-  - '[FR] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[FR] CAP-01 static #2'
-  - '[GB] CAP-01 static #3'
-  - '[GB] CAP-01 static #4'
-  - '[ES] CAP-01 static'
-  - '[FI] CAP-01 static'
-  - '[FI] CAP-01 static #2'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[FI] CAP-01 static #3'
   - '[US] CAP-01 static #3'
+  - '[US] FV-01 static'
+  - '[CA] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[ES] CAP-01 static'
+  - '[DE] CAP-01 static'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
+  - '[DE] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
+  - '[NL] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[FR] CAP-01 static #2'
+  - '[FI] CAP-01 static #2'
+  - '[ES] CAP-01 static #2'
+  - '[NL] CAP-01 static #2'
+  - '[GB] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[KR] CAP-01 static #2'
   - '[IT] CAP-01 static'
-  - '[PL] CAP-01 static'
+  - '[GB] CAP-01 static #3'
   - '[CH] CAP-01 static'
   - '[ES] FV-01 static'
-  - '[FR] CAP-01 static #3'
-  - '[GB] FV-01 static'
-  - '[ES] CAP-01 static #2'
-  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #4'
   - '[NL] ZP-01 static'
-  - '[IN] CAP-01 static #2'
-  - '[IN] CAP-01 static #3'
-  - '[NL] CAP-01 static #2'
-  - '[IT] CAP-01 static #2'
-  - '[CH] CAP-01 static #2'
   - '[ES] CAP-01 static #3'
-  - '[PL] CAP-01 static #2'
-  - '[HK] FV-01 static'
-  - '[ES] FV-01 static #2'
-  - '[BE] FV-01 static'
-  - '[FI] FV-01 static'
-  - '[KR] CAP-01 static'
-  - '[NL] FV-01 static'
-  - '[NL] CAP-01 static #3'
-  - '[EE] FV-01 static'
   - '[GB] CAP-01 static #5'
   - '[GB] CAP-01 static #6'
-  - '[AU] FV-01 static'
-  - '[AR] FV-01 static'
+  - '[NL] FV-01 static'
+  - '[PL] CAP-01 static'
+  - '[FR] CAP-01 static #3'
+  - '[IN] CAP-01 static'
+  - '[IN] CAP-01 static #2'
+  - '[FI] CAP-01 static #3'
+  - '[US] TD-01 static #2'
+  - '[IN] CAP-01 static #3'
+  - '[IT] CAP-01 static #2'
+  - '[CA] CAP-01 static #3'
   - '[GB] CAP-01 static #7'
+  - '[CH] CAP-01 static #2'
+  - '[DE] CAP-01 static #3'
+  - '[GB] CAP-01 static #8'
+  - '[PL] CAP-01 static #2'
+  - '[DK] FV-01 static'
+  - '[HK] FV-01 static'
+  - '[EE] FV-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[US] TD-01 static #3'
+  - '[BE] FV-01 static'
+  - '[US] TD-01 static #4'
+  - '[FI] FV-01 static'
+  - '[ES] FV-01 static #2'
+  - '[IT] FV-01 static'
+  - '[BG] FV-01 static'
+  - '[NL] FV-01 static #2'
+  - '[IN] FV-01 static'
+  - '[AR] FV-01 static'
+  - '[AU] FV-01 static'
+  - '[JP] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
   - '[XX] ZP-01 static #3'
@@ -1496,7 +1624,6 @@ proxy-groups:
   - '[XX] ZP-01 static #66'
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
-  - '[KR] CAP-01 static #2'
 - name: AUTO-STATIC
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1508,54 +1635,65 @@ proxy-groups:
   - '[US] ZP-01 static'
   - '[US] CAP-01 static #2'
   - '[CA] CAP-01 static'
-  - '[US] FV-01 static'
-  - '[US] TD-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[CA] CAP-01 static #3'
-  - '[DE] CAP-01 static'
-  - '[DE] CAP-01 static #2'
-  - '[GB] CAP-01 static'
-  - '[FR] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[FR] CAP-01 static #2'
-  - '[GB] CAP-01 static #3'
-  - '[GB] CAP-01 static #4'
-  - '[ES] CAP-01 static'
-  - '[FI] CAP-01 static'
-  - '[FI] CAP-01 static #2'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[FI] CAP-01 static #3'
   - '[US] CAP-01 static #3'
+  - '[US] FV-01 static'
+  - '[CA] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[ES] CAP-01 static'
+  - '[DE] CAP-01 static'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
+  - '[DE] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
+  - '[NL] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[FR] CAP-01 static #2'
+  - '[FI] CAP-01 static #2'
+  - '[ES] CAP-01 static #2'
+  - '[NL] CAP-01 static #2'
+  - '[GB] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[KR] CAP-01 static #2'
   - '[IT] CAP-01 static'
-  - '[PL] CAP-01 static'
+  - '[GB] CAP-01 static #3'
   - '[CH] CAP-01 static'
   - '[ES] FV-01 static'
-  - '[FR] CAP-01 static #3'
-  - '[GB] FV-01 static'
-  - '[ES] CAP-01 static #2'
-  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #4'
   - '[NL] ZP-01 static'
-  - '[IN] CAP-01 static #2'
-  - '[IN] CAP-01 static #3'
-  - '[NL] CAP-01 static #2'
-  - '[IT] CAP-01 static #2'
-  - '[CH] CAP-01 static #2'
   - '[ES] CAP-01 static #3'
-  - '[PL] CAP-01 static #2'
-  - '[HK] FV-01 static'
-  - '[ES] FV-01 static #2'
-  - '[BE] FV-01 static'
-  - '[FI] FV-01 static'
-  - '[KR] CAP-01 static'
-  - '[NL] FV-01 static'
-  - '[NL] CAP-01 static #3'
-  - '[EE] FV-01 static'
   - '[GB] CAP-01 static #5'
   - '[GB] CAP-01 static #6'
-  - '[AU] FV-01 static'
-  - '[AR] FV-01 static'
+  - '[NL] FV-01 static'
+  - '[PL] CAP-01 static'
+  - '[FR] CAP-01 static #3'
+  - '[IN] CAP-01 static'
+  - '[IN] CAP-01 static #2'
+  - '[FI] CAP-01 static #3'
+  - '[US] TD-01 static #2'
+  - '[IN] CAP-01 static #3'
+  - '[IT] CAP-01 static #2'
+  - '[CA] CAP-01 static #3'
   - '[GB] CAP-01 static #7'
+  - '[CH] CAP-01 static #2'
+  - '[DE] CAP-01 static #3'
+  - '[GB] CAP-01 static #8'
+  - '[PL] CAP-01 static #2'
+  - '[DK] FV-01 static'
+  - '[HK] FV-01 static'
+  - '[EE] FV-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[US] TD-01 static #3'
+  - '[BE] FV-01 static'
+  - '[US] TD-01 static #4'
+  - '[FI] FV-01 static'
+  - '[ES] FV-01 static #2'
+  - '[IT] FV-01 static'
+  - '[BG] FV-01 static'
+  - '[NL] FV-01 static #2'
+  - '[IN] FV-01 static'
+  - '[AR] FV-01 static'
+  - '[AU] FV-01 static'
+  - '[JP] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
   - '[XX] ZP-01 static #3'
@@ -1624,7 +1762,6 @@ proxy-groups:
   - '[XX] ZP-01 static #66'
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
-  - '[KR] CAP-01 static #2'
 - name: AUTO-US
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1635,9 +1772,12 @@ proxy-groups:
   - '[US] CAP-01 static'
   - '[US] ZP-01 static'
   - '[US] CAP-01 static #2'
+  - '[US] CAP-01 static #3'
   - '[US] FV-01 static'
   - '[US] TD-01 static'
-  - '[US] CAP-01 static #3'
+  - '[US] TD-01 static #2'
+  - '[US] TD-01 static #3'
+  - '[US] TD-01 static #4'
 - name: AUTO-CA
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1648,6 +1788,18 @@ proxy-groups:
   - '[CA] CAP-01 static'
   - '[CA] CAP-01 static #2'
   - '[CA] CAP-01 static #3'
+- name: AUTO-ES
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[ES] CAP-01 static'
+  - '[ES] CAP-01 static #2'
+  - '[ES] FV-01 static'
+  - '[ES] CAP-01 static #3'
+  - '[ES] FV-01 static #2'
 - name: AUTO-DE
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1667,34 +1819,13 @@ proxy-groups:
   proxies:
   - '[GB] CAP-01 static'
   - '[GB] CAP-01 static #2'
+  - '[GB] FV-01 static'
   - '[GB] CAP-01 static #3'
   - '[GB] CAP-01 static #4'
-  - '[GB] FV-01 static'
   - '[GB] CAP-01 static #5'
   - '[GB] CAP-01 static #6'
   - '[GB] CAP-01 static #7'
-- name: AUTO-FR
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[FR] CAP-01 static'
-  - '[FR] CAP-01 static #2'
-  - '[FR] CAP-01 static #3'
-- name: AUTO-ES
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[ES] CAP-01 static'
-  - '[ES] FV-01 static'
-  - '[ES] CAP-01 static #2'
-  - '[ES] CAP-01 static #3'
-  - '[ES] FV-01 static #2'
+  - '[GB] CAP-01 static #8'
 - name: AUTO-FI
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1714,10 +1845,30 @@ proxy-groups:
   lazy: false
   proxies:
   - '[NL] CAP-01 static'
-  - '[NL] ZP-01 static'
   - '[NL] CAP-01 static #2'
+  - '[NL] ZP-01 static'
   - '[NL] FV-01 static'
   - '[NL] CAP-01 static #3'
+  - '[NL] FV-01 static #2'
+- name: AUTO-FR
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[FR] CAP-01 static'
+  - '[FR] CAP-01 static #2'
+  - '[FR] CAP-01 static #3'
+- name: AUTO-KR
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[KR] CAP-01 static'
+  - '[KR] CAP-01 static #2'
 - name: AUTO-IT
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1727,15 +1878,7 @@ proxy-groups:
   proxies:
   - '[IT] CAP-01 static'
   - '[IT] CAP-01 static #2'
-- name: AUTO-PL
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[PL] CAP-01 static'
-  - '[PL] CAP-01 static #2'
+  - '[IT] FV-01 static'
 - name: AUTO-CH
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1745,6 +1888,15 @@ proxy-groups:
   proxies:
   - '[CH] CAP-01 static'
   - '[CH] CAP-01 static #2'
+- name: AUTO-PL
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[PL] CAP-01 static'
+  - '[PL] CAP-01 static #2'
 - name: AUTO-IN
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1755,6 +1907,15 @@ proxy-groups:
   - '[IN] CAP-01 static'
   - '[IN] CAP-01 static #2'
   - '[IN] CAP-01 static #3'
+  - '[IN] FV-01 static'
+- name: AUTO-DK
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[DK] FV-01 static'
 - name: AUTO-HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1763,23 +1924,6 @@ proxy-groups:
   lazy: false
   proxies:
   - '[HK] FV-01 static'
-- name: AUTO-BE
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[BE] FV-01 static'
-- name: AUTO-KR
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[KR] CAP-01 static'
-  - '[KR] CAP-01 static #2'
 - name: AUTO-EE
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1788,14 +1932,22 @@ proxy-groups:
   lazy: false
   proxies:
   - '[EE] FV-01 static'
-- name: AUTO-AU
+- name: AUTO-BE
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   lazy: false
   proxies:
-  - '[AU] FV-01 static'
+  - '[BE] FV-01 static'
+- name: AUTO-BG
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[BG] FV-01 static'
 - name: AUTO-AR
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1804,6 +1956,22 @@ proxy-groups:
   lazy: false
   proxies:
   - '[AR] FV-01 static'
+- name: AUTO-AU
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[AU] FV-01 static'
+- name: AUTO-JP
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[JP] FV-01 static'
 - name: AUTO-XX
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1890,54 +2058,65 @@ proxy-groups:
   - '[US] ZP-01 static'
   - '[US] CAP-01 static #2'
   - '[CA] CAP-01 static'
-  - '[US] FV-01 static'
-  - '[US] TD-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[CA] CAP-01 static #3'
-  - '[DE] CAP-01 static'
-  - '[DE] CAP-01 static #2'
-  - '[GB] CAP-01 static'
-  - '[FR] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[FR] CAP-01 static #2'
-  - '[GB] CAP-01 static #3'
-  - '[GB] CAP-01 static #4'
-  - '[ES] CAP-01 static'
-  - '[FI] CAP-01 static'
-  - '[FI] CAP-01 static #2'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[FI] CAP-01 static #3'
   - '[US] CAP-01 static #3'
+  - '[US] FV-01 static'
+  - '[CA] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[ES] CAP-01 static'
+  - '[DE] CAP-01 static'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
+  - '[DE] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
+  - '[NL] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[FR] CAP-01 static #2'
+  - '[FI] CAP-01 static #2'
+  - '[ES] CAP-01 static #2'
+  - '[NL] CAP-01 static #2'
+  - '[GB] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[KR] CAP-01 static #2'
   - '[IT] CAP-01 static'
-  - '[PL] CAP-01 static'
+  - '[GB] CAP-01 static #3'
   - '[CH] CAP-01 static'
   - '[ES] FV-01 static'
-  - '[FR] CAP-01 static #3'
-  - '[GB] FV-01 static'
-  - '[ES] CAP-01 static #2'
-  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #4'
   - '[NL] ZP-01 static'
-  - '[IN] CAP-01 static #2'
-  - '[IN] CAP-01 static #3'
-  - '[NL] CAP-01 static #2'
-  - '[IT] CAP-01 static #2'
-  - '[CH] CAP-01 static #2'
   - '[ES] CAP-01 static #3'
-  - '[PL] CAP-01 static #2'
-  - '[HK] FV-01 static'
-  - '[ES] FV-01 static #2'
-  - '[BE] FV-01 static'
-  - '[FI] FV-01 static'
-  - '[KR] CAP-01 static'
-  - '[NL] FV-01 static'
-  - '[NL] CAP-01 static #3'
-  - '[EE] FV-01 static'
   - '[GB] CAP-01 static #5'
   - '[GB] CAP-01 static #6'
-  - '[AU] FV-01 static'
-  - '[AR] FV-01 static'
+  - '[NL] FV-01 static'
+  - '[PL] CAP-01 static'
+  - '[FR] CAP-01 static #3'
+  - '[IN] CAP-01 static'
+  - '[IN] CAP-01 static #2'
+  - '[FI] CAP-01 static #3'
+  - '[US] TD-01 static #2'
+  - '[IN] CAP-01 static #3'
+  - '[IT] CAP-01 static #2'
+  - '[CA] CAP-01 static #3'
   - '[GB] CAP-01 static #7'
+  - '[CH] CAP-01 static #2'
+  - '[DE] CAP-01 static #3'
+  - '[GB] CAP-01 static #8'
+  - '[PL] CAP-01 static #2'
+  - '[DK] FV-01 static'
+  - '[HK] FV-01 static'
+  - '[EE] FV-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[US] TD-01 static #3'
+  - '[BE] FV-01 static'
+  - '[US] TD-01 static #4'
+  - '[FI] FV-01 static'
+  - '[ES] FV-01 static #2'
+  - '[IT] FV-01 static'
+  - '[BG] FV-01 static'
+  - '[NL] FV-01 static #2'
+  - '[IN] FV-01 static'
+  - '[AR] FV-01 static'
+  - '[AU] FV-01 static'
+  - '[JP] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
   - '[XX] ZP-01 static #3'
@@ -2006,7 +2185,6 @@ proxy-groups:
   - '[XX] ZP-01 static #66'
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
-  - '[KR] CAP-01 static #2'
 - name: PROXY
   type: select
   proxies:
@@ -2015,54 +2193,65 @@ proxy-groups:
   - '[US] ZP-01 static'
   - '[US] CAP-01 static #2'
   - '[CA] CAP-01 static'
-  - '[US] FV-01 static'
-  - '[US] TD-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[CA] CAP-01 static #3'
-  - '[DE] CAP-01 static'
-  - '[DE] CAP-01 static #2'
-  - '[GB] CAP-01 static'
-  - '[FR] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[FR] CAP-01 static #2'
-  - '[GB] CAP-01 static #3'
-  - '[GB] CAP-01 static #4'
-  - '[ES] CAP-01 static'
-  - '[FI] CAP-01 static'
-  - '[FI] CAP-01 static #2'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[FI] CAP-01 static #3'
   - '[US] CAP-01 static #3'
+  - '[US] FV-01 static'
+  - '[CA] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[ES] CAP-01 static'
+  - '[DE] CAP-01 static'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
+  - '[DE] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
+  - '[NL] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[FR] CAP-01 static #2'
+  - '[FI] CAP-01 static #2'
+  - '[ES] CAP-01 static #2'
+  - '[NL] CAP-01 static #2'
+  - '[GB] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[KR] CAP-01 static #2'
   - '[IT] CAP-01 static'
-  - '[PL] CAP-01 static'
+  - '[GB] CAP-01 static #3'
   - '[CH] CAP-01 static'
   - '[ES] FV-01 static'
-  - '[FR] CAP-01 static #3'
-  - '[GB] FV-01 static'
-  - '[ES] CAP-01 static #2'
-  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #4'
   - '[NL] ZP-01 static'
-  - '[IN] CAP-01 static #2'
-  - '[IN] CAP-01 static #3'
-  - '[NL] CAP-01 static #2'
-  - '[IT] CAP-01 static #2'
-  - '[CH] CAP-01 static #2'
   - '[ES] CAP-01 static #3'
-  - '[PL] CAP-01 static #2'
-  - '[HK] FV-01 static'
-  - '[ES] FV-01 static #2'
-  - '[BE] FV-01 static'
-  - '[FI] FV-01 static'
-  - '[KR] CAP-01 static'
-  - '[NL] FV-01 static'
-  - '[NL] CAP-01 static #3'
-  - '[EE] FV-01 static'
   - '[GB] CAP-01 static #5'
   - '[GB] CAP-01 static #6'
-  - '[AU] FV-01 static'
-  - '[AR] FV-01 static'
+  - '[NL] FV-01 static'
+  - '[PL] CAP-01 static'
+  - '[FR] CAP-01 static #3'
+  - '[IN] CAP-01 static'
+  - '[IN] CAP-01 static #2'
+  - '[FI] CAP-01 static #3'
+  - '[US] TD-01 static #2'
+  - '[IN] CAP-01 static #3'
+  - '[IT] CAP-01 static #2'
+  - '[CA] CAP-01 static #3'
   - '[GB] CAP-01 static #7'
+  - '[CH] CAP-01 static #2'
+  - '[DE] CAP-01 static #3'
+  - '[GB] CAP-01 static #8'
+  - '[PL] CAP-01 static #2'
+  - '[DK] FV-01 static'
+  - '[HK] FV-01 static'
+  - '[EE] FV-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[US] TD-01 static #3'
+  - '[BE] FV-01 static'
+  - '[US] TD-01 static #4'
+  - '[FI] FV-01 static'
+  - '[ES] FV-01 static #2'
+  - '[IT] FV-01 static'
+  - '[BG] FV-01 static'
+  - '[NL] FV-01 static #2'
+  - '[IN] FV-01 static'
+  - '[AR] FV-01 static'
+  - '[AU] FV-01 static'
+  - '[JP] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
   - '[XX] ZP-01 static #3'
@@ -2131,7 +2320,6 @@ proxy-groups:
   - '[XX] ZP-01 static #66'
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
-  - '[KR] CAP-01 static #2'
 - name: AI
   type: select
   proxies:
@@ -2140,54 +2328,65 @@ proxy-groups:
   - '[US] ZP-01 static'
   - '[US] CAP-01 static #2'
   - '[CA] CAP-01 static'
-  - '[US] FV-01 static'
-  - '[US] TD-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[CA] CAP-01 static #3'
-  - '[DE] CAP-01 static'
-  - '[DE] CAP-01 static #2'
-  - '[GB] CAP-01 static'
-  - '[FR] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[FR] CAP-01 static #2'
-  - '[GB] CAP-01 static #3'
-  - '[GB] CAP-01 static #4'
-  - '[ES] CAP-01 static'
-  - '[FI] CAP-01 static'
-  - '[FI] CAP-01 static #2'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[FI] CAP-01 static #3'
   - '[US] CAP-01 static #3'
+  - '[US] FV-01 static'
+  - '[CA] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[ES] CAP-01 static'
+  - '[DE] CAP-01 static'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
+  - '[DE] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
+  - '[NL] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[FR] CAP-01 static #2'
+  - '[FI] CAP-01 static #2'
+  - '[ES] CAP-01 static #2'
+  - '[NL] CAP-01 static #2'
+  - '[GB] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[KR] CAP-01 static #2'
   - '[IT] CAP-01 static'
-  - '[PL] CAP-01 static'
+  - '[GB] CAP-01 static #3'
   - '[CH] CAP-01 static'
   - '[ES] FV-01 static'
-  - '[FR] CAP-01 static #3'
-  - '[GB] FV-01 static'
-  - '[ES] CAP-01 static #2'
-  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #4'
   - '[NL] ZP-01 static'
-  - '[IN] CAP-01 static #2'
-  - '[IN] CAP-01 static #3'
-  - '[NL] CAP-01 static #2'
-  - '[IT] CAP-01 static #2'
-  - '[CH] CAP-01 static #2'
   - '[ES] CAP-01 static #3'
-  - '[PL] CAP-01 static #2'
-  - '[HK] FV-01 static'
-  - '[ES] FV-01 static #2'
-  - '[BE] FV-01 static'
-  - '[FI] FV-01 static'
-  - '[KR] CAP-01 static'
-  - '[NL] FV-01 static'
-  - '[NL] CAP-01 static #3'
-  - '[EE] FV-01 static'
   - '[GB] CAP-01 static #5'
   - '[GB] CAP-01 static #6'
-  - '[AU] FV-01 static'
-  - '[AR] FV-01 static'
+  - '[NL] FV-01 static'
+  - '[PL] CAP-01 static'
+  - '[FR] CAP-01 static #3'
+  - '[IN] CAP-01 static'
+  - '[IN] CAP-01 static #2'
+  - '[FI] CAP-01 static #3'
+  - '[US] TD-01 static #2'
+  - '[IN] CAP-01 static #3'
+  - '[IT] CAP-01 static #2'
+  - '[CA] CAP-01 static #3'
   - '[GB] CAP-01 static #7'
+  - '[CH] CAP-01 static #2'
+  - '[DE] CAP-01 static #3'
+  - '[GB] CAP-01 static #8'
+  - '[PL] CAP-01 static #2'
+  - '[DK] FV-01 static'
+  - '[HK] FV-01 static'
+  - '[EE] FV-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[US] TD-01 static #3'
+  - '[BE] FV-01 static'
+  - '[US] TD-01 static #4'
+  - '[FI] FV-01 static'
+  - '[ES] FV-01 static #2'
+  - '[IT] FV-01 static'
+  - '[BG] FV-01 static'
+  - '[NL] FV-01 static #2'
+  - '[IN] FV-01 static'
+  - '[AR] FV-01 static'
+  - '[AU] FV-01 static'
+  - '[JP] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
   - '[XX] ZP-01 static #3'
@@ -2256,7 +2455,6 @@ proxy-groups:
   - '[XX] ZP-01 static #66'
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
-  - '[KR] CAP-01 static #2'
 - name: Streaming
   type: select
   proxies:
@@ -2266,54 +2464,65 @@ proxy-groups:
   - '[US] ZP-01 static'
   - '[US] CAP-01 static #2'
   - '[CA] CAP-01 static'
-  - '[US] FV-01 static'
-  - '[US] TD-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[CA] CAP-01 static #3'
-  - '[DE] CAP-01 static'
-  - '[DE] CAP-01 static #2'
-  - '[GB] CAP-01 static'
-  - '[FR] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[FR] CAP-01 static #2'
-  - '[GB] CAP-01 static #3'
-  - '[GB] CAP-01 static #4'
-  - '[ES] CAP-01 static'
-  - '[FI] CAP-01 static'
-  - '[FI] CAP-01 static #2'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[FI] CAP-01 static #3'
   - '[US] CAP-01 static #3'
+  - '[US] FV-01 static'
+  - '[CA] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[ES] CAP-01 static'
+  - '[DE] CAP-01 static'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
+  - '[DE] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
+  - '[NL] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[FR] CAP-01 static #2'
+  - '[FI] CAP-01 static #2'
+  - '[ES] CAP-01 static #2'
+  - '[NL] CAP-01 static #2'
+  - '[GB] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[KR] CAP-01 static #2'
   - '[IT] CAP-01 static'
-  - '[PL] CAP-01 static'
+  - '[GB] CAP-01 static #3'
   - '[CH] CAP-01 static'
   - '[ES] FV-01 static'
-  - '[FR] CAP-01 static #3'
-  - '[GB] FV-01 static'
-  - '[ES] CAP-01 static #2'
-  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #4'
   - '[NL] ZP-01 static'
-  - '[IN] CAP-01 static #2'
-  - '[IN] CAP-01 static #3'
-  - '[NL] CAP-01 static #2'
-  - '[IT] CAP-01 static #2'
-  - '[CH] CAP-01 static #2'
   - '[ES] CAP-01 static #3'
-  - '[PL] CAP-01 static #2'
-  - '[HK] FV-01 static'
-  - '[ES] FV-01 static #2'
-  - '[BE] FV-01 static'
-  - '[FI] FV-01 static'
-  - '[KR] CAP-01 static'
-  - '[NL] FV-01 static'
-  - '[NL] CAP-01 static #3'
-  - '[EE] FV-01 static'
   - '[GB] CAP-01 static #5'
   - '[GB] CAP-01 static #6'
-  - '[AU] FV-01 static'
-  - '[AR] FV-01 static'
+  - '[NL] FV-01 static'
+  - '[PL] CAP-01 static'
+  - '[FR] CAP-01 static #3'
+  - '[IN] CAP-01 static'
+  - '[IN] CAP-01 static #2'
+  - '[FI] CAP-01 static #3'
+  - '[US] TD-01 static #2'
+  - '[IN] CAP-01 static #3'
+  - '[IT] CAP-01 static #2'
+  - '[CA] CAP-01 static #3'
   - '[GB] CAP-01 static #7'
+  - '[CH] CAP-01 static #2'
+  - '[DE] CAP-01 static #3'
+  - '[GB] CAP-01 static #8'
+  - '[PL] CAP-01 static #2'
+  - '[DK] FV-01 static'
+  - '[HK] FV-01 static'
+  - '[EE] FV-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[US] TD-01 static #3'
+  - '[BE] FV-01 static'
+  - '[US] TD-01 static #4'
+  - '[FI] FV-01 static'
+  - '[ES] FV-01 static #2'
+  - '[IT] FV-01 static'
+  - '[BG] FV-01 static'
+  - '[NL] FV-01 static #2'
+  - '[IN] FV-01 static'
+  - '[AR] FV-01 static'
+  - '[AU] FV-01 static'
+  - '[JP] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
   - '[XX] ZP-01 static #3'
@@ -2382,7 +2591,6 @@ proxy-groups:
   - '[XX] ZP-01 static #66'
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
-  - '[KR] CAP-01 static #2'
 - name: Telegram
   type: select
   proxies:
@@ -2392,54 +2600,65 @@ proxy-groups:
   - '[US] ZP-01 static'
   - '[US] CAP-01 static #2'
   - '[CA] CAP-01 static'
-  - '[US] FV-01 static'
-  - '[US] TD-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[CA] CAP-01 static #3'
-  - '[DE] CAP-01 static'
-  - '[DE] CAP-01 static #2'
-  - '[GB] CAP-01 static'
-  - '[FR] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[FR] CAP-01 static #2'
-  - '[GB] CAP-01 static #3'
-  - '[GB] CAP-01 static #4'
-  - '[ES] CAP-01 static'
-  - '[FI] CAP-01 static'
-  - '[FI] CAP-01 static #2'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[FI] CAP-01 static #3'
   - '[US] CAP-01 static #3'
+  - '[US] FV-01 static'
+  - '[CA] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[ES] CAP-01 static'
+  - '[DE] CAP-01 static'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
+  - '[DE] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
+  - '[NL] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[FR] CAP-01 static #2'
+  - '[FI] CAP-01 static #2'
+  - '[ES] CAP-01 static #2'
+  - '[NL] CAP-01 static #2'
+  - '[GB] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[KR] CAP-01 static #2'
   - '[IT] CAP-01 static'
-  - '[PL] CAP-01 static'
+  - '[GB] CAP-01 static #3'
   - '[CH] CAP-01 static'
   - '[ES] FV-01 static'
-  - '[FR] CAP-01 static #3'
-  - '[GB] FV-01 static'
-  - '[ES] CAP-01 static #2'
-  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #4'
   - '[NL] ZP-01 static'
-  - '[IN] CAP-01 static #2'
-  - '[IN] CAP-01 static #3'
-  - '[NL] CAP-01 static #2'
-  - '[IT] CAP-01 static #2'
-  - '[CH] CAP-01 static #2'
   - '[ES] CAP-01 static #3'
-  - '[PL] CAP-01 static #2'
-  - '[HK] FV-01 static'
-  - '[ES] FV-01 static #2'
-  - '[BE] FV-01 static'
-  - '[FI] FV-01 static'
-  - '[KR] CAP-01 static'
-  - '[NL] FV-01 static'
-  - '[NL] CAP-01 static #3'
-  - '[EE] FV-01 static'
   - '[GB] CAP-01 static #5'
   - '[GB] CAP-01 static #6'
-  - '[AU] FV-01 static'
-  - '[AR] FV-01 static'
+  - '[NL] FV-01 static'
+  - '[PL] CAP-01 static'
+  - '[FR] CAP-01 static #3'
+  - '[IN] CAP-01 static'
+  - '[IN] CAP-01 static #2'
+  - '[FI] CAP-01 static #3'
+  - '[US] TD-01 static #2'
+  - '[IN] CAP-01 static #3'
+  - '[IT] CAP-01 static #2'
+  - '[CA] CAP-01 static #3'
   - '[GB] CAP-01 static #7'
+  - '[CH] CAP-01 static #2'
+  - '[DE] CAP-01 static #3'
+  - '[GB] CAP-01 static #8'
+  - '[PL] CAP-01 static #2'
+  - '[DK] FV-01 static'
+  - '[HK] FV-01 static'
+  - '[EE] FV-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[US] TD-01 static #3'
+  - '[BE] FV-01 static'
+  - '[US] TD-01 static #4'
+  - '[FI] FV-01 static'
+  - '[ES] FV-01 static #2'
+  - '[IT] FV-01 static'
+  - '[BG] FV-01 static'
+  - '[NL] FV-01 static #2'
+  - '[IN] FV-01 static'
+  - '[AR] FV-01 static'
+  - '[AU] FV-01 static'
+  - '[JP] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
   - '[XX] ZP-01 static #3'
@@ -2508,7 +2727,6 @@ proxy-groups:
   - '[XX] ZP-01 static #66'
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
-  - '[KR] CAP-01 static #2'
 - name: Apple
   type: select
   proxies:
@@ -2534,284 +2752,1346 @@ rule-providers:
     type: http
     behavior: domain
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt
     path: ./ruleset/private.txt
     interval: 86400
   reject:
     type: http
     behavior: domain
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
     path: ./ruleset/reject.txt
     interval: 86400
   icloud:
     type: http
     behavior: domain
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
     path: ./ruleset/icloud.txt
     interval: 86400
   apple:
     type: http
     behavior: domain
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt
     path: ./ruleset/apple.txt
     interval: 86400
   google:
     type: http
     behavior: domain
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt
     path: ./ruleset/google.txt
     interval: 86400
   proxy:
     type: http
     behavior: domain
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
     path: ./ruleset/proxy.txt
     interval: 86400
   direct:
     type: http
     behavior: domain
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt
     path: ./ruleset/direct.txt
     interval: 86400
   gfw:
     type: http
     behavior: domain
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
     path: ./ruleset/gfw.txt
     interval: 86400
   tld-not-cn:
     type: http
     behavior: domain
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt
     path: ./ruleset/tld-not-cn.txt
     interval: 86400
   telegramcidr:
     type: http
     behavior: ipcidr
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
     path: ./ruleset/telegramcidr.txt
     interval: 86400
   cncidr:
     type: http
     behavior: ipcidr
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt
     path: ./ruleset/cncidr.txt
     interval: 86400
   lancidr:
     type: http
     behavior: ipcidr
     format: text
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt
+    url: https://ghfast.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt
     path: ./ruleset/lancidr.txt
     interval: 86400
 rules:
 - RULE-SET,private,DIRECT
 - RULE-SET,lancidr,DIRECT
 - RULE-SET,reject,REJECT
+- DOMAIN-SUFFIX,0101semi.com,DIRECT
+- DOMAIN-SUFFIX,02163.com,DIRECT
+- DOMAIN-SUFFIX,0476vip.com,DIRECT
+- DOMAIN-SUFFIX,052360.com,DIRECT
+- DOMAIN-SUFFIX,0576qq.com,DIRECT
+- DOMAIN-SUFFIX,0739qq.com,DIRECT
+- DOMAIN-SUFFIX,1000360.com,DIRECT
+- DOMAIN-SUFFIX,1000xuexi.com,DIRECT
+- DOMAIN-SUFFIX,10010.com,DIRECT
+- DOMAIN-SUFFIX,10010.net,DIRECT
+- DOMAIN-SUFFIX,10010.team,DIRECT
+- DOMAIN-SUFFIX,10086.cn,DIRECT
+- DOMAIN-SUFFIX,10086.com,DIRECT
+- DOMAIN-SUFFIX,10086.games,DIRECT
+- DOMAIN-SUFFIX,10086.world,DIRECT
+- DOMAIN-SUFFIX,100xuexi.com,DIRECT
+- DOMAIN-SUFFIX,109360.com,DIRECT
+- DOMAIN-SUFFIX,10qq.com,DIRECT
+- DOMAIN-SUFFIX,118360.com,DIRECT
+- DOMAIN-SUFFIX,12306.cn,DIRECT
+- DOMAIN-SUFFIX,12306.com,DIRECT
+- DOMAIN-SUFFIX,123ems.com,DIRECT
+- DOMAIN-SUFFIX,126.com,DIRECT
+- DOMAIN-SUFFIX,126.net,DIRECT
+- DOMAIN-SUFFIX,1360.com,DIRECT
+- DOMAIN-SUFFIX,1399vip.com,DIRECT
+- DOMAIN-SUFFIX,16163.com,DIRECT
+- DOMAIN-SUFFIX,163.com,DIRECT
+- DOMAIN-SUFFIX,1688.com,DIRECT
+- DOMAIN-SUFFIX,169163.com,DIRECT
+- DOMAIN-SUFFIX,17173.com,DIRECT
+- DOMAIN-SUFFIX,17xuexi.com,DIRECT
+- DOMAIN-SUFFIX,189.cn,DIRECT
+- DOMAIN-SUFFIX,1nami.com,DIRECT
+- DOMAIN-SUFFIX,1sohu.com,DIRECT
+- DOMAIN-SUFFIX,2024qq.com,DIRECT
+- DOMAIN-SUFFIX,328vip.com,DIRECT
+- DOMAIN-SUFFIX,33360.com,DIRECT
+- DOMAIN-SUFFIX,360.com,DIRECT
+- DOMAIN-SUFFIX,360.net,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,360humi.com,DIRECT
+- DOMAIN-SUFFIX,360wenmi.com,DIRECT
+- DOMAIN-SUFFIX,365tvip.com,DIRECT
+- DOMAIN-SUFFIX,365vip.com,DIRECT
+- DOMAIN-SUFFIX,36dianping.com,DIRECT
+- DOMAIN-SUFFIX,37.com,DIRECT
+- DOMAIN-SUFFIX,37163.com,DIRECT
+- DOMAIN-SUFFIX,3dmaxvip.com,DIRECT
+- DOMAIN-SUFFIX,3dmgame.com,DIRECT
+- DOMAIN-SUFFIX,3haovip.com,DIRECT
+- DOMAIN-SUFFIX,3tmall.com,DIRECT
+- DOMAIN-SUFFIX,444888qq.com,DIRECT
+- DOMAIN-SUFFIX,4848360.com,DIRECT
+- DOMAIN-SUFFIX,4aqq.com,DIRECT
+- DOMAIN-SUFFIX,51jucaimi.com,DIRECT
+- DOMAIN-SUFFIX,51qumi.com,DIRECT
+- DOMAIN-SUFFIX,52alipay.com,DIRECT
+- DOMAIN-SUFFIX,52bjd.com,DIRECT
+- DOMAIN-SUFFIX,52xuexi.net,DIRECT
+- DOMAIN-SUFFIX,53xjd.com,DIRECT
+- DOMAIN-SUFFIX,56360.com,DIRECT
+- DOMAIN-SUFFIX,56qq.com,DIRECT
+- DOMAIN-SUFFIX,58.com,DIRECT
+- DOMAIN-SUFFIX,58xuexi.com,DIRECT
+- DOMAIN-SUFFIX,592163.com,DIRECT
+- DOMAIN-SUFFIX,5isohu.com,DIRECT
+- DOMAIN-SUFFIX,6360.com,DIRECT
+- DOMAIN-SUFFIX,656126.com,DIRECT
+- DOMAIN-SUFFIX,66mi.com,DIRECT
+- DOMAIN-SUFFIX,71360.com,DIRECT
+- DOMAIN-SUFFIX,72qq.com,DIRECT
+- DOMAIN-SUFFIX,73110010.com,DIRECT
+- DOMAIN-SUFFIX,75510010.com,DIRECT
+- DOMAIN-SUFFIX,7755360.com,DIRECT
+- DOMAIN-SUFFIX,793360.com,DIRECT
+- DOMAIN-SUFFIX,7vip.com,DIRECT
+- DOMAIN-SUFFIX,828385vip.com,DIRECT
+- DOMAIN-SUFFIX,88360.com,DIRECT
+- DOMAIN-SUFFIX,91360.com,DIRECT
+- DOMAIN-SUFFIX,916360.net,DIRECT
+- DOMAIN-SUFFIX,91hmi.com,DIRECT
+- DOMAIN-SUFFIX,91kami.com,DIRECT
+- DOMAIN-SUFFIX,95516.com,DIRECT
+- DOMAIN-SUFFIX,962360.com,DIRECT
+- DOMAIN-SUFFIX,9taobao.com,DIRECT
+- DOMAIN-SUFFIX,aa360.net,DIRECT
+- DOMAIN-SUFFIX,aaltosemi.com,DIRECT
+- DOMAIN-SUFFIX,ab126.com,DIRECT
+- DOMAIN-SUFFIX,abchina.com,DIRECT
+- DOMAIN-SUFFIX,acgvideo.com,DIRECT
+- DOMAIN-SUFFIX,actions-semi.com,DIRECT
+- DOMAIN-SUFFIX,adl163.com,DIRECT
+- DOMAIN-SUFFIX,advanced-microsemi.com,DIRECT
+- DOMAIN-SUFFIX,adxvip.com,DIRECT
+- DOMAIN-SUFFIX,aeo-cctv.com,DIRECT
+- DOMAIN-SUFFIX,af360.com,DIRECT
+- DOMAIN-SUFFIX,afuvip.com,DIRECT
+- DOMAIN-SUFFIX,agi360.xyz,DIRECT
+- DOMAIN-SUFFIX,ah163.com,DIRECT
+- DOMAIN-SUFFIX,ahhanmi.com,DIRECT
+- DOMAIN-SUFFIX,ahkemi.com,DIRECT
+- DOMAIN-SUFFIX,ahlt10010.com,DIRECT
+- DOMAIN-SUFFIX,ai-cctv.com,DIRECT
+- DOMAIN-SUFFIX,aichaoxing.com,DIRECT
+- DOMAIN-SUFFIX,aicsemi.com,DIRECT
+- DOMAIN-SUFFIX,aifu360.com,DIRECT
+- DOMAIN-SUFFIX,ailiao360.com,DIRECT
+- DOMAIN-SUFFIX,aiparkvip.com,DIRECT
+- DOMAIN-SUFFIX,aiqiyi.com,DIRECT
+- DOMAIN-SUFFIX,airjd.com,DIRECT
+- DOMAIN-SUFFIX,aivivo.com,DIRECT
+- DOMAIN-SUFFIX,aixuexi.com,DIRECT
+- DOMAIN-SUFFIX,aiyoumi.com,DIRECT
+- DOMAIN-SUFFIX,ajcctv.com,DIRECT
+- DOMAIN-SUFFIX,ali213.net,DIRECT
+- DOMAIN-SUFFIX,alibaba.com,DIRECT
+- DOMAIN-SUFFIX,alibaba.net,DIRECT
+- DOMAIN-SUFFIX,alicdn.com,DIRECT
+- DOMAIN-SUFFIX,aliimg.com,DIRECT
+- DOMAIN-SUFFIX,alikunlun.com,DIRECT
+- DOMAIN-SUFFIX,alipay.com,DIRECT
+- DOMAIN-SUFFIX,alipay.hk,DIRECT
+- DOMAIN-SUFFIX,alipay.net,DIRECT
+- DOMAIN-SUFFIX,alipaydns.com,DIRECT
+- DOMAIN-SUFFIX,alipayobjects.com,DIRECT
+- DOMAIN-SUFFIX,alixiaomi.com,DIRECT
+- DOMAIN-SUFFIX,aliyun.com,DIRECT
+- DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+- DOMAIN-SUFFIX,aliyunvip.com,DIRECT
+- DOMAIN-SUFFIX,allianz360.com,DIRECT
+- DOMAIN-SUFFIX,amap.com,DIRECT
+- DOMAIN-SUFFIX,amazonaws.cn,DIRECT
+- DOMAIN-SUFFIX,amemv.com,DIRECT
+- DOMAIN-SUFFIX,ameya360.com,DIRECT
+- DOMAIN-SUFFIX,amyart360.com,DIRECT
+- DOMAIN-SUFFIX,androidmi.com,DIRECT
+- DOMAIN-SUFFIX,anjuke.com,DIRECT
+- DOMAIN-SUFFIX,ankevip.com,DIRECT
+- DOMAIN-SUFFIX,anxin360.com,DIRECT
+- DOMAIN-SUFFIX,anxin360.net,DIRECT
+- DOMAIN-SUFFIX,apigwtencent.com,DIRECT
+- DOMAIN-SUFFIX,appsina.com,DIRECT
+- DOMAIN-SUFFIX,arcdmi.com,DIRECT
+- DOMAIN-SUFFIX,arthome163.com,DIRECT
+- DOMAIN-SUFFIX,asemi360.com,DIRECT
+- DOMAIN-SUFFIX,atcc360.com,DIRECT
+- DOMAIN-SUFFIX,atyomi.com,DIRECT
+- DOMAIN-SUFFIX,autobaidu.com,DIRECT
+- DOMAIN-SUFFIX,autoecosystems.com,DIRECT
+- DOMAIN-SUFFIX,autonavi.com,DIRECT
+- DOMAIN-SUFFIX,avq360.com,DIRECT
+- DOMAIN-SUFFIX,awsdns-vip.com,DIRECT
+- DOMAIN-SUFFIX,axqqq.com,DIRECT
+- DOMAIN-SUFFIX,azycjd.com,DIRECT
+- DOMAIN-SUFFIX,b23.tv,DIRECT
+- DOMAIN-SUFFIX,b2bvip.com,DIRECT
+- DOMAIN-SUFFIX,bags163.com,DIRECT
+- DOMAIN-SUFFIX,baidu.com,DIRECT
+- DOMAIN-SUFFIX,baidubce.com,DIRECT
+- DOMAIN-SUFFIX,baidupcs.com,DIRECT
+- DOMAIN-SUFFIX,baifenbu.com,DIRECT
+- DOMAIN-SUFFIX,bankcomm.com,DIRECT
+- DOMAIN-SUFFIX,baobei360.com,DIRECT
+- DOMAIN-SUFFIX,baodan360.com,DIRECT
+- DOMAIN-SUFFIX,baomi.com,DIRECT
+- DOMAIN-SUFFIX,baoqingvip.com,DIRECT
+- DOMAIN-SUFFIX,baoxuexi.com,DIRECT
+- DOMAIN-SUFFIX,bcebos.com,DIRECT
+- DOMAIN-SUFFIX,bdimg.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,beifeng.com,DIRECT
+- DOMAIN-SUFFIX,beilianjd.com,DIRECT
+- DOMAIN-SUFFIX,benfeijd.com,DIRECT
+- DOMAIN-SUFFIX,benmi.com,DIRECT
+- DOMAIN-SUFFIX,beretmall.com,DIRECT
+- DOMAIN-SUFFIX,bestfuturevip.com,DIRECT
+- DOMAIN-SUFFIX,betcctv.com,DIRECT
+- DOMAIN-SUFFIX,bhjjj360.com,DIRECT
+- DOMAIN-SUFFIX,bianlifeng.com,DIRECT
+- DOMAIN-SUFFIX,biaomi.com,DIRECT
+- DOMAIN-SUFFIX,bilalipay.com,DIRECT
+- DOMAIN-SUFFIX,biliapi.com,DIRECT
+- DOMAIN-SUFFIX,biliapi.net,DIRECT
+- DOMAIN-SUFFIX,bilibili.cc,DIRECT
+- DOMAIN-SUFFIX,bilibili.co,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.li,DIRECT
+- DOMAIN-SUFFIX,bilibili.net,DIRECT
+- DOMAIN-SUFFIX,bilibili.tv,DIRECT
+- DOMAIN-SUFFIX,biliimg.com,DIRECT
+- DOMAIN-SUFFIX,bilivideo.cn,DIRECT
+- DOMAIN-SUFFIX,bilivideo.com,DIRECT
+- DOMAIN-SUFFIX,binary-semi.com,DIRECT
+- DOMAIN-SUFFIX,bio360.net,DIRECT
+- DOMAIN-SUFFIX,biovip.com,DIRECT
+- DOMAIN-SUFFIX,bitjd.com,DIRECT
+- DOMAIN-SUFFIX,biyequnar.com,DIRECT
+- DOMAIN-SUFFIX,bizhi360.com,DIRECT
+- DOMAIN-SUFFIX,bj360.com,DIRECT
+- DOMAIN-SUFFIX,bjmailqq.com,DIRECT
+- DOMAIN-SUFFIX,bjzy360.com,DIRECT
+- DOMAIN-SUFFIX,bkjsemi.com,DIRECT
+- DOMAIN-SUFFIX,bkqq.com,DIRECT
+- DOMAIN-SUFFIX,bktencent.com,DIRECT
+- DOMAIN-SUFFIX,blbilibili.com,DIRECT
+- DOMAIN-SUFFIX,blycctv.com,DIRECT
+- DOMAIN-SUFFIX,boc.cn,DIRECT
+- DOMAIN-SUFFIX,bongmi.com,DIRECT
+- DOMAIN-SUFFIX,bopaisemi.com,DIRECT
+- DOMAIN-SUFFIX,boweifeng.com,DIRECT
+- DOMAIN-SUFFIX,boxdouyin.com,DIRECT
+- DOMAIN-SUFFIX,bpsemi.com,DIRECT
+- DOMAIN-SUFFIX,britesemi.com,DIRECT
+- DOMAIN-SUFFIX,bthxjd.com,DIRECT
+- DOMAIN-SUFFIX,btsemi.com,DIRECT
+- DOMAIN-SUFFIX,bxfish360.net,DIRECT
+- DOMAIN-SUFFIX,byjd.com,DIRECT
+- DOMAIN-SUFFIX,bytecdn.cn,DIRECT
+- DOMAIN-SUFFIX,bytedance.com,DIRECT
+- DOMAIN-SUFFIX,bytedance.net,DIRECT
+- DOMAIN-SUFFIX,bytedance.org,DIRECT
+- DOMAIN-SUFFIX,bytegoofy.com,DIRECT
+- DOMAIN-SUFFIX,byteimg.com,DIRECT
+- DOMAIN-SUFFIX,c-ctrip.com,DIRECT
+- DOMAIN-SUFFIX,camera360.com,DIRECT
+- DOMAIN-SUFFIX,caohaifeng.com,DIRECT
+- DOMAIN-SUFFIX,casboc.com,DIRECT
+- DOMAIN-SUFFIX,cbi360.net,DIRECT
+- DOMAIN-SUFFIX,ccabchina.com,DIRECT
+- DOMAIN-SUFFIX,ccb.com,DIRECT
+- DOMAIN-SUFFIX,ccit360.com,DIRECT
+- DOMAIN-SUFFIX,ccn360.com,DIRECT
+- DOMAIN-SUFFIX,ccpc360.com,DIRECT
+- DOMAIN-SUFFIX,cctv.com,DIRECT
+- DOMAIN-SUFFIX,cctvhdmi.com,DIRECT
+- DOMAIN-SUFFIX,cdbaidu.com,DIRECT
+- DOMAIN-SUFFIX,cdfeimi.com,DIRECT
+- DOMAIN-SUFFIX,cellwise-semi.com,DIRECT
+- DOMAIN-SUFFIX,ceshanmi.com,DIRECT
+- DOMAIN-SUFFIX,cfd163.com,DIRECT
+- DOMAIN-SUFFIX,cfmeutencent.com,DIRECT
+- DOMAIN-SUFFIX,cfmna-tencent.com,DIRECT
+- DOMAIN-SUFFIX,cfmseatencent.com,DIRECT
+- DOMAIN-SUFFIX,cgdeuvip.com,DIRECT
+- DOMAIN-SUFFIX,cgkjvip.com,DIRECT
+- DOMAIN-SUFFIX,chaoschina.com,DIRECT
+- DOMAIN-SUFFIX,chaoxing.cc,DIRECT
+- DOMAIN-SUFFIX,chaoxing.com,DIRECT
+- DOMAIN-SUFFIX,chevip.com,DIRECT
+- DOMAIN-SUFFIX,chinabmi.com,DIRECT
+- DOMAIN-SUFFIX,chinadaily.com.cn,DIRECT
+- DOMAIN-SUFFIX,chinadaily.net,DIRECT
+- DOMAIN-SUFFIX,chinamap.com,DIRECT
+- DOMAIN-SUFFIX,chinanmi.com,DIRECT
+- DOMAIN-SUFFIX,chinapeople.com,DIRECT
+- DOMAIN-SUFFIX,chinatelecom.com.cn,DIRECT
+- DOMAIN-SUFFIX,chinaunicom.com,DIRECT
+- DOMAIN-SUFFIX,chingmi.com,DIRECT
+- DOMAIN-SUFFIX,chnqifeng.com,DIRECT
+- DOMAIN-SUFFIX,chugou360.com,DIRECT
+- DOMAIN-SUFFIX,chunmi.com,DIRECT
+- DOMAIN-SUFFIX,chuxinvip.com,DIRECT
+- DOMAIN-SUFFIX,cignacmb-ipmi.com,DIRECT
+- DOMAIN-SUFFIX,cio360.net,DIRECT
+- DOMAIN-SUFFIX,cjccb.com,DIRECT
+- DOMAIN-SUFFIX,clearsky360.com,DIRECT
+- DOMAIN-SUFFIX,cloudcdnvip.com,DIRECT
+- DOMAIN-SUFFIX,cloudstencent.com,DIRECT
+- DOMAIN-SUFFIX,cloudyouku.com,DIRECT
+- DOMAIN-SUFFIX,clx360.com,DIRECT
+- DOMAIN-SUFFIX,cmbchina.biz,DIRECT
+- DOMAIN-SUFFIX,cmbchina.com,DIRECT
+- DOMAIN-SUFFIX,cmbchina.net,DIRECT
+- DOMAIN-SUFFIX,cmedia360.com,DIRECT
+- DOMAIN-SUFFIX,cmpe360.com,DIRECT
+- DOMAIN-SUFFIX,cnblogs.com,DIRECT
+- DOMAIN-SUFFIX,cnblogs.vip,DIRECT
+- DOMAIN-SUFFIX,cnctrip.com,DIRECT
+- DOMAIN-SUFFIX,cnr.cn,DIRECT
+- DOMAIN-SUFFIX,cnsuning.com,DIRECT
+- DOMAIN-SUFFIX,cntv.cn,DIRECT
+- DOMAIN-SUFFIX,coin163.com,DIRECT
+- DOMAIN-SUFFIX,congmiqq.com,DIRECT
+- DOMAIN-SUFFIX,coolsite360.com,DIRECT
+- DOMAIN-SUFFIX,cos126.com,DIRECT
+- DOMAIN-SUFFIX,cqcmi.com,DIRECT
+- DOMAIN-SUFFIX,cqetcvip.com,DIRECT
+- DOMAIN-SUFFIX,cqhrjd.com,DIRECT
+- DOMAIN-SUFFIX,cqkbjd.com,DIRECT
+- DOMAIN-SUFFIX,cqljjrjd.com,DIRECT
+- DOMAIN-SUFFIX,cqvip.com,DIRECT
+- DOMAIN-SUFFIX,cqxinhua.com,DIRECT
+- DOMAIN-SUFFIX,crabchina.com,DIRECT
+- DOMAIN-SUFFIX,cri.cn,DIRECT
+- DOMAIN-SUFFIX,cscxsemi.com,DIRECT
+- DOMAIN-SUFFIX,csdn.com,DIRECT
+- DOMAIN-SUFFIX,csdn.net,DIRECT
+- DOMAIN-SUFFIX,csdn.work,DIRECT
+- DOMAIN-SUFFIX,csmh-semi.com,DIRECT
+- DOMAIN-SUFFIX,csto.com,DIRECT
+- DOMAIN-SUFFIX,csxinhua.com,DIRECT
+- DOMAIN-SUFFIX,ctrip.com,DIRECT
+- DOMAIN-SUFFIX,ctrip.my,DIRECT
+- DOMAIN-SUFFIX,ctrip.sg,DIRECT
+- DOMAIN-SUFFIX,ctripcorp.com,DIRECT
+- DOMAIN-SUFFIX,ctrmi.com,DIRECT
+- DOMAIN-SUFFIX,ctsto.com,DIRECT
+- DOMAIN-SUFFIX,cwems.com,DIRECT
+- DOMAIN-SUFFIX,cxyfjd.com,DIRECT
+- DOMAIN-SUFFIX,cyyvip.com,DIRECT
+- DOMAIN-SUFFIX,czqingzhifeng.com,DIRECT
+- DOMAIN-SUFFIX,czsvip.com,DIRECT
+- DOMAIN-SUFFIX,d-ctrip.com,DIRECT
+- DOMAIN-SUFFIX,d03jd.com,DIRECT
+- DOMAIN-SUFFIX,dada360.com,DIRECT
+- DOMAIN-SUFFIX,daimami.com,DIRECT
+- DOMAIN-SUFFIX,daixiaomi.com,DIRECT
+- DOMAIN-SUFFIX,dalianshengmi.com,DIRECT
+- DOMAIN-SUFFIX,dangdang.com,DIRECT
+- DOMAIN-SUFFIX,danmi.com,DIRECT
+- DOMAIN-SUFFIX,daoruimi.com,DIRECT
+- DOMAIN-SUFFIX,darkmi.com,DIRECT
+- DOMAIN-SUFFIX,dasfjd.com,DIRECT
+- DOMAIN-SUFFIX,dbankcdn.com,DIRECT
+- DOMAIN-SUFFIX,ddnsto.com,DIRECT
+- DOMAIN-SUFFIX,devemi.com,DIRECT
+- DOMAIN-SUFFIX,dfzxvip.com,DIRECT
+- DOMAIN-SUFFIX,dgshifeng.com,DIRECT
+- DOMAIN-SUFFIX,dianping.com,DIRECT
+- DOMAIN-SUFFIX,dianxiaomi.com,DIRECT
+- DOMAIN-SUFFIX,dianzixuexi.com,DIRECT
+- DOMAIN-SUFFIX,didichuxing.com,DIRECT
+- DOMAIN-SUFFIX,didiglobal.com,DIRECT
+- DOMAIN-SUFFIX,dili360.com,DIRECT
+- DOMAIN-SUFFIX,dinghuovip.com,DIRECT
+- DOMAIN-SUFFIX,dingtalk.com,DIRECT
+- DOMAIN-SUFFIX,ditan360.com,DIRECT
+- DOMAIN-SUFFIX,djiavip.com,DIRECT
+- DOMAIN-SUFFIX,djlmvip.com,DIRECT
+- DOMAIN-SUFFIX,dlw360.com,DIRECT
+- DOMAIN-SUFFIX,dmjvip.com,DIRECT
+- DOMAIN-SUFFIX,dnjd.com,DIRECT
+- DOMAIN-SUFFIX,dnssina.com,DIRECT
+- DOMAIN-SUFFIX,doc163.com,DIRECT
+- DOMAIN-SUFFIX,dodovip.com,DIRECT
+- DOMAIN-SUFFIX,dogfight360.com,DIRECT
+- DOMAIN-SUFFIX,dongnanmaifeng.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,douban.fm,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,doumi.com,DIRECT
+- DOMAIN-SUFFIX,douqq.com,DIRECT
 - DOMAIN-SUFFIX,douyin.com,DIRECT
 - DOMAIN-SUFFIX,douyincdn.com,DIRECT
 - DOMAIN-SUFFIX,douyinpic.com,DIRECT
 - DOMAIN-SUFFIX,douyinvod.com,DIRECT
-- DOMAIN-SUFFIX,bytedance.com,DIRECT
-- DOMAIN-SUFFIX,byteimg.com,DIRECT
-- DOMAIN-SUFFIX,bytecdn.cn,DIRECT
-- DOMAIN-SUFFIX,toutiao.com,DIRECT
-- DOMAIN-SUFFIX,ixigua.com,DIRECT
-- DOMAIN-SUFFIX,feishu.cn,DIRECT
-- DOMAIN-SUFFIX,larksuite.com,DIRECT
-- DOMAIN-SUFFIX,snssdk.com,DIRECT
-- DOMAIN-SUFFIX,amemv.com,DIRECT
-- DOMAIN-SUFFIX,pstatp.com,DIRECT
-- DOMAIN-SUFFIX,bytegoofy.com,DIRECT
-- DOMAIN-SUFFIX,huawei.com,DIRECT
-- DOMAIN-SUFFIX,hicloud.com,DIRECT
-- DOMAIN-SUFFIX,huaweicloud.com,DIRECT
-- DOMAIN-SUFFIX,hicdn.com,DIRECT
-- DOMAIN-SUFFIX,hwccpc.com,DIRECT
-- DOMAIN-SUFFIX,huaweistatic.com,DIRECT
-- DOMAIN-SUFFIX,dbankcdn.com,DIRECT
-- DOMAIN-SUFFIX,vmall.com,DIRECT
-- DOMAIN-SUFFIX,honor.com,DIRECT
-- DOMAIN-SUFFIX,bilibili.com,DIRECT
-- DOMAIN-SUFFIX,bilivideo.com,DIRECT
-- DOMAIN-SUFFIX,bilivideo.cn,DIRECT
-- DOMAIN-SUFFIX,hdslb.com,DIRECT
-- DOMAIN-SUFFIX,biliapi.net,DIRECT
-- DOMAIN-SUFFIX,biliapi.com,DIRECT
-- DOMAIN-SUFFIX,b23.tv,DIRECT
-- DOMAIN-SUFFIX,biliimg.com,DIRECT
-- DOMAIN-SUFFIX,acgvideo.com,DIRECT
-- DOMAIN-SUFFIX,taobao.com,DIRECT
-- DOMAIN-SUFFIX,tmall.com,DIRECT
-- DOMAIN-SUFFIX,tmall.hk,DIRECT
-- DOMAIN-SUFFIX,alipay.com,DIRECT
-- DOMAIN-SUFFIX,alipayobjects.com,DIRECT
-- DOMAIN-SUFFIX,alibaba.com,DIRECT
-- DOMAIN-SUFFIX,alicdn.com,DIRECT
-- DOMAIN-SUFFIX,aliyun.com,DIRECT
-- DOMAIN-SUFFIX,aliyuncs.com,DIRECT
-- DOMAIN-SUFFIX,aliimg.com,DIRECT
-- DOMAIN-SUFFIX,1688.com,DIRECT
-- DOMAIN-SUFFIX,dingtalk.com,DIRECT
-- DOMAIN-SUFFIX,alikunlun.com,DIRECT
-- DOMAIN-SUFFIX,mmstat.com,DIRECT
-- DOMAIN-SUFFIX,mgtv.com,DIRECT
-- DOMAIN-SUFFIX,tbcdn.cn,DIRECT
-- DOMAIN-SUFFIX,taobaocdn.com,DIRECT
-- DOMAIN-SUFFIX,alipaydns.com,DIRECT
-- DOMAIN-SUFFIX,qq.com,DIRECT
-- DOMAIN-SUFFIX,tencent.com,DIRECT
-- DOMAIN-SUFFIX,tencentcloud.com,DIRECT
-- DOMAIN-SUFFIX,weixin.com,DIRECT
-- DOMAIN-SUFFIX,wechat.com,DIRECT
-- DOMAIN-SUFFIX,gtimg.com,DIRECT
-- DOMAIN-SUFFIX,gtimg.cn,DIRECT
-- DOMAIN-SUFFIX,qpic.cn,DIRECT
-- DOMAIN-SUFFIX,qlogo.cn,DIRECT
-- DOMAIN-SUFFIX,qqmail.com,DIRECT
-- DOMAIN-SUFFIX,foxmail.com,DIRECT
-- DOMAIN-SUFFIX,qcloud.com,DIRECT
-- DOMAIN-SUFFIX,myqcloud.com,DIRECT
-- DOMAIN-SUFFIX,tenpay.com,DIRECT
-- DOMAIN-SUFFIX,weiyun.com,DIRECT
-- DOMAIN-SUFFIX,qqmusic.com,DIRECT
-- DOMAIN-SUFFIX,kugou.com,DIRECT
-- DOMAIN-SUFFIX,kuwo.cn,DIRECT
-- DOMAIN-SUFFIX,y.qq.com,DIRECT
-- DOMAIN-SUFFIX,baidu.com,DIRECT
-- DOMAIN-SUFFIX,bdstatic.com,DIRECT
-- DOMAIN-SUFFIX,bdimg.com,DIRECT
-- DOMAIN-SUFFIX,baidupcs.com,DIRECT
-- DOMAIN-SUFFIX,bcebos.com,DIRECT
-- DOMAIN-SUFFIX,baidubce.com,DIRECT
-- DOMAIN-SUFFIX,hao123.com,DIRECT
-- DOMAIN-SUFFIX,baifenbu.com,DIRECT
-- DOMAIN-SUFFIX,jd.com,DIRECT
-- DOMAIN-SUFFIX,jd.hk,DIRECT
-- DOMAIN-SUFFIX,360buyimg.com,DIRECT
-- DOMAIN-SUFFIX,jdpay.com,DIRECT
-- DOMAIN-SUFFIX,pinduoduo.com,DIRECT
-- DOMAIN-SUFFIX,yangkeduo.com,DIRECT
-- DOMAIN-SUFFIX,pddpic.com,DIRECT
-- DOMAIN-SUFFIX,suning.com,DIRECT
-- DOMAIN-SUFFIX,vip.com,DIRECT
-- DOMAIN-SUFFIX,kaola.com,DIRECT
-- DOMAIN-SUFFIX,dangdang.com,DIRECT
-- DOMAIN-SUFFIX,meituan.com,DIRECT
-- DOMAIN-SUFFIX,meituan.net,DIRECT
-- DOMAIN-SUFFIX,dianping.com,DIRECT
-- DOMAIN-SUFFIX,sankuai.com,DIRECT
-- DOMAIN-SUFFIX,mtyun.com,DIRECT
+- DOMAIN-SUFFIX,douyu.com,DIRECT
+- DOMAIN-SUFFIX,ds-360.com,DIRECT
+- DOMAIN-SUFFIX,duiyou360.com,DIRECT
+- DOMAIN-SUFFIX,duomi.com,DIRECT
+- DOMAIN-SUFFIX,duowan.com,DIRECT
+- DOMAIN-SUFFIX,duoyoumi.com,DIRECT
+- DOMAIN-SUFFIX,dvr163.com,DIRECT
+- DOMAIN-SUFFIX,dwzjd.com,DIRECT
+- DOMAIN-SUFFIX,dxuexi.com,DIRECT
+- DOMAIN-SUFFIX,dyccb.net,DIRECT
+- DOMAIN-SUFFIX,dyzs163.com,DIRECT
+- DOMAIN-SUFFIX,dzdvip.com,DIRECT
+- DOMAIN-SUFFIX,dzfwjd.com,DIRECT
+- DOMAIN-SUFFIX,dzlems.net,DIRECT
+- DOMAIN-SUFFIX,ea360.com,DIRECT
+- DOMAIN-SUFFIX,ectencent.com,DIRECT
+- DOMAIN-SUFFIX,ectrip.com,DIRECT
+- DOMAIN-SUFFIX,ecv360.com,DIRECT
+- DOMAIN-SUFFIX,edu.cn,DIRECT
+- DOMAIN-SUFFIX,ef360.com,DIRECT
+- DOMAIN-SUFFIX,ef360.net,DIRECT
 - DOMAIN-SUFFIX,ele.me,DIRECT
 - DOMAIN-SUFFIX,eleme.cn,DIRECT
-- DOMAIN-SUFFIX,alipay.com,DIRECT
-- DOMAIN-SUFFIX,163.com,DIRECT
-- DOMAIN-SUFFIX,126.com,DIRECT
-- DOMAIN-SUFFIX,netease.com,DIRECT
-- DOMAIN-SUFFIX,126.net,DIRECT
-- DOMAIN-SUFFIX,youdao.com,DIRECT
-- DOMAIN-SUFFIX,ydstatic.com,DIRECT
-- DOMAIN-SUFFIX,netease.im,DIRECT
-- DOMAIN-SUFFIX,qihoo.net,DIRECT
-- DOMAIN-SUFFIX,xiaomi.com,DIRECT
-- DOMAIN-SUFFIX,mi.com,DIRECT
-- DOMAIN-SUFFIX,miui.com,DIRECT
-- DOMAIN-SUFFIX,xiaomishop.com,DIRECT
-- DOMAIN-SUFFIX,mi-img.com,DIRECT
-- DOMAIN-SUFFIX,oppo.com,DIRECT
-- DOMAIN-SUFFIX,vivo.com.cn,DIRECT
-- DOMAIN-SUFFIX,oneplus.com,DIRECT
-- DOMAIN-SUFFIX,realme.com,DIRECT
-- DOMAIN-SUFFIX,weibo.com,DIRECT
-- DOMAIN-SUFFIX,weibo.cn,DIRECT
-- DOMAIN-SUFFIX,sina.com.cn,DIRECT
-- DOMAIN-SUFFIX,sinaimg.cn,DIRECT
-- DOMAIN-SUFFIX,zhihu.com,DIRECT
-- DOMAIN-SUFFIX,zhimg.com,DIRECT
-- DOMAIN-SUFFIX,xiaohongshu.com,DIRECT
-- DOMAIN-SUFFIX,xhscdn.com,DIRECT
-- DOMAIN-SUFFIX,douban.com,DIRECT
-- DOMAIN-SUFFIX,doubanio.com,DIRECT
-- DOMAIN-SUFFIX,kuaishou.com,DIRECT
+- DOMAIN-SUFFIX,emailxqq.com,DIRECT
+- DOMAIN-SUFFIX,enet360.com,DIRECT
+- DOMAIN-SUFFIX,english163.com,DIRECT
+- DOMAIN-SUFFIX,entrust.cn,DIRECT
+- DOMAIN-SUFFIX,epub360.com,DIRECT
+- DOMAIN-SUFFIX,eqnvip.com,DIRECT
+- DOMAIN-SUFFIX,ershicimi.com,DIRECT
+- DOMAIN-SUFFIX,erun360.com,DIRECT
+- DOMAIN-SUFFIX,erxin360.com,DIRECT
+- DOMAIN-SUFFIX,esavip.com,DIRECT
+- DOMAIN-SUFFIX,essemi.com,DIRECT
+- DOMAIN-SUFFIX,eta-semi.com,DIRECT
+- DOMAIN-SUFFIX,etrasemi.com,DIRECT
+- DOMAIN-SUFFIX,evask360.com,DIRECT
+- DOMAIN-SUFFIX,ewt360.com,DIRECT
+- DOMAIN-SUFFIX,ex360.com,DIRECT
+- DOMAIN-SUFFIX,exmailqq.com,DIRECT
+- DOMAIN-SUFFIX,extqq.com,DIRECT
+- DOMAIN-SUFFIX,eyoubaidu.com,DIRECT
+- DOMAIN-SUFFIX,f7chinavip.com,DIRECT
+- DOMAIN-SUFFIX,faka163.com,DIRECT
+- DOMAIN-SUFFIX,famen163.com,DIRECT
+- DOMAIN-SUFFIX,fancl-vip.com,DIRECT
+- DOMAIN-SUFFIX,fang.com,DIRECT
+- DOMAIN-SUFFIX,fanmimi.com,DIRECT
+- DOMAIN-SUFFIX,fanyouvip.com,DIRECT
+- DOMAIN-SUFFIX,fcvvip.com,DIRECT
+- DOMAIN-SUFFIX,fcz360.com,DIRECT
+- DOMAIN-SUFFIX,feifanmi.com,DIRECT
+- DOMAIN-SUFFIX,feiniao360.com,DIRECT
+- DOMAIN-SUFFIX,feishu.cn,DIRECT
+- DOMAIN-SUFFIX,feituo126.com,DIRECT
+- DOMAIN-SUFFIX,felmvip.com,DIRECT
+- DOMAIN-SUFFIX,fen360.com,DIRECT
+- DOMAIN-SUFFIX,fenhuo360.com,DIRECT
+- DOMAIN-SUFFIX,fenxmi.com,DIRECT
+- DOMAIN-SUFFIX,fevermi.com,DIRECT
+- DOMAIN-SUFFIX,fht360.com,DIRECT
+- DOMAIN-SUFFIX,fj10010.com,DIRECT
+- DOMAIN-SUFFIX,flashgame163.com,DIRECT
+- DOMAIN-SUFFIX,fm-vip.com,DIRECT
+- DOMAIN-SUFFIX,fmd360.com,DIRECT
+- DOMAIN-SUFFIX,fontvip.com,DIRECT
+- DOMAIN-SUFFIX,foodex360.com,DIRECT
+- DOMAIN-SUFFIX,foxmail.com,DIRECT
+- DOMAIN-SUFFIX,foxqq.com,DIRECT
+- DOMAIN-SUFFIX,fsbldjd.com,DIRECT
+- DOMAIN-SUFFIX,fschems.com,DIRECT
+- DOMAIN-SUFFIX,fsohu.com,DIRECT
+- DOMAIN-SUFFIX,fuhai360.com,DIRECT
+- DOMAIN-SUFFIX,fumi.com,DIRECT
+- DOMAIN-SUFFIX,fuxsto.cc,DIRECT
+- DOMAIN-SUFFIX,fx168vip.com,DIRECT
+- DOMAIN-SUFFIX,fzg360.com,DIRECT
+- DOMAIN-SUFFIX,fzwqq.com,DIRECT
+- DOMAIN-SUFFIX,galaxy-immi.com,DIRECT
+- DOMAIN-SUFFIX,ganji.com,DIRECT
+- DOMAIN-SUFFIX,gaosivip.com,DIRECT
+- DOMAIN-SUFFIX,gdbljd.com,DIRECT
+- DOMAIN-SUFFIX,gdbsjd.com,DIRECT
+- DOMAIN-SUFFIX,gdems.com,DIRECT
+- DOMAIN-SUFFIX,gdrc360.com,DIRECT
+- DOMAIN-SUFFIX,gdsicsemi.com,DIRECT
+- DOMAIN-SUFFIX,gecimi.com,DIRECT
+- DOMAIN-SUFFIX,gedoumi.com,DIRECT
 - DOMAIN-SUFFIX,gifshow.com,DIRECT
-- DOMAIN-SUFFIX,kwai.com,DIRECT
-- DOMAIN-SUFFIX,huya.com,DIRECT
-- DOMAIN-SUFFIX,douyu.com,DIRECT
-- DOMAIN-SUFFIX,iqiyi.com,DIRECT
-- DOMAIN-SUFFIX,qiyi.com,DIRECT
-- DOMAIN-SUFFIX,youku.com,DIRECT
-- DOMAIN-SUFFIX,migu.cn,DIRECT
-- DOMAIN-SUFFIX,bilibili.tv,DIRECT
-- DOMAIN-SUFFIX,amap.com,DIRECT
-- DOMAIN-SUFFIX,autonavi.com,DIRECT
-- DOMAIN-SUFFIX,didiglobal.com,DIRECT
-- DOMAIN-SUFFIX,didichuxing.com,DIRECT
-- DOMAIN-SUFFIX,ctrip.com,DIRECT
-- DOMAIN-SUFFIX,ctripcorp.com,DIRECT
-- DOMAIN-SUFFIX,qunar.com,DIRECT
-- DOMAIN-SUFFIX,trip.com,DIRECT
-- DOMAIN-SUFFIX,12306.cn,DIRECT
-- DOMAIN-SUFFIX,icbc.com.cn,DIRECT
-- DOMAIN-SUFFIX,ccb.com,DIRECT
-- DOMAIN-SUFFIX,abchina.com,DIRECT
-- DOMAIN-SUFFIX,boc.cn,DIRECT
-- DOMAIN-SUFFIX,cmbchina.com,DIRECT
-- DOMAIN-SUFFIX,bankcomm.com,DIRECT
-- DOMAIN-SUFFIX,psbc.com,DIRECT
-- DOMAIN-SUFFIX,unionpay.com,DIRECT
-- DOMAIN-SUFFIX,95516.com,DIRECT
-- DOMAIN-SUFFIX,10086.cn,DIRECT
-- DOMAIN-SUFFIX,10010.com,DIRECT
-- DOMAIN-SUFFIX,189.cn,DIRECT
-- DOMAIN-SUFFIX,chinatelecom.com.cn,DIRECT
-- DOMAIN-SUFFIX,chinaunicom.com,DIRECT
+- DOMAIN-SUFFIX,gitee.com,DIRECT
+- DOMAIN-SUFFIX,gitee.io,DIRECT
+- DOMAIN-SUFFIX,gkmems.com,DIRECT
+- DOMAIN-SUFFIX,gktianshanjd.com,DIRECT
+- DOMAIN-SUFFIX,glsyjd.com,DIRECT
+- DOMAIN-SUFFIX,gogoqq.com,DIRECT
+- DOMAIN-SUFFIX,goluckyvip.com,DIRECT
+- DOMAIN-SUFFIX,gona-semi.com,DIRECT
+- DOMAIN-SUFFIX,gongjiaomi.com,DIRECT
+- DOMAIN-SUFFIX,gongqq.com,DIRECT
+- DOMAIN-SUFFIX,gongye360.com,DIRECT
+- DOMAIN-SUFFIX,goodjd.com,DIRECT
 - DOMAIN-SUFFIX,gov.cn,DIRECT
-- DOMAIN-SUFFIX,edu.cn,DIRECT
+- DOMAIN-SUFFIX,gradaimmi.com,DIRECT
+- DOMAIN-SUFFIX,gree-jd.com,DIRECT
+- DOMAIN-SUFFIX,green12306.com,DIRECT
+- DOMAIN-SUFFIX,gsgs10086.com,DIRECT
+- DOMAIN-SUFFIX,gt-semi.com,DIRECT
+- DOMAIN-SUFFIX,gtimg.cn,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN-SUFFIX,gu360.com,DIRECT
+- DOMAIN-SUFFIX,guanli360.com,DIRECT
+- DOMAIN-SUFFIX,guba163.com,DIRECT
+- DOMAIN-SUFFIX,guifeng.net,DIRECT
+- DOMAIN-SUFFIX,guohu360.com,DIRECT
+- DOMAIN-SUFFIX,guojimami.com,DIRECT
+- DOMAIN-SUFFIX,guoxuemi.com,DIRECT
+- DOMAIN-SUFFIX,guozhivip.com,DIRECT
+- DOMAIN-SUFFIX,guwenxuexi.com,DIRECT
+- DOMAIN-SUFFIX,gx10010.com,DIRECT
+- DOMAIN-SUFFIX,gx163.com,DIRECT
+- DOMAIN-SUFFIX,gxdyxjd.com,DIRECT
+- DOMAIN-SUFFIX,gxkdjd.com,DIRECT
+- DOMAIN-SUFFIX,gxkjd.com,DIRECT
+- DOMAIN-SUFFIX,gxrgjd.com,DIRECT
+- DOMAIN-SUFFIX,gxsfjd.com,DIRECT
+- DOMAIN-SUFFIX,gxtangmi.com,DIRECT
+- DOMAIN-SUFFIX,gxumi.com,DIRECT
+- DOMAIN-SUFFIX,gxweibo.net,DIRECT
+- DOMAIN-SUFFIX,gxykjd.com,DIRECT
+- DOMAIN-SUFFIX,gxyzems.com,DIRECT
+- DOMAIN-SUFFIX,gz360.com,DIRECT
+- DOMAIN-SUFFIX,gzccb.com,DIRECT
+- DOMAIN-SUFFIX,gzczjd.com,DIRECT
+- DOMAIN-SUFFIX,gzwcfjd.com,DIRECT
+- DOMAIN-SUFFIX,h5gdsvip.com,DIRECT
+- DOMAIN-SUFFIX,h5gdvip.com,DIRECT
+- DOMAIN-SUFFIX,haha360.com,DIRECT
+- DOMAIN-SUFFIX,hai360.com,DIRECT
+- DOMAIN-SUFFIX,haimi.com,DIRECT
+- DOMAIN-SUFFIX,haiqq.com,DIRECT
+- DOMAIN-SUFFIX,hangzhouweifeng.com,DIRECT
+- DOMAIN-SUFFIX,hao123.com,DIRECT
+- DOMAIN-SUFFIX,hao12306.com,DIRECT
+- DOMAIN-SUFFIX,hao360.com,DIRECT
+- DOMAIN-SUFFIX,haojue163.com,DIRECT
+- DOMAIN-SUFFIX,haokanqq.com,DIRECT
+- DOMAIN-SUFFIX,haokavip.com,DIRECT
+- DOMAIN-SUFFIX,haoxue360.com,DIRECT
+- DOMAIN-SUFFIX,haoyao163.com,DIRECT
+- DOMAIN-SUFFIX,hb-163.com,DIRECT
+- DOMAIN-SUFFIX,hbbaidu.com,DIRECT
+- DOMAIN-SUFFIX,hbbmjd.com,DIRECT
+- DOMAIN-SUFFIX,hbifeng.com,DIRECT
+- DOMAIN-SUFFIX,hbm360.com,DIRECT
+- DOMAIN-SUFFIX,hc12306.com,DIRECT
+- DOMAIN-SUFFIX,hc360.com,DIRECT
+- DOMAIN-SUFFIX,hcwhjd.com,DIRECT
+- DOMAIN-SUFFIX,hdslb.com,DIRECT
+- DOMAIN-SUFFIX,healthjd.com,DIRECT
+- DOMAIN-SUFFIX,hebeijd.com,DIRECT
+- DOMAIN-SUFFIX,heijiaovip.com,DIRECT
+- DOMAIN-SUFFIX,hellokidvip.com,DIRECT
+- DOMAIN-SUFFIX,hen360.com,DIRECT
+- DOMAIN-SUFFIX,hengqifeng.com,DIRECT
+- DOMAIN-SUFFIX,hexagonsemi.com,DIRECT
+- DOMAIN-SUFFIX,hezimi.com,DIRECT
+- DOMAIN-SUFFIX,hezuvip.com,DIRECT
+- DOMAIN-SUFFIX,hicdn.com,DIRECT
+- DOMAIN-SUFFIX,hicloud.com,DIRECT
+- DOMAIN-SUFFIX,hitozumi.com,DIRECT
+- DOMAIN-SUFFIX,hiwaysemi.com,DIRECT
+- DOMAIN-SUFFIX,hkmjd.com,DIRECT
+- DOMAIN-SUFFIX,hky360.com,DIRECT
+- DOMAIN-SUFFIX,hmsemi.com,DIRECT
+- DOMAIN-SUFFIX,honor.com,DIRECT
+- DOMAIN-SUFFIX,hottechsemi.com,DIRECT
+- DOMAIN-SUFFIX,hoyoverse.com,DIRECT
+- DOMAIN-SUFFIX,hpjd.com,DIRECT
+- DOMAIN-SUFFIX,hqshuaimi.com,DIRECT
+- DOMAIN-SUFFIX,hshl360.com,DIRECT
+- DOMAIN-SUFFIX,htech360.com,DIRECT
+- DOMAIN-SUFFIX,huadian360.com,DIRECT
+- DOMAIN-SUFFIX,huaimi.com,DIRECT
+- DOMAIN-SUFFIX,huami.com,DIRECT
+- DOMAIN-SUFFIX,huawei.asia,DIRECT
+- DOMAIN-SUFFIX,huawei.com,DIRECT
+- DOMAIN-SUFFIX,huawei.eu,DIRECT
+- DOMAIN-SUFFIX,huawei.ru,DIRECT
+- DOMAIN-SUFFIX,huaweicloud.com,DIRECT
+- DOMAIN-SUFFIX,huaweistatic.com,DIRECT
+- DOMAIN-SUFFIX,huilaimi.com,DIRECT
+- DOMAIN-SUFFIX,hutong360.com,DIRECT
+- DOMAIN-SUFFIX,huya.com,DIRECT
+- DOMAIN-SUFFIX,hwccpc.com,DIRECT
+- DOMAIN-SUFFIX,hy163.com,DIRECT
+- DOMAIN-SUFFIX,hyimmi.com,DIRECT
+- DOMAIN-SUFFIX,hzccb.net,DIRECT
+- DOMAIN-SUFFIX,hzhy163.com,DIRECT
+- DOMAIN-SUFFIX,hzyjd.com,DIRECT
+- DOMAIN-SUFFIX,i5sto.com,DIRECT
+- DOMAIN-SUFFIX,ibee360.com,DIRECT
+- DOMAIN-SUFFIX,ibeifeng.com,DIRECT
+- DOMAIN-SUFFIX,icbc.ae,DIRECT
+- DOMAIN-SUFFIX,icbc.be,DIRECT
+- DOMAIN-SUFFIX,icbc.com.cn,DIRECT
+- DOMAIN-SUFFIX,icbc.jp,DIRECT
+- DOMAIN-SUFFIX,icdemi.com,DIRECT
+- DOMAIN-SUFFIX,icomuimi.com,DIRECT
+- DOMAIN-SUFFIX,icourse163.com,DIRECT
+- DOMAIN-SUFFIX,icourse163.org,DIRECT
+- DOMAIN-SUFFIX,icourses163.com,DIRECT
+- DOMAIN-SUFFIX,icvip.com,DIRECT
+- DOMAIN-SUFFIX,iesdouyin.com,DIRECT
+- DOMAIN-SUFFIX,iesdouyin.net,DIRECT
+- DOMAIN-SUFFIX,ifeng.com,DIRECT
+- DOMAIN-SUFFIX,ifjqq.com,DIRECT
+- DOMAIN-SUFFIX,igocctv.com,DIRECT
+- DOMAIN-SUFFIX,igtm-meeting-tencent.com,DIRECT
+- DOMAIN-SUFFIX,ihaohaoxuexi.com,DIRECT
+- DOMAIN-SUFFIX,ihr360.com,DIRECT
+- DOMAIN-SUFFIX,ijia360.com,DIRECT
+- DOMAIN-SUFFIX,iks360.com,DIRECT
+- DOMAIN-SUFFIX,ikuaimi.com,DIRECT
+- DOMAIN-SUFFIX,imallvip.com,DIRECT
+- DOMAIN-SUFFIX,imgsina.com,DIRECT
+- DOMAIN-SUFFIX,imgsohu.com,DIRECT
+- DOMAIN-SUFFIX,imgzy360.com,DIRECT
+- DOMAIN-SUFFIX,imigu.com,DIRECT
+- DOMAIN-SUFFIX,immivip.com,DIRECT
+- DOMAIN-SUFFIX,imqq.com,DIRECT
+- DOMAIN-SUFFIX,inctrip.com,DIRECT
+- DOMAIN-SUFFIX,indmi.com,DIRECT
+- DOMAIN-SUFFIX,inhuawei.com,DIRECT
+- DOMAIN-SUFFIX,initqq.com,DIRECT
+- DOMAIN-SUFFIX,insta360.com,DIRECT
+- DOMAIN-SUFFIX,intencent.com,DIRECT
+- DOMAIN-SUFFIX,ioppo.net,DIRECT
+- DOMAIN-SUFFIX,iot-tencent.com,DIRECT
+- DOMAIN-SUFFIX,ipaomi.com,DIRECT
+- DOMAIN-SUFFIX,ipplus360.com,DIRECT
+- DOMAIN-SUFFIX,iqiyi.com,DIRECT
+- DOMAIN-SUFFIX,iruanmi.com,DIRECT
+- DOMAIN-SUFFIX,isvjd.com,DIRECT
+- DOMAIN-SUFFIX,itoumi.com,DIRECT
+- DOMAIN-SUFFIX,itsto.com,DIRECT
+- DOMAIN-SUFFIX,iuctrip.com,DIRECT
+- DOMAIN-SUFFIX,ixigua.com,DIRECT
+- DOMAIN-SUFFIX,izsvip.com,DIRECT
+- DOMAIN-SUFFIX,izto.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jd.hk,DIRECT
+- DOMAIN-SUFFIX,jd360.hk,DIRECT
+- DOMAIN-SUFFIX,jdhmediajd.com,DIRECT
+- DOMAIN-SUFFIX,jdpay.com,DIRECT
+- DOMAIN-SUFFIX,jhsddjd.com,DIRECT
+- DOMAIN-SUFFIX,jhxjd.com,DIRECT
+- DOMAIN-SUFFIX,jia360.com,DIRECT
+- DOMAIN-SUFFIX,jiajumi.com,DIRECT
+- DOMAIN-SUFFIX,jianbihua360.com,DIRECT
+- DOMAIN-SUFFIX,jianshenmi.com,DIRECT
+- DOMAIN-SUFFIX,jianshu.com,DIRECT
+- DOMAIN-SUFFIX,jianshu.io,DIRECT
+- DOMAIN-SUFFIX,jianwang360.com,DIRECT
+- DOMAIN-SUFFIX,jianyu360.com,DIRECT
+- DOMAIN-SUFFIX,jiapuvip.com,DIRECT
+- DOMAIN-SUFFIX,jiarenvip.com,DIRECT
+- DOMAIN-SUFFIX,jifang360.com,DIRECT
+- DOMAIN-SUFFIX,jingcai360.net,DIRECT
+- DOMAIN-SUFFIX,jingjie360.com,DIRECT
+- DOMAIN-SUFFIX,jinhevip.com,DIRECT
+- DOMAIN-SUFFIX,jinzhou360.com,DIRECT
+- DOMAIN-SUFFIX,jizhuomi.com,DIRECT
+- DOMAIN-SUFFIX,jjccb.com,DIRECT
+- DOMAIN-SUFFIX,jjyz360.com,DIRECT
+- DOMAIN-SUFFIX,jk126.com,DIRECT
+- DOMAIN-SUFFIX,jkcsjd.com,DIRECT
+- DOMAIN-SUFFIX,jkd360.com,DIRECT
+- DOMAIN-SUFFIX,jlsemi.com,DIRECT
+- DOMAIN-SUFFIX,jobbaidu.com,DIRECT
+- DOMAIN-SUFFIX,joyami.com,DIRECT
+- DOMAIN-SUFFIX,joytourvip.com,DIRECT
+- DOMAIN-SUFFIX,joywellsemi.com,DIRECT
+- DOMAIN-SUFFIX,jpsto.com,DIRECT
+- DOMAIN-SUFFIX,jrmf360.com,DIRECT
+- DOMAIN-SUFFIX,jsbaidu.com,DIRECT
+- DOMAIN-SUFFIX,jsjiami.com,DIRECT
+- DOMAIN-SUFFIX,jspeople.com,DIRECT
+- DOMAIN-SUFFIX,jsruifeng.net,DIRECT
+- DOMAIN-SUFFIX,jtcjd.com,DIRECT
+- DOMAIN-SUFFIX,junong360.com,DIRECT
+- DOMAIN-SUFFIX,junpin360.com,DIRECT
+- DOMAIN-SUFFIX,junqing360.com,DIRECT
+- DOMAIN-SUFFIX,jx163.com,DIRECT
+- DOMAIN-SUFFIX,jxccb.com,DIRECT
+- DOMAIN-SUFFIX,jxlgjd.com,DIRECT
+- DOMAIN-SUFFIX,kada163.com,DIRECT
+- DOMAIN-SUFFIX,kaiyun360.com,DIRECT
+- DOMAIN-SUFFIX,kankanmi.com,DIRECT
+- DOMAIN-SUFFIX,kanqq.com,DIRECT
+- DOMAIN-SUFFIX,kaola.com,DIRECT
+- DOMAIN-SUFFIX,kcdnvip.com,DIRECT
+- DOMAIN-SUFFIX,kdr163.com,DIRECT
+- DOMAIN-SUFFIX,kdweibo.com,DIRECT
+- DOMAIN-SUFFIX,ke.com,DIRECT
+- DOMAIN-SUFFIX,kemavip.com,DIRECT
+- DOMAIN-SUFFIX,kevinems.com,DIRECT
+- DOMAIN-SUFFIX,kfb126.com,DIRECT
+- DOMAIN-SUFFIX,kfb163.com,DIRECT
+- DOMAIN-SUFFIX,kimi.com,DIRECT
+- DOMAIN-SUFFIX,kingsemi.com,DIRECT
+- DOMAIN-SUFFIX,kingsoft.com,DIRECT
+- DOMAIN-SUFFIX,kingsoft.net,DIRECT
+- DOMAIN-SUFFIX,klxuexi.com,DIRECT
+- DOMAIN-SUFFIX,knowingcloudvip.com,DIRECT
+- DOMAIN-SUFFIX,kongtiao163.com,DIRECT
+- DOMAIN-SUFFIX,kr126.com,DIRECT
+- DOMAIN-SUFFIX,kslccb.com,DIRECT
+- DOMAIN-SUFFIX,ktxuexi.com,DIRECT
+- DOMAIN-SUFFIX,kuaifeng.com,DIRECT
+- DOMAIN-SUFFIX,kuaimi.com,DIRECT
+- DOMAIN-SUFFIX,kuaishou.com,DIRECT
+- DOMAIN-SUFFIX,kudianvip.com,DIRECT
+- DOMAIN-SUFFIX,kuems.com,DIRECT
+- DOMAIN-SUFFIX,kugou.com,DIRECT
+- DOMAIN-SUFFIX,kugou.net,DIRECT
+- DOMAIN-SUFFIX,kuhao360.com,DIRECT
+- DOMAIN-SUFFIX,kulemi.com,DIRECT
+- DOMAIN-SUFFIX,kumifeng.com,DIRECT
+- DOMAIN-SUFFIX,kuwo.cn,DIRECT
+- DOMAIN-SUFFIX,kwai.com,DIRECT
+- DOMAIN-SUFFIX,laifeng.com,DIRECT
+- DOMAIN-SUFFIX,laifeng.net,DIRECT
+- DOMAIN-SUFFIX,laixuexi.cc,DIRECT
+- DOMAIN-SUFFIX,laobingmi.com,DIRECT
+- DOMAIN-SUFFIX,laplace-semi.com,DIRECT
+- DOMAIN-SUFFIX,larksuite.com,DIRECT
+- DOMAIN-SUFFIX,legendsemi.com,DIRECT
+- DOMAIN-SUFFIX,lemo360.com,DIRECT
+- DOMAIN-SUFFIX,lgmi.com,DIRECT
+- DOMAIN-SUFFIX,lianglimi.com,DIRECT
+- DOMAIN-SUFFIX,liangyi360.com,DIRECT
+- DOMAIN-SUFFIX,lianjia.com,DIRECT
+- DOMAIN-SUFFIX,lidar360.com,DIRECT
+- DOMAIN-SUFFIX,liebaovip.com,DIRECT
+- DOMAIN-SUFFIX,liepin.com,DIRECT
+- DOMAIN-SUFFIX,lihongcctv.com,DIRECT
+- DOMAIN-SUFFIX,likepoems.com,DIRECT
+- DOMAIN-SUFFIX,lingxi360.com,DIRECT
+- DOMAIN-SUFFIX,linuxmi.com,DIRECT
+- DOMAIN-SUFFIX,lionkingsoft.com,DIRECT
+- DOMAIN-SUFFIX,liuxue360.com,DIRECT
+- DOMAIN-SUFFIX,lixuan360.com,DIRECT
+- DOMAIN-SUFFIX,lk-jd.com,DIRECT
+- DOMAIN-SUFFIX,logoqq.com,DIRECT
+- DOMAIN-SUFFIX,loltmall.com,DIRECT
+- DOMAIN-SUFFIX,longfu360.com,DIRECT
+- DOMAIN-SUFFIX,longhuvip.com,DIRECT
+- DOMAIN-SUFFIX,longsto.com,DIRECT
+- DOMAIN-SUFFIX,lontiumsemi.com,DIRECT
+- DOMAIN-SUFFIX,looktmt.com,DIRECT
+- DOMAIN-SUFFIX,lovehaimi.com,DIRECT
+- DOMAIN-SUFFIX,lowpowersemi.com,DIRECT
+- DOMAIN-SUFFIX,lsccb.com,DIRECT
+- DOMAIN-SUFFIX,lttvip.com,DIRECT
+- DOMAIN-SUFFIX,luan163.com,DIRECT
+- DOMAIN-SUFFIX,luba360.com,DIRECT
+- DOMAIN-SUFFIX,luobo360.com,DIRECT
+- DOMAIN-SUFFIX,luomi.com,DIRECT
+- DOMAIN-SUFFIX,lvhuawei.work,DIRECT
+- DOMAIN-SUFFIX,lygshjd.com,DIRECT
+- DOMAIN-SUFFIX,lysy360.com,DIRECT
+- DOMAIN-SUFFIX,lyxinhua.com,DIRECT
+- DOMAIN-SUFFIX,lzccb.com,DIRECT
+- DOMAIN-SUFFIX,lzdjjd.com,DIRECT
+- DOMAIN-SUFFIX,lzhyjd.com,DIRECT
+- DOMAIN-SUFFIX,lzjd.com,DIRECT
+- DOMAIN-SUFFIX,lznetease.com,DIRECT
+- DOMAIN-SUFFIX,madouvip.com,DIRECT
+- DOMAIN-SUFFIX,magicnetmall.com,DIRECT
+- DOMAIN-SUFFIX,mail163.com,DIRECT
+- DOMAIN-SUFFIX,mallzto.com,DIRECT
+- DOMAIN-SUFFIX,map-tencent.com,DIRECT
+- DOMAIN-SUFFIX,mas10010.com,DIRECT
+- DOMAIN-SUFFIX,maxonesemi.com,DIRECT
+- DOMAIN-SUFFIX,mdouvip.com,DIRECT
+- DOMAIN-SUFFIX,me-tencent.com,DIRECT
+- DOMAIN-SUFFIX,me360.com,DIRECT
+- DOMAIN-SUFFIX,med126.com,DIRECT
+- DOMAIN-SUFFIX,meetuvip.com,DIRECT
+- DOMAIN-SUFFIX,meijiavip.com,DIRECT
+- DOMAIN-SUFFIX,meika360.com,DIRECT
+- DOMAIN-SUFFIX,meituan.com,DIRECT
+- DOMAIN-SUFFIX,meituan.net,DIRECT
+- DOMAIN-SUFFIX,mems.me,DIRECT
+- DOMAIN-SUFFIX,mgtv.com,DIRECT
+- DOMAIN-SUFFIX,mi-img.com,DIRECT
+- DOMAIN-SUFFIX,mi.com,DIRECT
+- DOMAIN-SUFFIX,mifeng.plus,DIRECT
+- DOMAIN-SUFFIX,migu.cn,DIRECT
+- DOMAIN-SUFFIX,migu.store,DIRECT
+- DOMAIN-SUFFIX,mihoyo.com,DIRECT
+- DOMAIN-SUFFIX,mijian360.com,DIRECT
+- DOMAIN-SUFFIX,milanvip.com,DIRECT
+- DOMAIN-SUFFIX,mingyou360.com,DIRECT
+- DOMAIN-SUFFIX,miniapp360.com,DIRECT
+- DOMAIN-SUFFIX,miui.com,DIRECT
+- DOMAIN-SUFFIX,miyun360.com,DIRECT
+- DOMAIN-SUFFIX,mmllllasjd.com,DIRECT
+- DOMAIN-SUFFIX,mmstat.com,DIRECT
+- DOMAIN-SUFFIX,molihuadami.com,DIRECT
+- DOMAIN-SUFFIX,moumi.com,DIRECT
+- DOMAIN-SUFFIX,mozartsemi.com,DIRECT
+- DOMAIN-SUFFIX,mpxiaomi.net,DIRECT
+- DOMAIN-SUFFIX,msjingmi.com,DIRECT
+- DOMAIN-SUFFIX,mt888vip.com,DIRECT
+- DOMAIN-SUFFIX,mtavip.com,DIRECT
+- DOMAIN-SUFFIX,mtkgvip.com,DIRECT
+- DOMAIN-SUFFIX,mtyun.com,DIRECT
+- DOMAIN-SUFFIX,mxjd.com,DIRECT
+- DOMAIN-SUFFIX,myoppo.com,DIRECT
+- DOMAIN-SUFFIX,myqcloud.com,DIRECT
+- DOMAIN-SUFFIX,myqqjd.com,DIRECT
+- DOMAIN-SUFFIX,myshow360.net,DIRECT
+- DOMAIN-SUFFIX,mysql360.com,DIRECT
+- DOMAIN-SUFFIX,myt126.com,DIRECT
+- DOMAIN-SUFFIX,mzsemi.com,DIRECT
+- DOMAIN-SUFFIX,naiyouxuexi.com,DIRECT
+- DOMAIN-SUFFIX,nakevip.com,DIRECT
+- DOMAIN-SUFFIX,nami.com,DIRECT
+- DOMAIN-SUFFIX,nbtzjd.com,DIRECT
+- DOMAIN-SUFFIX,nclqq.com,DIRECT
+- DOMAIN-SUFFIX,ncvtmi.com,DIRECT
+- DOMAIN-SUFFIX,netease.com,DIRECT
+- DOMAIN-SUFFIX,netease.im,DIRECT
+- DOMAIN-SUFFIX,neusemi.com,DIRECT
+- DOMAIN-SUFFIX,newcosemi.com,DIRECT
+- DOMAIN-SUFFIX,newscctv.net,DIRECT
+- DOMAIN-SUFFIX,nfpeople.com,DIRECT
+- DOMAIN-SUFFIX,ninthpalace360.com,DIRECT
+- DOMAIN-SUFFIX,nissmi.com,DIRECT
+- DOMAIN-SUFFIX,niwoxuexi.com,DIRECT
+- DOMAIN-SUFFIX,njimi.com,DIRECT
+- DOMAIN-SUFFIX,njkaifeng.com,DIRECT
+- DOMAIN-SUFFIX,njrbjd.com,DIRECT
+- DOMAIN-SUFFIX,nnhqjd.com,DIRECT
+- DOMAIN-SUFFIX,nongji360.com,DIRECT
+- DOMAIN-SUFFIX,noobvip.com,DIRECT
+- DOMAIN-SUFFIX,ntlcjd.com,DIRECT
+- DOMAIN-SUFFIX,nuomi.com,DIRECT
+- DOMAIN-SUFFIX,o163.com,DIRECT
+- DOMAIN-SUFFIX,oait360.com,DIRECT
+- DOMAIN-SUFFIX,octmami.com,DIRECT
+- DOMAIN-SUFFIX,offices163.com,DIRECT
+- DOMAIN-SUFFIX,oka-vip.com,DIRECT
+- DOMAIN-SUFFIX,oneplus.com,DIRECT
+- DOMAIN-SUFFIX,open-douyin.com,DIRECT
+- DOMAIN-SUFFIX,openaboc.com,DIRECT
+- DOMAIN-SUFFIX,oppo.com,DIRECT
+- DOMAIN-SUFFIX,orangevip.com,DIRECT
+- DOMAIN-SUFFIX,org.cn,DIRECT
+- DOMAIN-SUFFIX,oschina.com,DIRECT
+- DOMAIN-SUFFIX,oschina.io,DIRECT
+- DOMAIN-SUFFIX,oschina.net,DIRECT
+- DOMAIN-SUFFIX,ou163.com,DIRECT
+- DOMAIN-SUFFIX,ourdvsssvip.com,DIRECT
+- DOMAIN-SUFFIX,ourwebcdnvip.com,DIRECT
+- DOMAIN-SUFFIX,ourwebpicvip.com,DIRECT
+- DOMAIN-SUFFIX,ovqq.com,DIRECT
+- DOMAIN-SUFFIX,ovuems.com,DIRECT
+- DOMAIN-SUFFIX,pacificimmi.com,DIRECT
+- DOMAIN-SUFFIX,paihang360.com,DIRECT
+- DOMAIN-SUFFIX,paperccb.com,DIRECT
+- DOMAIN-SUFFIX,pc360.net,DIRECT
+- DOMAIN-SUFFIX,pddpic.com,DIRECT
+- DOMAIN-SUFFIX,peixun360.com,DIRECT
 - DOMAIN-SUFFIX,people.com.cn,DIRECT
-- DOMAIN-SUFFIX,xinhuanet.com,DIRECT
-- DOMAIN-SUFFIX,cctv.com,DIRECT
-- DOMAIN-SUFFIX,cntv.cn,DIRECT
-- DOMAIN-SUFFIX,chinadaily.com.cn,DIRECT
-- DOMAIN-SUFFIX,cnr.cn,DIRECT
-- DOMAIN-SUFFIX,cri.cn,DIRECT
+- DOMAIN-SUFFIX,phaetonsemi.com,DIRECT
+- DOMAIN-SUFFIX,phpjiami.com,DIRECT
+- DOMAIN-SUFFIX,pinduoduo.com,DIRECT
+- DOMAIN-SUFFIX,pinduoduo.net,DIRECT
+- DOMAIN-SUFFIX,pingevip.com,DIRECT
+- DOMAIN-SUFFIX,pintu360.com,DIRECT
+- DOMAIN-SUFFIX,pipsemi.com,DIRECT
+- DOMAIN-SUFFIX,pkm360.com,DIRECT
+- DOMAIN-SUFFIX,pm360.com,DIRECT
+- DOMAIN-SUFFIX,post163.com,DIRECT
+- DOMAIN-SUFFIX,ppt360.com,DIRECT
+- DOMAIN-SUFFIX,prime-semi.com,DIRECT
+- DOMAIN-SUFFIX,psbc.com,DIRECT
+- DOMAIN-SUFFIX,pstatp.com,DIRECT
+- DOMAIN-SUFFIX,pthxuexi.com,DIRECT
+- DOMAIN-SUFFIX,puyasemi.com,DIRECT
+- DOMAIN-SUFFIX,pxwsemi.com,DIRECT
+- DOMAIN-SUFFIX,pzhccb.com,DIRECT
+- DOMAIN-SUFFIX,qacctv.com,DIRECT
+- DOMAIN-SUFFIX,qcloud.com,DIRECT
+- DOMAIN-SUFFIX,qcrlvip.com,DIRECT
+- DOMAIN-SUFFIX,qdccb.com,DIRECT
+- DOMAIN-SUFFIX,qhimi.com,DIRECT
+- DOMAIN-SUFFIX,qianbi360.com,DIRECT
+- DOMAIN-SUFFIX,qiangmi.com,DIRECT
+- DOMAIN-SUFFIX,qianmi.com,DIRECT
+- DOMAIN-SUFFIX,qiaomi.com,DIRECT
+- DOMAIN-SUFFIX,qifeng.com,DIRECT
+- DOMAIN-SUFFIX,qigumi.com,DIRECT
+- DOMAIN-SUFFIX,qihoo.net,DIRECT
+- DOMAIN-SUFFIX,qikanvip.com,DIRECT
+- DOMAIN-SUFFIX,qimi.com,DIRECT
+- DOMAIN-SUFFIX,qinglingvip.com,DIRECT
+- DOMAIN-SUFFIX,qinzhou360.com,DIRECT
+- DOMAIN-SUFFIX,qiuxue360.com,DIRECT
+- DOMAIN-SUFFIX,qiye163.com,DIRECT
+- DOMAIN-SUFFIX,qiyi.com,DIRECT
+- DOMAIN-SUFFIX,qkkjd.com,DIRECT
+- DOMAIN-SUFFIX,qlogo.cn,DIRECT
+- DOMAIN-SUFFIX,qnvip.com,DIRECT
+- DOMAIN-SUFFIX,qpic.cn,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qq163.com,DIRECT
+- DOMAIN-SUFFIX,qqmail.com,DIRECT
+- DOMAIN-SUFFIX,qqmusic.com,DIRECT
+- DOMAIN-SUFFIX,qtlcdn360.info,DIRECT
+- DOMAIN-SUFFIX,qtlcdn360.xin,DIRECT
+- DOMAIN-SUFFIX,qtlcdn360.xyz,DIRECT
+- DOMAIN-SUFFIX,quanfangtongvip.com,DIRECT
+- DOMAIN-SUFFIX,quark.cn,DIRECT
+- DOMAIN-SUFFIX,quba360.com,DIRECT
+- DOMAIN-SUFFIX,quenergysemi.com,DIRECT
+- DOMAIN-SUFFIX,queniujd.com,DIRECT
+- DOMAIN-SUFFIX,queniujq.cn,DIRECT
+- DOMAIN-SUFFIX,qumi.com,DIRECT
+- DOMAIN-SUFFIX,qunar.com,DIRECT
+- DOMAIN-SUFFIX,qunar.ink,DIRECT
+- DOMAIN-SUFFIX,qutaovip.com,DIRECT
+- DOMAIN-SUFFIX,qwmtjj360.vip,DIRECT
+- DOMAIN-SUFFIX,qwps.net,DIRECT
+- DOMAIN-SUFFIX,qx-semi.com,DIRECT
+- DOMAIN-SUFFIX,qx10086.net,DIRECT
+- DOMAIN-SUFFIX,qy-qq.com,DIRECT
+- DOMAIN-SUFFIX,rbqq.com,DIRECT
+- DOMAIN-SUFFIX,rclsemi.com,DIRECT
+- DOMAIN-SUFFIX,readhr360.com,DIRECT
+- DOMAIN-SUFFIX,realme.com,DIRECT
+- DOMAIN-SUFFIX,resemi.com,DIRECT
+- DOMAIN-SUFFIX,rfjd.com,DIRECT
+- DOMAIN-SUFFIX,rjlqq.com,DIRECT
+- DOMAIN-SUFFIX,roidmi.com,DIRECT
+- DOMAIN-SUFFIX,romjd.com,DIRECT
+- DOMAIN-SUFFIX,rong360.com,DIRECT
+- DOMAIN-SUFFIX,rsdxjd.com,DIRECT
+- DOMAIN-SUFFIX,rsw163.com,DIRECT
+- DOMAIN-SUFFIX,ruhaivip.com,DIRECT
+- DOMAIN-SUFFIX,ruihaimeifeng.com,DIRECT
+- DOMAIN-SUFFIX,ruodian360.com,DIRECT
+- DOMAIN-SUFFIX,s163.com,DIRECT
+- DOMAIN-SUFFIX,saberqq.com,DIRECT
+- DOMAIN-SUFFIX,sankuai.com,DIRECT
+- DOMAIN-SUFFIX,scdccb.com,DIRECT
+- DOMAIN-SUFFIX,sckxjd.com,DIRECT
+- DOMAIN-SUFFIX,sdjzsemi.com,DIRECT
+- DOMAIN-SUFFIX,sdxianweisumi.com,DIRECT
+- DOMAIN-SUFFIX,sdyifeng.com,DIRECT
+- DOMAIN-SUFFIX,sealion360.com,DIRECT
+- DOMAIN-SUFFIX,seekingsoft.com,DIRECT
+- DOMAIN-SUFFIX,senda360.com,DIRECT
+- DOMAIN-SUFFIX,sensorsdata.cn,DIRECT
+- DOMAIN-SUFFIX,sensorsdatavip.com,DIRECT
+- DOMAIN-SUFFIX,sentosemi.com,DIRECT
+- DOMAIN-SUFFIX,sepimcsemi.com,DIRECT
+- DOMAIN-SUFFIX,sf-express.com,DIRECT
+- DOMAIN-SUFFIX,shang360.com,DIRECT
+- DOMAIN-SUFFIX,shangshi360.com,DIRECT
+- DOMAIN-SUFFIX,shebaomi.com,DIRECT
+- DOMAIN-SUFFIX,shengjing360.com,DIRECT
+- DOMAIN-SUFFIX,shifeng.com,DIRECT
+- DOMAIN-SUFFIX,shijqq.com,DIRECT
+- DOMAIN-SUFFIX,shipin163.com,DIRECT
+- DOMAIN-SUFFIX,shiweisemi.com,DIRECT
+- DOMAIN-SUFFIX,shixinhua.com,DIRECT
+- DOMAIN-SUFFIX,shjingmi.com,DIRECT
+- DOMAIN-SUFFIX,shouji10086.com,DIRECT
+- DOMAIN-SUFFIX,shu163.com,DIRECT
+- DOMAIN-SUFFIX,shufa360.com,DIRECT
+- DOMAIN-SUFFIX,shufami.com,DIRECT
+- DOMAIN-SUFFIX,shuizhi360.com,DIRECT
+- DOMAIN-SUFFIX,shunmi.com,DIRECT
+- DOMAIN-SUFFIX,shxinhua.net,DIRECT
+- DOMAIN-SUFFIX,sichuan163.com,DIRECT
+- DOMAIN-SUFFIX,sicosemi.com,DIRECT
+- DOMAIN-SUFFIX,sigmastarsemi.com,DIRECT
+- DOMAIN-SUFFIX,sina.com,DIRECT
+- DOMAIN-SUFFIX,sina.com.cn,DIRECT
+- DOMAIN-SUFFIX,sina.lt,DIRECT
+- DOMAIN-SUFFIX,sina.net,DIRECT
+- DOMAIN-SUFFIX,sinaimg.cn,DIRECT
+- DOMAIN-SUFFIX,sinesemi.com,DIRECT
+- DOMAIN-SUFFIX,siposchina.com,DIRECT
+- DOMAIN-SUFFIX,sjzjifeng.com,DIRECT
+- DOMAIN-SUFFIX,sk163.com,DIRECT
+- DOMAIN-SUFFIX,skyee360.com,DIRECT
+- DOMAIN-SUFFIX,smtvip.com,DIRECT
+- DOMAIN-SUFFIX,snmi.com,DIRECT
+- DOMAIN-SUFFIX,snssdk.com,DIRECT
+- DOMAIN-SUFFIX,so126.com,DIRECT
+- DOMAIN-SUFFIX,sogood360.com,DIRECT
+- DOMAIN-SUFFIX,sogou.com,DIRECT
+- DOMAIN-SUFFIX,sogou.net,DIRECT
+- DOMAIN-SUFFIX,sohu.com,DIRECT
+- DOMAIN-SUFFIX,sohu.net,DIRECT
+- DOMAIN-SUFFIX,songhaifeng.com,DIRECT
+- DOMAIN-SUFFIX,songyuan163.com,DIRECT
+- DOMAIN-SUFFIX,sonoschina.com,DIRECT
+- DOMAIN-SUFFIX,soundems.com,DIRECT
+- DOMAIN-SUFFIX,ssgsemi.com,DIRECT
+- DOMAIN-SUFFIX,sskc360.com,DIRECT
+- DOMAIN-SUFFIX,ssxjd.com,DIRECT
+- DOMAIN-SUFFIX,stardata360.com,DIRECT
+- DOMAIN-SUFFIX,study163.com,DIRECT
+- DOMAIN-SUFFIX,studyems.com,DIRECT
+- DOMAIN-SUFFIX,studyvip.com,DIRECT
+- DOMAIN-SUFFIX,suning.com,DIRECT
+- DOMAIN-SUFFIX,sunlandvip.com,DIRECT
+- DOMAIN-SUFFIX,sunmi.com,DIRECT
+- DOMAIN-SUFFIX,sunnysemi.com,DIRECT
+- DOMAIN-SUFFIX,superqq.com,DIRECT
+- DOMAIN-SUFFIX,suqian360.com,DIRECT
+- DOMAIN-SUFFIX,surveyqq.com,DIRECT
+- DOMAIN-SUFFIX,sw163.com,DIRECT
+- DOMAIN-SUFFIX,sxccb.com,DIRECT
+- DOMAIN-SUFFIX,sy12306.com,DIRECT
+- DOMAIN-SUFFIX,syscan360.com,DIRECT
+- DOMAIN-SUFFIX,syscan360.net,DIRECT
+- DOMAIN-SUFFIX,syscan360.org,DIRECT
+- DOMAIN-SUFFIX,szdcjd.com,DIRECT
+- DOMAIN-SUFFIX,szmjd.com,DIRECT
+- DOMAIN-SUFFIX,szn360.com,DIRECT
+- DOMAIN-SUFFIX,szpro360.com,DIRECT
+- DOMAIN-SUFFIX,szxyjd.com,DIRECT
+- DOMAIN-SUFFIX,szyichengjd.com,DIRECT
+- DOMAIN-SUFFIX,szzs360.com,DIRECT
+- DOMAIN-SUFFIX,t1qq.com,DIRECT
+- DOMAIN-SUFFIX,taifeng.co,DIRECT
+- DOMAIN-SUFFIX,taihuzimi.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,taobaocdn.com,DIRECT
+- DOMAIN-SUFFIX,taoci163.com,DIRECT
+- DOMAIN-SUFFIX,taptap.com,DIRECT
+- DOMAIN-SUFFIX,tbcdn.cn,DIRECT
+- DOMAIN-SUFFIX,tc-semi.com,DIRECT
+- DOMAIN-SUFFIX,tcl-cctv.com,DIRECT
+- DOMAIN-SUFFIX,tcljd.com,DIRECT
+- DOMAIN-SUFFIX,tcm360.com,DIRECT
+- DOMAIN-SUFFIX,tencent.com,DIRECT
+- DOMAIN-SUFFIX,tencent.design,DIRECT
+- DOMAIN-SUFFIX,tencent.net,DIRECT
+- DOMAIN-SUFFIX,tencentcloud.com,DIRECT
+- DOMAIN-SUFFIX,tengyunqq.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,tiancao360.com,DIRECT
+- DOMAIN-SUFFIX,tidejd.com,DIRECT
+- DOMAIN-SUFFIX,time163.com,DIRECT
+- DOMAIN-SUFFIX,tjjt360.com,DIRECT
+- DOMAIN-SUFFIX,tk163.com,DIRECT
+- DOMAIN-SUFFIX,tkplusemi.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,tmall.hk,DIRECT
+- DOMAIN-SUFFIX,tmsemi.com,DIRECT
+- DOMAIN-SUFFIX,tofengmi.com,DIRECT
+- DOMAIN-SUFFIX,topbiz360.com,DIRECT
+- DOMAIN-SUFFIX,toushivip.com,DIRECT
+- DOMAIN-SUFFIX,toutiao.com,DIRECT
+- DOMAIN-SUFFIX,tqwqq.com,DIRECT
+- DOMAIN-SUFFIX,trip.com,DIRECT
+- DOMAIN-SUFFIX,tuanxue360.com,DIRECT
+- DOMAIN-SUFFIX,tuanxue360.net,DIRECT
+- DOMAIN-SUFFIX,tupu360.com,DIRECT
+- DOMAIN-SUFFIX,tushumi.com,DIRECT
+- DOMAIN-SUFFIX,tuyoumi.com,DIRECT
+- DOMAIN-SUFFIX,tx163.com,DIRECT
+- DOMAIN-SUFFIX,txcxjd.com,DIRECT
+- DOMAIN-SUFFIX,txqq.com,DIRECT
+- DOMAIN-SUFFIX,tz12306.com,DIRECT
+- DOMAIN-SUFFIX,tzqingzhifeng.com,DIRECT
+- DOMAIN-SUFFIX,u10010.com,DIRECT
+- DOMAIN-SUFFIX,u10086.com,DIRECT
+- DOMAIN-SUFFIX,ugmjd.com,DIRECT
+- DOMAIN-SUFFIX,ulab360.com,DIRECT
+- DOMAIN-SUFFIX,un10086.com,DIRECT
+- DOMAIN-SUFFIX,unionpay.com,DIRECT
+- DOMAIN-SUFFIX,unipus.cn,DIRECT
+- DOMAIN-SUFFIX,uoboc.com,DIRECT
+- DOMAIN-SUFFIX,up360.com,DIRECT
+- DOMAIN-SUFFIX,usdtmall.com,DIRECT
+- DOMAIN-SUFFIX,uu-baidu.com,DIRECT
+- DOMAIN-SUFFIX,vbsemi.com,DIRECT
+- DOMAIN-SUFFIX,veryweibo.com,DIRECT
+- DOMAIN-SUFFIX,vigtm-meeting-tencent.com,DIRECT
+- DOMAIN-SUFFIX,vip.com,DIRECT
+- DOMAIN-SUFFIX,vipappsina.com,DIRECT
+- DOMAIN-SUFFIX,viqq.com,DIRECT
+- DOMAIN-SUFFIX,visa163.com,DIRECT
+- DOMAIN-SUFFIX,vivo.com,DIRECT
+- DOMAIN-SUFFIX,vivo.com.cn,DIRECT
+- DOMAIN-SUFFIX,vivo.xyz,DIRECT
+- DOMAIN-SUFFIX,vmall.com,DIRECT
+- DOMAIN-SUFFIX,vqq.com,DIRECT
+- DOMAIN-SUFFIX,wanchemi.com,DIRECT
+- DOMAIN-SUFFIX,wangmei360.com,DIRECT
+- DOMAIN-SUFFIX,wangzhan360.com,DIRECT
+- DOMAIN-SUFFIX,wanmi.com,DIRECT
+- DOMAIN-SUFFIX,wanyumi.com,DIRECT
+- DOMAIN-SUFFIX,web360.pw,DIRECT
+- DOMAIN-SUFFIX,webgame163.com,DIRECT
+- DOMAIN-SUFFIX,wechat.com,DIRECT
+- DOMAIN-SUFFIX,weibo.cn,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,weibo.tv,DIRECT
+- DOMAIN-SUFFIX,weifujd.com,DIRECT
+- DOMAIN-SUFFIX,weiwangvip.com,DIRECT
+- DOMAIN-SUFFIX,weixin.com,DIRECT
+- DOMAIN-SUFFIX,weiyun.com,DIRECT
+- DOMAIN-SUFFIX,wems.net,DIRECT
+- DOMAIN-SUFFIX,wenkuvip.com,DIRECT
+- DOMAIN-SUFFIX,wenxue360.com,DIRECT
+- DOMAIN-SUFFIX,wf163.com,DIRECT
+- DOMAIN-SUFFIX,wh-baidu.com,DIRECT
+- DOMAIN-SUFFIX,whccb.com,DIRECT
+- DOMAIN-SUFFIX,wibaidu.com,DIRECT
+- DOMAIN-SUFFIX,willsemi.com,DIRECT
+- DOMAIN-SUFFIX,winrobot360.com,DIRECT
+- DOMAIN-SUFFIX,wisdomcmmi.com,DIRECT
+- DOMAIN-SUFFIX,wkzstencent.com,DIRECT
+- DOMAIN-SUFFIX,wodavip.com,DIRECT
+- DOMAIN-SUFFIX,wowoqq.com,DIRECT
 - DOMAIN-SUFFIX,wps.cn,DIRECT
 - DOMAIN-SUFFIX,wps.com,DIRECT
-- DOMAIN-SUFFIX,kingsoft.com,DIRECT
-- DOMAIN-SUFFIX,liepin.com,DIRECT
-- DOMAIN-SUFFIX,zhipin.com,DIRECT
-- DOMAIN-SUFFIX,58.com,DIRECT
-- DOMAIN-SUFFIX,ganji.com,DIRECT
-- DOMAIN-SUFFIX,ke.com,DIRECT
-- DOMAIN-SUFFIX,lianjia.com,DIRECT
-- DOMAIN-SUFFIX,anjuke.com,DIRECT
-- DOMAIN-SUFFIX,fang.com,DIRECT
-- DOMAIN-SUFFIX,csdn.net,DIRECT
-- DOMAIN-SUFFIX,cnblogs.com,DIRECT
-- DOMAIN-SUFFIX,oschina.net,DIRECT
-- DOMAIN-SUFFIX,gitee.com,DIRECT
-- DOMAIN-SUFFIX,jianshu.com,DIRECT
-- DOMAIN-SUFFIX,ali213.net,DIRECT
-- DOMAIN-SUFFIX,3dmgame.com,DIRECT
-- DOMAIN-SUFFIX,17173.com,DIRECT
-- DOMAIN-SUFFIX,duowan.com,DIRECT
-- DOMAIN-SUFFIX,37.com,DIRECT
-- DOMAIN-SUFFIX,taptap.com,DIRECT
+- DOMAIN-SUFFIX,wu-mi.com,DIRECT
+- DOMAIN-SUFFIX,wubixuexi.com,DIRECT
+- DOMAIN-SUFFIX,wuxinhua.com,DIRECT
+- DOMAIN-SUFFIX,wwwwqq.com,DIRECT
+- DOMAIN-SUFFIX,wxfncjd.com,DIRECT
+- DOMAIN-SUFFIX,wxtj10086.com,DIRECT
+- DOMAIN-SUFFIX,xbkjvip.com,DIRECT
 - DOMAIN-SUFFIX,xd.com,DIRECT
-- DOMAIN-SUFFIX,mihoyo.com,DIRECT
-- DOMAIN-SUFFIX,hoyoverse.com,DIRECT
+- DOMAIN-SUFFIX,xdnsvip.com,DIRECT
+- DOMAIN-SUFFIX,xgamevip.com,DIRECT
+- DOMAIN-SUFFIX,xgimi.com,DIRECT
+- DOMAIN-SUFFIX,xgqq.com,DIRECT
+- DOMAIN-SUFFIX,xhscdn.com,DIRECT
+- DOMAIN-SUFFIX,xiami.com,DIRECT
+- DOMAIN-SUFFIX,xiangshang360.com,DIRECT
+- DOMAIN-SUFFIX,xianlaivip.com,DIRECT
+- DOMAIN-SUFFIX,xiaobao360.com,DIRECT
+- DOMAIN-SUFFIX,xiaodengvip.com,DIRECT
+- DOMAIN-SUFFIX,xiaohongshu.com,DIRECT
+- DOMAIN-SUFFIX,xiaohongshu.net,DIRECT
+- DOMAIN-SUFFIX,xiaojing360.com,DIRECT
+- DOMAIN-SUFFIX,xiaomi.com,DIRECT
+- DOMAIN-SUFFIX,xiaomi.hk,DIRECT
+- DOMAIN-SUFFIX,xiaomi.net,DIRECT
+- DOMAIN-SUFFIX,xiaomi.org,DIRECT
+- DOMAIN-SUFFIX,xiaomi.tw,DIRECT
+- DOMAIN-SUFFIX,xiaomishop.com,DIRECT
+- DOMAIN-SUFFIX,xiaoqiumi.com,DIRECT
+- DOMAIN-SUFFIX,xiaotongqq.com,DIRECT
+- DOMAIN-SUFFIX,xiaoxiong360.com,DIRECT
+- DOMAIN-SUFFIX,xiazai126.com,DIRECT
+- DOMAIN-SUFFIX,xiazai163.com,DIRECT
+- DOMAIN-SUFFIX,xifumi.com,DIRECT
+- DOMAIN-SUFFIX,xindexuexi.com,DIRECT
+- DOMAIN-SUFFIX,xingzuomi.com,DIRECT
+- DOMAIN-SUFFIX,xinhua.org,DIRECT
+- DOMAIN-SUFFIX,xinhuanet.com,DIRECT
+- DOMAIN-SUFFIX,xinnetvip.com,DIRECT
+- DOMAIN-SUFFIX,xinshengsemi.com,DIRECT
+- DOMAIN-SUFFIX,xinyisemi.com,DIRECT
+- DOMAIN-SUFFIX,xitmi.com,DIRECT
+- DOMAIN-SUFFIX,xiyiqq.com,DIRECT
+- DOMAIN-SUFFIX,xl-vip.com,DIRECT
+- DOMAIN-SUFFIX,xlsemi.com,DIRECT
+- DOMAIN-SUFFIX,xmccb.com,DIRECT
+- DOMAIN-SUFFIX,xmsumi.com,DIRECT
+- DOMAIN-SUFFIX,xshkvip.com,DIRECT
+- DOMAIN-SUFFIX,xsina.net,DIRECT
+- DOMAIN-SUFFIX,xueqiu360.com,DIRECT
+- DOMAIN-SUFFIX,xuexi.la,DIRECT
+- DOMAIN-SUFFIX,xw360.com,DIRECT
+- DOMAIN-SUFFIX,xwinvip.com,DIRECT
+- DOMAIN-SUFFIX,xxjnjd.com,DIRECT
+- DOMAIN-SUFFIX,xyffvip.com,DIRECT
+- DOMAIN-SUFFIX,xzb360.com,DIRECT
+- DOMAIN-SUFFIX,xzxkjd.com,DIRECT
+- DOMAIN-SUFFIX,y.qq.com,DIRECT
+- DOMAIN-SUFFIX,yangkeduo.com,DIRECT
+- DOMAIN-SUFFIX,yangzhu360.com,DIRECT
+- DOMAIN-SUFFIX,yanke360.com,DIRECT
+- DOMAIN-SUFFIX,yantu360.net,DIRECT
+- DOMAIN-SUFFIX,yaojiuqq.com,DIRECT
+- DOMAIN-SUFFIX,yaoliangmi.com,DIRECT
+- DOMAIN-SUFFIX,yayi360.com,DIRECT
+- DOMAIN-SUFFIX,ybccb.com,DIRECT
+- DOMAIN-SUFFIX,ybcxjd.com,DIRECT
+- DOMAIN-SUFFIX,ybvip.com,DIRECT
+- DOMAIN-SUFFIX,yc360.org,DIRECT
+- DOMAIN-SUFFIX,ycloudvip.com,DIRECT
+- DOMAIN-SUFFIX,ycqq.com,DIRECT
+- DOMAIN-SUFFIX,ycrx360.com,DIRECT
+- DOMAIN-SUFFIX,yd126.com,DIRECT
+- DOMAIN-SUFFIX,ydc360.com,DIRECT
+- DOMAIN-SUFFIX,ydimmi.com,DIRECT
+- DOMAIN-SUFFIX,ydstatic.com,DIRECT
+- DOMAIN-SUFFIX,yestarvip.com,DIRECT
+- DOMAIN-SUFFIX,yidian360.com,DIRECT
+- DOMAIN-SUFFIX,yifeng.com,DIRECT
+- DOMAIN-SUFFIX,yihaoranjd.com,DIRECT
+- DOMAIN-SUFFIX,yimeihui360.com,DIRECT
+- DOMAIN-SUFFIX,yingjia360.com,DIRECT
+- DOMAIN-SUFFIX,yingmi.com,DIRECT
+- DOMAIN-SUFFIX,yipai360.com,DIRECT
+- DOMAIN-SUFFIX,yiyaojd.com,DIRECT
+- DOMAIN-SUFFIX,yiyusemi.com,DIRECT
+- DOMAIN-SUFFIX,yizumi.com,DIRECT
+- DOMAIN-SUFFIX,yjcf360.com,DIRECT
+- DOMAIN-SUFFIX,yjctrip.com,DIRECT
+- DOMAIN-SUFFIX,ylzmjd.com,DIRECT
+- DOMAIN-SUFFIX,ymbaidu.com,DIRECT
+- DOMAIN-SUFFIX,ymt360.com,DIRECT
+- DOMAIN-SUFFIX,ynxinhua.com,DIRECT
+- DOMAIN-SUFFIX,yobo360.com,DIRECT
+- DOMAIN-SUFFIX,yoju360.com,DIRECT
+- DOMAIN-SUFFIX,yoju360.net,DIRECT
+- DOMAIN-SUFFIX,yonghuivip.com,DIRECT
+- DOMAIN-SUFFIX,youdao.com,DIRECT
+- DOMAIN-SUFFIX,youju360.com,DIRECT
+- DOMAIN-SUFFIX,youku.com,DIRECT
+- DOMAIN-SUFFIX,youku.icu,DIRECT
+- DOMAIN-SUFFIX,youkuyouku.pro,DIRECT
+- DOMAIN-SUFFIX,youtaojd.com,DIRECT
+- DOMAIN-SUFFIX,youyong360.com,DIRECT
+- DOMAIN-SUFFIX,yoximi.com,DIRECT
+- DOMAIN-SUFFIX,yqchjd.com,DIRECT
+- DOMAIN-SUFFIX,ysemi.com,DIRECT
+- DOMAIN-SUFFIX,yswg360.com,DIRECT
+- DOMAIN-SUFFIX,yto.vip,DIRECT
+- DOMAIN-SUFFIX,yto.xin,DIRECT
+- DOMAIN-SUFFIX,yu163.com,DIRECT
 - DOMAIN-SUFFIX,yuanmeng.com,DIRECT
-- DOMAIN-SUFFIX,huya.com,DIRECT
-- DOMAIN-SUFFIX,looktmt.com,DIRECT
+- DOMAIN-SUFFIX,yuetuvip.com,DIRECT
+- DOMAIN-SUFFIX,yumi.com,DIRECT
+- DOMAIN-SUFFIX,yunjiasu360.com,DIRECT
+- DOMAIN-SUFFIX,yunque360.com,DIRECT
+- DOMAIN-SUFFIX,yunxin163.com,DIRECT
+- DOMAIN-SUFFIX,yunyunvip.com,DIRECT
+- DOMAIN-SUFFIX,yuwen360.com,DIRECT
+- DOMAIN-SUFFIX,yyzdjd.com,DIRECT
+- DOMAIN-SUFFIX,yz360.cc,DIRECT
+- DOMAIN-SUFFIX,zf360.net,DIRECT
+- DOMAIN-SUFFIX,zhaokaifeng.com,DIRECT
+- DOMAIN-SUFFIX,zhaomi.cn,DIRECT
+- DOMAIN-SUFFIX,zhaoyaojd.com,DIRECT
+- DOMAIN-SUFFIX,zhenlongvip.com,DIRECT
+- DOMAIN-SUFFIX,zhihevip.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.dev,DIRECT
+- DOMAIN-SUFFIX,zhihuimami.com,DIRECT
+- DOMAIN-SUFFIX,zhihuishu.com,DIRECT
+- DOMAIN-SUFFIX,zhimg.com,DIRECT
+- DOMAIN-SUFFIX,zhimi.com,DIRECT
+- DOMAIN-SUFFIX,zhipin.com,DIRECT
+- DOMAIN-SUFFIX,zhixin-semi.com,DIRECT
+- DOMAIN-SUFFIX,zhizhan360.com,DIRECT
+- DOMAIN-SUFFIX,zhizhihu.com,DIRECT
+- DOMAIN-SUFFIX,zhizhoumi.com,DIRECT
+- DOMAIN-SUFFIX,zhongbao360.com,DIRECT
+- DOMAIN-SUFFIX,zhongqixin360.com,DIRECT
+- DOMAIN-SUFFIX,zhongyiju360.com,DIRECT
+- DOMAIN-SUFFIX,zhouyou360.com,DIRECT
+- DOMAIN-SUFFIX,zhuangxiaomi.com,DIRECT
+- DOMAIN-SUFFIX,zhufangdianping.com,DIRECT
+- DOMAIN-SUFFIX,zhujia360.com,DIRECT
+- DOMAIN-SUFFIX,zhulong360.com,DIRECT
+- DOMAIN-SUFFIX,zhuwang360.com,DIRECT
+- DOMAIN-SUFFIX,zhzf360.net,DIRECT
+- DOMAIN-SUFFIX,zingsemi.com,DIRECT
+- DOMAIN-SUFFIX,ziti163.com,DIRECT
+- DOMAIN-SUFFIX,zj-ccmi.com,DIRECT
+- DOMAIN-SUFFIX,zj-huawei.com,DIRECT
+- DOMAIN-SUFFIX,zjkbfjd.com,DIRECT
+- DOMAIN-SUFFIX,zjkccb.com,DIRECT
+- DOMAIN-SUFFIX,zjmi.com,DIRECT
+- DOMAIN-SUFFIX,zkh360.com,DIRECT
+- DOMAIN-SUFFIX,zoe360.com,DIRECT
+- DOMAIN-SUFFIX,zookingsoft.com,DIRECT
+- DOMAIN-SUFFIX,zsemi.com,DIRECT
+- DOMAIN-SUFFIX,ztems.com,DIRECT
+- DOMAIN-SUFFIX,ztmvip.com,DIRECT
+- DOMAIN-SUFFIX,zto.com,DIRECT
+- DOMAIN-SUFFIX,zto.net,DIRECT
+- DOMAIN-SUFFIX,zuji360.com,DIRECT
 - DOMAIN-KEYWORD,douyin,DIRECT
 - DOMAIN-KEYWORD,bilibili,DIRECT
 - DOMAIN-KEYWORD,huawei,DIRECT
