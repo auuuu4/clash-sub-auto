@@ -1,125 +1,129 @@
 ﻿name,source,type,server,port,country,country_code,isp,exit_ip,latency_ms,https_ms,speed_kbps,validity_type,issued_at,expires_at,validity_label,tested_at
-[US] CAP-01 static,CapVPN,hysteria2,74.208.55.79,8446,United States,US,IONOS SE,74.208.55.79,176,176,1444.3,static,,,static,2026-11-22 23:08:15
-[US] ZP-01 static,ZeroPing,vless,66.94.113.190,443,United States,US,Contabo Inc.,66.94.113.190,170,232,1219.3,static,,,static,2026-11-22 23:08:15
-[US] FV-01 static,FastVPN-Astro,ss,108.181.88.2,443,United States,US,Psychz Networks,199.71.214.201,73,140,1159.9,static,,,static,2026-11-22 23:08:15
-[US] CAP-01 static #2,CapVPN,hysteria2,74.208.55.79,8447,United States,US,IONOS SE,74.208.55.79,186,193,1008.2,static,,,static,2026-11-22 23:08:15
-[CA] CAP-01 static,CapVPN,hysteria2,66.70.179.198,8447,Canada,CA,OVH SAS,66.70.179.198,253,256,781.4,static,,,static,2026-11-22 23:08:15
-[CA] CAP-01 static #2,CapVPN,hysteria2,66.70.179.198,8446,Canada,CA,OVH SAS,66.70.179.198,260,236,758.7,static,,,static,2026-11-22 23:08:15
-[CA] CAP-01 static #3,CapVPN,hysteria2,66.70.179.198,8444,Canada,CA,OVH SAS,66.70.179.198,257,272,686.2,static,,,static,2026-11-22 23:08:15
-[DE] CAP-01 static,CapVPN,hysteria2,89.163.239.238,8446,Germany,DE,WIIT AG,89.163.239.238,453,383,543.3,static,,,static,2026-11-22 23:08:15
-[DE] CAP-01 static #2,CapVPN,hysteria2,89.163.239.238,8444,Germany,DE,WIIT AG,89.163.239.238,457,352,535.0,static,,,static,2026-11-22 23:08:15
-[DE] CAP-01 static #3,CapVPN,hysteria2,89.163.239.238,8445,Germany,DE,WIIT AG,89.163.239.238,460,503,516.5,static,,,static,2026-11-22 23:08:15
-[FI] CAP-01 static,CapVPN,hysteria2,95.216.27.15,8447,Finland,FI,Hetzner Online GmbH,95.216.27.15,532,523,513.5,static,,,static,2026-11-22 23:08:15
-[FI] CAP-01 static #2,CapVPN,hysteria2,95.216.27.15,8445,Finland,FI,Hetzner Online GmbH,95.216.27.15,521,366,506.6,static,,,static,2026-11-22 23:08:15
-[GB] CAP-01 static,CapVPN,hysteria2,51.89.194.151,8447,United Kingdom,GB,OVH SAS,51.89.194.151,448,465,503.6,static,,,static,2026-11-22 23:08:15
-[FR] CAP-01 static,CapVPN,hysteria2,51.77.217.70,8444,France,FR,OVH SAS,51.77.217.70,477,457,494.6,static,,,static,2026-11-22 23:08:15
-[GB] CAP-01 static #2,CapVPN,hysteria2,51.89.194.151,8446,United Kingdom,GB,OVH SAS,51.89.194.151,474,353,493.2,static,,,static,2026-11-22 23:08:15
-[GB] CAP-01 static #3,CapVPN,hysteria2,51.89.194.151,8444,United Kingdom,GB,OVH SAS,51.89.194.151,603,360,471.5,static,,,static,2026-11-22 23:08:15
-[FI] CAP-01 static #3,CapVPN,hysteria2,95.216.27.15,8444,Finland,FI,Hetzner Online GmbH,95.216.27.15,526,454,470.2,static,,,static,2026-11-22 23:08:15
-[US] TD-01 static,TunnelDOOM,vless,radiopap.oxigeno.site,8880,United States,US,UpCloud USA Inc,209.151.149.62,276,380,450.4,static,,,static,2026-11-22 23:08:15
-[GB] CAP-01 static #4,CapVPN,hysteria2,46.250.240.80,8446,United Kingdom,GB,Contabo Asia Private Limited,46.250.240.80,475,563,437.6,static,,,static,2026-11-22 23:08:15
-[US] TD-01 static #2,TunnelDOOM,vless,radiopop.oxigeno.site,8880,United States,US,UpCloud USA Inc,85.9.193.176,322,409,421.8,static,,,static,2026-11-22 23:08:15
-[IT] CAP-01 static,CapVPN,hysteria2,57.131.38.163,8444,Italy,IT,OVH SAS,57.131.38.163,569,536,421.1,static,,,static,2026-11-22 23:08:15
-[CH] CAP-01 static,CapVPN,hysteria2,208.69.78.217,8444,Switzerland,CH,GTHost,208.69.78.217,650,373,417.8,static,,,static,2026-11-22 23:08:15
-[PL] CAP-01 static,CapVPN,hysteria2,54.37.136.194,8444,Poland,PL,OVH SAS,54.37.136.194,808,456,407.7,static,,,static,2026-11-22 23:08:15
-[NL] FV-01 static,FastVPN-Astro,ss,new.hwssolutions.com,443,The Netherlands,NL,Psychz Networks,108.181.59.57,712,888,401.1,static,,,static,2026-11-22 23:08:15
-[ES] FV-01 static,FastVPN-Astro,ss,108.181.121.178,443,Spain,ES,Psychz Networks,108.181.70.65,404,540,387.5,static,,,static,2026-11-22 23:08:15
-[FR] CAP-01 static #2,CapVPN,hysteria2,51.77.217.70,8447,France,FR,OVH SAS,51.77.217.70,486,381,384.1,static,,,static,2026-11-22 23:08:15
-[ES] CAP-01 static,CapVPN,vless,212.227.235.66,2053,Spain,ES,IONOS SE,212.227.235.66,526,656,386.9,static,,,static,2026-11-22 23:08:15
-[FR] CAP-01 static #3,CapVPN,vless,51.77.217.70,2053,France,FR,OVH SAS,51.77.217.70,500,664,375.0,static,,,static,2026-11-22 23:08:15
-[NL] CAP-01 static,CapVPN,hysteria2,51.15.16.68,8446,The Netherlands,NL,SCALEWAY,51.15.16.68,430,425,360.1,static,,,static,2026-11-22 23:08:15
-[ES] CAP-01 static #2,CapVPN,hysteria2,212.227.235.66,8446,Spain,ES,IONOS SE,212.227.235.66,657,548,359.6,static,,,static,2026-11-22 23:08:15
-[IN] CAP-01 static,CapVPN,hysteria2,194.61.31.126,8447,India,IN,Contabo Asia Private Limited,194.61.31.126,847,625,323.4,static,,,static,2026-11-22 23:08:15
-[NL] ZP-01 static,ZeroPing,vless,51.194.118.32,443,The Netherlands,NL,Vuedge Tech LLC,51.194.118.32,542,671,342.2,static,,,static,2026-11-22 23:08:15
-[IN] CAP-01 static #2,CapVPN,hysteria2,194.61.31.126,8444,India,IN,Contabo Asia Private Limited,194.61.31.126,973,640,319.9,static,,,static,2026-11-22 23:08:15
-[IT] CAP-01 static #2,CapVPN,vless,57.131.38.163,2053,Italy,IT,OVH SAS,57.131.38.163,572,748,334.2,static,,,static,2026-11-22 23:08:15
-[CH] CAP-01 static #2,CapVPN,vless,208.69.78.217,2053,Switzerland,CH,GTHost,208.69.78.217,648,607,326.9,static,,,static,2026-11-22 23:08:15
-[KR] CAP-01 static,CapVPN,hysteria2,151.245.106.49,8444,South Korea,KR,HostHatch,151.245.106.49,1038,776,297.4,static,,,static,2026-11-22 23:08:15
-[PL] CAP-01 static #2,CapVPN,vless,54.37.136.194,2053,Poland,PL,OVH SAS,54.37.136.194,801,786,313.0,static,,,static,2026-11-22 23:08:15
-[IN] CAP-01 static #3,CapVPN,hysteria2,194.61.31.126,8445,India,IN,Contabo Asia Private Limited,194.61.31.126,945,601,284.5,static,,,static,2026-11-22 23:08:15
-[BE] FV-01 static,FastVPN-Astro,ss,belgium.astroapps.io,443,Belgium,BE,M247 Europe SRL,38.244.131.89,913,957,298.9,static,,,static,2026-11-22 23:08:15
-[ES] FV-01 static #2,FastVPN-Astro,ss,spain.surgevpn.app,443,Spain,ES,Psychz Networks,108.181.70.23,837,968,280.1,static,,,static,2026-11-22 23:08:15
-[NL] CAP-01 static #2,CapVPN,hysteria2,51.15.16.68,8445,The Netherlands,NL,SCALEWAY,51.15.16.68,1513,580,282.5,static,,,static,2026-11-22 23:08:15
-[EE] FV-01 static,FastVPN-Astro,ss,estonia.astroapps.io,443,Estonia,EE,Aktsiaselts WaveCom,38.180.216.30,1046,1000,274.6,static,,,static,2026-11-22 23:08:15
-[FI] FV-01 static,FastVPN-Astro,ss,finland.astroapps.io,443,Finland,FI,Scalaxy B.V.,148.222.186.134,1065,1027,273.2,static,,,static,2026-11-22 23:08:15
-[IT] FV-01 static,FastVPN-Astro,ss,italy.astroapps.io,443,Italy,IT,M247 Europe SRL,38.180.224.7,851,943,265.7,static,,,static,2026-11-22 23:08:15
-[NL] CAP-01 static #3,CapVPN,hysteria2,51.15.16.68,8447,The Netherlands,NL,SCALEWAY,51.15.16.68,798,362,231.5,static,,,static,2026-11-22 23:08:15
-[BG] FV-01 static,FastVPN-Astro,ss,bulgaria.astroapps.io,443,Bulgaria,BG,M247 Europe SRL,38.180.2.24,1273,1207,245.9,static,,,static,2026-11-22 23:08:15
-[DK] FV-01 static,FastVPN-Astro,ss,denmark.astroapps.io,443,Denmark,DK,M247 Europe SRL,38.180.214.188,1037,1087,234.2,static,,,static,2026-11-22 23:08:15
-[GB] CAP-01 static #5,CapVPN,hysteria2,46.250.240.80,8444,United Kingdom,GB,Contabo Asia Private Limited,46.250.240.80,959,1443,224.9,static,,,static,2026-11-22 23:08:15
-[ES] CAP-01 static #3,CapVPN,hysteria2,212.227.235.66,8444,Spain,ES,IONOS SE,212.227.235.66,671,434,188.9,static,,,static,2026-11-22 23:08:15
-[US] CAP-01 static #3,CapVPN,hysteria2,74.208.55.79,8444,United States,US,IONOS SE,74.208.55.79,187,183,163.5,static,,,static,2026-11-22 23:08:15
-[GB] CAP-01 static #6,CapVPN,hysteria2,46.250.250.149,8444,United Kingdom,GB,Contabo Asia Private Limited,46.250.250.149,1193,1434,192.7,static,,,static,2026-11-22 23:08:15
-[GB] CAP-01 static #7,CapVPN,vless,46.250.250.149,2053,United Kingdom,GB,Contabo Asia Private Limited,46.250.250.149,530,642,162.0,static,,,static,2026-11-22 23:08:15
-[NL] FV-01 static #2,FastVPN-Astro,ss,108.181.122.170,443,The Netherlands,NL,Psychz Networks,108.181.58.239,293,452,134.0,static,,,static,2026-11-22 23:08:15
-[GB] CAP-01 static #8,CapVPN,hysteria2,46.250.240.80,8447,United Kingdom,GB,Contabo Asia Private Limited,46.250.240.80,1146,619,141.3,static,,,static,2026-11-22 23:08:15
-[AR] FV-01 static,FastVPN-Astro,ss,argentina.astroapps.io,443,Argentina,AR,Scalaxy B.V.,38.180.185.234,1313,1233,72.4,static,,,static,2026-11-22 23:08:15
-[KR] CAP-01 static #2,CapVPN,vless,151.245.106.49,2053,South Korea,KR,HostHatch,151.245.106.49,3484,3762,59.4,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static,ZeroPing,vless,104.18.41.183,2087,,XX,,,58.0,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #2,ZeroPing,vless,104.18.40.25,8443,,XX,,,61.2,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #3,ZeroPing,vless,104.18.40.25,8443,,XX,,,61.2,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #4,ZeroPing,vless,104.18.40.25,8443,,XX,,,61.2,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #5,ZeroPing,vless,104.18.40.25,8443,,XX,,,61.2,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #6,ZeroPing,vless,104.18.41.183,443,,XX,,,65.6,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #7,ZeroPing,vless,104.18.41.183,8443,,XX,,,67.2,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #8,ZeroPing,vless,104.18.41.183,8443,,XX,,,67.2,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #9,ZeroPing,vless,104.18.12.27,8443,,XX,,,160.7,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #10,ZeroPing,vless,104.18.12.27,8443,,XX,,,160.7,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #11,ZeroPing,vless,104.18.12.27,8443,,XX,,,160.7,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #12,ZeroPing,vless,104.16.10.34,8443,,XX,,,162.9,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #13,ZeroPing,vless,104.18.125.108,8443,,XX,,,164.3,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #14,ZeroPing,vless,104.18.125.108,8443,,XX,,,164.3,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #15,ZeroPing,vless,104.18.12.27,2087,,XX,,,164.5,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #16,ZeroPing,vless,104.18.54.132,8443,,XX,,,165.3,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #17,ZeroPing,vless,104.18.54.132,8443,,XX,,,165.3,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #18,ZeroPing,vless,104.18.54.132,8443,,XX,,,165.3,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #19,ZeroPing,vless,104.18.125.108,443,,XX,,,165.9,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #20,ZeroPing,vless,104.19.200.15,2087,,XX,,,166.0,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #21,ZeroPing,vless,104.19.200.15,8443,,XX,,,166.1,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #22,ZeroPing,vless,104.19.200.15,8443,,XX,,,166.1,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #23,ZeroPing,vless,104.18.15.62,8443,,XX,,,166.7,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #24,ZeroPing,vless,104.18.15.62,8443,,XX,,,166.7,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #25,ZeroPing,vless,104.18.15.62,8443,,XX,,,166.7,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #26,ZeroPing,vless,104.18.15.62,8443,,XX,,,166.7,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #27,ZeroPing,vless,104.18.20.94,8443,,XX,,,166.8,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #28,ZeroPing,vless,104.18.20.94,8443,,XX,,,166.8,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #29,ZeroPing,vless,104.18.20.94,8443,,XX,,,166.8,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #30,ZeroPing,vless,104.18.20.94,8443,,XX,,,166.8,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #31,ZeroPing,vless,104.18.20.94,8443,,XX,,,166.8,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #32,ZeroPing,vless,104.18.3.64,8443,,XX,,,167.1,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #33,ZeroPing,vless,104.18.3.64,8443,,XX,,,167.1,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #34,ZeroPing,vless,104.18.3.64,8443,,XX,,,167.1,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #35,ZeroPing,vless,104.18.3.64,8443,,XX,,,167.1,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #36,ZeroPing,vless,104.19.204.242,8443,,XX,,,167.2,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #37,ZeroPing,vless,104.19.204.242,8443,,XX,,,167.2,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #38,ZeroPing,vless,104.18.12.225,8443,,XX,,,167.5,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #39,ZeroPing,vless,104.18.12.225,8443,,XX,,,167.5,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #40,ZeroPing,vless,104.18.12.225,8443,,XX,,,167.5,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #41,ZeroPing,vless,104.18.12.225,8443,,XX,,,167.5,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #42,ZeroPing,vless,104.18.12.225,8443,,XX,,,167.5,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #43,ZeroPing,vless,104.16.119.58,8443,,XX,,,168.3,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #44,ZeroPing,vless,104.18.62.41,8443,,XX,,,168.4,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #45,ZeroPing,vless,104.18.62.41,8443,,XX,,,168.4,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #46,ZeroPing,vless,104.17.158.184,8443,,XX,,,168.8,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #47,ZeroPing,vless,104.18.7.148,8443,,XX,,,169.5,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #48,ZeroPing,vless,104.18.7.148,8443,,XX,,,169.5,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #49,ZeroPing,vless,104.18.132.77,8443,,XX,,,169.8,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #50,ZeroPing,vless,104.16.119.58,2053,,XX,,,170.1,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #51,ZeroPing,vless,104.18.7.148,2053,,XX,,,172.0,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #52,ZeroPing,vless,104.19.194.94,8443,,XX,,,172.4,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #53,ZeroPing,vless,104.19.194.94,8443,,XX,,,172.4,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #54,ZeroPing,vless,104.19.194.94,8443,,XX,,,172.4,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #55,ZeroPing,vless,104.16.119.58,2087,,XX,,,172.6,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #56,ZeroPing,vless,162.159.84.56,8443,,XX,,,173.7,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #57,ZeroPing,vless,162.159.235.6,8443,,XX,,,174.0,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #58,ZeroPing,vless,104.18.15.62,443,,XX,,,174.1,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #59,ZeroPing,vless,162.159.132.218,8443,,XX,,,198.7,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #60,ZeroPing,vless,162.159.155.121,8443,,XX,,,199.3,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #61,ZeroPing,vless,162.159.155.121,8443,,XX,,,199.3,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #62,ZeroPing,vless,162.159.155.121,8443,,XX,,,199.3,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #63,ZeroPing,vless,104.25.30.55,443,,XX,,,208.9,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #64,ZeroPing,vless,172.64.185.198,8443,,XX,,,215.1,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #65,ZeroPing,vless,104.25.30.55,8443,,XX,,,219.4,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #66,ZeroPing,vless,104.25.30.55,8443,,XX,,,219.4,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #67,ZeroPing,vless,104.25.30.55,8443,,XX,,,219.4,,50,static,,,static,2026-11-22 23:08:15
-[XX] ZP-01 static #68,ZeroPing,vless,104.25.30.55,8443,,XX,,,219.4,,50,static,,,static,2026-11-22 23:08:15
+[US] CAP-01 static,CapVPN,hysteria2,74.208.55.79,8446,United States,US,IONOS SE,74.208.55.79,178,178,1398.1,static,,,static,2026-11-22 23:54:31
+[US] FV-01 static,FastVPN-Astro,ss,108.181.88.2,443,United States,US,Psychz Networks,199.71.214.201,76,146,1340.9,static,,,static,2026-11-22 23:54:31
+[US] ZP-01 static,ZeroPing,vless,66.94.113.190,443,United States,US,Contabo Inc.,66.94.113.190,150,158,1245.3,static,,,static,2026-11-22 23:54:31
+[US] CAP-01 static #2,CapVPN,hysteria2,74.208.55.79,8444,United States,US,IONOS SE,74.208.55.79,180,226,924.7,static,,,static,2026-11-22 23:54:31
+[CA] CAP-01 static,CapVPN,hysteria2,66.70.179.198,8444,Canada,CA,OVH SAS,66.70.179.198,257,240,924.7,static,,,static,2026-11-22 23:54:31
+[US] CAP-01 static #3,CapVPN,hysteria2,74.208.55.79,8447,United States,US,IONOS SE,74.208.55.79,211,352,887.1,static,,,static,2026-11-22 23:54:31
+[CA] CAP-01 static #2,CapVPN,hysteria2,66.70.179.198,8446,Canada,CA,OVH SAS,66.70.179.198,247,215,812.8,static,,,static,2026-11-22 23:54:31
+[GB] CAP-01 static,CapVPN,hysteria2,51.89.194.151,8446,United Kingdom,GB,OVH SAS,51.89.194.151,449,355,519.1,static,,,static,2026-11-22 23:54:31
+[FI] CAP-01 static,CapVPN,hysteria2,95.216.27.15,8445,Finland,FI,Hetzner Online GmbH,95.216.27.15,509,362,514.5,static,,,static,2026-11-22 23:54:31
+[ES] CAP-01 static,CapVPN,hysteria2,212.227.235.66,8446,Spain,ES,IONOS SE,212.227.235.66,528,398,493.7,static,,,static,2026-11-22 23:54:31
+[GB] CAP-01 static #2,CapVPN,hysteria2,51.89.194.151,8447,United Kingdom,GB,OVH SAS,51.89.194.151,585,697,495.5,static,,,static,2026-11-22 23:54:31
+[FR] CAP-01 static,CapVPN,hysteria2,51.77.217.70,8447,France,FR,OVH SAS,51.77.217.70,509,394,462.7,static,,,static,2026-11-22 23:54:31
+[US] TD-01 static,TunnelDOOM,vless,tvdos.oxigeno.site,8880,United States,US,UpCloud USA Inc,152.44.41.66,178,507,451.6,static,,,static,2026-11-22 23:54:31
+[FI] CAP-01 static #2,CapVPN,hysteria2,95.216.27.15,8444,Finland,FI,Hetzner Online GmbH,95.216.27.15,526,396,458.3,static,,,static,2026-11-22 23:54:31
+[GB] CAP-01 static #3,CapVPN,hysteria2,51.89.194.151,8444,United Kingdom,GB,OVH SAS,51.89.194.151,458,492,444.7,static,,,static,2026-11-22 23:54:31
+[ES] CAP-01 static #2,CapVPN,hysteria2,212.227.235.66,8444,Spain,ES,IONOS SE,212.227.235.66,660,517,449.6,static,,,static,2026-11-22 23:54:31
+[GB] CAP-01 static #4,CapVPN,hysteria2,46.250.250.149,8444,United Kingdom,GB,Contabo Asia Private Limited,46.250.250.149,540,671,444.3,static,,,static,2026-11-22 23:54:31
+[GB] CAP-01 static #5,CapVPN,hysteria2,46.250.240.80,8447,United Kingdom,GB,Contabo Asia Private Limited,46.250.240.80,511,492,425.6,static,,,static,2026-11-22 23:54:31
+[KR] CAP-01 static,CapVPN,hysteria2,151.245.106.49,8444,South Korea,KR,HostHatch,151.245.106.49,811,777,403.6,static,,,static,2026-11-22 23:54:31
+[GB] CAP-01 static #6,CapVPN,hysteria2,46.250.240.80,8444,United Kingdom,GB,Contabo Asia Private Limited,46.250.240.80,695,605,428.0,static,,,static,2026-11-22 23:54:31
+[CA] CAP-01 static #3,CapVPN,hysteria2,66.70.179.198,8447,Canada,CA,OVH SAS,66.70.179.198,257,413,409.3,static,,,static,2026-11-22 23:54:31
+[FI] CAP-01 static #3,CapVPN,hysteria2,95.216.27.15,8447,Finland,FI,Hetzner Online GmbH,95.216.27.15,507,529,389.8,static,,,static,2026-11-22 23:54:31
+[NL] CAP-01 static,CapVPN,hysteria2,51.15.16.68,8446,The Netherlands,NL,SCALEWAY,51.15.16.68,789,368,393.6,static,,,static,2026-11-22 23:54:31
+[IT] CAP-01 static,CapVPN,hysteria2,57.131.38.163,8444,Italy,IT,OVH SAS,57.131.38.163,542,539,386.4,static,,,static,2026-11-22 23:54:31
+[US] TD-01 static #2,TunnelDOOM,vless,radiopap.oxigeno.site,8880,United States,US,UpCloud USA Inc,209.151.149.62,214,416,371.0,static,,,static,2026-11-22 23:54:31
+[KR] CAP-01 static #2,CapVPN,vless,151.245.106.49,2053,South Korea,KR,HostHatch,151.245.106.49,841,772,359.8,static,,,static,2026-11-22 23:54:31
+[FR] CAP-01 static #2,CapVPN,vless,51.77.217.70,2053,France,FR,OVH SAS,51.77.217.70,497,649,379.9,static,,,static,2026-11-22 23:54:31
+[FR] CAP-01 static #3,CapVPN,hysteria2,51.77.217.70,8444,France,FR,OVH SAS,51.77.217.70,478,468,375.8,static,,,static,2026-11-22 23:54:31
+[CH] CAP-01 static,CapVPN,hysteria2,208.69.78.217,8444,Switzerland,CH,GTHost,208.69.78.217,657,395,379.1,static,,,static,2026-11-22 23:54:31
+[PL] CAP-01 static,CapVPN,hysteria2,54.37.136.194,8444,Poland,PL,OVH SAS,54.37.136.194,581,542,376.9,static,,,static,2026-11-22 23:54:31
+[GB] CAP-01 static #7,CapVPN,hysteria2,46.250.240.80,8446,United Kingdom,GB,Contabo Asia Private Limited,46.250.240.80,712,614,377.7,static,,,static,2026-11-22 23:54:31
+[NL] FV-01 static,FastVPN-Astro,ss,new.hwssolutions.com,443,The Netherlands,NL,Psychz Networks,108.181.59.57,727,903,375.6,static,,,static,2026-11-22 23:54:31
+[US] TD-01 static #3,TunnelDOOM,vless,tvuno.oxigeno.site,8880,United States,US,UpCloud USA Inc,194.113.75.1,180,493,351.9,static,,,static,2026-11-22 23:54:31
+[IN] CAP-01 static,CapVPN,hysteria2,194.61.31.126,8445,India,IN,Contabo Asia Private Limited,194.61.31.126,858,577,326.5,static,,,static,2026-11-22 23:54:31
+[IN] CAP-01 static #2,CapVPN,hysteria2,194.61.31.126,8447,India,IN,Contabo Asia Private Limited,194.61.31.126,860,563,319.5,static,,,static,2026-11-22 23:54:31
+[NL] CAP-01 static #2,CapVPN,hysteria2,51.15.16.68,8447,The Netherlands,NL,SCALEWAY,51.15.16.68,720,727,338.7,static,,,static,2026-11-22 23:54:31
+[IT] CAP-01 static #2,CapVPN,vless,57.131.38.163,2053,Italy,IT,OVH SAS,57.131.38.163,568,1399,337.2,static,,,static,2026-11-22 23:54:31
+[NL] CAP-01 static #3,CapVPN,hysteria2,51.15.16.68,8445,The Netherlands,NL,SCALEWAY,51.15.16.68,577,334,325.0,static,,,static,2026-11-22 23:54:31
+[IN] CAP-01 static #3,CapVPN,hysteria2,194.61.31.126,8444,India,IN,Contabo Asia Private Limited,194.61.31.126,836,660,302.5,static,,,static,2026-11-22 23:54:31
+[NL] ZP-01 static,ZeroPing,vless,51.194.118.32,443,The Netherlands,NL,Vuedge Tech LLC,51.194.118.32,549,685,322.6,static,,,static,2026-11-22 23:54:31
+[PL] CAP-01 static #2,CapVPN,vless,54.37.136.194,2053,Poland,PL,OVH SAS,54.37.136.194,773,788,323.2,static,,,static,2026-11-22 23:54:31
+[GB] FV-01 static,FastVPN-Astro,ss,uk.hwssolutions.com,443,United Kingdom,GB,GTHost,186.190.211.2,642,846,299.4,static,,,static,2026-11-22 23:54:31
+[BE] FV-01 static,FastVPN-Astro,ss,belgium.astroapps.io,443,Belgium,BE,M247 Europe SRL,38.244.131.89,944,951,290.8,static,,,static,2026-11-22 23:54:31
+[DK] FV-01 static,FastVPN-Astro,ss,denmark.astroapps.io,443,Denmark,DK,M247 Europe SRL,38.180.214.188,958,958,287.8,static,,,static,2026-11-22 23:54:31
+[HK] FV-01 static,FastVPN-Astro,ss,hongkong.astroapps.io,443,Hong Kong,HK,M247 Europe SRL,38.180.189.219,923,1007,254.5,static,,,static,2026-11-22 23:54:31
+[IT] FV-01 static,FastVPN-Astro,ss,italy.astroapps.io,443,Italy,IT,M247 Europe SRL,38.180.224.7,817,1025,281.4,static,,,static,2026-11-22 23:54:31
+[EE] FV-01 static,FastVPN-Astro,ss,estonia.astroapps.io,443,Estonia,EE,Aktsiaselts WaveCom,38.180.216.30,960,930,282.0,static,,,static,2026-11-22 23:54:31
+[FI] FV-01 static,FastVPN-Astro,ss,finland.astroapps.io,443,Finland,FI,Scalaxy B.V.,148.222.186.134,939,931,262.7,static,,,static,2026-11-22 23:54:31
+[GB] CAP-01 static #8,CapVPN,vless,46.250.250.149,2053,United Kingdom,GB,Contabo Asia Private Limited,46.250.250.149,606,694,247.1,static,,,static,2026-11-22 23:54:31
+[US] TD-01 static #4,TunnelDOOM,vless,radiopop.oxigeno.site,8880,United States,US,UpCloud USA Inc,85.9.193.176,178,499,229.6,static,,,static,2026-11-22 23:54:31
+[BG] FV-01 static,FastVPN-Astro,ss,bulgaria.astroapps.io,443,Bulgaria,BG,M247 Europe SRL,38.180.2.24,1114,1110,253.8,static,,,static,2026-11-22 23:54:31
+[ES] FV-01 static,FastVPN-Astro,ss,spain.surgevpn.app,443,Spain,ES,Psychz Networks,108.181.70.23,1265,2570,271.1,static,,,static,2026-11-22 23:54:31
+[IN] FV-01 static,FastVPN-Astro,ss,india.astroapps.io,443,India,IN,HOSTINGER IN,82.25.109.43,1141,1291,213.4,static,,,static,2026-11-22 23:54:31
+[NL] FV-01 static #2,FastVPN-Astro,ss,108.181.122.170,443,The Netherlands,NL,Psychz Networks,108.181.58.239,304,448,169.9,static,,,static,2026-11-22 23:54:31
+[AU] FV-01 static,FastVPN-Astro,ss,australia.astroapps.io,443,Australia,AU,CLOUD-NETWORK,176.97.69.174,894,1187,78.2,static,,,static,2026-11-22 23:54:31
+[CH] CAP-01 static #2,CapVPN,vless,208.69.78.217,2053,Switzerland,CH,GTHost,208.69.78.217,676,625,59.6,static,,,static,2026-11-22 23:54:31
+[AR] FV-01 static,FastVPN-Astro,ss,argentina.astroapps.io,443,Argentina,AR,Scalaxy B.V.,38.180.185.234,1319,2149,73.1,static,,,static,2026-11-22 23:54:31
+[JP] FV-01 static,FastVPN-Astro,ss,japan.astroapps.io,443,Japan,JP,CLOUD-NETWORK,176.97.71.116,1475,1671,32.3,static,,,static,2026-11-22 23:54:31
+[ES] FV-01 static #2,FastVPN-Astro,ss,108.181.121.178,443,Spain,ES,Psychz Networks,108.181.70.65,392,548,,static,,,static,2026-11-22 23:54:31
+[ES] CAP-01 static #3,CapVPN,vless,212.227.235.66,2053,Spain,ES,IONOS SE,212.227.235.66,678,647,,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static,ZeroPing,vless,104.18.41.183,2087,,XX,,,58.0,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #2,ZeroPing,vless,104.18.40.25,8443,,XX,,,61.2,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #3,ZeroPing,vless,104.18.40.25,8443,,XX,,,61.2,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #4,ZeroPing,vless,104.18.40.25,8443,,XX,,,61.2,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #5,ZeroPing,vless,104.18.40.25,8443,,XX,,,61.2,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #6,ZeroPing,vless,104.18.41.183,443,,XX,,,65.6,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #7,ZeroPing,vless,104.18.41.183,8443,,XX,,,67.2,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #8,ZeroPing,vless,104.18.41.183,8443,,XX,,,67.2,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #9,ZeroPing,vless,104.18.12.27,8443,,XX,,,160.7,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #10,ZeroPing,vless,104.18.12.27,8443,,XX,,,160.7,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #11,ZeroPing,vless,104.18.12.27,8443,,XX,,,160.7,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #12,ZeroPing,vless,104.16.10.34,8443,,XX,,,162.9,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #13,ZeroPing,vless,104.18.125.108,8443,,XX,,,164.3,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #14,ZeroPing,vless,104.18.125.108,8443,,XX,,,164.3,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #15,ZeroPing,vless,104.18.12.27,2087,,XX,,,164.5,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #16,ZeroPing,vless,104.18.54.132,8443,,XX,,,165.3,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #17,ZeroPing,vless,104.18.54.132,8443,,XX,,,165.3,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #18,ZeroPing,vless,104.18.54.132,8443,,XX,,,165.3,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #19,ZeroPing,vless,104.18.125.108,443,,XX,,,165.9,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #20,ZeroPing,vless,104.19.200.15,2087,,XX,,,166.0,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #21,ZeroPing,vless,104.19.200.15,8443,,XX,,,166.1,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #22,ZeroPing,vless,104.19.200.15,8443,,XX,,,166.1,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #23,ZeroPing,vless,104.18.15.62,8443,,XX,,,166.7,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #24,ZeroPing,vless,104.18.15.62,8443,,XX,,,166.7,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #25,ZeroPing,vless,104.18.15.62,8443,,XX,,,166.7,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #26,ZeroPing,vless,104.18.15.62,8443,,XX,,,166.7,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #27,ZeroPing,vless,104.18.20.94,8443,,XX,,,166.8,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #28,ZeroPing,vless,104.18.20.94,8443,,XX,,,166.8,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #29,ZeroPing,vless,104.18.20.94,8443,,XX,,,166.8,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #30,ZeroPing,vless,104.18.20.94,8443,,XX,,,166.8,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #31,ZeroPing,vless,104.18.20.94,8443,,XX,,,166.8,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #32,ZeroPing,vless,104.18.3.64,8443,,XX,,,167.1,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #33,ZeroPing,vless,104.18.3.64,8443,,XX,,,167.1,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #34,ZeroPing,vless,104.18.3.64,8443,,XX,,,167.1,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #35,ZeroPing,vless,104.18.3.64,8443,,XX,,,167.1,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #36,ZeroPing,vless,104.19.204.242,8443,,XX,,,167.2,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #37,ZeroPing,vless,104.19.204.242,8443,,XX,,,167.2,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #38,ZeroPing,vless,104.18.12.225,8443,,XX,,,167.5,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #39,ZeroPing,vless,104.18.12.225,8443,,XX,,,167.5,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #40,ZeroPing,vless,104.18.12.225,8443,,XX,,,167.5,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #41,ZeroPing,vless,104.18.12.225,8443,,XX,,,167.5,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #42,ZeroPing,vless,104.18.12.225,8443,,XX,,,167.5,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #43,ZeroPing,vless,104.16.119.58,8443,,XX,,,168.3,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #44,ZeroPing,vless,104.18.62.41,8443,,XX,,,168.4,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #45,ZeroPing,vless,104.18.62.41,8443,,XX,,,168.4,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #46,ZeroPing,vless,104.17.158.184,8443,,XX,,,168.8,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #47,ZeroPing,vless,104.18.7.148,8443,,XX,,,169.5,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #48,ZeroPing,vless,104.18.7.148,8443,,XX,,,169.5,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #49,ZeroPing,vless,104.18.132.77,8443,,XX,,,169.8,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #50,ZeroPing,vless,104.16.119.58,2053,,XX,,,170.1,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #51,ZeroPing,vless,104.18.7.148,2053,,XX,,,172.0,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #52,ZeroPing,vless,104.19.194.94,8443,,XX,,,172.4,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #53,ZeroPing,vless,104.19.194.94,8443,,XX,,,172.4,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #54,ZeroPing,vless,104.19.194.94,8443,,XX,,,172.4,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #55,ZeroPing,vless,104.16.119.58,2087,,XX,,,172.6,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #56,ZeroPing,vless,162.159.84.56,8443,,XX,,,173.7,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #57,ZeroPing,vless,162.159.235.6,8443,,XX,,,174.0,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #58,ZeroPing,vless,104.18.15.62,443,,XX,,,174.1,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #59,ZeroPing,vless,162.159.132.218,8443,,XX,,,198.7,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #60,ZeroPing,vless,162.159.155.121,8443,,XX,,,199.3,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #61,ZeroPing,vless,162.159.155.121,8443,,XX,,,199.3,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #62,ZeroPing,vless,162.159.155.121,8443,,XX,,,199.3,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #63,ZeroPing,vless,104.25.30.55,443,,XX,,,208.9,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #64,ZeroPing,vless,172.64.185.198,8443,,XX,,,215.1,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #65,ZeroPing,vless,104.25.30.55,8443,,XX,,,219.4,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #66,ZeroPing,vless,104.25.30.55,8443,,XX,,,219.4,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #67,ZeroPing,vless,104.25.30.55,8443,,XX,,,219.4,,50,static,,,static,2026-11-22 23:54:31
+[XX] ZP-01 static #68,ZeroPing,vless,104.25.30.55,8443,,XX,,,219.4,,50,static,,,static,2026-11-22 23:54:31
