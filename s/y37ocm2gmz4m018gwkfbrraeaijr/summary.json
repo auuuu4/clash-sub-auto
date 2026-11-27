@@ -1,48 +1,44 @@
 {
-  "generated_at": "2026-11-27 15:10:21 CST",
+  "generated_at": "2026-11-27 16:09:43 CST",
   "candidates": 149,
-  "final": 150,
+  "final": 143,
   "filtered": {
-    "dead_or_https": 1
+    "dead_or_https": 8
   },
   "by_source": {
+    "FastVPN-Astro": 16,
     "CapVPN": 54,
-    "FastVPN-Astro": 22,
-    "TunnelDOOM": 2,
-    "ZeroPing": 70
+    "ZeroPing": 70,
+    "TunnelDOOM": 1
   },
   "by_country": {
-    "US": 11,
+    "US": 10,
     "CA": 6,
     "DE": 5,
-    "GB": 13,
-    "FI": 5,
-    "NL": 6,
+    "GB": 12,
     "ES": 6,
+    "FI": 4,
+    "NL": 7,
     "FR": 5,
     "IT": 3,
     "PL": 2,
     "CH": 3,
-    "KR": 2,
-    "IN": 5,
-    "BE": 1,
+    "IN": 4,
     "HK": 1,
+    "KR": 2,
     "EE": 1,
-    "DK": 1,
-    "BG": 1,
-    "AU": 1,
     "JP": 1,
     "XX": 69
   },
   "by_type": {
+    "ss": 16,
     "hysteria2": 41,
-    "ss": 22,
-    "vless": 85
+    "vless": 84
   },
   "expiring": 0,
-  "static": 148,
+  "static": 141,
   "public": 0,
-  "reverse": 148,
+  "reverse": 141,
   "groups": [
     "AUTO",
     "AUTO-STATIC",
@@ -50,21 +46,17 @@
     "AUTO-CA",
     "AUTO-DE",
     "AUTO-GB",
+    "AUTO-ES",
     "AUTO-FI",
     "AUTO-NL",
-    "AUTO-ES",
     "AUTO-FR",
     "AUTO-IT",
     "AUTO-PL",
     "AUTO-CH",
-    "AUTO-KR",
     "AUTO-IN",
-    "AUTO-BE",
     "AUTO-HK",
+    "AUTO-KR",
     "AUTO-EE",
-    "AUTO-DK",
-    "AUTO-BG",
-    "AUTO-AU",
     "AUTO-JP",
     "AUTO-XX",
     "AUTO-REV",
@@ -81,5 +73,5 @@
   ],
   "token_expiry_min": null,
   "token_expiry_max": null,
-  "next_refresh_due": "2026-11-27 18:10 CST"
+  "next_refresh_due": "2026-11-27 19:09 CST"
 }
