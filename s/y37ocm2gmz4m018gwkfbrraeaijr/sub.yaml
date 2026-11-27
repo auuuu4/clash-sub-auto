@@ -2,6 +2,13 @@ log-level: warning
 mode: rule
 ipv6: true
 proxies:
+- name: '[US] FV-01 static'
+  type: ss
+  server: 108.181.88.2
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6yzcGxLalx0T
+  udp: true
 - name: '[US] CAP-01 static'
   type: hysteria2
   server: 74.208.55.79
@@ -14,18 +21,27 @@ proxies:
 - name: '[US] CAP-01 static #2'
   type: hysteria2
   server: 74.208.55.79
-  port: 8446
+  port: 8447
   password: capadm3ef1363f:bR6c1ouATNxwJW5ZxGr8JF72
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 7ompH2WXvS9tuT4L
-- name: '[US] FV-01 static'
+- name: '[CA] CAP-01 static'
+  type: hysteria2
+  server: 66.70.179.198
+  port: 8446
+  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: B50trH7TnbvvBsqf
+- name: '[US] FV-01 static #2'
   type: ss
-  server: 108.181.88.2
+  server: 38.99.82.34
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: 6yzcGxLalx0T
+  password: TyWIy6paiFUX
   udp: true
 - name: '[US] ZP-01 static'
   type: vless
@@ -41,34 +57,7 @@ proxies:
     public-key: 02Yg4to3gnD2VkzaE9qBZlhsMqzE_oL5tZETE-8yx1Q
     short-id: 53050dd29221b30f
   network: tcp
-- name: '[CA] CAP-01 static'
-  type: hysteria2
-  server: 66.70.179.198
-  port: 8447
-  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: B50trH7TnbvvBsqf
-- name: '[CA] CAP-01 static #2'
-  type: hysteria2
-  server: 66.70.179.198
-  port: 8446
-  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: B50trH7TnbvvBsqf
 - name: '[US] CAP-01 static #3'
-  type: hysteria2
-  server: 74.208.55.79
-  port: 8447
-  password: capadm3ef1363f:bR6c1ouATNxwJW5ZxGr8JF72
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 7ompH2WXvS9tuT4L
-- name: '[US] CAP-01 static #4'
   type: hysteria2
   server: 74.208.55.79
   port: 8444
@@ -77,7 +66,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 7ompH2WXvS9tuT4L
-- name: '[CA] CAP-01 static #3'
+- name: '[CA] CAP-01 static #2'
   type: hysteria2
   server: 66.70.179.198
   port: 8445
@@ -86,21 +75,14 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: B50trH7TnbvvBsqf
-- name: '[CA] FV-01 static'
+- name: '[US] FV-01 static #3'
   type: ss
-  server: 134.195.198.163
+  server: 108.181.133.138
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: PmCqK98WqhSC
+  password: H12pAAJYL
   udp: true
-- name: '[US] FV-01 static #2'
-  type: ss
-  server: 38.99.82.34
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: TyWIy6paiFUX
-  udp: true
-- name: '[CA] CAP-01 static #4'
+- name: '[CA] CAP-01 static #3'
   type: vless
   server: 66.70.179.198
   port: 2053
@@ -113,58 +95,31 @@ proxies:
     public-key: M4KMy1H25lBtgDaONRFg-p9bdDieF8a_8EruTljF5yU
     short-id: d9706edfd06bbdd1
   skip-cert-verify: false
-- name: '[NL] FV-01 static'
+- name: '[CA] CAP-01 static #4'
+  type: hysteria2
+  server: 66.70.179.198
+  port: 8444
+  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: B50trH7TnbvvBsqf
+- name: '[CA] CAP-01 static #5'
+  type: hysteria2
+  server: 66.70.179.198
+  port: 8447
+  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: B50trH7TnbvvBsqf
+- name: '[CA] FV-01 static'
   type: ss
-  server: 108.181.124.226
+  server: 134.195.198.163
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: 6daLqV3AjUb3
+  password: PmCqK98WqhSC
   udp: true
-- name: '[FI] CAP-01 static'
-  type: hysteria2
-  server: 95.216.27.15
-  port: 8444
-  password: capadm258b1ab7:C4wYg47vEaPHbS7sk8CVhbXO
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: RdUhzis2KPCYxV3y
-- name: '[GB] CAP-01 static'
-  type: hysteria2
-  server: 51.89.194.151
-  port: 8446
-  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rmPifBmgj3g17UcS
-- name: '[GB] CAP-01 static #2'
-  type: hysteria2
-  server: 51.89.194.151
-  port: 8445
-  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rmPifBmgj3g17UcS
-- name: '[ES] CAP-01 static'
-  type: hysteria2
-  server: 212.227.235.66
-  port: 8445
-  password: capadm912be8e6:IltQihbQs5HQrO3J4vklsQs9
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: BRSoROSPGCIHlaUB
-- name: '[ES] CAP-01 static #2'
-  type: hysteria2
-  server: 212.227.235.66
-  port: 8446
-  password: capadm912be8e6:IltQihbQs5HQrO3J4vklsQs9
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: BRSoROSPGCIHlaUB
 - name: '[DE] CAP-01 static'
   type: hysteria2
   server: 89.163.239.238
@@ -183,33 +138,24 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: lBMApke34h6s7Lsb
-- name: '[FR] CAP-01 static'
+- name: '[GB] CAP-01 static'
   type: hysteria2
-  server: 51.77.217.70
-  port: 8445
-  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 4ZK10qYjPHLxpNwQ
-- name: '[ES] CAP-01 static #3'
-  type: hysteria2
-  server: 212.227.235.66
+  server: 51.89.194.151
   port: 8444
-  password: capadm912be8e6:IltQihbQs5HQrO3J4vklsQs9
+  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: BRSoROSPGCIHlaUB
-- name: '[FR] CAP-01 static #2'
+  obfs-password: rmPifBmgj3g17UcS
+- name: '[FI] CAP-01 static'
   type: hysteria2
-  server: 51.77.217.70
+  server: 95.216.27.15
   port: 8444
-  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
+  password: capadm258b1ab7:C4wYg47vEaPHbS7sk8CVhbXO
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: 4ZK10qYjPHLxpNwQ
+  obfs-password: RdUhzis2KPCYxV3y
 - name: '[FI] CAP-01 static #2'
   type: hysteria2
   server: 95.216.27.15
@@ -219,63 +165,78 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: RdUhzis2KPCYxV3y
-- name: '[FR] FV-01 static'
-  type: ss
-  server: 23.162.152.245
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: ySGkGhr2sKHV
-  udp: true
-- name: '[DE] CAP-01 static #3'
+- name: '[ES] CAP-01 static'
   type: hysteria2
-  server: 89.163.239.238
+  server: 212.227.235.66
   port: 8445
-  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
+  password: capadm912be8e6:IltQihbQs5HQrO3J4vklsQs9
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: lBMApke34h6s7Lsb
-- name: '[NL] CAP-01 static'
+  obfs-password: BRSoROSPGCIHlaUB
+- name: '[FR] CAP-01 static'
   type: hysteria2
-  server: 51.15.16.68
-  port: 8446
-  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
+  server: 51.77.217.70
+  port: 8445
+  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: HVD1C0uyo38mMz8B
-- name: '[DE] FV-01 static'
-  type: ss
-  server: 136.176.66.193
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: SWBJ2eOCrLJkAAA
-  udp: true
-- name: '[CH] FV-01 static'
-  type: ss
-  server: 208.69.78.133
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: ncIkubmoDGslAA
-  udp: true
-- name: '[GB] CAP-01 static #3'
+  obfs-password: 4ZK10qYjPHLxpNwQ
+- name: '[US] CAP-01 static #4'
+  type: hysteria2
+  server: 74.208.55.79
+  port: 8446
+  password: capadm3ef1363f:bR6c1ouATNxwJW5ZxGr8JF72
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 7ompH2WXvS9tuT4L
+- name: '[ES] CAP-01 static #2'
+  type: hysteria2
+  server: 212.227.235.66
+  port: 8446
+  password: capadm912be8e6:IltQihbQs5HQrO3J4vklsQs9
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: BRSoROSPGCIHlaUB
+- name: '[GB] CAP-01 static #2'
   type: hysteria2
   server: 46.250.240.80
-  port: 8446
+  port: 8444
   password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
   obfs-password: dAvsa04Tjjfej8zK
-- name: '[DE] CAP-01 static #4'
+- name: '[GB] CAP-01 static #3'
   type: hysteria2
-  server: 89.163.239.238
-  port: 8447
-  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
+  server: 51.89.194.151
+  port: 8445
+  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: lBMApke34h6s7Lsb
+  obfs-password: rmPifBmgj3g17UcS
+- name: '[GB] CAP-01 static #4'
+  type: hysteria2
+  server: 51.89.194.151
+  port: 8446
+  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: rmPifBmgj3g17UcS
+- name: '[ES] CAP-01 static #3'
+  type: hysteria2
+  server: 212.227.235.66
+  port: 8444
+  password: capadm912be8e6:IltQihbQs5HQrO3J4vklsQs9
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: BRSoROSPGCIHlaUB
 - name: '[IT] CAP-01 static'
   type: hysteria2
   server: 57.131.38.163
@@ -285,24 +246,15 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: gRYeRyVrYOvGGOxi
-- name: '[KR] CAP-01 static'
+- name: '[FR] CAP-01 static #2'
   type: hysteria2
-  server: 151.245.106.49
+  server: 51.77.217.70
   port: 8444
-  password: capadm82c81367:gmjO3BFlQnteYcBo0zyvX4Vv
+  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: fk3DSQNLbIL0LtFl
-- name: '[GB] CAP-01 static #4'
-  type: hysteria2
-  server: 46.250.250.149
-  port: 8444
-  password: capadm846529de:fDltA44fHPR5OcTUeCTeZT0p
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: JnYmDvvdgxbxVLo7
+  obfs-password: 4ZK10qYjPHLxpNwQ
 - name: '[PL] CAP-01 static'
   type: hysteria2
   server: 54.37.136.194
@@ -312,6 +264,49 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: XXUIoiNwCXXaiJE8
+- name: '[DE] CAP-01 static #3'
+  type: hysteria2
+  server: 89.163.239.238
+  port: 8447
+  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: lBMApke34h6s7Lsb
+- name: '[DE] FV-01 static'
+  type: ss
+  server: 136.176.66.193
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: SWBJ2eOCrLJkAAA
+  udp: true
+- name: '[KR] CAP-01 static'
+  type: hysteria2
+  server: 151.245.106.49
+  port: 8444
+  password: capadm82c81367:gmjO3BFlQnteYcBo0zyvX4Vv
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: fk3DSQNLbIL0LtFl
+- name: '[DE] CAP-01 static #4'
+  type: hysteria2
+  server: 89.163.239.238
+  port: 8445
+  password: capadm541bb988:9jJe6TXbuhsCIr5HoIRDrqK0
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: lBMApke34h6s7Lsb
+- name: '[GB] CAP-01 static #5'
+  type: hysteria2
+  server: 46.250.250.149
+  port: 8444
+  password: capadm846529de:fDltA44fHPR5OcTUeCTeZT0p
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: JnYmDvvdgxbxVLo7
 - name: '[ES] CAP-01 static #4'
   type: vless
   server: 212.227.235.66
@@ -325,13 +320,6 @@ proxies:
     public-key: vXr6yPHRK6IKYGTf5sKTBAbdQg3OJWeDFemYUFYXlTU
     short-id: 385366c80310403d
   skip-cert-verify: false
-- name: '[ES] FV-01 static'
-  type: ss
-  server: 108.181.121.178
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-  udp: true
 - name: '[FI] CAP-01 static #3'
   type: vless
   server: 95.216.27.15
@@ -345,42 +333,13 @@ proxies:
     public-key: Tkkg6_NdththGNMt1e0fPoXL7Fp4N2EvZQST4yarBCM
     short-id: c3c2decd9adc6231
   skip-cert-verify: false
-- name: '[GB] CAP-01 static #5'
-  type: hysteria2
-  server: 46.250.240.80
-  port: 8447
-  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: dAvsa04Tjjfej8zK
-- name: '[NL] CAP-01 static #2'
-  type: hysteria2
-  server: 51.15.16.68
-  port: 8444
-  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: HVD1C0uyo38mMz8B
-- name: '[FI] CAP-01 static #4'
-  type: hysteria2
-  server: 95.216.27.15
-  port: 8447
-  password: capadm258b1ab7:C4wYg47vEaPHbS7sk8CVhbXO
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: RdUhzis2KPCYxV3y
-- name: '[FR] CAP-01 static #3'
-  type: hysteria2
-  server: 51.77.217.70
-  port: 8447
-  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 4ZK10qYjPHLxpNwQ
+- name: '[ES] FV-01 static'
+  type: ss
+  server: 108.181.121.178
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: WSyL4XTwNsdv
+  udp: true
 - name: '[KR] CAP-01 static #2'
   type: vless
   server: 151.245.106.49
@@ -394,83 +353,13 @@ proxies:
     public-key: x5_irOppHeO29eglqk9Nia4vHuYNEtzl6hSaSJlG_nY
     short-id: c78cf8492031bfb0
   skip-cert-verify: false
-- name: '[ES] FV-01 static #2'
+- name: '[CH] FV-01 static'
   type: ss
-  server: 108.181.121.170
+  server: 208.69.78.133
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
+  password: ncIkubmoDGslAA
   udp: true
-- name: '[GB] CAP-01 static #6'
-  type: hysteria2
-  server: 51.89.194.151
-  port: 8447
-  password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rmPifBmgj3g17UcS
-- name: '[GB] CAP-01 static #7'
-  type: vless
-  server: 46.250.250.149
-  port: 2053
-  uuid: e7109e79-7211-445a-a8e5-8a2c914bee9c
-  network: tcp
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: zitRNbwTR9MOToLwIhWjBsSfPD1h4ZJqOXLaLq_anGE
-    short-id: 1ae3e2a180b2e0f8
-  skip-cert-verify: false
-- name: '[GB] CAP-01 static #8'
-  type: vless
-  server: 51.89.194.151
-  port: 2053
-  uuid: 7a321450-69a3-4fe5-b347-ad2169e5d284
-  network: tcp
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: OZR8SI6JUFl7nNcJHJb9gMFs_l9so3FRoYVHGNE9MFA
-    short-id: c36042c276917a43
-  skip-cert-verify: false
-- name: '[FR] CAP-01 static #4'
-  type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: d4ff3428-d624-4ce6-837a-713b14d3841d
-  network: tcp
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ekzDelSQeyL_mkDLybS2AbFV4Iw5zA632HfEmAUnSHA
-    short-id: a20cbc598110b179
-  skip-cert-verify: false
-- name: '[GB] CAP-01 static #9'
-  type: vless
-  server: 46.250.240.80
-  port: 2053
-  uuid: f7fa5a16-1279-46ba-ac18-001b41884080
-  network: tcp
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: nrG0dLD2wazG9wHwqCDb7sF6UNRophzBmCX3hDxuqAE
-    short-id: 3611e663b53177f2
-  skip-cert-verify: false
-- name: '[GB] CAP-01 static #10'
-  type: hysteria2
-  server: 46.250.240.80
-  port: 8445
-  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: dAvsa04Tjjfej8zK
 - name: '[IT] CAP-01 static #2'
   type: vless
   server: 57.131.38.163
@@ -484,24 +373,118 @@ proxies:
     public-key: r0dikfj3S7_pyyxCvciNVDIlCHhM3JUgWbqCOOeAIVI
     short-id: 26add55edd7d1e11
   skip-cert-verify: false
-- name: '[NL] CAP-01 static #3'
-  type: hysteria2
-  server: 51.15.16.68
-  port: 8447
-  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: HVD1C0uyo38mMz8B
-- name: '[GB] CAP-01 static #11'
+- name: '[GB] CAP-01 static #6'
+  type: vless
+  server: 51.89.194.151
+  port: 2053
+  uuid: 7a321450-69a3-4fe5-b347-ad2169e5d284
+  network: tcp
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: OZR8SI6JUFl7nNcJHJb9gMFs_l9so3FRoYVHGNE9MFA
+    short-id: c36042c276917a43
+  skip-cert-verify: false
+- name: '[GB] CAP-01 static #7'
   type: hysteria2
   server: 51.89.194.151
-  port: 8444
+  port: 8447
   password: capadm402393c2:nAtbMaTZhREvAsAS1afUty5W
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
   obfs-password: rmPifBmgj3g17UcS
+- name: '[FR] CAP-01 static #3'
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: d4ff3428-d624-4ce6-837a-713b14d3841d
+  network: tcp
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ekzDelSQeyL_mkDLybS2AbFV4Iw5zA632HfEmAUnSHA
+    short-id: a20cbc598110b179
+  skip-cert-verify: false
+- name: '[ES] FV-01 static #2'
+  type: ss
+  server: 108.181.121.170
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: qItG8SueYQcP
+  udp: true
+- name: '[FI] CAP-01 static #4'
+  type: hysteria2
+  server: 95.216.27.15
+  port: 8447
+  password: capadm258b1ab7:C4wYg47vEaPHbS7sk8CVhbXO
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: RdUhzis2KPCYxV3y
+- name: '[FR] CAP-01 static #4'
+  type: hysteria2
+  server: 51.77.217.70
+  port: 8447
+  password: capadma26f24cf:FJh3guz0LQX3EXu2KugIilZh
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 4ZK10qYjPHLxpNwQ
+- name: '[CH] CAP-01 static'
+  type: hysteria2
+  server: 208.69.78.217
+  port: 8444
+  password: capadm39eba6a5:pmH1DlAu0XmFmJ4Dmfj192af
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 3KKW5w04iMrRqFeN
+- name: '[IN] CAP-01 static'
+  type: hysteria2
+  server: 194.61.31.126
+  port: 8444
+  password: capadmf1d2526a:IsKN4g2zs8HJo5yTpNcg3YZ1
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NJGeudnh1XyVY5AB
+- name: '[GB] CAP-01 static #8'
+  type: hysteria2
+  server: 46.250.240.80
+  port: 8446
+  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: dAvsa04Tjjfej8zK
+- name: '[GB] CAP-01 static #9'
+  type: hysteria2
+  server: 46.250.240.80
+  port: 8447
+  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: dAvsa04Tjjfej8zK
+- name: '[IN] CAP-01 static #2'
+  type: hysteria2
+  server: 194.61.31.126
+  port: 8445
+  password: capadmf1d2526a:IsKN4g2zs8HJo5yTpNcg3YZ1
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NJGeudnh1XyVY5AB
+- name: '[FR] FV-01 static'
+  type: ss
+  server: 23.162.152.245
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: ySGkGhr2sKHV
+  udp: true
 - name: '[PL] CAP-01 static #2'
   type: vless
   server: 54.37.136.194
@@ -515,38 +498,7 @@ proxies:
     public-key: pm3ipyg_kGjvoIz3_y1nm4BnrknM6JevsjKPv9kgWw8
     short-id: cc7bef2d25bcaed0
   skip-cert-verify: false
-- name: '[GB] CAP-01 static #12'
-  type: hysteria2
-  server: 46.250.240.80
-  port: 8444
-  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: dAvsa04Tjjfej8zK
-- name: '[BE] FV-01 static'
-  type: ss
-  server: belgium.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: belgium.astroapps.io
-    path: /7a0f74508333399db96164d7
-  udp: true
-- name: '[IN] CAP-01 static'
-  type: hysteria2
-  server: 194.61.31.126
-  port: 8444
-  password: capadmf1d2526a:IsKN4g2zs8HJo5yTpNcg3YZ1
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NJGeudnh1XyVY5AB
-- name: '[IN] CAP-01 static #2'
+- name: '[IN] CAP-01 static #3'
   type: hysteria2
   server: 194.61.31.126
   port: 8447
@@ -555,7 +507,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NJGeudnh1XyVY5AB
-- name: '[CH] CAP-01 static'
+- name: '[CH] CAP-01 static #2'
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -581,15 +533,41 @@ proxies:
     host: estonia.astroapps.io
     path: /fd3f56f3dc9f5ceca7e57ecd
   udp: true
-- name: '[IN] CAP-01 static #3'
+- name: '[BE] FV-01 static'
+  type: ss
+  server: belgium.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: belgium.astroapps.io
+    path: /7a0f74508333399db96164d7
+  udp: true
+- name: '[NL] CAP-01 static'
   type: hysteria2
-  server: 194.61.31.126
-  port: 8445
-  password: capadmf1d2526a:IsKN4g2zs8HJo5yTpNcg3YZ1
+  server: 51.15.16.68
+  port: 8444
+  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: NJGeudnh1XyVY5AB
+  obfs-password: HVD1C0uyo38mMz8B
+- name: '[GB] CAP-01 static #10'
+  type: vless
+  server: 46.250.250.149
+  port: 2053
+  uuid: e7109e79-7211-445a-a8e5-8a2c914bee9c
+  network: tcp
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zitRNbwTR9MOToLwIhWjBsSfPD1h4ZJqOXLaLq_anGE
+    short-id: 1ae3e2a180b2e0f8
+  skip-cert-verify: false
 - name: '[HK] FV-01 static'
   type: ss
   server: hongkong.astroapps.io
@@ -603,15 +581,28 @@ proxies:
     host: hongkong.astroapps.io
     path: /ba91191d41f96668df6fe14b
   udp: true
-- name: '[CH] CAP-01 static #2'
+- name: '[GB] CAP-01 static #11'
   type: hysteria2
-  server: 208.69.78.217
-  port: 8444
-  password: capadm39eba6a5:pmH1DlAu0XmFmJ4Dmfj192af
+  server: 46.250.240.80
+  port: 8445
+  password: capadm107b6b31:x9lCXcevA4axCKSgEcx3iJIR
   sni: vpn.local
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: 3KKW5w04iMrRqFeN
+  obfs-password: dAvsa04Tjjfej8zK
+- name: '[IN] CAP-01 static #4'
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 5417d0d9-ba23-42a1-9425-bba5567a85e3
+  network: tcp
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 5_-ncZs7cENEH51O_uM5YeF3psaKwQLoFNXjj5HztGI
+    short-id: 83877c9bc8b1934e
+  skip-cert-verify: false
 - name: '[DK] FV-01 static'
   type: ss
   server: denmark.astroapps.io
@@ -638,35 +629,6 @@ proxies:
     host: bulgaria.astroapps.io
     path: /6318c86175d20088b16c98a7
   udp: true
-- name: '[IN] CAP-01 static #4'
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 5417d0d9-ba23-42a1-9425-bba5567a85e3
-  network: tcp
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 5_-ncZs7cENEH51O_uM5YeF3psaKwQLoFNXjj5HztGI
-    short-id: 83877c9bc8b1934e
-  skip-cert-verify: false
-- name: '[NL] FV-01 static #2'
-  type: ss
-  server: 108.181.122.170
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
-  udp: true
-- name: '[NL] CAP-01 static #4'
-  type: hysteria2
-  server: 51.15.16.68
-  port: 8445
-  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: HVD1C0uyo38mMz8B
 - name: '[IN] FV-01 static'
   type: ss
   server: india.astroapps.io
@@ -679,6 +641,13 @@ proxies:
     tls: true
     host: india.astroapps.io
     path: /d282ea66de9394f68a3e792e
+  udp: true
+- name: '[NL] FV-01 static'
+  type: ss
+  server: 108.181.122.170
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
   udp: true
 - name: '[IT] FV-01 static'
   type: ss
@@ -693,6 +662,43 @@ proxies:
     host: italy.astroapps.io
     path: /b5cba947dfef6a5494b25d76
   udp: true
+- name: '[NL] CAP-01 static #2'
+  type: hysteria2
+  server: 51.15.16.68
+  port: 8445
+  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
+- name: '[US] TD-01 static'
+  type: vless
+  server: tvuno.oxigeno.site
+  port: 8880
+  uuid: 73b30767-bf59-4af3-9eac-dc1418418b07
+  udp: true
+  network: xhttp
+  xhttp-opts:
+    path: /naruto0
+    host: asset.media
+- name: '[NL] CAP-01 static #3'
+  type: hysteria2
+  server: 51.15.16.68
+  port: 8446
+  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
+- name: '[NL] CAP-01 static #4'
+  type: hysteria2
+  server: 51.15.16.68
+  port: 8447
+  password: capadmae6e0190:moJK4Js1rEdUv1eWIqyjX1QB
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
 - name: '[FI] FV-01 static'
   type: ss
   server: finland.astroapps.io
@@ -719,45 +725,19 @@ proxies:
     public-key: nyBUWOwOLHOrVSomGfHaPjt-lgbSGk-XSv89voR6T3o
     short-id: e9272cf492b43a48
   skip-cert-verify: false
-- name: '[US] FV-01 static #3'
-  type: ss
-  server: 108.181.133.138
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: H12pAAJYL
-  udp: true
-- name: '[CA] CAP-01 static #5'
-  type: hysteria2
-  server: 66.70.179.198
-  port: 8444
-  password: capadm0121188a:mF0JwWCUwwH2iVUJLhUfDL20
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: B50trH7TnbvvBsqf
-- name: '[US] TD-01 static'
+- name: '[GB] CAP-01 static #12'
   type: vless
-  server: tvuno.oxigeno.site
-  port: 8880
-  uuid: 73b30767-bf59-4af3-9eac-dc1418418b07
-  udp: true
-  network: xhttp
-  xhttp-opts:
-    path: /naruto0
-    host: asset.media
-- name: '[JP] FV-01 static'
-  type: ss
-  server: japan.astroapps.io
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 6e728d826ccf032fce7ce722b8fed2cda309fde5624bf09c
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    tls: true
-    host: japan.astroapps.io
-    path: /149e1010e6d6d24dbc09d4f3
-  udp: true
+  server: 46.250.240.80
+  port: 2053
+  uuid: f7fa5a16-1279-46ba-ac18-001b41884080
+  network: tcp
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nrG0dLD2wazG9wHwqCDb7sF6UNRophzBmCX3hDxuqAE
+    short-id: 3611e663b53177f2
+  skip-cert-verify: false
 - name: '[AU] FV-01 static'
   type: ss
   server: australia.astroapps.io
@@ -1609,6 +1589,19 @@ proxies:
     public-key: 9CbVjGrZfTuopAK9Y_iwLvVcUBJeO2JcumV5Fp2M4jE
     short-id: 8af72890d39c0fd5
   network: tcp
+- name: '[JP] FV-01 static'
+  type: ss
+  server: japan.astroapps.io
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6e728d826ccf032fce7ce722b8fed2cda309fde5624bf09c
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    host: japan.astroapps.io
+    path: /149e1010e6d6d24dbc09d4f3
+  udp: true
 - name: EXIT-1
   type: http
   server: 160.21.115.51
@@ -1637,82 +1630,80 @@ proxy-groups:
   tolerance: 50
   lazy: false
   proxies:
+  - '[US] FV-01 static'
   - '[US] CAP-01 static'
   - '[US] CAP-01 static #2'
-  - '[US] FV-01 static'
-  - '[US] ZP-01 static'
   - '[CA] CAP-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[US] CAP-01 static #3'
-  - '[US] CAP-01 static #4'
-  - '[CA] CAP-01 static #3'
-  - '[CA] FV-01 static'
   - '[US] FV-01 static #2'
+  - '[US] ZP-01 static'
+  - '[US] CAP-01 static #3'
+  - '[CA] CAP-01 static #2'
+  - '[US] FV-01 static #3'
+  - '[CA] CAP-01 static #3'
   - '[CA] CAP-01 static #4'
-  - '[NL] FV-01 static'
-  - '[FI] CAP-01 static'
-  - '[GB] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[ES] CAP-01 static'
-  - '[ES] CAP-01 static #2'
+  - '[CA] CAP-01 static #5'
+  - '[CA] FV-01 static'
   - '[DE] CAP-01 static'
   - '[DE] CAP-01 static #2'
-  - '[FR] CAP-01 static'
-  - '[ES] CAP-01 static #3'
-  - '[FR] CAP-01 static #2'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
   - '[FI] CAP-01 static #2'
-  - '[FR] FV-01 static'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[DE] FV-01 static'
-  - '[CH] FV-01 static'
+  - '[ES] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[US] CAP-01 static #4'
+  - '[ES] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
   - '[GB] CAP-01 static #3'
-  - '[DE] CAP-01 static #4'
-  - '[IT] CAP-01 static'
-  - '[KR] CAP-01 static'
   - '[GB] CAP-01 static #4'
+  - '[ES] CAP-01 static #3'
+  - '[IT] CAP-01 static'
+  - '[FR] CAP-01 static #2'
   - '[PL] CAP-01 static'
-  - '[ES] CAP-01 static #4'
-  - '[ES] FV-01 static'
-  - '[FI] CAP-01 static #3'
+  - '[DE] CAP-01 static #3'
+  - '[DE] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[DE] CAP-01 static #4'
   - '[GB] CAP-01 static #5'
-  - '[NL] CAP-01 static #2'
-  - '[FI] CAP-01 static #4'
-  - '[FR] CAP-01 static #3'
+  - '[ES] CAP-01 static #4'
+  - '[FI] CAP-01 static #3'
+  - '[ES] FV-01 static'
   - '[KR] CAP-01 static #2'
-  - '[ES] FV-01 static #2'
+  - '[CH] FV-01 static'
+  - '[IT] CAP-01 static #2'
   - '[GB] CAP-01 static #6'
   - '[GB] CAP-01 static #7'
-  - '[GB] CAP-01 static #8'
+  - '[FR] CAP-01 static #3'
+  - '[ES] FV-01 static #2'
+  - '[FI] CAP-01 static #4'
   - '[FR] CAP-01 static #4'
-  - '[GB] CAP-01 static #9'
-  - '[GB] CAP-01 static #10'
-  - '[IT] CAP-01 static #2'
-  - '[NL] CAP-01 static #3'
-  - '[GB] CAP-01 static #11'
-  - '[PL] CAP-01 static #2'
-  - '[GB] CAP-01 static #12'
-  - '[BE] FV-01 static'
-  - '[IN] CAP-01 static'
-  - '[IN] CAP-01 static #2'
   - '[CH] CAP-01 static'
-  - '[EE] FV-01 static'
+  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #8'
+  - '[GB] CAP-01 static #9'
+  - '[IN] CAP-01 static #2'
+  - '[FR] FV-01 static'
+  - '[PL] CAP-01 static #2'
   - '[IN] CAP-01 static #3'
-  - '[HK] FV-01 static'
   - '[CH] CAP-01 static #2'
+  - '[EE] FV-01 static'
+  - '[BE] FV-01 static'
+  - '[NL] CAP-01 static'
+  - '[GB] CAP-01 static #10'
+  - '[HK] FV-01 static'
+  - '[GB] CAP-01 static #11'
+  - '[IN] CAP-01 static #4'
   - '[DK] FV-01 static'
   - '[BG] FV-01 static'
-  - '[IN] CAP-01 static #4'
-  - '[NL] FV-01 static #2'
-  - '[NL] CAP-01 static #4'
   - '[IN] FV-01 static'
+  - '[NL] FV-01 static'
   - '[IT] FV-01 static'
+  - '[NL] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[NL] CAP-01 static #4'
   - '[FI] FV-01 static'
   - '[NL] CAP-01 static #5'
-  - '[US] FV-01 static #3'
-  - '[CA] CAP-01 static #5'
-  - '[US] TD-01 static'
-  - '[JP] FV-01 static'
+  - '[GB] CAP-01 static #12'
   - '[AU] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
@@ -1783,6 +1774,7 @@ proxy-groups:
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
   - '[XX] ZP-01 static #69'
+  - '[JP] FV-01 static'
   - EXIT-1
   - EXIT-2
 - name: AUTO-STATIC
@@ -1792,82 +1784,80 @@ proxy-groups:
   tolerance: 50
   lazy: false
   proxies:
+  - '[US] FV-01 static'
   - '[US] CAP-01 static'
   - '[US] CAP-01 static #2'
-  - '[US] FV-01 static'
-  - '[US] ZP-01 static'
   - '[CA] CAP-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[US] CAP-01 static #3'
-  - '[US] CAP-01 static #4'
-  - '[CA] CAP-01 static #3'
-  - '[CA] FV-01 static'
   - '[US] FV-01 static #2'
+  - '[US] ZP-01 static'
+  - '[US] CAP-01 static #3'
+  - '[CA] CAP-01 static #2'
+  - '[US] FV-01 static #3'
+  - '[CA] CAP-01 static #3'
   - '[CA] CAP-01 static #4'
-  - '[NL] FV-01 static'
-  - '[FI] CAP-01 static'
-  - '[GB] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[ES] CAP-01 static'
-  - '[ES] CAP-01 static #2'
+  - '[CA] CAP-01 static #5'
+  - '[CA] FV-01 static'
   - '[DE] CAP-01 static'
   - '[DE] CAP-01 static #2'
-  - '[FR] CAP-01 static'
-  - '[ES] CAP-01 static #3'
-  - '[FR] CAP-01 static #2'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
   - '[FI] CAP-01 static #2'
-  - '[FR] FV-01 static'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[DE] FV-01 static'
-  - '[CH] FV-01 static'
+  - '[ES] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[US] CAP-01 static #4'
+  - '[ES] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
   - '[GB] CAP-01 static #3'
-  - '[DE] CAP-01 static #4'
-  - '[IT] CAP-01 static'
-  - '[KR] CAP-01 static'
   - '[GB] CAP-01 static #4'
+  - '[ES] CAP-01 static #3'
+  - '[IT] CAP-01 static'
+  - '[FR] CAP-01 static #2'
   - '[PL] CAP-01 static'
-  - '[ES] CAP-01 static #4'
-  - '[ES] FV-01 static'
-  - '[FI] CAP-01 static #3'
+  - '[DE] CAP-01 static #3'
+  - '[DE] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[DE] CAP-01 static #4'
   - '[GB] CAP-01 static #5'
-  - '[NL] CAP-01 static #2'
-  - '[FI] CAP-01 static #4'
-  - '[FR] CAP-01 static #3'
+  - '[ES] CAP-01 static #4'
+  - '[FI] CAP-01 static #3'
+  - '[ES] FV-01 static'
   - '[KR] CAP-01 static #2'
-  - '[ES] FV-01 static #2'
+  - '[CH] FV-01 static'
+  - '[IT] CAP-01 static #2'
   - '[GB] CAP-01 static #6'
   - '[GB] CAP-01 static #7'
-  - '[GB] CAP-01 static #8'
+  - '[FR] CAP-01 static #3'
+  - '[ES] FV-01 static #2'
+  - '[FI] CAP-01 static #4'
   - '[FR] CAP-01 static #4'
-  - '[GB] CAP-01 static #9'
-  - '[GB] CAP-01 static #10'
-  - '[IT] CAP-01 static #2'
-  - '[NL] CAP-01 static #3'
-  - '[GB] CAP-01 static #11'
-  - '[PL] CAP-01 static #2'
-  - '[GB] CAP-01 static #12'
-  - '[BE] FV-01 static'
-  - '[IN] CAP-01 static'
-  - '[IN] CAP-01 static #2'
   - '[CH] CAP-01 static'
-  - '[EE] FV-01 static'
+  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #8'
+  - '[GB] CAP-01 static #9'
+  - '[IN] CAP-01 static #2'
+  - '[FR] FV-01 static'
+  - '[PL] CAP-01 static #2'
   - '[IN] CAP-01 static #3'
-  - '[HK] FV-01 static'
   - '[CH] CAP-01 static #2'
+  - '[EE] FV-01 static'
+  - '[BE] FV-01 static'
+  - '[NL] CAP-01 static'
+  - '[GB] CAP-01 static #10'
+  - '[HK] FV-01 static'
+  - '[GB] CAP-01 static #11'
+  - '[IN] CAP-01 static #4'
   - '[DK] FV-01 static'
   - '[BG] FV-01 static'
-  - '[IN] CAP-01 static #4'
-  - '[NL] FV-01 static #2'
-  - '[NL] CAP-01 static #4'
   - '[IN] FV-01 static'
+  - '[NL] FV-01 static'
   - '[IT] FV-01 static'
+  - '[NL] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[NL] CAP-01 static #4'
   - '[FI] FV-01 static'
   - '[NL] CAP-01 static #5'
-  - '[US] FV-01 static #3'
-  - '[CA] CAP-01 static #5'
-  - '[US] TD-01 static'
-  - '[JP] FV-01 static'
+  - '[GB] CAP-01 static #12'
   - '[AU] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
@@ -1938,6 +1928,7 @@ proxy-groups:
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
   - '[XX] ZP-01 static #69'
+  - '[JP] FV-01 static'
 - name: AUTO-US
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1945,14 +1936,14 @@ proxy-groups:
   tolerance: 50
   lazy: false
   proxies:
+  - '[US] FV-01 static'
   - '[US] CAP-01 static'
   - '[US] CAP-01 static #2'
-  - '[US] FV-01 static'
+  - '[US] FV-01 static #2'
   - '[US] ZP-01 static'
   - '[US] CAP-01 static #3'
-  - '[US] CAP-01 static #4'
-  - '[US] FV-01 static #2'
   - '[US] FV-01 static #3'
+  - '[US] CAP-01 static #4'
   - '[US] TD-01 static'
 - name: AUTO-CA
   type: url-test
@@ -1964,35 +1955,21 @@ proxy-groups:
   - '[CA] CAP-01 static'
   - '[CA] CAP-01 static #2'
   - '[CA] CAP-01 static #3'
-  - '[CA] FV-01 static'
   - '[CA] CAP-01 static #4'
   - '[CA] CAP-01 static #5'
-- name: AUTO-NL
+  - '[CA] FV-01 static'
+- name: AUTO-DE
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   lazy: false
   proxies:
-  - '[NL] FV-01 static'
-  - '[NL] CAP-01 static'
-  - '[NL] CAP-01 static #2'
-  - '[NL] CAP-01 static #3'
-  - '[NL] FV-01 static #2'
-  - '[NL] CAP-01 static #4'
-  - '[NL] CAP-01 static #5'
-- name: AUTO-FI
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[FI] CAP-01 static'
-  - '[FI] CAP-01 static #2'
-  - '[FI] CAP-01 static #3'
-  - '[FI] CAP-01 static #4'
-  - '[FI] FV-01 static'
+  - '[DE] CAP-01 static'
+  - '[DE] CAP-01 static #2'
+  - '[DE] CAP-01 static #3'
+  - '[DE] FV-01 static'
+  - '[DE] CAP-01 static #4'
 - name: AUTO-GB
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2012,6 +1989,18 @@ proxy-groups:
   - '[GB] CAP-01 static #10'
   - '[GB] CAP-01 static #11'
   - '[GB] CAP-01 static #12'
+- name: AUTO-FI
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[FI] CAP-01 static'
+  - '[FI] CAP-01 static #2'
+  - '[FI] CAP-01 static #3'
+  - '[FI] CAP-01 static #4'
+  - '[FI] FV-01 static'
 - name: AUTO-ES
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2025,18 +2014,6 @@ proxy-groups:
   - '[ES] CAP-01 static #4'
   - '[ES] FV-01 static'
   - '[ES] FV-01 static #2'
-- name: AUTO-DE
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[DE] CAP-01 static'
-  - '[DE] CAP-01 static #2'
-  - '[DE] CAP-01 static #3'
-  - '[DE] FV-01 static'
-  - '[DE] CAP-01 static #4'
 - name: AUTO-FR
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2046,19 +2023,9 @@ proxy-groups:
   proxies:
   - '[FR] CAP-01 static'
   - '[FR] CAP-01 static #2'
-  - '[FR] FV-01 static'
   - '[FR] CAP-01 static #3'
   - '[FR] CAP-01 static #4'
-- name: AUTO-CH
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[CH] FV-01 static'
-  - '[CH] CAP-01 static'
-  - '[CH] CAP-01 static #2'
+  - '[FR] FV-01 static'
 - name: AUTO-IT
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2069,15 +2036,6 @@ proxy-groups:
   - '[IT] CAP-01 static'
   - '[IT] CAP-01 static #2'
   - '[IT] FV-01 static'
-- name: AUTO-KR
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[KR] CAP-01 static'
-  - '[KR] CAP-01 static #2'
 - name: AUTO-PL
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2087,14 +2045,25 @@ proxy-groups:
   proxies:
   - '[PL] CAP-01 static'
   - '[PL] CAP-01 static #2'
-- name: AUTO-BE
+- name: AUTO-KR
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   lazy: false
   proxies:
-  - '[BE] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[KR] CAP-01 static #2'
+- name: AUTO-CH
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[CH] FV-01 static'
+  - '[CH] CAP-01 static'
+  - '[CH] CAP-01 static #2'
 - name: AUTO-IN
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2115,6 +2084,27 @@ proxy-groups:
   lazy: false
   proxies:
   - '[EE] FV-01 static'
+- name: AUTO-BE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[BE] FV-01 static'
+- name: AUTO-NL
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[NL] CAP-01 static'
+  - '[NL] FV-01 static'
+  - '[NL] CAP-01 static #2'
+  - '[NL] CAP-01 static #3'
+  - '[NL] CAP-01 static #4'
+  - '[NL] CAP-01 static #5'
 - name: AUTO-HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2139,14 +2129,6 @@ proxy-groups:
   lazy: false
   proxies:
   - '[BG] FV-01 static'
-- name: AUTO-JP
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: false
-  proxies:
-  - '[JP] FV-01 static'
 - name: AUTO-AU
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2231,6 +2213,14 @@ proxy-groups:
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
   - '[XX] ZP-01 static #69'
+- name: AUTO-JP
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: false
+  proxies:
+  - '[JP] FV-01 static'
 - name: AUTO-REV
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2238,82 +2228,80 @@ proxy-groups:
   tolerance: 50
   lazy: false
   proxies:
+  - '[US] FV-01 static'
   - '[US] CAP-01 static'
   - '[US] CAP-01 static #2'
-  - '[US] FV-01 static'
-  - '[US] ZP-01 static'
   - '[CA] CAP-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[US] CAP-01 static #3'
-  - '[US] CAP-01 static #4'
-  - '[CA] CAP-01 static #3'
-  - '[CA] FV-01 static'
   - '[US] FV-01 static #2'
+  - '[US] ZP-01 static'
+  - '[US] CAP-01 static #3'
+  - '[CA] CAP-01 static #2'
+  - '[US] FV-01 static #3'
+  - '[CA] CAP-01 static #3'
   - '[CA] CAP-01 static #4'
-  - '[NL] FV-01 static'
-  - '[FI] CAP-01 static'
-  - '[GB] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[ES] CAP-01 static'
-  - '[ES] CAP-01 static #2'
+  - '[CA] CAP-01 static #5'
+  - '[CA] FV-01 static'
   - '[DE] CAP-01 static'
   - '[DE] CAP-01 static #2'
-  - '[FR] CAP-01 static'
-  - '[ES] CAP-01 static #3'
-  - '[FR] CAP-01 static #2'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
   - '[FI] CAP-01 static #2'
-  - '[FR] FV-01 static'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[DE] FV-01 static'
-  - '[CH] FV-01 static'
+  - '[ES] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[US] CAP-01 static #4'
+  - '[ES] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
   - '[GB] CAP-01 static #3'
-  - '[DE] CAP-01 static #4'
-  - '[IT] CAP-01 static'
-  - '[KR] CAP-01 static'
   - '[GB] CAP-01 static #4'
+  - '[ES] CAP-01 static #3'
+  - '[IT] CAP-01 static'
+  - '[FR] CAP-01 static #2'
   - '[PL] CAP-01 static'
-  - '[ES] CAP-01 static #4'
-  - '[ES] FV-01 static'
-  - '[FI] CAP-01 static #3'
+  - '[DE] CAP-01 static #3'
+  - '[DE] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[DE] CAP-01 static #4'
   - '[GB] CAP-01 static #5'
-  - '[NL] CAP-01 static #2'
-  - '[FI] CAP-01 static #4'
-  - '[FR] CAP-01 static #3'
+  - '[ES] CAP-01 static #4'
+  - '[FI] CAP-01 static #3'
+  - '[ES] FV-01 static'
   - '[KR] CAP-01 static #2'
-  - '[ES] FV-01 static #2'
+  - '[CH] FV-01 static'
+  - '[IT] CAP-01 static #2'
   - '[GB] CAP-01 static #6'
   - '[GB] CAP-01 static #7'
-  - '[GB] CAP-01 static #8'
+  - '[FR] CAP-01 static #3'
+  - '[ES] FV-01 static #2'
+  - '[FI] CAP-01 static #4'
   - '[FR] CAP-01 static #4'
-  - '[GB] CAP-01 static #9'
-  - '[GB] CAP-01 static #10'
-  - '[IT] CAP-01 static #2'
-  - '[NL] CAP-01 static #3'
-  - '[GB] CAP-01 static #11'
-  - '[PL] CAP-01 static #2'
-  - '[GB] CAP-01 static #12'
-  - '[BE] FV-01 static'
-  - '[IN] CAP-01 static'
-  - '[IN] CAP-01 static #2'
   - '[CH] CAP-01 static'
-  - '[EE] FV-01 static'
+  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #8'
+  - '[GB] CAP-01 static #9'
+  - '[IN] CAP-01 static #2'
+  - '[FR] FV-01 static'
+  - '[PL] CAP-01 static #2'
   - '[IN] CAP-01 static #3'
-  - '[HK] FV-01 static'
   - '[CH] CAP-01 static #2'
+  - '[EE] FV-01 static'
+  - '[BE] FV-01 static'
+  - '[NL] CAP-01 static'
+  - '[GB] CAP-01 static #10'
+  - '[HK] FV-01 static'
+  - '[GB] CAP-01 static #11'
+  - '[IN] CAP-01 static #4'
   - '[DK] FV-01 static'
   - '[BG] FV-01 static'
-  - '[IN] CAP-01 static #4'
-  - '[NL] FV-01 static #2'
-  - '[NL] CAP-01 static #4'
   - '[IN] FV-01 static'
+  - '[NL] FV-01 static'
   - '[IT] FV-01 static'
+  - '[NL] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[NL] CAP-01 static #4'
   - '[FI] FV-01 static'
   - '[NL] CAP-01 static #5'
-  - '[US] FV-01 static #3'
-  - '[CA] CAP-01 static #5'
-  - '[US] TD-01 static'
-  - '[JP] FV-01 static'
+  - '[GB] CAP-01 static #12'
   - '[AU] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
@@ -2384,86 +2372,85 @@ proxy-groups:
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
   - '[XX] ZP-01 static #69'
+  - '[JP] FV-01 static'
 - name: PROXY
   type: select
   proxies:
   - AUTO
+  - '[US] FV-01 static'
   - '[US] CAP-01 static'
   - '[US] CAP-01 static #2'
-  - '[US] FV-01 static'
-  - '[US] ZP-01 static'
   - '[CA] CAP-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[US] CAP-01 static #3'
-  - '[US] CAP-01 static #4'
-  - '[CA] CAP-01 static #3'
-  - '[CA] FV-01 static'
   - '[US] FV-01 static #2'
+  - '[US] ZP-01 static'
+  - '[US] CAP-01 static #3'
+  - '[CA] CAP-01 static #2'
+  - '[US] FV-01 static #3'
+  - '[CA] CAP-01 static #3'
   - '[CA] CAP-01 static #4'
-  - '[NL] FV-01 static'
-  - '[FI] CAP-01 static'
-  - '[GB] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[ES] CAP-01 static'
-  - '[ES] CAP-01 static #2'
+  - '[CA] CAP-01 static #5'
+  - '[CA] FV-01 static'
   - '[DE] CAP-01 static'
   - '[DE] CAP-01 static #2'
-  - '[FR] CAP-01 static'
-  - '[ES] CAP-01 static #3'
-  - '[FR] CAP-01 static #2'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
   - '[FI] CAP-01 static #2'
-  - '[FR] FV-01 static'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[DE] FV-01 static'
-  - '[CH] FV-01 static'
+  - '[ES] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[US] CAP-01 static #4'
+  - '[ES] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
   - '[GB] CAP-01 static #3'
-  - '[DE] CAP-01 static #4'
-  - '[IT] CAP-01 static'
-  - '[KR] CAP-01 static'
   - '[GB] CAP-01 static #4'
+  - '[ES] CAP-01 static #3'
+  - '[IT] CAP-01 static'
+  - '[FR] CAP-01 static #2'
   - '[PL] CAP-01 static'
-  - '[ES] CAP-01 static #4'
-  - '[ES] FV-01 static'
-  - '[FI] CAP-01 static #3'
+  - '[DE] CAP-01 static #3'
+  - '[DE] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[DE] CAP-01 static #4'
   - '[GB] CAP-01 static #5'
-  - '[NL] CAP-01 static #2'
-  - '[FI] CAP-01 static #4'
-  - '[FR] CAP-01 static #3'
+  - '[ES] CAP-01 static #4'
+  - '[FI] CAP-01 static #3'
+  - '[ES] FV-01 static'
   - '[KR] CAP-01 static #2'
-  - '[ES] FV-01 static #2'
+  - '[CH] FV-01 static'
+  - '[IT] CAP-01 static #2'
   - '[GB] CAP-01 static #6'
   - '[GB] CAP-01 static #7'
-  - '[GB] CAP-01 static #8'
+  - '[FR] CAP-01 static #3'
+  - '[ES] FV-01 static #2'
+  - '[FI] CAP-01 static #4'
   - '[FR] CAP-01 static #4'
-  - '[GB] CAP-01 static #9'
-  - '[GB] CAP-01 static #10'
-  - '[IT] CAP-01 static #2'
-  - '[NL] CAP-01 static #3'
-  - '[GB] CAP-01 static #11'
-  - '[PL] CAP-01 static #2'
-  - '[GB] CAP-01 static #12'
-  - '[BE] FV-01 static'
-  - '[IN] CAP-01 static'
-  - '[IN] CAP-01 static #2'
   - '[CH] CAP-01 static'
-  - '[EE] FV-01 static'
+  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #8'
+  - '[GB] CAP-01 static #9'
+  - '[IN] CAP-01 static #2'
+  - '[FR] FV-01 static'
+  - '[PL] CAP-01 static #2'
   - '[IN] CAP-01 static #3'
-  - '[HK] FV-01 static'
   - '[CH] CAP-01 static #2'
+  - '[EE] FV-01 static'
+  - '[BE] FV-01 static'
+  - '[NL] CAP-01 static'
+  - '[GB] CAP-01 static #10'
+  - '[HK] FV-01 static'
+  - '[GB] CAP-01 static #11'
+  - '[IN] CAP-01 static #4'
   - '[DK] FV-01 static'
   - '[BG] FV-01 static'
-  - '[IN] CAP-01 static #4'
-  - '[NL] FV-01 static #2'
-  - '[NL] CAP-01 static #4'
   - '[IN] FV-01 static'
+  - '[NL] FV-01 static'
   - '[IT] FV-01 static'
+  - '[NL] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[NL] CAP-01 static #4'
   - '[FI] FV-01 static'
   - '[NL] CAP-01 static #5'
-  - '[US] FV-01 static #3'
-  - '[CA] CAP-01 static #5'
-  - '[US] TD-01 static'
-  - '[JP] FV-01 static'
+  - '[GB] CAP-01 static #12'
   - '[AU] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
@@ -2534,86 +2521,85 @@ proxy-groups:
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
   - '[XX] ZP-01 static #69'
+  - '[JP] FV-01 static'
 - name: AI
   type: select
   proxies:
   - PROXY
+  - '[US] FV-01 static'
   - '[US] CAP-01 static'
   - '[US] CAP-01 static #2'
-  - '[US] FV-01 static'
-  - '[US] ZP-01 static'
   - '[CA] CAP-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[US] CAP-01 static #3'
-  - '[US] CAP-01 static #4'
-  - '[CA] CAP-01 static #3'
-  - '[CA] FV-01 static'
   - '[US] FV-01 static #2'
+  - '[US] ZP-01 static'
+  - '[US] CAP-01 static #3'
+  - '[CA] CAP-01 static #2'
+  - '[US] FV-01 static #3'
+  - '[CA] CAP-01 static #3'
   - '[CA] CAP-01 static #4'
-  - '[NL] FV-01 static'
-  - '[FI] CAP-01 static'
-  - '[GB] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[ES] CAP-01 static'
-  - '[ES] CAP-01 static #2'
+  - '[CA] CAP-01 static #5'
+  - '[CA] FV-01 static'
   - '[DE] CAP-01 static'
   - '[DE] CAP-01 static #2'
-  - '[FR] CAP-01 static'
-  - '[ES] CAP-01 static #3'
-  - '[FR] CAP-01 static #2'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
   - '[FI] CAP-01 static #2'
-  - '[FR] FV-01 static'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[DE] FV-01 static'
-  - '[CH] FV-01 static'
+  - '[ES] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[US] CAP-01 static #4'
+  - '[ES] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
   - '[GB] CAP-01 static #3'
-  - '[DE] CAP-01 static #4'
-  - '[IT] CAP-01 static'
-  - '[KR] CAP-01 static'
   - '[GB] CAP-01 static #4'
+  - '[ES] CAP-01 static #3'
+  - '[IT] CAP-01 static'
+  - '[FR] CAP-01 static #2'
   - '[PL] CAP-01 static'
-  - '[ES] CAP-01 static #4'
-  - '[ES] FV-01 static'
-  - '[FI] CAP-01 static #3'
+  - '[DE] CAP-01 static #3'
+  - '[DE] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[DE] CAP-01 static #4'
   - '[GB] CAP-01 static #5'
-  - '[NL] CAP-01 static #2'
-  - '[FI] CAP-01 static #4'
-  - '[FR] CAP-01 static #3'
+  - '[ES] CAP-01 static #4'
+  - '[FI] CAP-01 static #3'
+  - '[ES] FV-01 static'
   - '[KR] CAP-01 static #2'
-  - '[ES] FV-01 static #2'
+  - '[CH] FV-01 static'
+  - '[IT] CAP-01 static #2'
   - '[GB] CAP-01 static #6'
   - '[GB] CAP-01 static #7'
-  - '[GB] CAP-01 static #8'
+  - '[FR] CAP-01 static #3'
+  - '[ES] FV-01 static #2'
+  - '[FI] CAP-01 static #4'
   - '[FR] CAP-01 static #4'
-  - '[GB] CAP-01 static #9'
-  - '[GB] CAP-01 static #10'
-  - '[IT] CAP-01 static #2'
-  - '[NL] CAP-01 static #3'
-  - '[GB] CAP-01 static #11'
-  - '[PL] CAP-01 static #2'
-  - '[GB] CAP-01 static #12'
-  - '[BE] FV-01 static'
-  - '[IN] CAP-01 static'
-  - '[IN] CAP-01 static #2'
   - '[CH] CAP-01 static'
-  - '[EE] FV-01 static'
+  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #8'
+  - '[GB] CAP-01 static #9'
+  - '[IN] CAP-01 static #2'
+  - '[FR] FV-01 static'
+  - '[PL] CAP-01 static #2'
   - '[IN] CAP-01 static #3'
-  - '[HK] FV-01 static'
   - '[CH] CAP-01 static #2'
+  - '[EE] FV-01 static'
+  - '[BE] FV-01 static'
+  - '[NL] CAP-01 static'
+  - '[GB] CAP-01 static #10'
+  - '[HK] FV-01 static'
+  - '[GB] CAP-01 static #11'
+  - '[IN] CAP-01 static #4'
   - '[DK] FV-01 static'
   - '[BG] FV-01 static'
-  - '[IN] CAP-01 static #4'
-  - '[NL] FV-01 static #2'
-  - '[NL] CAP-01 static #4'
   - '[IN] FV-01 static'
+  - '[NL] FV-01 static'
   - '[IT] FV-01 static'
+  - '[NL] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[NL] CAP-01 static #4'
   - '[FI] FV-01 static'
   - '[NL] CAP-01 static #5'
-  - '[US] FV-01 static #3'
-  - '[CA] CAP-01 static #5'
-  - '[US] TD-01 static'
-  - '[JP] FV-01 static'
+  - '[GB] CAP-01 static #12'
   - '[AU] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
@@ -2684,87 +2670,86 @@ proxy-groups:
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
   - '[XX] ZP-01 static #69'
+  - '[JP] FV-01 static'
 - name: Streaming
   type: select
   proxies:
   - PROXY
   - DIRECT
+  - '[US] FV-01 static'
   - '[US] CAP-01 static'
   - '[US] CAP-01 static #2'
-  - '[US] FV-01 static'
-  - '[US] ZP-01 static'
   - '[CA] CAP-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[US] CAP-01 static #3'
-  - '[US] CAP-01 static #4'
-  - '[CA] CAP-01 static #3'
-  - '[CA] FV-01 static'
   - '[US] FV-01 static #2'
+  - '[US] ZP-01 static'
+  - '[US] CAP-01 static #3'
+  - '[CA] CAP-01 static #2'
+  - '[US] FV-01 static #3'
+  - '[CA] CAP-01 static #3'
   - '[CA] CAP-01 static #4'
-  - '[NL] FV-01 static'
-  - '[FI] CAP-01 static'
-  - '[GB] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[ES] CAP-01 static'
-  - '[ES] CAP-01 static #2'
+  - '[CA] CAP-01 static #5'
+  - '[CA] FV-01 static'
   - '[DE] CAP-01 static'
   - '[DE] CAP-01 static #2'
-  - '[FR] CAP-01 static'
-  - '[ES] CAP-01 static #3'
-  - '[FR] CAP-01 static #2'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
   - '[FI] CAP-01 static #2'
-  - '[FR] FV-01 static'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[DE] FV-01 static'
-  - '[CH] FV-01 static'
+  - '[ES] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[US] CAP-01 static #4'
+  - '[ES] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
   - '[GB] CAP-01 static #3'
-  - '[DE] CAP-01 static #4'
-  - '[IT] CAP-01 static'
-  - '[KR] CAP-01 static'
   - '[GB] CAP-01 static #4'
+  - '[ES] CAP-01 static #3'
+  - '[IT] CAP-01 static'
+  - '[FR] CAP-01 static #2'
   - '[PL] CAP-01 static'
-  - '[ES] CAP-01 static #4'
-  - '[ES] FV-01 static'
-  - '[FI] CAP-01 static #3'
+  - '[DE] CAP-01 static #3'
+  - '[DE] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[DE] CAP-01 static #4'
   - '[GB] CAP-01 static #5'
-  - '[NL] CAP-01 static #2'
-  - '[FI] CAP-01 static #4'
-  - '[FR] CAP-01 static #3'
+  - '[ES] CAP-01 static #4'
+  - '[FI] CAP-01 static #3'
+  - '[ES] FV-01 static'
   - '[KR] CAP-01 static #2'
-  - '[ES] FV-01 static #2'
+  - '[CH] FV-01 static'
+  - '[IT] CAP-01 static #2'
   - '[GB] CAP-01 static #6'
   - '[GB] CAP-01 static #7'
-  - '[GB] CAP-01 static #8'
+  - '[FR] CAP-01 static #3'
+  - '[ES] FV-01 static #2'
+  - '[FI] CAP-01 static #4'
   - '[FR] CAP-01 static #4'
-  - '[GB] CAP-01 static #9'
-  - '[GB] CAP-01 static #10'
-  - '[IT] CAP-01 static #2'
-  - '[NL] CAP-01 static #3'
-  - '[GB] CAP-01 static #11'
-  - '[PL] CAP-01 static #2'
-  - '[GB] CAP-01 static #12'
-  - '[BE] FV-01 static'
-  - '[IN] CAP-01 static'
-  - '[IN] CAP-01 static #2'
   - '[CH] CAP-01 static'
-  - '[EE] FV-01 static'
+  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #8'
+  - '[GB] CAP-01 static #9'
+  - '[IN] CAP-01 static #2'
+  - '[FR] FV-01 static'
+  - '[PL] CAP-01 static #2'
   - '[IN] CAP-01 static #3'
-  - '[HK] FV-01 static'
   - '[CH] CAP-01 static #2'
+  - '[EE] FV-01 static'
+  - '[BE] FV-01 static'
+  - '[NL] CAP-01 static'
+  - '[GB] CAP-01 static #10'
+  - '[HK] FV-01 static'
+  - '[GB] CAP-01 static #11'
+  - '[IN] CAP-01 static #4'
   - '[DK] FV-01 static'
   - '[BG] FV-01 static'
-  - '[IN] CAP-01 static #4'
-  - '[NL] FV-01 static #2'
-  - '[NL] CAP-01 static #4'
   - '[IN] FV-01 static'
+  - '[NL] FV-01 static'
   - '[IT] FV-01 static'
+  - '[NL] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[NL] CAP-01 static #4'
   - '[FI] FV-01 static'
   - '[NL] CAP-01 static #5'
-  - '[US] FV-01 static #3'
-  - '[CA] CAP-01 static #5'
-  - '[US] TD-01 static'
-  - '[JP] FV-01 static'
+  - '[GB] CAP-01 static #12'
   - '[AU] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
@@ -2835,87 +2820,86 @@ proxy-groups:
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
   - '[XX] ZP-01 static #69'
+  - '[JP] FV-01 static'
 - name: Telegram
   type: select
   proxies:
   - PROXY
   - DIRECT
+  - '[US] FV-01 static'
   - '[US] CAP-01 static'
   - '[US] CAP-01 static #2'
-  - '[US] FV-01 static'
-  - '[US] ZP-01 static'
   - '[CA] CAP-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[US] CAP-01 static #3'
-  - '[US] CAP-01 static #4'
-  - '[CA] CAP-01 static #3'
-  - '[CA] FV-01 static'
   - '[US] FV-01 static #2'
+  - '[US] ZP-01 static'
+  - '[US] CAP-01 static #3'
+  - '[CA] CAP-01 static #2'
+  - '[US] FV-01 static #3'
+  - '[CA] CAP-01 static #3'
   - '[CA] CAP-01 static #4'
-  - '[NL] FV-01 static'
-  - '[FI] CAP-01 static'
-  - '[GB] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[ES] CAP-01 static'
-  - '[ES] CAP-01 static #2'
+  - '[CA] CAP-01 static #5'
+  - '[CA] FV-01 static'
   - '[DE] CAP-01 static'
   - '[DE] CAP-01 static #2'
-  - '[FR] CAP-01 static'
-  - '[ES] CAP-01 static #3'
-  - '[FR] CAP-01 static #2'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
   - '[FI] CAP-01 static #2'
-  - '[FR] FV-01 static'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[DE] FV-01 static'
-  - '[CH] FV-01 static'
+  - '[ES] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[US] CAP-01 static #4'
+  - '[ES] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
   - '[GB] CAP-01 static #3'
-  - '[DE] CAP-01 static #4'
-  - '[IT] CAP-01 static'
-  - '[KR] CAP-01 static'
   - '[GB] CAP-01 static #4'
+  - '[ES] CAP-01 static #3'
+  - '[IT] CAP-01 static'
+  - '[FR] CAP-01 static #2'
   - '[PL] CAP-01 static'
-  - '[ES] CAP-01 static #4'
-  - '[ES] FV-01 static'
-  - '[FI] CAP-01 static #3'
+  - '[DE] CAP-01 static #3'
+  - '[DE] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[DE] CAP-01 static #4'
   - '[GB] CAP-01 static #5'
-  - '[NL] CAP-01 static #2'
-  - '[FI] CAP-01 static #4'
-  - '[FR] CAP-01 static #3'
+  - '[ES] CAP-01 static #4'
+  - '[FI] CAP-01 static #3'
+  - '[ES] FV-01 static'
   - '[KR] CAP-01 static #2'
-  - '[ES] FV-01 static #2'
+  - '[CH] FV-01 static'
+  - '[IT] CAP-01 static #2'
   - '[GB] CAP-01 static #6'
   - '[GB] CAP-01 static #7'
-  - '[GB] CAP-01 static #8'
+  - '[FR] CAP-01 static #3'
+  - '[ES] FV-01 static #2'
+  - '[FI] CAP-01 static #4'
   - '[FR] CAP-01 static #4'
-  - '[GB] CAP-01 static #9'
-  - '[GB] CAP-01 static #10'
-  - '[IT] CAP-01 static #2'
-  - '[NL] CAP-01 static #3'
-  - '[GB] CAP-01 static #11'
-  - '[PL] CAP-01 static #2'
-  - '[GB] CAP-01 static #12'
-  - '[BE] FV-01 static'
-  - '[IN] CAP-01 static'
-  - '[IN] CAP-01 static #2'
   - '[CH] CAP-01 static'
-  - '[EE] FV-01 static'
+  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #8'
+  - '[GB] CAP-01 static #9'
+  - '[IN] CAP-01 static #2'
+  - '[FR] FV-01 static'
+  - '[PL] CAP-01 static #2'
   - '[IN] CAP-01 static #3'
-  - '[HK] FV-01 static'
   - '[CH] CAP-01 static #2'
+  - '[EE] FV-01 static'
+  - '[BE] FV-01 static'
+  - '[NL] CAP-01 static'
+  - '[GB] CAP-01 static #10'
+  - '[HK] FV-01 static'
+  - '[GB] CAP-01 static #11'
+  - '[IN] CAP-01 static #4'
   - '[DK] FV-01 static'
   - '[BG] FV-01 static'
-  - '[IN] CAP-01 static #4'
-  - '[NL] FV-01 static #2'
-  - '[NL] CAP-01 static #4'
   - '[IN] FV-01 static'
+  - '[NL] FV-01 static'
   - '[IT] FV-01 static'
+  - '[NL] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[NL] CAP-01 static #4'
   - '[FI] FV-01 static'
   - '[NL] CAP-01 static #5'
-  - '[US] FV-01 static #3'
-  - '[CA] CAP-01 static #5'
-  - '[US] TD-01 static'
-  - '[JP] FV-01 static'
+  - '[GB] CAP-01 static #12'
   - '[AU] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
@@ -2986,6 +2970,7 @@ proxy-groups:
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
   - '[XX] ZP-01 static #69'
+  - '[JP] FV-01 static'
 - name: Apple
   type: select
   proxies:
@@ -3009,82 +2994,80 @@ proxy-groups:
 - name: CHAIN
   type: url-test
   proxies:
+  - '[US] FV-01 static'
   - '[US] CAP-01 static'
   - '[US] CAP-01 static #2'
-  - '[US] FV-01 static'
-  - '[US] ZP-01 static'
   - '[CA] CAP-01 static'
-  - '[CA] CAP-01 static #2'
-  - '[US] CAP-01 static #3'
-  - '[US] CAP-01 static #4'
-  - '[CA] CAP-01 static #3'
-  - '[CA] FV-01 static'
   - '[US] FV-01 static #2'
+  - '[US] ZP-01 static'
+  - '[US] CAP-01 static #3'
+  - '[CA] CAP-01 static #2'
+  - '[US] FV-01 static #3'
+  - '[CA] CAP-01 static #3'
   - '[CA] CAP-01 static #4'
-  - '[NL] FV-01 static'
-  - '[FI] CAP-01 static'
-  - '[GB] CAP-01 static'
-  - '[GB] CAP-01 static #2'
-  - '[ES] CAP-01 static'
-  - '[ES] CAP-01 static #2'
+  - '[CA] CAP-01 static #5'
+  - '[CA] FV-01 static'
   - '[DE] CAP-01 static'
   - '[DE] CAP-01 static #2'
-  - '[FR] CAP-01 static'
-  - '[ES] CAP-01 static #3'
-  - '[FR] CAP-01 static #2'
+  - '[GB] CAP-01 static'
+  - '[FI] CAP-01 static'
   - '[FI] CAP-01 static #2'
-  - '[FR] FV-01 static'
-  - '[DE] CAP-01 static #3'
-  - '[NL] CAP-01 static'
-  - '[DE] FV-01 static'
-  - '[CH] FV-01 static'
+  - '[ES] CAP-01 static'
+  - '[FR] CAP-01 static'
+  - '[US] CAP-01 static #4'
+  - '[ES] CAP-01 static #2'
+  - '[GB] CAP-01 static #2'
   - '[GB] CAP-01 static #3'
-  - '[DE] CAP-01 static #4'
-  - '[IT] CAP-01 static'
-  - '[KR] CAP-01 static'
   - '[GB] CAP-01 static #4'
+  - '[ES] CAP-01 static #3'
+  - '[IT] CAP-01 static'
+  - '[FR] CAP-01 static #2'
   - '[PL] CAP-01 static'
-  - '[ES] CAP-01 static #4'
-  - '[ES] FV-01 static'
-  - '[FI] CAP-01 static #3'
+  - '[DE] CAP-01 static #3'
+  - '[DE] FV-01 static'
+  - '[KR] CAP-01 static'
+  - '[DE] CAP-01 static #4'
   - '[GB] CAP-01 static #5'
-  - '[NL] CAP-01 static #2'
-  - '[FI] CAP-01 static #4'
-  - '[FR] CAP-01 static #3'
+  - '[ES] CAP-01 static #4'
+  - '[FI] CAP-01 static #3'
+  - '[ES] FV-01 static'
   - '[KR] CAP-01 static #2'
-  - '[ES] FV-01 static #2'
+  - '[CH] FV-01 static'
+  - '[IT] CAP-01 static #2'
   - '[GB] CAP-01 static #6'
   - '[GB] CAP-01 static #7'
-  - '[GB] CAP-01 static #8'
+  - '[FR] CAP-01 static #3'
+  - '[ES] FV-01 static #2'
+  - '[FI] CAP-01 static #4'
   - '[FR] CAP-01 static #4'
-  - '[GB] CAP-01 static #9'
-  - '[GB] CAP-01 static #10'
-  - '[IT] CAP-01 static #2'
-  - '[NL] CAP-01 static #3'
-  - '[GB] CAP-01 static #11'
-  - '[PL] CAP-01 static #2'
-  - '[GB] CAP-01 static #12'
-  - '[BE] FV-01 static'
-  - '[IN] CAP-01 static'
-  - '[IN] CAP-01 static #2'
   - '[CH] CAP-01 static'
-  - '[EE] FV-01 static'
+  - '[IN] CAP-01 static'
+  - '[GB] CAP-01 static #8'
+  - '[GB] CAP-01 static #9'
+  - '[IN] CAP-01 static #2'
+  - '[FR] FV-01 static'
+  - '[PL] CAP-01 static #2'
   - '[IN] CAP-01 static #3'
-  - '[HK] FV-01 static'
   - '[CH] CAP-01 static #2'
+  - '[EE] FV-01 static'
+  - '[BE] FV-01 static'
+  - '[NL] CAP-01 static'
+  - '[GB] CAP-01 static #10'
+  - '[HK] FV-01 static'
+  - '[GB] CAP-01 static #11'
+  - '[IN] CAP-01 static #4'
   - '[DK] FV-01 static'
   - '[BG] FV-01 static'
-  - '[IN] CAP-01 static #4'
-  - '[NL] FV-01 static #2'
-  - '[NL] CAP-01 static #4'
   - '[IN] FV-01 static'
+  - '[NL] FV-01 static'
   - '[IT] FV-01 static'
+  - '[NL] CAP-01 static #2'
+  - '[US] TD-01 static'
+  - '[NL] CAP-01 static #3'
+  - '[NL] CAP-01 static #4'
   - '[FI] FV-01 static'
   - '[NL] CAP-01 static #5'
-  - '[US] FV-01 static #3'
-  - '[CA] CAP-01 static #5'
-  - '[US] TD-01 static'
-  - '[JP] FV-01 static'
+  - '[GB] CAP-01 static #12'
   - '[AU] FV-01 static'
   - '[XX] ZP-01 static'
   - '[XX] ZP-01 static #2'
@@ -3155,6 +3138,7 @@ proxy-groups:
   - '[XX] ZP-01 static #67'
   - '[XX] ZP-01 static #68'
   - '[XX] ZP-01 static #69'
+  - '[JP] FV-01 static'
   url: http://www.gstatic.com/generate_204
   interval: 600
   tolerance: 50
